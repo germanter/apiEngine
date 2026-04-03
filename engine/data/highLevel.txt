@@ -1,0 +1,224 @@
+{
+  "name":"TestAPI",
+  "desc":"Api for testing tools related to devops", //1 sentence compact desc
+  "url":"testAPI.com", //a url that will lead user to the api in fastest way, try to either send user to docs url or console url something like that, if not possible just landing page of the site
+  "cost":"free" //free/freemium,premium
+  "auth":true,//this one is either yes or no (oauth+apikey) = yes, public yes
+  "category": ["ai/llm"] //category-subcategory
+}
+
+{
+  "categories": [   //done
+    {
+      "name": "AI",
+      "items": [
+        "LLMs",
+        "Image Gen",
+        "Speech",
+        "Embeddings"
+      ]
+    },
+    {
+      "name": "Data & Information", //done
+      "items": [
+        "Weather",
+        "Currency / Exchange Rates",
+        "News / Headlines",
+        "Sports Scores & Stats",
+        "Stock / Crypto Prices"
+      ]
+    },
+    {
+      "name": "Communication & Identity", //done
+      "items": [
+        "Email Validation",
+        "Phone Number Lookup",
+        "IP Geolocation",
+        "WHOIS / Domain Info"
+      ]
+    },
+    {
+      "name": "Media & Content", //done
+      "items": [
+        "Image Search / Stock Photos",
+        "Video Metadata (YouTube)",
+        "Text-to-Speech",
+        "QR Code Generation"
+      ]
+    },
+    {
+      "name": "Developer Utilities", //done
+      "items": [
+        "URL Shortener",
+        "Screenshot / Web Scraping",
+        "PDF Generation",
+        "Code Execution (sandboxed)"
+      ]
+    },
+    {
+      "name": "Location & Maps", //done
+      "items": [
+        "Geocoding / Reverse Geocoding",
+        "Places / POI Search",
+        "Distance / Routing"
+      ]
+    },
+    {
+      "name": "Health & Science", //done
+      "items": [
+        "Drug Info",
+        "Disease / Symptoms",
+        "Space / NASA data",
+        "Nutrition Info"
+      ]
+    },
+    {
+      "name": "Legal & Finance", //done
+      "items": [
+        "Company / Business Registry",
+        "Tax / VAT Validation",
+        "IBAN / Bank Validation"
+      ]
+    },
+    {
+      "name": "Security & Safety",
+      "items": [
+        "File / Hash Scanner",
+        "URL / Domain Scanner",
+        "IP Reputation",
+        "Email Breach Check",
+        "Password Strength / Entropy",
+        "SSL Certificate Info",
+        "Threat Intelligence Feeds",
+        "CVE / Vulnerability Lookup"
+      ]
+    }
+  ]
+}
+
+-------------------------------------->>>>>
+
+{
+  "AI": [
+    "LLMs",
+    "Image Gen",
+    "Speech",
+    "Embeddings"
+  ],
+  "Data & Information": [
+    "Weather",
+    "Currency / Exchange Rates",
+    "News / Headlines",
+    "Sports Scores & Stats",
+    "Stock / Crypto Prices"
+  ],
+  "Communication & Identity": [
+    "Email Validation",
+    "Phone Number Lookup",
+    "IP Geolocation",
+    "WHOIS / Domain Info"
+  ],
+  "Media & Content": [
+    "Image Search / Stock Photos",
+    "Video Metadata (YouTube)",
+    "Text-to-Speech",
+    "QR Code Generation"
+  ],
+  "Developer Utilities": [
+    "URL Shortener",
+    "Screenshot / Web Scraping",
+    "PDF Generation",
+    "Code Execution (sandboxed)"
+  ],
+  "Location & Maps": [
+    "Geocoding / Reverse Geocoding",
+    "Places / POI Search",
+    "Distance / Routing"
+  ],
+  "Health & Science": [
+    "Drug Info",
+    "Disease / Symptoms",
+    "Space / NASA data",
+    "Nutrition Info"
+  ],
+  "Legal & Finance": [
+    "Company / Business Registry",
+    "Tax / VAT Validation",
+    "IBAN / Bank Validation"
+  ],
+  "Security & Safety": [
+    "File / Hash Scanner",
+    "URL / Domain Scanner",
+    "IP Reputation",
+    "Email Breach Check",
+    "Password Strength / Entropy",
+    "SSL Certificate Info",
+    "Threat Intelligence Feeds",
+    "CVE / Vulnerability Lookup"
+  ]
+}
+
+------------------------------------------------------------
+    {
+      "name": "Security & Safety",
+      "items": [
+        "File / Hash Scanner",
+        "URL / Domain Scanner",
+        "IP Reputation",
+        "Email Breach Check",
+        "Password Strength / Entropy",
+        "SSL Certificate Info",
+        "Threat Intelligence Feeds",
+        "CVE / Vulnerability Lookup"
+      ]
+    }
+Task:
+List real, currently available Security & Safety APIs (as of latest knowledge). Do not include deprecated, unofficial, invite-only, or unclear APIs.
+
+Strict rules:
+- Output MUST be valid JSON (parsable).
+- No trailing commas.
+- No comments.
+- No duplicate entries.
+- Prefer official API providers (not SDKs, not apps, not wrappers unless widely used).
+- Try to add as much as APIs to the list 20 is a good number
+
+Each object must follow EXACT schema:
+
+{
+  "name": "string",
+  "desc": "string (max 12 words, factual, no marketing language)",
+  "url": "string (direct docs or API console URL)",
+  "cost": "free | freemium | premium",
+  "auth": true,
+  "category": ["Security/<one or more of: File / Hash Scanner | URL / Domain Scanner | IP Reputation | Email Breach Check | Password Strength / Entropy | SSL Certificate Info | Threat Intelligence Feeds | CVE / Vulnerability Lookup >"]
+}
+
+Field constraints:
+- "desc": short, concrete, what it actually does.
+- "url": prefer docs or API console (not homepage unless necessary).
+- "cost":
+  - free = usable without payment
+  - freemium = free tier or credits exist
+  - premium = paid only
+- "auth":
+  - true = requires API key / OAuth
+  - false = fully open without auth (rare; only include if certain)
+- "category":
+  - Must be one or more of:
+        Security / "File / Hash Scanner",
+        Security / "URL / Domain Scanner",
+        Security / "IP Reputation",
+        Security / "Email Breach Check",
+        Security / "Password Strength / Entropy",
+        Security / "SSL Certificate Info",
+        Security / "Threat Intelligence Feeds",
+        Security / "CVE / Vulnerability Lookup"
+        
+Quality filter:
+- Exclude:
+  - vague “platform” listings without clear API endpoints
+  
+IMPORTANT= Please Do Not Ignore free open source APIs when you are searching, please add open source apis to the list if theres one, we do not have a limit that says you cant add anymore to the list ans you have to ignore open source one, no , you can absolutely add open source apis if theres one.
+
+Return the main result to me as proper json in json mode

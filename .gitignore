@@ -1,2 +1,7 @@
 tools.txt
-playground.cpython-314.pyc
+.venv
+saved.json
+saved2.json
+playground.py
+server.py
+__pycache__

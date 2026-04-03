@@ -1,0 +1,29 @@
+name: Manual URL Checker
+
+on:
+  workflow_dispatch: # This is the "Manual Button" trigger
+
+jobs:
+  run-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14.3'
+
+      - name: Install Dependencies
+        run: pip install httpx
+
+      - name: Run URL Script
+        # We target the engine folder where your script lives
+        run: python engine/urlScript.py > report.txt
+
+      - name: Save Results as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: liveness-report
+          path: report.txt
