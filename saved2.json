@@ -1,0 +1,1474 @@
+[
+    {
+        "name": "OpenAI API",
+        "desc": "Text, image, speech, embeddings models via REST API",
+        "url": "https://platform.openai.com/docs/api-reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Anthropic Claude API",
+        "desc": "Large language models for text and reasoning tasks",
+        "url": "https://docs.anthropic.com/en/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Google Gemini API",
+        "desc": "Multimodal models for text, image, and code generation",
+        "url": "https://ai.google.dev/gemini-api/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cohere API",
+        "desc": "Text generation, embeddings, and classification models",
+        "url": "https://docs.cohere.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Mistral AI API",
+        "desc": "Open and proprietary language models for text generation",
+        "url": "https://docs.mistral.ai/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "xAI Grok API",
+        "desc": "Language models with real-time data and reasoning capabilities",
+        "url": "https://docs.x.ai/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "DeepSeek API",
+        "desc": "Reasoning and coding focused large language models",
+        "url": "https://platform.deepseek.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Alibaba Cloud Qwen API",
+        "desc": "Multilingual language models via DashScope platform",
+        "url": "https://dashscope.aliyun.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Zhipu AI API",
+        "desc": "GLM series models for text and multimodal tasks",
+        "url": "https://open.bigmodel.cn/dev/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "AssemblyAI API",
+        "desc": "Speech-to-text and audio intelligence processing API",
+        "url": "https://www.assemblyai.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "ElevenLabs API",
+        "desc": "Text-to-speech, voice cloning, and AI dubbing",
+        "url": "https://elevenlabs.io/docs/api-reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Google Cloud Text-to-Speech API",
+        "desc": "Convert text into natural sounding speech audio",
+        "url": "https://cloud.google.com/text-to-speech/docs/reference/rest",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Google Cloud Speech-to-Text API",
+        "desc": "Transcribe audio into text using speech recognition",
+        "url": "https://cloud.google.com/speech-to-text/docs/reference/rest",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Azure OpenAI API",
+        "desc": "Access OpenAI models through Azure cloud infrastructure",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/reference",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Stability AI API",
+        "desc": "Image generation and editing using diffusion models",
+        "url": "https://platform.stability.ai/docs/api-reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Replicate API",
+        "desc": "Run machine learning models including image and text",
+        "url": "https://replicate.com/docs/reference/http",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Hugging Face Inference API",
+        "desc": "Hosted inference for thousands of machine learning models",
+        "url": "https://huggingface.co/docs/api-inference/index",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Groq API",
+        "desc": "High-speed inference for open large language models",
+        "url": "https://console.groq.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cerebras AI API",
+        "desc": "Inference API for large scale language models",
+        "url": "https://docs.cerebras.net/en/latest/wsc/api.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cloudflare Workers AI",
+        "desc": "Serverless AI inference for text, image, and embeddings",
+        "url": "https://developers.cloudflare.com/workers-ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "NVIDIA NIM API",
+        "desc": "Inference microservices for deploying generative AI models",
+        "url": "https://docs.nvidia.com/nim/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "OpenWeatherMap API",
+        "desc": "Global weather data, forecasts, and air pollution information",
+        "url": "https://openweathermap.org/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "WeatherAPI.com",
+        "desc": "Weather forecasts, historical data, and geolocation via REST",
+        "url": "https://www.weatherapi.com/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Open-Meteo API",
+        "desc": "Free weather forecasts and historical climate data",
+        "url": "https://open-meteo.com/en/docs",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "National Weather Service API",
+        "desc": "US weather forecasts, alerts, and observations data",
+        "url": "https://www.weather.gov/documentation/services-web-api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "AccuWeather API",
+        "desc": "Global weather forecasts, alerts, and environmental data",
+        "url": "https://developer.accuweather.com/apis",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Weatherbit API",
+        "desc": "Weather forecasts and historical climate data via REST",
+        "url": "https://www.weatherbit.io/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Visual Crossing Weather API",
+        "desc": "Historical, current, and forecast weather data worldwide",
+        "url": "https://www.visualcrossing.com/resources/documentation/weather-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Meteomatics API",
+        "desc": "Global weather and climate data with multiple parameters",
+        "url": "https://www.meteomatics.com/en/api/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "ExchangeRate-API",
+        "desc": "Currency exchange rates and conversion data",
+        "url": "https://www.exchangerate-api.com/docs/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Fixer API",
+        "desc": "Foreign exchange rates and currency conversion data",
+        "url": "https://fixer.io/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Currencylayer API",
+        "desc": "Real-time and historical currency exchange rates",
+        "url": "https://currencylayer.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "CoinGecko API",
+        "desc": "Cryptocurrency prices, market data, and historical metrics",
+        "url": "https://www.coingecko.com/en/api/documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Alpha Vantage API",
+        "desc": "Stock, forex, and crypto market data with indicators",
+        "url": "https://www.alphavantage.co/documentation/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Financial Modeling Prep API",
+        "desc": "Stock prices, financial statements, and market data",
+        "url": "https://site.financialmodelingprep.com/developer/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Twelve Data API",
+        "desc": "Real-time and historical financial market data",
+        "url": "https://twelvedata.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "NewsAPI",
+        "desc": "Retrieve news articles and headlines from sources worldwide",
+        "url": "https://newsapi.org/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "GNews API",
+        "desc": "Search and retrieve news articles from multiple sources",
+        "url": "https://gnews.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "The Guardian API",
+        "desc": "Access Guardian articles, tags, and publication data",
+        "url": "https://open-platform.theguardian.com/documentation/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "New York Times API",
+        "desc": "Access NYT articles, archives, and metadata",
+        "url": "https://developer.nytimes.com/apis",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "SportdataAPI",
+        "desc": "Football data including teams, fixtures, and standings",
+        "url": "https://sportdataapi.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "API-Football",
+        "desc": "Football leagues, fixtures, teams, and live scores",
+        "url": "https://www.api-football.com/documentation-v3",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Sportradar API",
+        "desc": "Comprehensive sports data including scores and statistics",
+        "url": "https://developer.sportradar.com/docs/read/home",
+        "cost": "premium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "The Odds API",
+        "desc": "Sports odds, scores, and betting market data",
+        "url": "https://the-odds-api.com/liveapi/guides/v4/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "WhoisXML API Email Verification API",
+        "desc": "Validates email existence, syntax, and mailbox deliverability",
+        "url": "https://emailverification.whoisxmlapi.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "IP-API.io Email Validation API",
+        "desc": "Checks email syntax, domain, and disposable status",
+        "url": "https://ip-api.io/email-validation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "Lookup.im API",
+        "desc": "Validates emails, phone numbers, and IP risk signals",
+        "url": "https://lookup.im/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "IPWhois API",
+        "desc": "Provides IP, domain, ASN, and email intelligence data",
+        "url": "https://ipwhois.io/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "WhoisXML API IP Geolocation API",
+        "desc": "Returns location, ISP, ASN, and timezone for IP",
+        "url": "https://ip-geolocation.whoisxmlapi.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "IPapi",
+        "desc": "Provides real-time IP geolocation and network details",
+        "url": "https://ipapi.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "IP-API.io Geolocation API",
+        "desc": "Returns IP location, timezone, and security insights",
+        "url": "https://ip-api.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "IPDetails.io API",
+        "desc": "Provides IP geolocation, ASN, and threat intelligence data",
+        "url": "https://ipdetails.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "WhatIsMyIP API",
+        "desc": "Returns IP, geolocation, and WHOIS domain data",
+        "url": "https://www.whatismyip.net/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "WhoisXML API WHOIS API",
+        "desc": "Retrieves domain registration and ownership WHOIS records",
+        "url": "https://whoisxmlapi.com/whois-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Communication & Identity"
+    },
+    {
+        "name": "Pixabay API",
+        "desc": "Search free images and videos with metadata",
+        "url": "https://pixabay.com/api/docs/",
+        "cost": "free",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "Unsplash API",
+        "desc": "Search and retrieve high-quality free photos",
+        "url": "https://unsplash.com/documentation",
+        "cost": "free",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "Pexels API",
+        "desc": "Access curated free stock photos and videos",
+        "url": "https://www.pexels.com/api/documentation/",
+        "cost": "free",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "Shutterstock API",
+        "desc": "Search and license stock images and videos",
+        "url": "https://www.shutterstock.com/developers",
+        "cost": "premium",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "Getty Images API",
+        "desc": "Search and retrieve licensed editorial media assets",
+        "url": "https://developers.gettyimages.com/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "YouTube Data API v3",
+        "desc": "Retrieve video metadata, search, and channel data",
+        "url": "https://developers.google.com/youtube/v3",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "Vimeo API",
+        "desc": "Access video metadata, search, and user content",
+        "url": "https://developer.vimeo.com/api/start",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "Cloudflare Stream API",
+        "desc": "Upload and manage video with metadata access",
+        "url": "https://developers.cloudflare.com/stream/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "Google Cloud Text-to-Speech API",
+        "desc": "Convert text into natural sounding speech",
+        "url": "https://cloud.google.com/text-to-speech/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "Amazon Polly",
+        "desc": "Generate speech from text using neural voices",
+        "url": "https://docs.aws.amazon.com/polly/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "IBM Watson Text to Speech API",
+        "desc": "Synthesize speech from text with customization",
+        "url": "https://cloud.ibm.com/apidocs/text-to-speech",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "OpenAI Text-to-Speech API",
+        "desc": "Generate speech audio from text input",
+        "url": "https://platform.openai.com/docs/guides/text-to-speech",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Media & Content"
+    },
+    {
+        "name": "QR Code Generator API (goQR)",
+        "desc": "Generate QR codes from text or URLs",
+        "url": "https://goqr.me/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Media & Content"
+    },
+    {
+        "name": "QR Code Monkey API",
+        "desc": "Create customizable QR codes with design options",
+        "url": "https://www.qrcode-monkey.com/qr-code-api-with-logo/",
+        "cost": "free",
+        "auth": false,
+        "category": "Media & Content"
+    },
+    {
+        "name": "ScreenshotOne API",
+        "desc": "Capture website screenshots and generate PDFs from URLs",
+        "url": "https://screenshotone.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "ScreenshotsAPI",
+        "desc": "Render websites to images, PDFs, or video programmatically",
+        "url": "https://screenshotsapi.dev/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Urlbox API",
+        "desc": "Screenshot and render HTML or URLs to images and PDFs",
+        "url": "https://urlbox.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "SnapshotAPI",
+        "desc": "Convert webpages to screenshots and PDF documents",
+        "url": "https://snapshotapi.in/api/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "SnapAPI",
+        "desc": "Generate screenshots and convert markdown or HTML to PDF",
+        "url": "https://api.opspawn.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "ApiFlash",
+        "desc": "Take website screenshots via simple HTTP API",
+        "url": "https://apiflash.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Screenshot Machine API",
+        "desc": "Capture website screenshots in multiple formats",
+        "url": "https://www.screenshotmachine.com/api.php",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "URL2PNG API",
+        "desc": "Convert URLs into PNG screenshots programmatically",
+        "url": "https://url2png.com/docs/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "PDFShift API",
+        "desc": "Convert HTML or URLs into PDF documents",
+        "url": "https://pdfshift.io/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "DocRaptor API",
+        "desc": "Generate PDFs from HTML using Prince engine",
+        "url": "https://docraptor.com/documentation/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "PDFLayer API",
+        "desc": "Convert web pages to PDF via REST API",
+        "url": "https://pdflayer.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "HTML2PDF API (html2pdf.app)",
+        "desc": "Convert HTML content or URLs into PDF files",
+        "url": "https://html2pdf.app/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Cloudmersive PDF API",
+        "desc": "Create, convert, and manipulate PDF documents",
+        "url": "https://api.cloudmersive.com/docs/pdf.asp",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "PDFMonkey API",
+        "desc": "Generate PDFs from templates and dynamic data",
+        "url": "https://docs.pdfmonkey.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Short.io API",
+        "desc": "Create and manage branded short links",
+        "url": "https://developers.short.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Bitly API",
+        "desc": "Shorten, expand, and manage URLs",
+        "url": "https://dev.bitly.com/docs/getting-started/introduction/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "TinyURL API",
+        "desc": "Shorten long URLs and manage links",
+        "url": "https://tinyurl.com/app/dev",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Rebrandly API",
+        "desc": "Create custom branded short URLs",
+        "url": "https://developers.rebrandly.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Cuttly API",
+        "desc": "Shorten URLs and track link analytics",
+        "url": "https://cutt.ly/api-documentation/cuttly-links-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "is.gd API",
+        "desc": "Simple URL shortening without authentication",
+        "url": "https://is.gd/apishorteningreference.php",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "JDoodle API",
+        "desc": "Execute code snippets in multiple languages securely",
+        "url": "https://docs.jdoodle.com/compiler-api/compiler-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Paiza.IO API",
+        "desc": "Run and test code in sandboxed environments",
+        "url": "https://paiza.io/en/documents/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Sphere Engine API",
+        "desc": "Compile and execute code in isolated environments",
+        "url": "https://sphere-engine.com/docs/compilers",
+        "cost": "premium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Piston API",
+        "desc": "Open source API for executing code in containers",
+        "url": "https://github.com/engineer-man/piston",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Google Maps Geocoding API",
+        "desc": "Convert addresses to coordinates and reverse",
+        "url": "https://developers.google.com/maps/documentation/geocoding",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Google Places API",
+        "desc": "Search places and retrieve place details",
+        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Google Distance Matrix API",
+        "desc": "Compute travel time and distances between locations",
+        "url": "https://developers.google.com/maps/documentation/distance-matrix",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Geocoding API",
+        "desc": "Forward and reverse geocoding worldwide",
+        "url": "https://docs.mapbox.com/api/search/geocoding/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Directions API",
+        "desc": "Routing, navigation, and distance calculations",
+        "url": "https://docs.mapbox.com/api/navigation/directions/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Search API",
+        "desc": "Search places, addresses, and POIs",
+        "url": "https://docs.mapbox.com/api/search/search/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "HERE Geocoding & Search API",
+        "desc": "Geocode addresses and search places globally",
+        "url": "https://developer.here.com/documentation/geocoding-search-api/dev_guide/index.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "HERE Routing API",
+        "desc": "Calculate routes, distances, and travel times",
+        "url": "https://developer.here.com/documentation/routing-api/dev_guide/index.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "TomTom Search API",
+        "desc": "Search POIs and addresses with autocomplete",
+        "url": "https://developer.tomtom.com/search-api/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "TomTom Routing API",
+        "desc": "Routing, navigation, and distance matrix",
+        "url": "https://developer.tomtom.com/routing-api/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geoapify Geocoding API",
+        "desc": "Convert addresses and coordinates both ways",
+        "url": "https://www.geoapify.com/geocoding-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geoapify Places API",
+        "desc": "Search points of interest and place details",
+        "url": "https://www.geoapify.com/places-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geoapify Routing API",
+        "desc": "Build routes and optimize travel paths",
+        "url": "https://www.geoapify.com/routing-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "LocationIQ Geocoding API",
+        "desc": "Forward and reverse geocoding with autocomplete",
+        "url": "https://locationiq.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "LocationIQ Places API",
+        "desc": "Search nearby places and points of interest",
+        "url": "https://locationiq.com/docs#nearby-search",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenCage Geocoding API",
+        "desc": "Geocode addresses using multiple data sources",
+        "url": "https://api.opencagedata.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Positionstack API",
+        "desc": "Forward and reverse geocoding worldwide",
+        "url": "https://positionstack.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "BigDataCloud Geocoding API",
+        "desc": "Geocode and reverse geocode global locations",
+        "url": "https://www.bigdatacloud.com/geocoding-apis",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenRouteService API",
+        "desc": "Routing, distance matrix, and geocoding services",
+        "url": "https://openrouteservice.org/dev/#/api-docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "GraphHopper Routing API",
+        "desc": "Route optimization and distance calculations",
+        "url": "https://docs.graphhopper.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OSRM API",
+        "desc": "Open source routing engine HTTP API",
+        "url": "http://project-osrm.org/docs/v5.24.0/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Nominatim API (OpenStreetMap)",
+        "desc": "Open source geocoding and reverse geocoding",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Photon API",
+        "desc": "Open source geocoding built on OpenStreetMap",
+        "url": "https://photon.komoot.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Pelias API",
+        "desc": "Open source geocoder combining multiple datasets",
+        "url": "https://github.com/pelias/documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Foursquare Places API",
+        "desc": "Search venues and retrieve place data",
+        "url": "https://location.foursquare.com/developer/reference/place-search",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Yelp Fusion API",
+        "desc": "Search businesses and local points of interest",
+        "url": "https://docs.developer.yelp.com/reference/v3_business_search",
+        "cost": "free",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "GeoDB Cities API",
+        "desc": "Retrieve city data with coordinates and details",
+        "url": "https://rapidapi.com/wirefreethought/api/geodb-cities/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "openFDA API",
+        "desc": "Access FDA drug, device, and adverse event datasets",
+        "url": "https://open.fda.gov/apis/",
+        "cost": "free",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "RxNorm API",
+        "desc": "Normalized drug names and relationships database",
+        "url": "https://lhncbc.nlm.nih.gov/RxNav/APIsOverview.html",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "DailyMed API",
+        "desc": "Drug labeling and package insert information",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/webservices-help.cfm",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "DrugBank API",
+        "desc": "Detailed drug data including interactions and targets",
+        "url": "https://go.drugbank.com/releases/latest#api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Open Targets Platform API",
+        "desc": "Drug target and disease association data",
+        "url": "https://platform-docs.opentargets.org/",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Infermedica API",
+        "desc": "Symptom checking and disease inference engine",
+        "url": "https://developer.infermedica.com/docs/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "HealthCare.gov API",
+        "desc": "Health insurance and coverage dataset access",
+        "url": "https://www.healthcare.gov/developers/",
+        "cost": "free",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "ClinicalTrials.gov API",
+        "desc": "Clinical studies and trial metadata access",
+        "url": "https://clinicaltrials.gov/api/gui",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "CDC Data API",
+        "desc": "Public health datasets and disease statistics",
+        "url": "https://data.cdc.gov/developers",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "WHO Global Health Observatory API",
+        "desc": "Global health statistics and indicators",
+        "url": "https://www.who.int/data/gho/info/gho-odata-api",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Nutritionix API",
+        "desc": "Food nutrition database and calorie data",
+        "url": "https://developer.nutritionix.com/docs/v1_1",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Edamam Nutrition Analysis API",
+        "desc": "Analyze nutrition content from ingredient lists",
+        "url": "https://developer.edamam.com/edamam-nutrition-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "USDA FoodData Central API",
+        "desc": "Nutrient composition and food database access",
+        "url": "https://fdc.nal.usda.gov/api-guide.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Spoonacular Nutrition API",
+        "desc": "Food recipes and nutritional information data",
+        "url": "https://spoonacular.com/food-api/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Open Food Facts API",
+        "desc": "Crowdsourced global food product nutrition data",
+        "url": "https://world.openfoodfacts.org/data",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "NASA Open APIs",
+        "desc": "Access NASA datasets including space imagery and data",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "SpaceX API",
+        "desc": "Launch, rocket, and mission data access",
+        "url": "https://github.com/r-spacex/SpaceX-API",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Open Notify API",
+        "desc": "ISS location and astronaut data",
+        "url": "http://open-notify.org/Open-Notify-API/",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Launch Library 2 API",
+        "desc": "Space launch schedules and mission data",
+        "url": "https://thespacedevs.com/llapi",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Exoplanet Archive API",
+        "desc": "NASA exoplanet discovery and catalog data",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/docs/program_interfaces.html",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "PubChem PUG REST API",
+        "desc": "Chemical compound and substance information retrieval",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "EMA API",
+        "desc": "European medicines regulatory and drug data",
+        "url": "https://www.ema.europa.eu/en/medicines/download-medicine-data",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Disease Ontology API",
+        "desc": "Structured disease classification and ontology data",
+        "url": "https://disease-ontology.org/resources",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "Human Phenotype Ontology API",
+        "desc": "Phenotypic abnormality and disease feature data",
+        "url": "https://hpo.jax.org/app/",
+        "cost": "free",
+        "auth": false,
+        "category": "Health & Science"
+    },
+    {
+        "name": "CalorieNinjas API",
+        "desc": "Nutrition information for foods and meals",
+        "url": "https://calorieninjas.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Health & Science"
+    },
+    {
+        "name": "OpenCorporates API",
+        "desc": "Global company registry search and corporate data access",
+        "url": "https://api.opencorporates.com/documentation/API-Reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "VATComply API",
+        "desc": "EU VAT validation, rates, IBAN and exchange rates",
+        "url": "https://api.vatcomply.com",
+        "cost": "free",
+        "auth": false,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "VATlayer API",
+        "desc": "Validate VAT numbers and retrieve EU VAT rates",
+        "url": "https://vatlayer.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "VATCheckAPI",
+        "desc": "Real-time EU VAT number validation and lookup",
+        "url": "https://vatcheckapi.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "VerifyVAT API",
+        "desc": "Validate global VAT and business identifiers across registries",
+        "url": "https://verifyvat.com/integrate",
+        "cost": "premium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "IBAN.com VAT API",
+        "desc": "Validate VAT numbers with company registration details",
+        "url": "https://www.iban.com/vat-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "IBAN.com BAV API",
+        "desc": "Verify bank account ownership and IBAN details",
+        "url": "https://www.iban.com/bav-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "IsValid API",
+        "desc": "Validate VAT, IBAN, LEI and other identifiers",
+        "url": "https://isvalid.dev/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "ValidEU API",
+        "desc": "Validate EU VAT, tax IDs and business identifiers",
+        "url": "https://valid-eu.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "French Business API",
+        "desc": "Company lookup, VAT validation and IBAN verification",
+        "url": "https://frenchbusinessapi.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "OpenRegister API",
+        "desc": "German company registry and financial filings access",
+        "url": "https://docs.openregister.de/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "Sikoia Company Registry API",
+        "desc": "Unified access to global business registry data",
+        "url": "https://docs.sikoia.com/docs/company-registry-information",
+        "cost": "premium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "Registrum API",
+        "desc": "Enhanced UK Companies House data with financials",
+        "url": "https://api.registrum.co.uk/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "Companies House API",
+        "desc": "Official UK company registry and filing data",
+        "url": "https://developer.company-information.service.gov.uk/api/docs/",
+        "cost": "free",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "VIES VAT API (EU)",
+        "desc": "Official EU VAT number validation system",
+        "url": "https://ec.europa.eu/taxation_customs/vies/",
+        "cost": "free",
+        "auth": false,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "INSEE Sirene API",
+        "desc": "French company registry and SIREN/SIRET lookup",
+        "url": "https://api.insee.fr/catalogue/site/themes/wso2/subthemes/insee/pages/item-info.jag?name=SireneV3&version=3.11",
+        "cost": "free",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "GLEIF LEI API",
+        "desc": "Global legal entity identifier lookup and validation",
+        "url": "https://api.gleif.org/api/v1/lei-records",
+        "cost": "free",
+        "auth": false,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "NumVerify IBAN Validation API",
+        "desc": "Validate IBAN numbers and retrieve bank details",
+        "url": "https://numverify.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "Abstract IBAN Validation API",
+        "desc": "Validate IBAN and bank account details globally",
+        "url": "https://www.abstractapi.com/iban-validation-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "APILayer IBAN API",
+        "desc": "IBAN validation and bank information lookup service",
+        "url": "https://apilayer.com/marketplace/bank_data-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Legal & Finance"
+    },
+    {
+        "name": "VirusTotal API",
+        "desc": "Scan files, hashes, URLs using multiple antivirus engines",
+        "url": "https://developers.virustotal.com/reference/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "AbuseIPDB API",
+        "desc": "Check IP reputation and report abusive IP addresses",
+        "url": "https://docs.abuseipdb.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Have I Been Pwned API",
+        "desc": "Check email addresses against known data breaches",
+        "url": "https://haveibeenpwned.com/API/v3",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Shodan API",
+        "desc": "Search internet-connected devices and exposed services",
+        "url": "https://developer.shodan.io/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "GreyNoise API",
+        "desc": "Classify internet scanner and benign IP activity",
+        "url": "https://docs.greynoise.io/reference/get_v3-community-ip",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "IPQualityScore API",
+        "desc": "Detect fraud, proxy, and risk for IPs",
+        "url": "https://www.ipqualityscore.com/documentation/ip-reputation/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "SecurityTrails API",
+        "desc": "Domain, DNS, and historical internet asset data",
+        "url": "https://docs.securitytrails.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "URLScan.io API",
+        "desc": "Scan and analyze website behavior and security risks",
+        "url": "https://urlscan.io/docs/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "PhishTank API",
+        "desc": "Check URLs against known phishing database",
+        "url": "https://www.phishtank.com/developer_info.php",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "NVD API",
+        "desc": "Retrieve CVE vulnerability data from NIST database",
+        "url": "https://nvd.nist.gov/developers/vulnerabilities",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CIRCL CVE Search API",
+        "desc": "Search CVE vulnerabilities from CIRCL database",
+        "url": "https://cve.circl.lu/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "DeHashed API",
+        "desc": "Search breached accounts and leaked credentials",
+        "url": "https://www.dehashed.com/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "IntelX API",
+        "desc": "Search leaked data and threat intelligence datasets",
+        "url": "https://intelx.io/documentation.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "BinaryEdge API",
+        "desc": "Collect internet-wide scan data and exposed services",
+        "url": "https://docs.binaryedge.io/api-v2.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Censys API",
+        "desc": "Search indexed internet assets and certificates",
+        "url": "https://search.censys.io/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "SSL Labs API",
+        "desc": "Analyze SSL configuration and certificate security",
+        "url": "https://api.ssllabs.com/api/v3/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "LeakCheck API",
+        "desc": "Check emails and usernames against breach databases",
+        "url": "https://leakcheck.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "IPinfo Privacy Detection API",
+        "desc": "Detect VPN, proxy, and hosting IP usage",
+        "url": "https://ipinfo.io/developers/privacy-detection",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Pulsedive API",
+        "desc": "Threat intelligence with indicators and risk scoring",
+        "url": "https://pulsedive.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Zxcvbn API (Dropbox)",
+        "desc": "Estimate password strength and entropy scoring",
+        "url": "https://github.com/dropbox/zxcvbn",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    }
+]

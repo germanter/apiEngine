@@ -1,7 +1,6 @@
 tools.txt
 .venv
 saved.json
-saved2.json
 playground.py
 server.py
 __pycache__
