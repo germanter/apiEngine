@@ -6,6 +6,8 @@ import os
 # This finds the file regardless of where the script is called from
 base_path = os.path.dirname(os.path.abspath(__file__))
 json_path = os.path.join(base_path, "..", "saved2.json")
+main_path = os.path.join(base_path, "..", "api.json") #to save at end
+
 data = None
 with open(json_path, "r") as file:
     data = json.load(file)
@@ -16,48 +18,54 @@ bigStein = asyncio.Semaphore(5) #bigStein stops the bad ones
 async def check_url_liveness(client,url):
     async with bigStein:
         try:
+            # 200 - 399 alive 
+            # 403 - we say alive because dead site cannot block
+            # 405 - we say unknown because it says head is not allowed
+            # 404 - dead
+            # exclude 403, 405, 404 and from 400<= all dead
+
             r = await client.head(url) #concurrent
 
             code = r.status_code
-
-            if code < 300:
-                return f"✅ ALIVE ({code})" # alive
-            
+            #we have zero care for nerdy urls
+            if (200<= code <= 399) or code == 403:
+                return "ALIVE"
             elif code == 405:
-                return f"HEAD is not allowed (ALIVE) ({code})" # alive - do not switch to get, respect the url
-
-            elif code == 403:
-                return "🛡️ ALIVE (Blocked / Protected)" # alive
-
-            elif code == 404:
-                return "💀 DEAD (404)" # dead
-
-            elif code >= 500:
-                return f"🤒 ALIVE (Server Error {code})" # alive
-
-            else:
-                return f"❓ UNKNOWN ({code})" # dead
+                return "UNKNOWN"
+            elif code >= 400:
+                return "DEAD"
+            return "UNKNOWN"
             
 
-        except x.TooManyRedirects:
-            return url, "🔄 ALIVE (Redirect Loop)"
+        except x.HTTPError:  #we dont fuckin care for the reason, if its error = dead, gone
+            return "DEAD"
+        except Exception:
+            return "DEAD"
         
-        except x.ReadTimeout:
-            return url, "🕒 ALIVE (Read Timeout - Server connected but slow)"
-        
-        except x.ConnectError:
-            return "❌ DEAD (No connection)" # dead  //serveraaaa
+def analyzeResults(report):
+    total = len(report)
+    if total == 0:
+        return "\n--- SCAN REPORT ---\nNo URLs found to check.\n-------------------\n"
+    
+    alive = sum(1 for i in report if i["status"] == "ALIVE")
+    dead  = sum(1 for i in report if i["status"] == "DEAD")
+    unknown = sum(1 for i in report if i["status"] == "UNKNOWN")
 
-        except x.TimeoutException:
-            return "🕒 TIMEOUT (Slow / Possibly alive)" # dead //user or server
-
-        except x.RequestError as e:
-            return f"⚠️ ERROR ({type(e).__name__})" # dead //user side
+    # The formatted report string
+    stats = (
+        f"\n--- SCAN REPORT ---\n"
+        f"Total Checked: {total}\n"
+        f"✅ Alive: {alive} ({alive/total*100:.1f}%)\n"
+        f"💀 Dead: {dead} ({dead/total*100:.1f}%)\n"
+        f"❓ Unknown: {unknown} ({unknown/total*100:.1f}%)\n"
+        f"-------------------\n"
+    )
+    return stats
 
 async def main():
 
-    tasks = []
-    names = []
+    promisedTasks = []
+    reportList = [] 
 
     # headers = {  #prototype / failed for amazon final boss
     # "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -67,16 +75,18 @@ async def main():
 
     async with x.AsyncClient(timeout=7.5, follow_redirects=True) as client:
         for i in data:
-            names.append(i["name"])
-            # We append the coroutine itself to the tasks list
-            tasks.append(check_url_liveness(client, i["url"]))
+            promisedTasks.append(check_url_liveness(client, i["url"]))
 
-        # Now gather runs the list of coroutines
-        results = await asyncio.gather(*tasks)
+        res = await asyncio.gather(*promisedTasks)
 
-        # Pair the names with the results and print
-        for name, status in zip(names, results):
-            print(f"{name}: {status}")
+        for item, status in zip(data, res):
+            print(f"{item['name']} - {item['url']} - {status}")
+            reportList.append({"name": item["name"], "url": item["url"], "status": status}) 
+            item["status"] = status #the legendary move, the proof of ai and human have to work together, this is a motto
+        
+        print(analyzeResults(reportList))
+        with open(main_path, "w") as file:
+            json.dump(data, file, indent=4)
 
 asyncio.run(main())
 
