@@ -1,7 +1,11 @@
 name: Manual URL Checker
 
 on:
-  workflow_dispatch: # This is the "Manual Button" trigger
+  workflow_dispatch: 
+
+
+permissions:
+  contents: write
 
 jobs:
   run-checker:
@@ -19,7 +23,7 @@ jobs:
         run: pip install httpx
 
       - name: Run URL Script
-        # We target the engine folder where your script lives
+
         run: python engine/urlScript.py > report.txt
 
       - name: Save Results as Artifact
@@ -27,3 +31,21 @@ jobs:
         with:
           name: liveness-report
           path: report.txt
+
+      - name: Commit and Push api.json
+        run: |
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+
+          git add api.json
+          
+
+
+          if git diff --staged --quiet; then
+            echo "No changes in api.json. Skipping push."
+          else
+            git commit -m "Auto-update api.json [skip ci]"
+            git push
+          fi
