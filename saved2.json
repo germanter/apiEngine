@@ -226,7 +226,7 @@
     {
         "name": "Meteomatics API",
         "desc": "Global weather and climate data with multiple parameters",
-        "url": "https://www.meteomatics.com/en/api/",
+        "url": "https://www.meteomatics.com/",
         "cost": "premium",
         "auth": true,
         "category": "Data & Information"
@@ -322,7 +322,7 @@
     {
         "name": "SportdataAPI",
         "desc": "Football data including teams, fixtures, and standings",
-        "url": "https://sportdataapi.com/docs",
+        "url": "https://sportsdata.io/apis",
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information"
@@ -426,7 +426,7 @@
     {
         "name": "WhoisXML API WHOIS API",
         "desc": "Retrieves domain registration and ownership WHOIS records",
-        "url": "https://whoisxmlapi.com/whois-api",
+        "url": "https://main.whoisxmlapi.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Communication & Identity"
@@ -594,7 +594,7 @@
     {
         "name": "Screenshot Machine API",
         "desc": "Capture website screenshots in multiple formats",
-        "url": "https://www.screenshotmachine.com/api.php",
+        "url": "https://www.screenshotmachine.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities"
@@ -610,7 +610,7 @@
     {
         "name": "PDFShift API",
         "desc": "Convert HTML or URLs into PDF documents",
-        "url": "https://pdfshift.io/documentation",
+        "url": "https://pdfshift.io/",
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities"
@@ -642,7 +642,7 @@
     {
         "name": "Cloudmersive PDF API",
         "desc": "Create, convert, and manipulate PDF documents",
-        "url": "https://api.cloudmersive.com/docs/pdf.asp",
+        "url": "https://apistatic.cloudmersive.net/",
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities"
@@ -714,7 +714,7 @@
     {
         "name": "Paiza.IO API",
         "desc": "Run and test code in sandboxed environments",
-        "url": "https://paiza.io/en/documents/api",
+        "url": "https://paiza.io/en",
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities"
@@ -802,7 +802,7 @@
     {
         "name": "TomTom Search API",
         "desc": "Search POIs and addresses with autocomplete",
-        "url": "https://developer.tomtom.com/search-api/documentation",
+        "url": "https://developer.tomtom.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
@@ -810,7 +810,7 @@
     {
         "name": "TomTom Routing API",
         "desc": "Routing, navigation, and distance matrix",
-        "url": "https://developer.tomtom.com/routing-api/documentation",
+        "url": "https://developer.tomtom.com/routing-api/documentation/tomtom-maps/routing-service",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
@@ -858,7 +858,7 @@
     {
         "name": "OpenCage Geocoding API",
         "desc": "Geocode addresses using multiple data sources",
-        "url": "https://api.opencagedata.com/api",
+        "url": "https://opencagedata.com/api",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
@@ -1018,7 +1018,7 @@
     {
         "name": "CDC Data API",
         "desc": "Public health datasets and disease statistics",
-        "url": "https://data.cdc.gov/developers",
+        "url": "https://dev.socrata.com/docs/endpoints",
         "cost": "free",
         "auth": false,
         "category": "Health & Science"
@@ -1034,7 +1034,7 @@
     {
         "name": "Nutritionix API",
         "desc": "Food nutrition database and calorie data",
-        "url": "https://developer.nutritionix.com/docs/v1_1",
+        "url": "https://docx.syndigo.com/developers/docs/nutritionix-api-guide",
         "cost": "freemium",
         "auth": true,
         "category": "Health & Science"
@@ -1162,7 +1162,7 @@
     {
         "name": "VATComply API",
         "desc": "EU VAT validation, rates, IBAN and exchange rates",
-        "url": "https://api.vatcomply.com",
+        "url": "https://docs.vatly.dev/",
         "cost": "free",
         "auth": false,
         "category": "Legal & Finance"
@@ -1274,7 +1274,7 @@
     {
         "name": "INSEE Sirene API",
         "desc": "French company registry and SIREN/SIRET lookup",
-        "url": "https://api.insee.fr/catalogue/site/themes/wso2/subthemes/insee/pages/item-info.jag?name=SireneV3&version=3.11",
+        "url": "https://portail-api.insee.fr/",
         "cost": "free",
         "auth": true,
         "category": "Legal & Finance"
@@ -1298,7 +1298,7 @@
     {
         "name": "Abstract IBAN Validation API",
         "desc": "Validate IBAN and bank account details globally",
-        "url": "https://www.abstractapi.com/iban-validation-api",
+        "url": "https://www.abstractapi.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Legal & Finance"
@@ -1354,7 +1354,7 @@
     {
         "name": "IPQualityScore API",
         "desc": "Detect fraud, proxy, and risk for IPs",
-        "url": "https://www.ipqualityscore.com/documentation/ip-reputation/overview",
+        "url": "https://www.ipqualityscore.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety"
@@ -1402,7 +1402,7 @@
     {
         "name": "DeHashed API",
         "desc": "Search breached accounts and leaked credentials",
-        "url": "https://www.dehashed.com/docs",
+        "url": "https://www.dehashed.com/api",
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
@@ -1410,7 +1410,7 @@
     {
         "name": "IntelX API",
         "desc": "Search leaked data and threat intelligence datasets",
-        "url": "https://intelx.io/documentation.html",
+        "url": "https://intelx.io/",
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety"
@@ -1434,7 +1434,7 @@
     {
         "name": "SSL Labs API",
         "desc": "Analyze SSL configuration and certificate security",
-        "url": "https://api.ssllabs.com/api/v3/",
+        "url": "https://www.ssllabs.com/",
         "cost": "free",
         "auth": false,
         "category": "Security & Safety"
@@ -1442,7 +1442,7 @@
     {
         "name": "LeakCheck API",
         "desc": "Check emails and usernames against breach databases",
-        "url": "https://leakcheck.io/docs",
+        "url": "https://leakcheck.io/",
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety"
@@ -1450,7 +1450,7 @@
     {
         "name": "IPinfo Privacy Detection API",
         "desc": "Detect VPN, proxy, and hosting IP usage",
-        "url": "https://ipinfo.io/developers/privacy-detection",
+        "url": "https://ipinfo.io/developers/ipinfo-api",
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety"

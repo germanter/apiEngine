@@ -24,7 +24,7 @@ async def check_url_liveness(client,url):
                 return f"✅ ALIVE ({code})" # alive
             
             elif code == 405:
-                return f"HEAD is not allowed (ALIVE) ({code})" # alive - do not switch to get, respect the url
+                return f"HEAD is not allowed (UNKNOWN) ({code})" #  - do not switch to get, respect the url
 
             elif code == 403:
                 return "🛡️ ALIVE (Blocked / Protected)" # alive

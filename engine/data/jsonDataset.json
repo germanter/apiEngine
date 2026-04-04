@@ -298,7 +298,7 @@
     {
       "name": "Meteomatics API",
       "desc": "Global weather and climate data with multiple parameters",
-      "url": "https://www.meteomatics.com/en/api/",
+      "url": "https://www.meteomatics.com/",
       "cost": "premium",
       "auth": true,
       "category": [
