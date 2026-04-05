@@ -5,14 +5,13 @@ import os
 
 # This finds the file regardless of where the script is called from
 base_path = os.path.dirname(os.path.abspath(__file__))
-json_path = os.path.join(base_path, "..", "saved2.json")
-main_path = os.path.join(base_path, "..", "api.json") #to save at end
+json_path = os.path.join(base_path, "..", "api.json")
 
 data = None
 with open(json_path, "r") as file:
     data = json.load(file)
 
-bigStein = asyncio.Semaphore(5) #bigStein stops the bad ones 
+bigStein = asyncio.Semaphore(10) #bigStein stops the bad ones 
 
 #this is a test version made by ai for base, we know everything about this codebase
 async def check_url_liveness(client,url):
@@ -85,7 +84,7 @@ async def main():
             item["status"] = status #the legendary move, the proof of ai and human have to work together, this is a motto
         
         print(analyzeResults(reportList))
-        with open(main_path, "w") as file:
+        with open(json_path, "w") as file:
             json.dump(data, file, indent=4)
 
 asyncio.run(main())
