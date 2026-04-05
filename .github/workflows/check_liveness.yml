@@ -1,14 +1,13 @@
-name: Manual URL Checker
+name: Manual URL Checker & Compressor
 
 on:
   workflow_dispatch: 
-
 
 permissions:
   contents: write
 
 jobs:
-  run-checker:
+  run-engine:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -17,14 +16,15 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.14.3'
+          python-version: '3.14.3' 
 
       - name: Install Dependencies
         run: pip install httpx
 
-      - name: Run URL Script
-
-        run: python engine/urlScript.py > report.txt
+      - name: Run Engine & Compressor
+        run: |
+          python engine/urlScript.py > report.txt && \
+          python engine/cmpScript.py
 
       - name: Save Results as Artifact
         uses: actions/upload-artifact@v4
@@ -32,20 +32,17 @@ jobs:
           name: liveness-report
           path: report.txt
 
-      - name: Commit and Push api.json
+      - name: Commit and Push Changes
         run: |
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-
-          git add api.json
+          # Add both the original and the compressed version
+          git add api.json apiCmp.json
           
-
-
           if git diff --staged --quiet; then
-            echo "No changes in api.json. Skipping push."
+            echo "No changes in data files. Skipping push."
           else
-            git commit -m "Auto-update api.json [skip ci]"
+            git commit -m "Auto-update: api.json & apiCmp.json [skip ci]"
             git push
           fi
