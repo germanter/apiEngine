@@ -63,6 +63,9 @@ def analyzeResults(report):
 
 async def main():
 
+    print(f"DEBUG: Script is running from: {os.path.abspath(__file__)}")
+    print(f"DEBUG: Target JSON path is: {os.path.abspath(json_path)}")
+
     promisedTasks = []
     reportList = [] 
 
