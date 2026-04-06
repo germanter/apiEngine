@@ -54,3 +54,5 @@ def compressor(data):
 data = compressor(data)  #60% reduced size tier 1
 with open(save_path, "w") as file:    
     json.dump(data, file, separators=(',', ':'))
+
+#add a fuckin consistency check at the end kid
