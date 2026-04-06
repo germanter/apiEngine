@@ -645,7 +645,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "SnapAPI",
