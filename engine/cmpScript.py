@@ -14,7 +14,7 @@ import os
 
 keyMAP = {
     "name": "n",
-    "description": "d",
+    "desc": "d",
     "url": "u",
     "cost": "m",
     "active": "a",
