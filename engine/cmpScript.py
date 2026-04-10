@@ -17,7 +17,7 @@ keyMAP = {
     "desc": "d",
     "url": "u",
     "cost": "m",
-    "active": "a",
+    "auth": "a",
     "category": "c",
     "status": "s"
 }
@@ -58,3 +58,4 @@ def callCmp():
         json.dump(data, file, separators=(',', ':'))
 
     #add a fuckin consistency check at the end kid
+
