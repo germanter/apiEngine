@@ -1,7 +1,9 @@
-name: Manual URL Checker & Compressor
+name: URL Checker & Compressor
 
 on:
-  workflow_dispatch: 
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -16,15 +18,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.14.3' 
+          python-version: '3.14.3'
 
       - name: Install Dependencies
         run: pip install httpx
 
-      - name: Run Engine & Compressor
-        run: |
-          python engine/urlScript.py > report.txt && \
-          python engine/cmpScript.py
+      - name: Run Engine
+        run: python engine/runner.py > report.txt
 
       - name: Save Results as Artifact
         uses: actions/upload-artifact@v4
@@ -37,7 +37,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Add both the original and the compressed version
           git add api.json apiCmp.json
           
           if git diff --staged --quiet; then

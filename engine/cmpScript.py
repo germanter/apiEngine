@@ -11,14 +11,6 @@ import os
     #     "c": "AI",
     #     "s": 1 / 0 / -1  -- 1 alive 0 dead -1 unknown
     # },
-# This finds the file regardless of where the script is called from
-base_path = os.path.dirname(os.path.abspath(__file__))
-json_path = os.path.join(base_path, "..", "api.json")
-save_path = os.path.join(base_path, "..", "apiCmp.json") #to save at end
-
-data = None
-with open(json_path, "r") as file:
-    data = json.load(file)
 
 keyMAP = {
     "name": "n",
@@ -51,8 +43,18 @@ def compressor(data):
 
     return compressed
 
-data = compressor(data)  #60% reduced size tier 1
-with open(save_path, "w") as file:    
-    json.dump(data, file, separators=(',', ':'))
+def callCmp():
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    json_path = os.path.join(base_path, "..", "api.json")
+    save_path = os.path.join(base_path, "..", "apiCmp.json") #to save at end
 
-#add a fuckin consistency check at the end kid
+    data = None
+    with open(json_path, "r") as file:
+        data = json.load(file)
+
+    data = compressor(data)  #60% reduced size tier 1
+    print(json.dumps(data, indent=4))
+    with open(save_path, "w") as file:    
+        json.dump(data, file, separators=(',', ':'))
+
+    #add a fuckin consistency check at the end kid

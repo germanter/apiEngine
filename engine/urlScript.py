@@ -4,12 +4,7 @@ import json
 import os
 
 # This finds the file regardless of where the script is called from
-base_path = os.path.dirname(os.path.abspath(__file__))
-json_path = os.path.join(base_path, "..", "api.json")
 
-data = None
-with open(json_path, "r") as file:
-    data = json.load(file)
 
 bigStein = asyncio.Semaphore(10) #bigStein stops the bad ones 
 
@@ -62,6 +57,12 @@ def analyzeResults(report):
     return stats
 
 async def main():
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    json_path = os.path.join(base_path, "..", "api.json")
+
+    data = None
+    with open(json_path, "r") as file:
+        data = json.load(file)
 
     print(f"DEBUG: Script is running from: {os.path.abspath(__file__)}")
     print(f"DEBUG: Target JSON path is: {os.path.abspath(json_path)}")
@@ -90,12 +91,5 @@ async def main():
         with open(json_path, "w") as file:
             json.dump(data, file, indent=4)
 
-asyncio.run(main())
-
-# checker = check_url_liveness("https://www.amazon.com/")
-# print(checker)
-
-
-
-
-
+def callUrlScript():
+    asyncio.run(main())

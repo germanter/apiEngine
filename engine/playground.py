@@ -48,3 +48,6 @@ print(r.status_code)
 # cl = url.split("://")[1]
 # cl = cl.rstrip("/")
 # print(cl)
+
+# from cmpScript import callCmp
+# callCmp()
