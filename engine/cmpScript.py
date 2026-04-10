@@ -53,7 +53,16 @@ def callCmp():
         data = json.load(file)
 
     data = compressor(data)  #60% reduced size tier 1
+
+    ###########
+    # Extract unique categories using a set
+    uniqueCats = sorted(list(set(item["c"] for item in data)))
+    # Append the metadata object to the end of your data list
+    data.append({"x": uniqueCats})
+    ################
+
     print(json.dumps(data, indent=4))
+
     with open(save_path, "w") as file:    
         json.dump(data, file, separators=(',', ':'))
 
