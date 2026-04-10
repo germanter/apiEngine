@@ -1,9 +1,9 @@
 name: URL Checker & Compressor
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
 
 permissions:
   contents: write
@@ -21,7 +21,13 @@ jobs:
           python-version: '3.14.3'
 
       - name: Install Dependencies
-        run: pip install httpx
+        run: |
+          pip install httpx
+          pip install playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            libgbm1 libasound2t64 libnspr4 libnss3 libxss1 libxtst6
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 python -m playwright install chromium
 
       - name: Run Engine
         run: python engine/runner.py > report.txt
@@ -37,11 +43,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          git add api.json apiCmp.json
+          git add api.json apiCmp.json incoming.json
           
           if git diff --staged --quiet; then
             echo "No changes in data files. Skipping push."
           else
-            git commit -m "Auto-update: api.json & apiCmp.json [skip ci]"
+            git commit -m "Auto-update: api.json & apiCmp.json & incoming.json [skip ci]"
             git push
           fi
