@@ -1690,5 +1690,41 @@
         "auth": true,
         "category": "AI",
         "status": "DEAD"
+    },
+    {
+        "name": "OpenAI GPT-4 API",
+        "desc": "Generative text, coding, and multimodal tasks",
+        "url": "https://platform.openai.com/docs/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Cohere AI API",
+        "desc": "NLP tasks like generation and classification",
+        "url": "https://docs.cohere.ai/api-reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "IBM Watson APIs",
+        "desc": "Language, vision, and speech services",
+        "url": "https://cloud.ibm.com/docs/watson",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": " ElevenLabs Text-to-Speech API",
+        "desc": "Lifelike speech synthesis at scale",
+        "url": "https://docs.elevenlabs.io/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
     }
 ]
