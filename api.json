@@ -81,15 +81,6 @@
         "status": "ALIVE"
     },
     {
-        "name": "AssemblyAI API",
-        "desc": "Speech-to-text and audio intelligence processing API",
-        "url": "https://www.assemblyai.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
-    },
-    {
         "name": "ElevenLabs API",
         "desc": "Text-to-speech, voice cloning, and AI dubbing",
         "url": "https://elevenlabs.io/docs/api-reference",
@@ -1665,15 +1656,6 @@
         "status": "ALIVE"
     },
     {
-        "name": "Microsoft Azure OpenAI Service",
-        "desc": "Access to OpenAI models via Azure integration.",
-        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
-    },
-    {
         "name": "AssemblyAI",
         "desc": "Speech-to-text and audio intelligence APIs.",
         "url": "https://www.assemblyai.com/docs",
@@ -1692,24 +1674,6 @@
         "status": "DEAD"
     },
     {
-        "name": "OpenAI GPT-4 API",
-        "desc": "Generative text, coding, and multimodal tasks",
-        "url": "https://platform.openai.com/docs/api",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
-    },
-    {
-        "name": "Cohere AI API",
-        "desc": "NLP tasks like generation and classification",
-        "url": "https://docs.cohere.ai/api-reference",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
-    },
-    {
         "name": "IBM Watson APIs",
         "desc": "Language, vision, and speech services",
         "url": "https://cloud.ibm.com/docs/watson",
@@ -1717,14 +1681,5 @@
         "auth": true,
         "category": "AI",
         "status": "ALIVE"
-    },
-    {
-        "name": " ElevenLabs Text-to-Speech API",
-        "desc": "Lifelike speech synthesis at scale",
-        "url": "https://docs.elevenlabs.io/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI",
-        "status": "DEAD"
     }
 ]

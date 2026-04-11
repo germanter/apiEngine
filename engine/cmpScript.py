@@ -68,3 +68,4 @@ def callCmp():
 
     #add a fuckin consistency check at the end kid
 
+callCmp()
