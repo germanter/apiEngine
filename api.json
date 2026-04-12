@@ -1681,5 +1681,122 @@
         "auth": true,
         "category": "AI",
         "status": "ALIVE"
+    },
+    {
+        "name": "Google Safe Browsing API",
+        "desc": "Checks URLs and hashes against Google threat data.",
+        "url": "https://developers.google.com/safe-browsing",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CIRCL Hashlookup API",
+        "desc": "Looks up file hashes against known datasets.",
+        "url": "https://hashlookup.circl.lu/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "CIRCL Passive SSH API",
+        "desc": "Provides passive SSH host key intelligence.",
+        "url": "https://www.circl.lu/services/passive-ssh/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "Censys Search API",
+        "desc": "Queries internet-exposed assets and certificates.",
+        "url": "https://search.censys.io/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "AlienVault OTX API",
+        "desc": "Provides threat intelligence pulses and indicators.",
+        "url": "https://otx.alienvault.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "Openappsec API",
+        "desc": "Provides web and API security protection.",
+        "url": "https://docs.openappsec.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OWASP ZAP API",
+        "desc": "Automates web and API security scanning.",
+        "url": "https://www.zaproxy.org/docs/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "TheHive API",
+        "desc": "Manages security incidents and case investigations.",
+        "url": "https://docs.thehive-project.org/thehive/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Cisco Umbrella Enforcement API",
+        "desc": "Enforces DNS-layer threat protection policies.",
+        "url": "https://developer.cisco.com/docs/cloud-security/#!umbrella-enforcement-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CrowdStrike Falcon API",
+        "desc": "Manages endpoint protection and threat detection.",
+        "url": "https://falcon.crowdstrike.com/documentation/page/documentation-home",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "UNKNOWN"
+    },
+    {
+        "name": "Google reCAPTCHA Enterprise API",
+        "desc": "Assesses traffic for bots and abuse.",
+        "url": "https://cloud.google.com/recaptcha-enterprise/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Botd API",
+        "desc": "Detects browser bot activity and automation.",
+        "url": "https://github.com/fingerprintjs/BotD",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Fingerprint Pro API",
+        "desc": "Identifies browsers for fraud and abuse detection.",
+        "url": "https://dev.fingerprint.com/reference/introduction",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
     }
 ]

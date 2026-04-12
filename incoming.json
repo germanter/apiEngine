@@ -1,82 +1,162 @@
 [
     {
-        "name": "OpenAI GPT-4 API",
-        "desc": "Generative text, coding, and multimodal tasks",
-        "url": "https://platform.openai.com/docs/api",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Google Cloud Vertex AI",
-        "desc": "ML models and prediction services with endpoints",
-        "url": "https://cloud.google.com/vertex-ai/docs/apis",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Microsoft Azure OpenAI Service",
-        "desc": "OpenAI models via Azure integration",
-        "url": "https://learn.microsoft.com/azure/cognitive-services/openai/overview",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Anthropic Claude API",
-        "desc": "Large language model for writing and reasoning",
-        "url": "https://console.anthropic.com/docs/api",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Cohere AI API",
-        "desc": "NLP tasks like generation and classification",
-        "url": "https://docs.cohere.ai/api-reference",
+        "name": "Google Safe Browsing API",
+        "desc": "Checks URLs and hashes against Google threat data.",
+        "url": "https://developers.google.com/safe-browsing",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "Hugging Face Inference API",
-        "desc": "Access 100k+ open models via inference endpoints",
-        "url": "https://huggingface.co/docs/inference api",
+        "name": "CIRCL CVE Search API",
+        "desc": "Searches CVE vulnerability records and metadata.",
+        "url": "https://cve.circl.lu/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CIRCL Hashlookup API",
+        "desc": "Looks up file hashes against known datasets.",
+        "url": "https://hashlookup.circl.lu/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CIRCL Passive SSH API",
+        "desc": "Provides passive SSH host key intelligence.",
+        "url": "https://www.circl.lu/services/passive-ssh/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Censys Search API",
+        "desc": "Queries internet-exposed assets and certificates.",
+        "url": "https://search.censys.io/api",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "AWS AI Services",
-        "desc": "Vision, speech, language APIs and ML tools",
-        "url": "https://aws.amazon.com/machine-learning/ai-services/",
+        "name": "Shodan API",
+        "desc": "Searches internet-connected devices and services.",
+        "url": "https://developer.shodan.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "VirusTotal API",
+        "desc": "Scans files, URLs, domains, and IPs.",
+        "url": "https://docs.virustotal.com/reference/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "AlienVault OTX API",
+        "desc": "Provides threat intelligence pulses and indicators.",
+        "url": "https://otx.alienvault.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Have I Been Pwned API",
+        "desc": "Checks email addresses and passwords against breaches.",
+        "url": "https://haveibeenpwned.com/API/v3",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "IBM Watson APIs",
-        "desc": "Language, vision, and speech services",
-        "url": "https://cloud.ibm.com/docs/watson",
+        "name": "AbuseIPDB API",
+        "desc": "Reports and checks abusive IP addresses.",
+        "url": "https://docs.abuseipdb.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "GreyNoise API",
+        "desc": "Classifies noisy internet-scanning IP addresses.",
+        "url": "https://docs.greynoise.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "IPQualityScore API",
+        "desc": "Detects fraud, proxies, bots, and abuse.",
+        "url": "https://www.ipqualityscore.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Openappsec API",
+        "desc": "Provides web and API security protection.",
+        "url": "https://docs.openappsec.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "OWASP ZAP API",
+        "desc": "Automates web and API security scanning.",
+        "url": "https://www.zaproxy.org/docs/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "TheHive API",
+        "desc": "Manages security incidents and case investigations.",
+        "url": "https://docs.thehive-project.org/thehive/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Cisco Umbrella Enforcement API",
+        "desc": "Enforces DNS-layer threat protection policies.",
+        "url": "https://developer.cisco.com/docs/cloud-security/#!umbrella-enforcement-api",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": " ElevenLabs Text-to-Speech API",
-        "desc": "Lifelike speech synthesis at scale",
-        "url": "https://docs.elevenlabs.io/api",
-        "cost": "freemium",
+        "name": "CrowdStrike Falcon API",
+        "desc": "Manages endpoint protection and threat detection.",
+        "url": "https://falcon.crowdstrike.com/documentation/page/documentation-home",
+        "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "AssemblyAI API",
-        "desc": "Audio transcription and audio intelligence",
-        "url": "https://www.assemblyai.com/docs",
+        "name": "Google reCAPTCHA Enterprise API",
+        "desc": "Assesses traffic for bots and abuse.",
+        "url": "https://cloud.google.com/recaptcha-enterprise/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Botd API",
+        "desc": "Detects browser bot activity and automation.",
+        "url": "https://github.com/fingerprintjs/BotD",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Fingerprint Pro API",
+        "desc": "Identifies browsers for fraud and abuse detection.",
+        "url": "https://dev.fingerprint.com/reference/introduction",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
     }
 ]
