@@ -1,162 +1,82 @@
 [
     {
-        "name": "Google Safe Browsing API",
-        "desc": "Checks URLs and hashes against Google threat data.",
-        "url": "https://developers.google.com/safe-browsing",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CIRCL CVE Search API",
-        "desc": "Searches CVE vulnerability records and metadata.",
-        "url": "https://cve.circl.lu/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CIRCL Hashlookup API",
-        "desc": "Looks up file hashes against known datasets.",
-        "url": "https://hashlookup.circl.lu/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CIRCL Passive SSH API",
-        "desc": "Provides passive SSH host key intelligence.",
-        "url": "https://www.circl.lu/services/passive-ssh/",
+        "name": "NOAA National Weather Service API",
+        "desc": "Public weather data including forecasts and alerts",
+        "url": "https://www.weather.gov/documentation/services-web-api",
         "cost": "free",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "Censys Search API",
-        "desc": "Queries internet-exposed assets and certificates.",
-        "url": "https://search.censys.io/api",
+        "name": "OpenWeatherMap Current Weather Data",
+        "desc": "Current weather conditions by city or coordinates",
+        "url": "https://openweathermap.org/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "Shodan API",
-        "desc": "Searches internet-connected devices and services.",
-        "url": "https://developer.shodan.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "VirusTotal API",
-        "desc": "Scans files, URLs, domains, and IPs.",
-        "url": "https://docs.virustotal.com/reference/overview",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "AlienVault OTX API",
-        "desc": "Provides threat intelligence pulses and indicators.",
-        "url": "https://otx.alienvault.com/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Have I Been Pwned API",
-        "desc": "Checks email addresses and passwords against breaches.",
-        "url": "https://haveibeenpwned.com/API/v3",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "AbuseIPDB API",
-        "desc": "Reports and checks abusive IP addresses.",
-        "url": "https://docs.abuseipdb.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "GreyNoise API",
-        "desc": "Classifies noisy internet-scanning IP addresses.",
-        "url": "https://docs.greynoise.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "IPQualityScore API",
-        "desc": "Detects fraud, proxies, bots, and abuse.",
-        "url": "https://www.ipqualityscore.com/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Openappsec API",
-        "desc": "Provides web and API security protection.",
-        "url": "https://docs.openappsec.io/",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "OWASP ZAP API",
-        "desc": "Automates web and API security scanning.",
-        "url": "https://www.zaproxy.org/docs/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "TheHive API",
-        "desc": "Manages security incidents and case investigations.",
-        "url": "https://docs.thehive-project.org/thehive/",
+        "name": "World Bank API",
+        "desc": "Global development indicators and datasets",
+        "url": "https://data.worldbank.org/developers",
         "cost": "free",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "Cisco Umbrella Enforcement API",
-        "desc": "Enforces DNS-layer threat protection policies.",
-        "url": "https://developer.cisco.com/docs/cloud-security/#!umbrella-enforcement-api",
-        "cost": "premium",
+        "name": "NASA APIs",
+        "desc": "Space data including imagery and rover data",
+        "url": "https://api.nasa.gov",
+        "cost": "free",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "CrowdStrike Falcon API",
-        "desc": "Manages endpoint protection and threat detection.",
-        "url": "https://falcon.crowdstrike.com/documentation/page/documentation-home",
-        "cost": "premium",
+        "name": "USGS Earthquake Hazards Program API",
+        "desc": "Real-time and historical earthquake data",
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+        "cost": "free",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "Google reCAPTCHA Enterprise API",
-        "desc": "Assesses traffic for bots and abuse.",
-        "url": "https://cloud.google.com/recaptcha-enterprise/docs",
+        "name": "OpenAlex API",
+        "desc": "Scholarly metadata for publications and authors",
+        "url": "https://docs.openalex.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "IP Geolocation API (IPinfo Free Plan)",
+        "desc": "IP to location, ASN, and network data",
+        "url": "https://ipinfo.io/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "Botd API",
-        "desc": "Detects browser bot activity and automation.",
-        "url": "https://github.com/fingerprintjs/BotD",
+        "name": "US Census Bureau API",
+        "desc": "Demographic and socio-economic data by geography",
+        "url": "https://www.census.gov/developers/",
         "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
+        "auth": true,
+        "category": "Data & Information"
     },
     {
-        "name": "Fingerprint Pro API",
-        "desc": "Identifies browsers for fraud and abuse detection.",
-        "url": "https://dev.fingerprint.com/reference/introduction",
-        "cost": "premium",
+        "name": "IMDb datasets (via IMDb API vendors)",
+        "desc": "Movie and TV metadata datasets (via official endpoints from providers)",
+        "url": "https://developer.imdb.com/",
+        "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
+    },
+    {
+        "name": "European Central Bank Statistical Data Warehouse API",
+        "desc": "Euro area macroeconomic and financial statistics",
+        "url": "https://sdw.ecb.europa.eu/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
     }
 ]

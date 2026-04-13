@@ -1248,7 +1248,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Disease Ontology API",
@@ -1797,6 +1797,96 @@
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "NOAA National Weather Service API",
+        "desc": "Public weather data including forecasts and alerts",
+        "url": "https://www.weather.gov/documentation/services-web-api",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenWeatherMap Current Weather Data",
+        "desc": "Current weather conditions by city or coordinates",
+        "url": "https://openweathermap.org/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "World Bank API",
+        "desc": "Global development indicators and datasets",
+        "url": "https://data.worldbank.org/developers",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NASA APIs",
+        "desc": "Space data including imagery and rover data",
+        "url": "https://api.nasa.gov",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "USGS Earthquake Hazards Program API",
+        "desc": "Real-time and historical earthquake data",
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenAlex API",
+        "desc": "Scholarly metadata for publications and authors",
+        "url": "https://docs.openalex.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "IP Geolocation API (IPinfo Free Plan)",
+        "desc": "IP to location, ASN, and network data",
+        "url": "https://ipinfo.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "DEAD"
+    },
+    {
+        "name": "US Census Bureau API",
+        "desc": "Demographic and socio-economic data by geography",
+        "url": "https://www.census.gov/developers/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "DEAD"
+    },
+    {
+        "name": "IMDb datasets (via IMDb API vendors)",
+        "desc": "Movie and TV metadata datasets (via official endpoints from providers)",
+        "url": "https://developer.imdb.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "European Central Bank Statistical Data Warehouse API",
+        "desc": "Euro area macroeconomic and financial statistics",
+        "url": "https://sdw.ecb.europa.eu/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
         "status": "DEAD"
     }
 ]
