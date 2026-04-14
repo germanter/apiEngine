@@ -1,82 +1,98 @@
 [
     {
-        "name": "NOAA National Weather Service API",
-        "desc": "Public weather data including forecasts and alerts",
-        "url": "https://www.weather.gov/documentation/services-web-api",
-        "cost": "free",
+        "name": "OpenAI API",
+        "desc": "Text, image, audio, and embedding generation",
+        "url": "https://platform.openai.com/docs",
+        "cost": "premium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "OpenWeatherMap Current Weather Data",
-        "desc": "Current weather conditions by city or coordinates",
-        "url": "https://openweathermap.org/api",
+        "name": "Anthropic Claude API",
+        "desc": "Text generation and tool use with Claude models",
+        "url": "https://docs.anthropic.com/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Google Gemini API",
+        "desc": "Multimodal text, image, and video generation",
+        "url": "https://ai.google.dev/",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "World Bank API",
-        "desc": "Global development indicators and datasets",
-        "url": "https://data.worldbank.org/developers",
-        "cost": "free",
+        "name": "AWS Bedrock",
+        "desc": "Managed access to foundation models via API",
+        "url": "https://docs.aws.amazon.com/bedrock/",
+        "cost": "premium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "NASA APIs",
-        "desc": "Space data including imagery and rover data",
-        "url": "https://api.nasa.gov",
-        "cost": "free",
+        "name": "Azure OpenAI Service",
+        "desc": "OpenAI model access through Azure endpoints",
+        "url": "https://learn.microsoft.com/azure/ai-services/openai/",
+        "cost": "premium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "USGS Earthquake Hazards Program API",
-        "desc": "Real-time and historical earthquake data",
-        "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenAlex API",
-        "desc": "Scholarly metadata for publications and authors",
-        "url": "https://docs.openalex.org/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "IP Geolocation API (IPinfo Free Plan)",
-        "desc": "IP to location, ASN, and network data",
-        "url": "https://ipinfo.io/docs",
+        "name": "Cohere API",
+        "desc": "Text generation, embeddings, and reranking",
+        "url": "https://docs.cohere.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "US Census Bureau API",
-        "desc": "Demographic and socio-economic data by geography",
-        "url": "https://www.census.gov/developers/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "IMDb datasets (via IMDb API vendors)",
-        "desc": "Movie and TV metadata datasets (via official endpoints from providers)",
-        "url": "https://developer.imdb.com/",
+        "name": "Mistral API",
+        "desc": "Chat, embeddings, and image generation models",
+        "url": "https://docs.mistral.ai/",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "European Central Bank Statistical Data Warehouse API",
-        "desc": "Euro area macroeconomic and financial statistics",
-        "url": "https://sdw.ecb.europa.eu/",
-        "cost": "free",
+        "name": "Groq API",
+        "desc": "Fast inference for open large language models",
+        "url": "https://console.groq.com/docs",
+        "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
+    },
+    {
+        "name": "Hugging Face Inference API",
+        "desc": "Hosted inference for open models",
+        "url": "https://huggingface.co/docs/api-inference/index",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "OpenRouter API",
+        "desc": "Unified access to multiple model providers",
+        "url": "https://openrouter.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "DeepSeek API",
+        "desc": "Text generation and reasoning models",
+        "url": "https://platform.deepseek.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "xAI API",
+        "desc": "Text generation with Grok models",
+        "url": "https://docs.x.ai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
     }
 ]

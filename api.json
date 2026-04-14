@@ -1248,7 +1248,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Disease Ontology API",
@@ -1888,5 +1888,50 @@
         "auth": true,
         "category": "Data & Information",
         "status": "DEAD"
+    },
+    {
+        "name": "AWS Bedrock",
+        "desc": "Managed access to foundation models via API",
+        "url": "https://docs.aws.amazon.com/bedrock/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Azure OpenAI Service",
+        "desc": "OpenAI model access through Azure endpoints",
+        "url": "https://learn.microsoft.com/azure/ai-services/openai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Mistral API",
+        "desc": "Chat, embeddings, and image generation models",
+        "url": "https://docs.mistral.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenRouter API",
+        "desc": "Unified access to multiple model providers",
+        "url": "https://openrouter.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "xAI API",
+        "desc": "Text generation with Grok models",
+        "url": "https://docs.x.ai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
     }
 ]
