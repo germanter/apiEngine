@@ -149,7 +149,20 @@ def callScrape():
             # Validate it's actual JSON
             parsed_json = json.loads(extracted_text)
 
-            keys = [i.lower() for j in parsed_json for i in j.keys()]
+            # Helper function to safely extract all keys recursively
+            def get_all_keys(data):
+                keys = []
+                if isinstance(data, dict):
+                    for k, v in data.items():
+                        keys.append(k.lower())
+                        keys.extend(get_all_keys(v))
+                elif isinstance(data, list):
+                    for item in data:
+                        keys.extend(get_all_keys(item))
+                return keys
+
+            # Safely grab all keys regardless of JSON structure
+            keys = get_all_keys(parsed_json)
 
             if "error" in keys or "invalid" in keys:
                 raise ValueError("JSON data contains prohibited error/invalid keys.")
