@@ -67,4 +67,3 @@ def callCmp():
         json.dump(data, file, separators=(',', ':'))
 
     #add a fuckin consistency check at the end kid
-

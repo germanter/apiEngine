@@ -207,15 +207,6 @@
         "status": "ALIVE"
     },
     {
-        "name": "National Weather Service API",
-        "desc": "US weather forecasts, alerts, and observations data",
-        "url": "https://www.weather.gov/documentation/services-web-api",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
         "name": "AccuWeather API",
         "desc": "Global weather forecasts, alerts, and environmental data",
         "url": "https://developer.accuweather.com/apis",
@@ -605,11 +596,11 @@
     {
         "name": "ScreenshotsAPI",
         "desc": "Render websites to images, PDFs, or video programmatically",
-        "url": "https://screenshotsapi.dev/docs",
+        "url": "https://www.screenshotapi.net/",
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Urlbox API",
@@ -628,15 +619,6 @@
         "auth": true,
         "category": "Developer Utilities",
         "status": "ALIVE"
-    },
-    {
-        "name": "SnapAPI",
-        "desc": "Generate screenshots and convert markdown or HTML to PDF",
-        "url": "https://api.opspawn.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities",
-        "status": "DEAD"
     },
     {
         "name": "ApiFlash",
@@ -659,11 +641,11 @@
     {
         "name": "URL2PNG API",
         "desc": "Convert URLs into PNG screenshots programmatically",
-        "url": "https://url2png.com/docs/",
+        "url": "https://www.url2png.com/docs",
         "cost": "premium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "PDFShift API",
@@ -771,7 +753,7 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "JDoodle API",
@@ -965,11 +947,11 @@
     {
         "name": "BigDataCloud Geocoding API",
         "desc": "Geocode and reverse geocode global locations",
-        "url": "https://www.bigdatacloud.com/geocoding-apis",
+        "url": "https://www.bigdatacloud.com/docs",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenRouteService API",
@@ -1667,11 +1649,11 @@
     {
         "name": "AWS AI Services",
         "desc": "Structured suite for ML, vision, language, and more.",
-        "url": "https://docs.aws.amazon.com/ai-services/latest/developerguide/what-is.html",
+        "url": "https://aws.amazon.com/ai/services/",
         "cost": "premium",
         "auth": true,
         "category": "AI",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "IBM Watson APIs",
@@ -1694,26 +1676,17 @@
     {
         "name": "CIRCL Hashlookup API",
         "desc": "Looks up file hashes against known datasets.",
-        "url": "https://hashlookup.circl.lu/api/",
+        "url": "https://www.circl.lu/services/",
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "CIRCL Passive SSH API",
         "desc": "Provides passive SSH host key intelligence.",
-        "url": "https://www.circl.lu/services/passive-ssh/",
+        "url": "https://www.circl.lu/services/",
         "cost": "free",
-        "auth": true,
-        "category": "Security & Safety",
-        "status": "DEAD"
-    },
-    {
-        "name": "Censys Search API",
-        "desc": "Queries internet-exposed assets and certificates.",
-        "url": "https://search.censys.io/api",
-        "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
         "status": "ALIVE"
@@ -1725,7 +1698,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Openappsec API",
@@ -1793,11 +1766,11 @@
     {
         "name": "Fingerprint Pro API",
         "desc": "Identifies browsers for fraud and abuse detection.",
-        "url": "https://dev.fingerprint.com/reference/introduction",
+        "url": "https://docs.fingerprint.com/reference/js-agent-v4",
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "NOAA National Weather Service API",
@@ -1809,27 +1782,9 @@
         "status": "ALIVE"
     },
     {
-        "name": "OpenWeatherMap Current Weather Data",
-        "desc": "Current weather conditions by city or coordinates",
-        "url": "https://openweathermap.org/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
         "name": "World Bank API",
         "desc": "Global development indicators and datasets",
         "url": "https://data.worldbank.org/developers",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
-        "name": "NASA APIs",
-        "desc": "Space data including imagery and rover data",
-        "url": "https://api.nasa.gov",
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
@@ -1863,15 +1818,6 @@
         "status": "DEAD"
     },
     {
-        "name": "US Census Bureau API",
-        "desc": "Demographic and socio-economic data by geography",
-        "url": "https://www.census.gov/developers/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "DEAD"
-    },
-    {
         "name": "IMDb datasets (via IMDb API vendors)",
         "desc": "Movie and TV metadata datasets (via official endpoints from providers)",
         "url": "https://developer.imdb.com/",
@@ -1879,15 +1825,6 @@
         "auth": true,
         "category": "Data & Information",
         "status": "ALIVE"
-    },
-    {
-        "name": "European Central Bank Statistical Data Warehouse API",
-        "desc": "Euro area macroeconomic and financial statistics",
-        "url": "https://sdw.ecb.europa.eu/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "DEAD"
     },
     {
         "name": "AWS Bedrock",
@@ -1899,37 +1836,10 @@
         "status": "ALIVE"
     },
     {
-        "name": "Azure OpenAI Service",
-        "desc": "OpenAI model access through Azure endpoints",
-        "url": "https://learn.microsoft.com/azure/ai-services/openai/",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
-    },
-    {
-        "name": "Mistral API",
-        "desc": "Chat, embeddings, and image generation models",
-        "url": "https://docs.mistral.ai/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
-    },
-    {
         "name": "OpenRouter API",
         "desc": "Unified access to multiple model providers",
         "url": "https://openrouter.ai/docs",
         "cost": "freemium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
-    },
-    {
-        "name": "xAI API",
-        "desc": "Text generation with Grok models",
-        "url": "https://docs.x.ai/",
-        "cost": "premium",
         "auth": true,
         "category": "AI",
         "status": "ALIVE"
