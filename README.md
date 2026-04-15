@@ -1,6 +1,6 @@
 # 🚀 API Engine
 
-**A minimal, automated engine that collects, validates, and serves public API data — all in one clean JSON.**
+**A minimal, automated engine that collects, validates, and serves public API data - all in one clean JSON.**
 
 ---
 
@@ -43,7 +43,7 @@ Instead of scattered API lists across blogs, outdated repos, or broken links:
 
 ## 📦 Data Outputs
 
-### 👤 `api.json` — Human-Friendly
+### 👤 `api.json` - Human-Friendly
 
 Readable, structured, and descriptive.
 
@@ -53,7 +53,7 @@ https://raw.githubusercontent.com/germanter/apiEngine/refs/heads/main/api.json
 
 ---
 
-### 🤖 `apiCmp.json` — Machine-Optimized
+### 🤖 `apiCmp.json` - Machine-Optimized
 
 Compressed version of `api.json` for automation and performance.
 
@@ -67,7 +67,7 @@ https://raw.githubusercontent.com/germanter/apiEngine/refs/heads/main/apiCmp.jso
 
 ---
 
-### 📥 `incoming.json` — Staging Layer
+### 📥 `incoming.json` - Staging Layer
 
 Temporary dataset before validation pipeline.
 
@@ -159,7 +159,7 @@ Every API URL is checked using an **async pinger**.
 
 * Some APIs **block automated requests** → marked as `UNKNOWN`
 * Some APIs return **error codes but still work in browser**
-* The system avoids aggressive retries — no need to go rogue on 200+ endpoints
+* The system avoids aggressive retries - no need to go rogue on 200+ endpoints
 
 ---
 
@@ -336,23 +336,17 @@ Just:
 
 ## 🤝 Contributing
 
-Contributions are welcome — especially:
+Contributions are welcome - especially:
 
-* Adding new APIs
 * Improving validation logic
 * Enhancing scraper reliability
 
 ---
 
-## 📄 License
-
-MIT License — use it freely.
-
----
 
 ## 💬 Final Words
 
-This project started from a simple frustration — and turned into a **fully automated API discovery engine**.
+This project started from a simple frustration - and turned into a **fully automated API discovery engine**.
 
 If you’ve ever struggled to find reliable APIs…
 
