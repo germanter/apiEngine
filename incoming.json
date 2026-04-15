@@ -1,98 +1,82 @@
 [
     {
-        "name": "OpenAI API",
-        "desc": "Text, image, audio, and embedding generation",
-        "url": "https://platform.openai.com/docs",
+        "name": "Zyte (formerly Scrapinghub) Web Data Extraction API",
+        "desc": "Official API for programmatic site scraping and data extraction.",
+        "url": "https://docs.zyte.com/",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Anthropic Claude API",
-        "desc": "Text generation and tool use with Claude models",
-        "url": "https://docs.anthropic.com/",
+        "name": "ScrapingBee",
+        "desc": "API for web scraping with rendering and proxies.",
+        "url": "https://docs.scrapingbee.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "ScraperAPI",
+        "desc": "Universal API for rotating proxies and JS rendering.",
+        "url": "https://www.scraperapi.com/docs",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Google Gemini API",
-        "desc": "Multimodal text, image, and video generation",
-        "url": "https://ai.google.dev/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "AWS Bedrock",
-        "desc": "Managed access to foundation models via API",
-        "url": "https://docs.aws.amazon.com/bedrock/",
+        "name": "Bright Data (formerly Luminati) Web Unlocker API",
+        "desc": "Proxy-driven scraping with built-in rendering.",
+        "url": "https://brightdata.com/developers",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Azure OpenAI Service",
-        "desc": "OpenAI model access through Azure endpoints",
-        "url": "https://learn.microsoft.com/azure/ai-services/openai/",
+        "name": "Octoparse Cloud API",
+        "desc": "Cloud-based scraping with API access.",
+        "url": "https://quiet-ocean-0f4f9d3a9c9c4b0b.zendesk.com/hc/en-us/articles/360056462852-API-Documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "SerpAPI",
+        "desc": "Search engine results scraping API with structured data.",
+        "url": "https://serpapi.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "RapidAPI – Web Scraping APIs (multiple providers)",
+        "desc": "Marketplace-accessible scraping endpoints with vetted providers.",
+        "url": "https://rapidapi.com/search/web-scraping",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "ContentGrabber API",
+        "desc": "Enterprise-grade data extraction via API.",
+        "url": "https://contentgrabber.com/",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Cohere API",
-        "desc": "Text generation, embeddings, and reranking",
-        "url": "https://docs.cohere.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Mistral API",
-        "desc": "Chat, embeddings, and image generation models",
-        "url": "https://docs.mistral.ai/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Groq API",
-        "desc": "Fast inference for open large language models",
-        "url": "https://console.groq.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Hugging Face Inference API",
-        "desc": "Hosted inference for open models",
-        "url": "https://huggingface.co/docs/api-inference/index",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "OpenRouter API",
-        "desc": "Unified access to multiple model providers",
-        "url": "https://openrouter.ai/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "DeepSeek API",
-        "desc": "Text generation and reasoning models",
-        "url": "https://platform.deepseek.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "xAI API",
-        "desc": "Text generation with Grok models",
-        "url": "https://docs.x.ai/",
+        "name": "Diffbot Automatic API",
+        "desc": "Structured data extraction via AI-powered crawlers.",
+        "url": "https://www.diffbot.com/dev/docs/",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
+    },
+    {
+        "name": "Webhose API",
+        "desc": "Real-time data access from public web content.",
+        "url": "https://webhose.io/docs/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
     }
 ]

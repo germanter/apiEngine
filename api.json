@@ -753,7 +753,7 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "JDoodle API",
@@ -1698,7 +1698,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -1843,5 +1843,95 @@
         "auth": true,
         "category": "AI",
         "status": "ALIVE"
+    },
+    {
+        "name": "Zyte (formerly Scrapinghub) Web Data Extraction API",
+        "desc": "Official API for programmatic site scraping and data extraction.",
+        "url": "https://docs.zyte.com/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "ScrapingBee",
+        "desc": "API for web scraping with rendering and proxies.",
+        "url": "https://docs.scrapingbee.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "ScraperAPI",
+        "desc": "Universal API for rotating proxies and JS rendering.",
+        "url": "https://www.scraperapi.com/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bright Data (formerly Luminati) Web Unlocker API",
+        "desc": "Proxy-driven scraping with built-in rendering.",
+        "url": "https://brightdata.com/developers",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Octoparse Cloud API",
+        "desc": "Cloud-based scraping with API access.",
+        "url": "https://quiet-ocean-0f4f9d3a9c9c4b0b.zendesk.com/hc/en-us/articles/360056462852-API-Documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "SerpAPI",
+        "desc": "Search engine results scraping API with structured data.",
+        "url": "https://serpapi.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "RapidAPI \u2013 Web Scraping APIs (multiple providers)",
+        "desc": "Marketplace-accessible scraping endpoints with vetted providers.",
+        "url": "https://rapidapi.com/search/web-scraping",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "ContentGrabber API",
+        "desc": "Enterprise-grade data extraction via API.",
+        "url": "https://contentgrabber.com/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Diffbot Automatic API",
+        "desc": "Structured data extraction via AI-powered crawlers.",
+        "url": "https://www.diffbot.com/dev/docs/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Webhose API",
+        "desc": "Real-time data access from public web content.",
+        "url": "https://webhose.io/docs/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
     }
 ]
