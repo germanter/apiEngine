@@ -1725,7 +1725,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Cisco Umbrella Enforcement API",
