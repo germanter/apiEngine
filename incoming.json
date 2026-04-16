@@ -1,82 +1,82 @@
 [
     {
-        "name": "Zyte (formerly Scrapinghub) Web Data Extraction API",
-        "desc": "Official API for programmatic site scraping and data extraction.",
-        "url": "https://docs.zyte.com/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ScrapingBee",
-        "desc": "API for web scraping with rendering and proxies.",
-        "url": "https://docs.scrapingbee.com/",
+        "name": "OpenWeatherMap",
+        "desc": "Weather data and forecasts with multiple endpoints",
+        "url": "https://openweathermap.org/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "ScraperAPI",
-        "desc": "Universal API for rotating proxies and JS rendering.",
-        "url": "https://www.scraperapi.com/docs",
-        "cost": "premium",
+        "name": "NASA API",
+        "desc": "Public space and astronomy data collections",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "Bright Data (formerly Luminati) Web Unlocker API",
-        "desc": "Proxy-driven scraping with built-in rendering.",
-        "url": "https://brightdata.com/developers",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
+        "name": "REST Countries",
+        "desc": "Global country data and metadata",
+        "url": "https://restcountries.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "Octoparse Cloud API",
-        "desc": "Cloud-based scraping with API access.",
-        "url": "https://quiet-ocean-0f4f9d3a9c9c4b0b.zendesk.com/hc/en-us/articles/360056462852-API-Documentation",
+        "name": "NewsAPI",
+        "desc": "Headlines from global news sources",
+        "url": "https://newsapi.org/docs/endpoints",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "SerpAPI",
-        "desc": "Search engine results scraping API with structured data.",
-        "url": "https://serpapi.com/api",
+        "name": "CoinGecko API",
+        "desc": "Cryptocurrency market data",
+        "url": "https://www.coingecko.com/en/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenLibrary API",
+        "desc": "Book metadata and availability",
+        "url": "https://openlibrary.org/developers/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "IP Geolocation API (IPInfo)",
+        "desc": "IP address geolocation and metadata",
+        "url": "https://ipinfo.io/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "RapidAPI – Web Scraping APIs (multiple providers)",
-        "desc": "Marketplace-accessible scraping endpoints with vetted providers.",
-        "url": "https://rapidapi.com/search/web-scraping",
+        "name": "Guardian News API",
+        "desc": "News content from The Guardian",
+        "url": "https://open-platform.theguardian.com/documentation/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "ContentGrabber API",
-        "desc": "Enterprise-grade data extraction via API.",
-        "url": "https://contentgrabber.com/",
-        "cost": "premium",
+        "name": "US Census Bureau API",
+        "desc": "Official demographic and economic data",
+        "url": "https://www.census.gov/data/developers/guidance/api-user-guide.html",
+        "cost": "free",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "Diffbot Automatic API",
-        "desc": "Structured data extraction via AI-powered crawlers.",
-        "url": "https://www.diffbot.com/dev/docs/",
-        "cost": "premium",
+        "name": "Open Data API (data.gov)",
+        "desc": "US government open data catalog",
+        "url": "https://api.data.gov/",
+        "cost": "free",
         "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Webhose API",
-        "desc": "Real-time data access from public web content.",
-        "url": "https://webhose.io/docs/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     }
 ]

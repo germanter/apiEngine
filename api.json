@@ -1725,7 +1725,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Cisco Umbrella Enforcement API",
@@ -1933,5 +1933,77 @@
         "auth": true,
         "category": "Scraping",
         "status": "DEAD"
+    },
+    {
+        "name": "OpenWeatherMap",
+        "desc": "Weather data and forecasts with multiple endpoints",
+        "url": "https://openweathermap.org/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NASA API",
+        "desc": "Public space and astronomy data collections",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "REST Countries",
+        "desc": "Global country data and metadata",
+        "url": "https://restcountries.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenLibrary API",
+        "desc": "Book metadata and availability",
+        "url": "https://openlibrary.org/developers/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "IP Geolocation API (IPInfo)",
+        "desc": "IP address geolocation and metadata",
+        "url": "https://ipinfo.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "DEAD"
+    },
+    {
+        "name": "Guardian News API",
+        "desc": "News content from The Guardian",
+        "url": "https://open-platform.theguardian.com/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "US Census Bureau API",
+        "desc": "Official demographic and economic data",
+        "url": "https://www.census.gov/data/developers/guidance/api-user-guide.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Open Data API (data.gov)",
+        "desc": "US government open data catalog",
+        "url": "https://api.data.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
     }
 ]
