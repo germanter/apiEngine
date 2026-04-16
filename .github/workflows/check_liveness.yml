@@ -30,7 +30,7 @@ jobs:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 python -m playwright install chromium
 
       - name: Run Engine
-        run: python engine/runner.py > report.txt
+        run: python engine/runner.py > report.txt 2>&1 cat report.txt
 
       - name: Save Results as Artifact
         uses: actions/upload-artifact@v4
