@@ -5,8 +5,23 @@ import time
 import re
 from playwright.sync_api import sync_playwright, TimeoutError
 
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.StreamHandler()
+    ]
+)
+
+logger = logging.getLogger(__name__)
+
 def ask_perplexity(url: str, prompt: str):
+    logger.info("Starting ask_perplexity()")
+    logger.info(f"Target URL: {url}")
     with sync_playwright() as p:
+        logger.info("Launching Chromium browser...")
         # 1. POWERFUL CI/CD BROWSER LAUNCH
         browser = p.chromium.launch(
             headless=True,
@@ -18,6 +33,10 @@ def ask_perplexity(url: str, prompt: str):
                 "--window-size=1920,1080"
             ]
         )
+
+        logger.info("Browser launched successfully")
+
+        logger.info("Creating browser context with anti-bot settings...")
         
         # 2. ANTI-BOT CONTEXT SETUP
         context = browser.new_context(
@@ -27,6 +46,8 @@ def ask_perplexity(url: str, prompt: str):
             has_touch=False,
             is_mobile=False
         )
+
+        logger.info("Context created")
         
         # Mask the WebDriver property to bypass basic bot protection
         context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
@@ -34,17 +55,22 @@ def ask_perplexity(url: str, prompt: str):
         page = context.new_page()
         page.set_default_timeout(60000) # 60s timeout accommodates slower CI runners
 
-        print("🌐 Navigating to Perplexity...")
+        logger.info("Navigating to Perplexity...")
         page.goto(url, wait_until="domcontentloaded")
+        logger.info(f"Page loaded: {page.url}")
 
         # 3. LOCATE INPUT (With Fallbacks & Debugging)
         print("🔍 Locating search input...")
         # Target the textarea dynamically in case they change IDs
+        logger.info("Locating input textarea...")
         input_locator = page.locator('textarea[placeholder*="Ask"], #ask-input').first
         
         try:
             input_locator.wait_for(state="visible", timeout=15000)
         except TimeoutError:
+            logger.error("Input box not found — possible Cloudflare/UI change")
+            logger.info(f"Page title: {page.title()}")
+            logger.info(f"Current URL: {page.url}")
             print("❌ ERROR: Could not find input box. Possible Cloudflare block or UI update.")
             page.screenshot(path="github_actions_error.png")
             print("📸 Saved error screenshot to github_actions_error.png (Upload this as a GHA Artifact to debug)")
@@ -53,10 +79,12 @@ def ask_perplexity(url: str, prompt: str):
 
         # 4. ENTER PROMPT & SUBMIT
         print("✍️ Entering prompt...")
+        logger.info(f"Prompt length: {len(prompt)} characters")
         input_locator.fill(prompt) # 'fill' is much faster and more reliable in CI than 'insert_text'
+        logger.info("Prompt entered successfully")
         page.wait_for_timeout(500) 
         
-        print("🚀 Submitting...")
+        logger.info("Submitting prompt...")
         input_locator.press("Enter")
 
         # 5. WAIT FOR RESPONSE WITH SMART POLLING
@@ -64,8 +92,10 @@ def ask_perplexity(url: str, prompt: str):
         print("⏳ Waiting for AI to start generating...")
         
         try:
+            logger.info("Waiting for AI response to appear...")
             page.wait_for_selector(answer_selector, state="visible", timeout=60000)
         except TimeoutError:
+            logger.error("AI did not respond within timeout window")
             print("❌ ERROR: AI never started generating.")
             page.screenshot(path="timeout_error.png")
             browser.close()
@@ -77,8 +107,10 @@ def ask_perplexity(url: str, prompt: str):
         
         # Poll up to ~120 seconds to allow long responses
         for _ in range(120):
+            
             page.wait_for_timeout(1000)
             current_text = page.locator(answer_selector).last.inner_text()
+            logger.debug(f"Response length: {len(current_text)} | Stable count: {stable_count}")
             
             if current_text and current_text == previous_text:
                 stable_count += 1
@@ -95,6 +127,7 @@ def ask_perplexity(url: str, prompt: str):
 
         # 6. BULLETPROOF EXTRACTION (Bypassing the Clipboard entirely)
         # Why? Because headless Linux (GitHub Actions) often lacks a clipboard.
+        logger.info("Attempting JSON extraction...")
         print("📦 Extracting JSON payload from DOM...")
         extracted_json_text = None
         
@@ -102,8 +135,10 @@ def ask_perplexity(url: str, prompt: str):
         code_blocks = page.locator("pre code")
         if code_blocks.count() > 0:
             print("✅ Found code block! Extracting text directly...")
+            logger.info(f"Code blocks found: {code_blocks.count()}")
             extracted_json_text = code_blocks.last.inner_text()
         else:
+            logger.warning("Falling back to regex extraction")
             print("⚠️ No UI code block found. AI might have messed up formatting. Attempting Regex Rescue...")
             # Method B: Regex extraction from raw text as a safety net
             full_text = page.locator(answer_selector).last.inner_text()
@@ -119,6 +154,7 @@ def ask_perplexity(url: str, prompt: str):
                     extracted_json_text = match.group(1)
 
         if not extracted_json_text:
+            logger.error("JSON extraction failed completely")
             print("❌ ERROR: Could not extract JSON from the AI response.")
             page.screenshot(path="extraction_failed.png")
             browser.close()
