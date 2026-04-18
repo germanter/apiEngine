@@ -1,82 +1,146 @@
 [
     {
-        "name": "Postman API",
-        "desc": "API for accessing Postman collections and environments",
-        "url": "https://docs.postman.com/collections/overview",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "SwaggerHub API",
-        "desc": "API access to SwaggerHub APIs and specs",
-        "url": "https://github.com/SwaggerHQ/swaggerhub-api/blob/master/README.md",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "GitHub REST API",
-        "desc": "Access repositories, issues, and workflows",
-        "url": "https://docs.github.com/en/rest",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "GitHub GraphQL API",
-        "desc": "Query GitHub data with GraphQL",
-        "url": "https://docs.github.com/en/graphql",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Twilio API",
-        "desc": "Programmable communications (SMS, voice, chat)",
-        "url": "https://www.twilio.com/docs/usage/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Stripe API",
-        "desc": "Payments processing and APIs",
-        "url": "https://stripe.com/docs/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "AWS SDKs and Services API",
-        "desc": "Access AWS services programmatically",
-        "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "OpenWeatherMap API",
-        "desc": "Weather data for apps and services",
-        "url": "https://openweathermap.org/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "IPinfo API",
-        "desc": "IP geolocation and network data",
-        "url": "https://ipinfo.io/developers",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Public APIs (public-apis.org listing)",
-        "desc": "Directory of public APIs with docs",
-        "url": "https://publicapis.org",
+        "name": "Data.gov CKAN API",
+        "desc": "Search U.S. government dataset metadata and resources.",
+        "url": "https://catalog.data.gov/api/3/",
         "cost": "free",
         "auth": false,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
+    },
+    {
+        "name": "World Bank API",
+        "desc": "Access global development indicators and country data.",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "NASA APIs",
+        "desc": "Provides space, astronomy, and Earth science data.",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "FRED API",
+        "desc": "Returns U.S. economic and financial time series data.",
+        "url": "https://fred.stlouisfed.org/docs/api/fred/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Open-Meteo API",
+        "desc": "Provides weather forecasts and historical weather data.",
+        "url": "https://open-meteo.com/en/docs",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Open Library API",
+        "desc": "Offers book, author, and edition metadata.",
+        "url": "https://openlibrary.org/developers/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "US Census Bureau API",
+        "desc": "Serves U.S. census and population statistics.",
+        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "BLS Public Data API",
+        "desc": "Provides U.S. labor and inflation statistics.",
+        "url": "https://www.bls.gov/developers/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "World Weather Online API",
+        "desc": "Delivers weather forecasts and historical conditions.",
+        "url": "https://www.worldweatheronline.com/developer/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "ExchangeRate-API",
+        "desc": "Provides currency exchange rates and conversion data.",
+        "url": "https://www.exchangerate-api.com/docs/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "CoinGecko API",
+        "desc": "Returns cryptocurrency prices, markets, and metadata.",
+        "url": "https://docs.coingecko.com/reference/introduction",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenAlex API",
+        "desc": "Provides scholarly works, authors, and institution data.",
+        "url": "https://docs.openalex.org/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Crossref REST API",
+        "desc": "Returns scholarly metadata for publications and citations.",
+        "url": "https://api.crossref.org/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "GBIF API",
+        "desc": "Accesses global biodiversity occurrence and taxonomy data.",
+        "url": "https://www.gbif.org/developer/summary",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "NASA Earthdata APIs",
+        "desc": "Provides Earth science and remote sensing datasets.",
+        "url": "https://www.earthdata.nasa.gov/esdis/earthdata-web-services",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenAQ API",
+        "desc": "Provides global air quality observations and measurements.",
+        "url": "https://docs.openaq.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "SEC EDGAR APIs",
+        "desc": "Provides company filings and public market disclosures.",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Ollama Registry API",
+        "desc": "Provides model registry data for local AI models.",
+        "url": "https://github.com/ollama/ollama/blob/main/docs/api.md",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     }
 ]

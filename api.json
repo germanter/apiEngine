@@ -2086,5 +2086,113 @@
         "auth": false,
         "category": "Developer Utilities",
         "status": "DEAD"
+    },
+    {
+        "name": "Data.gov CKAN API",
+        "desc": "Search U.S. government dataset metadata and resources.",
+        "url": "https://catalog.data.gov/api/3/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "DEAD"
+    },
+    {
+        "name": "NASA APIs",
+        "desc": "Provides space, astronomy, and Earth science data.",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "FRED API",
+        "desc": "Returns U.S. economic and financial time series data.",
+        "url": "https://fred.stlouisfed.org/docs/api/fred/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Open Library API",
+        "desc": "Offers book, author, and edition metadata.",
+        "url": "https://openlibrary.org/developers/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "BLS Public Data API",
+        "desc": "Provides U.S. labor and inflation statistics.",
+        "url": "https://www.bls.gov/developers/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "World Weather Online API",
+        "desc": "Delivers weather forecasts and historical conditions.",
+        "url": "https://www.worldweatheronline.com/developer/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Crossref REST API",
+        "desc": "Returns scholarly metadata for publications and citations.",
+        "url": "https://api.crossref.org/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "GBIF API",
+        "desc": "Accesses global biodiversity occurrence and taxonomy data.",
+        "url": "https://www.gbif.org/developer/summary",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NASA Earthdata APIs",
+        "desc": "Provides Earth science and remote sensing datasets.",
+        "url": "https://www.earthdata.nasa.gov/esdis/earthdata-web-services",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenAQ API",
+        "desc": "Provides global air quality observations and measurements.",
+        "url": "https://docs.openaq.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "SEC EDGAR APIs",
+        "desc": "Provides company filings and public market disclosures.",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Ollama Registry API",
+        "desc": "Provides model registry data for local AI models.",
+        "url": "https://github.com/ollama/ollama/blob/main/docs/api.md",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
     }
 ]
