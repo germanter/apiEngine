@@ -18,27 +18,28 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.14.3'
+          python-version: '3.14.3' 
 
       - name: Install Dependencies
         run: |
-          pip install httpx
-          pip install playwright
-          sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends \
-            libgbm1 libasound2t64 libnspr4 libnss3 libxss1 libxtst6
-          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 python -m playwright install chromium
+          pip install httpx playwright
+          python -m playwright install chromium
+          sudo python -m playwright install-deps chromium
 
       - name: Run Engine
-        run: python engine/runner.py > report.txt 2>&1 cat report.txt
+
+        run: python engine/runner.py 2>&1 | tee report.txt
 
       - name: Save Results as Artifact
+
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: liveness-report
           path: report.txt
 
       - name: Commit and Push Changes
+
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,6 +49,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in data files. Skipping push."
           else
-            git commit -m "Auto-update: api.json & apiCmp.json & incoming.json [skip ci]"
+            git commit -m "Auto-update: data files [skip ci]"
             git push
           fi
