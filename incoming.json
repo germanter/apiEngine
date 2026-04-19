@@ -1,8 +1,82 @@
-{
-    "name": "Developer Utilities",
-    "desc": "A curated list of active public APIs for developer tools and utilities",
-    "url": "https://docs.example.org/api-directory/developer-utilities",
-    "cost": "free",
-    "auth": true,
-    "category": "Developer Utilities"
-}
+[
+    {
+        "name": "OpenAI API",
+        "desc": "Docs for GPT-4/5 family APIs and endpoints",
+        "url": "https://platform.openai.com/docs/api-reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Google Cloud Vertex AI",
+        "desc": "ML APIs for text, vision, and structured data",
+        "url": "https://cloud.google.com/vertex-ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Microsoft Azure OpenAI Service",
+        "desc": "Access to OpenAI models via Azure integration",
+        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Anthropic Claude API",
+        "desc": "Claude models for chat and completion tasks",
+        "url": "https://console.anthropic.com/docs/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cohere",
+        "desc": "NLP APIs for text generation and classification",
+        "url": "https://docs.cohere.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Hugging Face Inference API",
+        "desc": "Access to thousands of models for inference",
+        "url": "https://huggingface.co/docs/api-inference/index",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "IBM Watson API",
+        "desc": "Language, vision, and speech services",
+        "url": "https://cloud.ibm.com/apidocs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Amazon Bedrock",
+        "desc": "Access to foundation models via AWS",
+        "url": "https://docs.aws.amazon.com/bedrock/latest/dg/what-is-bedrock.html",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "RenovAI (Open Source option example: HuggingFace Inference API open source path)",
+        "desc": "Open source model hosting and API access",
+        "url": "https://huggingface.co/docs/api-inference/index",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Firefly by Adobe (API access via Adobe)**",
+        "desc": "Image generation and editing APIs",
+        "url": "https://developer.adobe.com/firefly/docs/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    }
+]

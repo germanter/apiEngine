@@ -2166,7 +2166,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -2194,5 +2194,59 @@
         "auth": false,
         "category": "Data & Information",
         "status": "ALIVE"
+    },
+    {
+        "name": "Microsoft Azure OpenAI Service",
+        "desc": "Access to OpenAI models via Azure integration",
+        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Cohere",
+        "desc": "NLP APIs for text generation and classification",
+        "url": "https://docs.cohere.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "IBM Watson API",
+        "desc": "Language, vision, and speech services",
+        "url": "https://cloud.ibm.com/apidocs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Amazon Bedrock",
+        "desc": "Access to foundation models via AWS",
+        "url": "https://docs.aws.amazon.com/bedrock/latest/dg/what-is-bedrock.html",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "RenovAI (Open Source option example: HuggingFace Inference API open source path)",
+        "desc": "Open source model hosting and API access",
+        "url": "https://huggingface.co/docs/api-inference/index",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Firefly by Adobe (API access via Adobe)**",
+        "desc": "Image generation and editing APIs",
+        "url": "https://developer.adobe.com/firefly/docs/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
     }
 ]
