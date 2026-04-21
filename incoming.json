@@ -1,82 +1,78 @@
-[
-    {
-        "name": "OpenAI API",
-        "desc": "Docs for GPT-4/5 family APIs and endpoints",
-        "url": "https://platform.openai.com/docs/api-reference",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Google Cloud Vertex AI",
-        "desc": "ML APIs for text, vision, and structured data",
-        "url": "https://cloud.google.com/vertex-ai/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Microsoft Azure OpenAI Service",
-        "desc": "Access to OpenAI models via Azure integration",
-        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Anthropic Claude API",
-        "desc": "Claude models for chat and completion tasks",
-        "url": "https://console.anthropic.com/docs/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Cohere",
-        "desc": "NLP APIs for text generation and classification",
-        "url": "https://docs.cohere.com",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Hugging Face Inference API",
-        "desc": "Access to thousands of models for inference",
-        "url": "https://huggingface.co/docs/api-inference/index",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "IBM Watson API",
-        "desc": "Language, vision, and speech services",
-        "url": "https://cloud.ibm.com/apidocs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Amazon Bedrock",
-        "desc": "Access to foundation models via AWS",
-        "url": "https://docs.aws.amazon.com/bedrock/latest/dg/what-is-bedrock.html",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "RenovAI (Open Source option example: HuggingFace Inference API open source path)",
-        "desc": "Open source model hosting and API access",
-        "url": "https://huggingface.co/docs/api-inference/index",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Firefly by Adobe (API access via Adobe)**",
-        "desc": "Image generation and editing APIs",
-        "url": "https://developer.adobe.com/firefly/docs/api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    }
-]
+{
+    "name": "Developer Utilities",
+    "results": [
+        {
+            "name": "GitHub API",
+            "desc": "Access repositories, commits, issues and more",
+            "url": "https://docs.github.com/en/rest",
+            "cost": "free",
+            "auth": true,
+            "category": "Developer Utilities"
+        },
+        {
+            "name": "GitLab REST API",
+            "desc": "Manage projects, issues, pipelines programmatically",
+            "url": "https://docs.gitlab.com/api/",
+            "cost": "free",
+            "auth": true,
+            "category": "Developer Utilities"
+        },
+        {
+            "name": "Azure DevOps Services REST API",
+            "desc": "Automate boards, builds, releases, artifacts",
+            "url": "https://learn.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-7.1",
+            "cost": "free",
+            "auth": true,
+            "category": "Developer Utilities"
+        },
+        {
+            "name": "Jira Cloud Platform REST API",
+            "desc": "Create and manage issues, projects, users",
+            "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/",
+            "cost": "freemium",
+            "auth": true,
+            "category": "Developer Utilities"
+        },
+        {
+            "name": "Notion API",
+            "desc": "Read and write Notion pages and databases",
+            "url": "https://developers.notion.com/docs/overview",
+            "cost": "freemium",
+            "auth": true,
+            "category": "Developer Utilities"
+        },
+        {
+            "name": "OpenAPI Generator (OpenAPI Tooling)",
+            "desc": "Generate client/server docs from specs",
+            "url": "https://openapi-generator.tech/docs/usage",
+            "cost": "free",
+            "auth": false,
+            "category": "Developer Utilities"
+        },
+        {
+            "name": "SwaggerHub API",
+            "desc": "Host and manage OpenAPI specs and APIs",
+            "url": "https://swagger.io/docs/swaggerhub/",
+            "cost": "freemium",
+            "auth": true,
+            "category": "Developer Utilities"
+        },
+        {
+            "name": "Twilio API",
+            "desc": "Programmable communications (SMS, voice, etc.)",
+            "url": "https://www.twilio.com/docs/usage/api",
+            "cost": "freemium",
+            "auth": true,
+            "category": "Developer Utilities"
+        },
+        {
+            "name": "SendGrid Email API",
+            "desc": "Transactional email sending and analytics",
+            "url": "https://docs.sendgrid.com/",
+            "cost": "freemium",
+            "auth": true,
+            "category": "Developer Utilities"
+        }
+    ],
+    "note": "Recommended APIs are official or widely adopted developer tooling endpoints. If you need more entries (e.g., for different stacks or regions), I can expand the list further."
+}
