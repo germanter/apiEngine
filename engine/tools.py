@@ -53,7 +53,12 @@ Quality filter:
 - vague “platform” listings without clear API endpoints
 
 IMPORTANT= Please Do Not Ignore free open source APIs when you are searching, please add open source apis to the list if theres one, we do not have a limit that says you cant add anymore to the list and you have to ignore open source one, no , you can absolutely add open source apis if theres one.
-
+OUTPUT MUST BE IN THE TYPE STRUCTURE OF
+[
+ {{}},
+ {{}}....
+]
+No notes, no other words JUST THIS
 Return the main result to me as proper json in json mode
 """
     return prompt
