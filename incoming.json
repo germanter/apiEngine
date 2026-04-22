@@ -1,78 +1,82 @@
-{
-    "name": "Developer Utilities",
-    "results": [
-        {
-            "name": "GitHub API",
-            "desc": "Access repositories, commits, issues and more",
-            "url": "https://docs.github.com/en/rest",
-            "cost": "free",
-            "auth": true,
-            "category": "Developer Utilities"
-        },
-        {
-            "name": "GitLab REST API",
-            "desc": "Manage projects, issues, pipelines programmatically",
-            "url": "https://docs.gitlab.com/api/",
-            "cost": "free",
-            "auth": true,
-            "category": "Developer Utilities"
-        },
-        {
-            "name": "Azure DevOps Services REST API",
-            "desc": "Automate boards, builds, releases, artifacts",
-            "url": "https://learn.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-7.1",
-            "cost": "free",
-            "auth": true,
-            "category": "Developer Utilities"
-        },
-        {
-            "name": "Jira Cloud Platform REST API",
-            "desc": "Create and manage issues, projects, users",
-            "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/",
-            "cost": "freemium",
-            "auth": true,
-            "category": "Developer Utilities"
-        },
-        {
-            "name": "Notion API",
-            "desc": "Read and write Notion pages and databases",
-            "url": "https://developers.notion.com/docs/overview",
-            "cost": "freemium",
-            "auth": true,
-            "category": "Developer Utilities"
-        },
-        {
-            "name": "OpenAPI Generator (OpenAPI Tooling)",
-            "desc": "Generate client/server docs from specs",
-            "url": "https://openapi-generator.tech/docs/usage",
-            "cost": "free",
-            "auth": false,
-            "category": "Developer Utilities"
-        },
-        {
-            "name": "SwaggerHub API",
-            "desc": "Host and manage OpenAPI specs and APIs",
-            "url": "https://swagger.io/docs/swaggerhub/",
-            "cost": "freemium",
-            "auth": true,
-            "category": "Developer Utilities"
-        },
-        {
-            "name": "Twilio API",
-            "desc": "Programmable communications (SMS, voice, etc.)",
-            "url": "https://www.twilio.com/docs/usage/api",
-            "cost": "freemium",
-            "auth": true,
-            "category": "Developer Utilities"
-        },
-        {
-            "name": "SendGrid Email API",
-            "desc": "Transactional email sending and analytics",
-            "url": "https://docs.sendgrid.com/",
-            "cost": "freemium",
-            "auth": true,
-            "category": "Developer Utilities"
-        }
-    ],
-    "note": "Recommended APIs are official or widely adopted developer tooling endpoints. If you need more entries (e.g., for different stacks or regions), I can expand the list further."
-}
+[
+    {
+        "name": "Google Maps Platform",
+        "desc": "Official location, maps, and geocoding suite",
+        "url": "https://developers.google.com/maps/documentation",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenRouteService",
+        "desc": "Open-source routing and places search API",
+        "url": "https://openrouteservice.org/dev/#/api-docs/introduction",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geoapify",
+        "desc": "Geocoding, places, routing APIs",
+        "url": "https://www.geoapify.com/dev/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenFreeMap",
+        "desc": "Open-source map display API without keys",
+        "url": "https://github.com/hyperknot/openfreemap",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Directions API",
+        "desc": "Directions and routing with map visuals",
+        "url": "https://docs.mapbox.com/api/navigation/directions/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "MapLibre (GL JS) Geocoding/Maps API",
+        "desc": "Open-source map rendering and geocoding stack",
+        "url": "https://docs.maplibre.org/maplibre-gl-js/api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Here Maps API",
+        "desc": "Location services including maps, geocoding, routing",
+        "url": "https://developer.here.com/documentation",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "TomTom Maps SDK",
+        "desc": "Maps, routing, search and traffic APIs",
+        "url": "https://developer.tomtom.com",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Bing Maps API",
+        "desc": "Maps, geocoding, and imagery services",
+        "url": "https://learn.microsoft.com/en-us/bingmaps/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "GeocodeEarth",
+        "desc": "Geocoding API with OpenStreetMap data",
+        "url": "https://geocode.earth/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    }
+]

@@ -2248,5 +2248,86 @@
         "auth": true,
         "category": "AI",
         "status": "DEAD"
+    },
+    {
+        "name": "Google Maps Platform",
+        "desc": "Official location, maps, and geocoding suite",
+        "url": "https://developers.google.com/maps/documentation",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenRouteService",
+        "desc": "Open-source routing and places search API",
+        "url": "https://openrouteservice.org/dev/#/api-docs/introduction",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Geoapify",
+        "desc": "Geocoding, places, routing APIs",
+        "url": "https://www.geoapify.com/dev/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "DEAD"
+    },
+    {
+        "name": "OpenFreeMap",
+        "desc": "Open-source map display API without keys",
+        "url": "https://github.com/hyperknot/openfreemap",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MapLibre (GL JS) Geocoding/Maps API",
+        "desc": "Open-source map rendering and geocoding stack",
+        "url": "https://docs.maplibre.org/maplibre-gl-js/api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "DEAD"
+    },
+    {
+        "name": "Here Maps API",
+        "desc": "Location services including maps, geocoding, routing",
+        "url": "https://developer.here.com/documentation",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "TomTom Maps SDK",
+        "desc": "Maps, routing, search and traffic APIs",
+        "url": "https://developer.tomtom.com",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bing Maps API",
+        "desc": "Maps, geocoding, and imagery services",
+        "url": "https://learn.microsoft.com/en-us/bingmaps/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "GeocodeEarth",
+        "desc": "Geocoding API with OpenStreetMap data",
+        "url": "https://geocode.earth/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
     }
 ]
