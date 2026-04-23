@@ -1,82 +1,122 @@
 [
     {
-        "name": "Google Maps Platform",
-        "desc": "Official location, maps, and geocoding suite",
-        "url": "https://developers.google.com/maps/documentation",
+        "name": "SecurityTrails",
+        "desc": "Domain, DNS, and WHOIS intelligence API.",
+        "url": "https://securitytrails.com/corp/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "BinaryEdge",
+        "desc": "Internet asset scanning and exposure data API.",
+        "url": "https://docs.binaryedge.io/",
         "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "OpenRouteService",
-        "desc": "Open-source routing and places search API",
-        "url": "https://openrouteservice.org/dev/#/api-docs/introduction",
+        "name": "LeakCheck",
+        "desc": "Credential and breach lookup API.",
+        "url": "https://leakcheck.io/api-docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "Geoapify",
-        "desc": "Geocoding, places, routing APIs",
-        "url": "https://www.geoapify.com/dev/docs",
+        "name": "Have I Been Pwned",
+        "desc": "Breach and password exposure lookup API.",
+        "url": "https://haveibeenpwned.com/API/v3",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "VirusTotal",
+        "desc": "Malware, URL, file, and domain reputation API.",
+        "url": "https://docs.virustotal.com/reference/overview",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "OpenFreeMap",
-        "desc": "Open-source map display API without keys",
-        "url": "https://github.com/hyperknot/openfreemap",
+        "name": "Google Safe Browsing",
+        "desc": "Checks URLs against phishing and malware lists.",
+        "url": "https://developers.google.com/safe-browsing",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "AbuseIPDB",
+        "desc": "IP reputation and abuse reporting API.",
+        "url": "https://docs.abuseipdb.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Shodan",
+        "desc": "Internet-connected device search and exposure API.",
+        "url": "https://developer.shodan.io/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Censys",
+        "desc": "Internet exposure and certificate intelligence API.",
+        "url": "https://search.censys.io/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "GreyNoise",
+        "desc": "Internet noise and IP threat intelligence API.",
+        "url": "https://docs.greynoise.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "AlienVault OTX",
+        "desc": "Threat intelligence indicators and pulses API.",
+        "url": "https://otx.alienvault.com/api",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "OpenPhish",
+        "desc": "Phishing feed and URL intelligence API.",
+        "url": "https://openphish.com/feed.html",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "URLhaus",
+        "desc": "Malware URL feed and API.",
+        "url": "https://urlhaus.abuse.ch/api/",
         "cost": "free",
         "auth": false,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "Mapbox Directions API",
-        "desc": "Directions and routing with map visuals",
-        "url": "https://docs.mapbox.com/api/navigation/directions/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "MapLibre (GL JS) Geocoding/Maps API",
-        "desc": "Open-source map rendering and geocoding stack",
-        "url": "https://docs.maplibre.org/maplibre-gl-js/api/",
+        "name": "PhishTank",
+        "desc": "Community phishing URL verification API.",
+        "url": "https://www.phishtank.com/api_info.php",
         "cost": "free",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "Here Maps API",
-        "desc": "Location services including maps, geocoding, routing",
-        "url": "https://developer.here.com/documentation",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "TomTom Maps SDK",
-        "desc": "Maps, routing, search and traffic APIs",
-        "url": "https://developer.tomtom.com",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Bing Maps API",
-        "desc": "Maps, geocoding, and imagery services",
-        "url": "https://learn.microsoft.com/en-us/bingmaps/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "GeocodeEarth",
-        "desc": "Geocoding API with OpenStreetMap data",
-        "url": "https://geocode.earth/docs",
+        "name": "SecuryAPI",
+        "desc": "SSL, HSTS, TLSA, and OCSP security checks.",
+        "url": "https://rapidapi.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     }
 ]
