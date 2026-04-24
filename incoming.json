@@ -1,122 +1,82 @@
 [
     {
-        "name": "SecurityTrails",
-        "desc": "Domain, DNS, and WHOIS intelligence API.",
-        "url": "https://securitytrails.com/corp/api",
+        "name": "NASA API",
+        "desc": "Space data, imagery, and missions information",
+        "url": "https://api.nasa.gov",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "BinaryEdge",
-        "desc": "Internet asset scanning and exposure data API.",
-        "url": "https://docs.binaryedge.io/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "LeakCheck",
-        "desc": "Credential and breach lookup API.",
-        "url": "https://leakcheck.io/api-docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Have I Been Pwned",
-        "desc": "Breach and password exposure lookup API.",
-        "url": "https://haveibeenpwned.com/API/v3",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "VirusTotal",
-        "desc": "Malware, URL, file, and domain reputation API.",
-        "url": "https://docs.virustotal.com/reference/overview",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Google Safe Browsing",
-        "desc": "Checks URLs against phishing and malware lists.",
-        "url": "https://developers.google.com/safe-browsing",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "AbuseIPDB",
-        "desc": "IP reputation and abuse reporting API.",
-        "url": "https://docs.abuseipdb.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Shodan",
-        "desc": "Internet-connected device search and exposure API.",
-        "url": "https://developer.shodan.io/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Censys",
-        "desc": "Internet exposure and certificate intelligence API.",
-        "url": "https://search.censys.io/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "GreyNoise",
-        "desc": "Internet noise and IP threat intelligence API.",
-        "url": "https://docs.greynoise.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "AlienVault OTX",
-        "desc": "Threat intelligence indicators and pulses API.",
-        "url": "https://otx.alienvault.com/api",
+        "name": "World Bank API",
+        "desc": "Global development indicators and datasets",
+        "url": "https://data.worldbank.org/developers",
         "cost": "free",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "OpenPhish",
-        "desc": "Phishing feed and URL intelligence API.",
-        "url": "https://openphish.com/feed.html",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "URLhaus",
-        "desc": "Malware URL feed and API.",
-        "url": "https://urlhaus.abuse.ch/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "PhishTank",
-        "desc": "Community phishing URL verification API.",
-        "url": "https://www.phishtank.com/api_info.php",
+        "name": "OpenStreetMap API",
+        "desc": "Open map data and geolocation services",
+        "url": "https://developer.openstreetmap.org/",
         "cost": "free",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "SecuryAPI",
-        "desc": "SSL, HSTS, TLSA, and OCSP security checks.",
-        "url": "https://rapidapi.com/",
+        "name": "CovidActNow API",
+        "desc": "COVID-19 risk and projection data",
+        "url": "https://covid ActNow.readthedocs.io/en/latest/",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
+    },
+    {
+        "name": "Data.gov API",
+        "desc": "U.S. government open data catalog endpoints",
+        "url": "https://api.data.gov",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "UN Data API",
+        "desc": "United Nations global development statistics",
+        "url": "https://data.un.org/Explorer.aspx",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "World Bank Climate Data API",
+        "desc": "Climate-related indicators and datasets",
+        "url": "https://climatedata.worldbank.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Data.parliament.uk API",
+        "desc": "UK parliamentary data and datasets",
+        "url": "https://api.parliament.uk/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenWeatherMap API",
+        "desc": "Current weather and forecasts",
+        "url": "https://openweathermap.org/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Guardian API",
+        "desc": "News articles and metadata from The Guardian",
+        "url": "https://open-platform.theguardian.com/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
     }
 ]

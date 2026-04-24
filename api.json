@@ -1959,7 +1959,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenLibrary API",
@@ -2463,6 +2463,69 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenStreetMap API",
+        "desc": "Open map data and geolocation services",
+        "url": "https://developer.openstreetmap.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "DEAD"
+    },
+    {
+        "name": "CovidActNow API",
+        "desc": "COVID-19 risk and projection data",
+        "url": "https://covid ActNow.readthedocs.io/en/latest/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "DEAD"
+    },
+    {
+        "name": "Data.gov API",
+        "desc": "U.S. government open data catalog endpoints",
+        "url": "https://api.data.gov",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "UN Data API",
+        "desc": "United Nations global development statistics",
+        "url": "https://data.un.org/Explorer.aspx",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "World Bank Climate Data API",
+        "desc": "Climate-related indicators and datasets",
+        "url": "https://climatedata.worldbank.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Data.parliament.uk API",
+        "desc": "UK parliamentary data and datasets",
+        "url": "https://api.parliament.uk/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "DEAD"
+    },
+    {
+        "name": "Guardian API",
+        "desc": "News articles and metadata from The Guardian",
+        "url": "https://open-platform.theguardian.com/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
         "status": "ALIVE"
     }
 ]
