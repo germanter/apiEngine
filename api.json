@@ -1014,7 +1014,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Yelp Fusion API",
@@ -2166,7 +2166,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -2526,6 +2526,60 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "HERE REST APIs",
+        "desc": "Maps, geocoding, routing, places APIs",
+        "url": "https://developer.here.com/documentation/rest-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Geoapify Location Platform",
+        "desc": "Geocoding, reverse geocoding, routing",
+        "url": "https://www.geoapify.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "DEAD"
+    },
+    {
+        "name": "OpenCage Geocoder",
+        "desc": "Forward and reverse geocoding service",
+        "url": "https://opencagedata.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Nominatim (OpenStreetMap)",
+        "desc": "Open-source geocoding using OSM data",
+        "url": "https://nominatim.org/release-docs/latest/api/Search/",
+        "cost": "free",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MapLibre GL JS (Open Source Maps Rendering)",
+        "desc": "Open-source map rendering library (not an API but essential for maps apps)",
+        "url": "https://docs.maplibre.org/maplibre-gl-js/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "DEAD"
+    },
+    {
+        "name": "OpenFreeMap (Open Source)",
+        "desc": "Self-hostable open map platform using OSM",
+        "url": "https://github.com/hyperknot/openfreemap",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
         "status": "ALIVE"
     }
 ]

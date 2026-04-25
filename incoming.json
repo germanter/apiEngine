@@ -1,82 +1,74 @@
 [
     {
-        "name": "NASA API",
-        "desc": "Space data, imagery, and missions information",
-        "url": "https://api.nasa.gov",
+        "name": "Google Maps Platform",
+        "desc": "Geocoding, maps, routes, places APIs",
+        "url": "https://cloud.google.com/maps-platform/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "HERE REST APIs",
+        "desc": "Maps, geocoding, routing, places APIs",
+        "url": "https://developer.here.com/documentation/rest-api",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Location & Maps"
     },
     {
-        "name": "World Bank API",
-        "desc": "Global development indicators and datasets",
-        "url": "https://data.worldbank.org/developers",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenStreetMap API",
-        "desc": "Open map data and geolocation services",
-        "url": "https://developer.openstreetmap.org/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "CovidActNow API",
-        "desc": "COVID-19 risk and projection data",
-        "url": "https://covid ActNow.readthedocs.io/en/latest/",
+        "name": "OpenRouteService",
+        "desc": "Open-source routing and geocoding API",
+        "url": "https://openrouteservice.org/dev/#/api-docs/introduction",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Location & Maps"
     },
     {
-        "name": "Data.gov API",
-        "desc": "U.S. government open data catalog endpoints",
-        "url": "https://api.data.gov",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "UN Data API",
-        "desc": "United Nations global development statistics",
-        "url": "https://data.un.org/Explorer.aspx",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "World Bank Climate Data API",
-        "desc": "Climate-related indicators and datasets",
-        "url": "https://climatedata.worldbank.org/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Data.parliament.uk API",
-        "desc": "UK parliamentary data and datasets",
-        "url": "https://api.parliament.uk/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenWeatherMap API",
-        "desc": "Current weather and forecasts",
-        "url": "https://openweathermap.org/api",
+        "name": "Mapbox Directions API",
+        "desc": "Routing, isochrones, geocoding, maps",
+        "url": "https://docs.mapbox.com/api/maps/",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Location & Maps"
     },
     {
-        "name": "Guardian API",
-        "desc": "News articles and metadata from The Guardian",
-        "url": "https://open-platform.theguardian.com/documentation/",
+        "name": "Geoapify Location Platform",
+        "desc": "Geocoding, reverse geocoding, routing",
+        "url": "https://www.geoapify.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenCage Geocoder",
+        "desc": "Forward and reverse geocoding service",
+        "url": "https://opencagedata.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Nominatim (OpenStreetMap)",
+        "desc": "Open-source geocoding using OSM data",
+        "url": "https://nominatim.org/release-docs/latest/api/Search/",
+        "cost": "free",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "MapLibre GL JS (Open Source Maps Rendering)",
+        "desc": "Open-source map rendering library (not an API but essential for maps apps)",
+        "url": "https://docs.maplibre.org/maplibre-gl-js/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenFreeMap (Open Source)",
+        "desc": "Self-hostable open map platform using OSM",
+        "url": "https://github.com/hyperknot/openfreemap",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
     }
 ]
