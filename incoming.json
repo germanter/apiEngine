@@ -1,74 +1,122 @@
 [
     {
-        "name": "Google Maps Platform",
-        "desc": "Geocoding, maps, routes, places APIs",
-        "url": "https://cloud.google.com/maps-platform/docs",
+        "name": "OpenAI API",
+        "desc": "Text, image, audio, and embedding generation",
+        "url": "https://platform.openai.com/docs",
         "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "AI"
     },
     {
-        "name": "HERE REST APIs",
-        "desc": "Maps, geocoding, routing, places APIs",
-        "url": "https://developer.here.com/documentation/rest-api",
+        "name": "Anthropic API",
+        "desc": "Text generation and tool use",
+        "url": "https://docs.anthropic.com/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Google Gemini API",
+        "desc": "Multimodal text and image generation",
+        "url": "https://ai.google.dev/gemini-api/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "AI"
     },
     {
-        "name": "OpenRouteService",
-        "desc": "Open-source routing and geocoding API",
-        "url": "https://openrouteservice.org/dev/#/api-docs/introduction",
+        "name": "Mistral AI API",
+        "desc": "Text generation, embeddings, and OCR",
+        "url": "https://docs.mistral.ai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cohere API",
+        "desc": "Text generation, embeddings, and reranking",
+        "url": "https://docs.cohere.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "AI"
     },
     {
-        "name": "Mapbox Directions API",
-        "desc": "Routing, isochrones, geocoding, maps",
-        "url": "https://docs.mapbox.com/api/maps/",
+        "name": "DeepSeek API",
+        "desc": "Text generation and reasoning models",
+        "url": "https://platform.deepseek.com/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "xAI API",
+        "desc": "Text generation with Grok models",
+        "url": "https://docs.x.ai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Hugging Face Inference API",
+        "desc": "Hosted model inference for many open models",
+        "url": "https://huggingface.co/docs/api-inference/index",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "AI"
     },
     {
-        "name": "Geoapify Location Platform",
-        "desc": "Geocoding, reverse geocoding, routing",
-        "url": "https://www.geoapify.com/docs",
+        "name": "Replicate API",
+        "desc": "Runs open-source AI models via API",
+        "url": "https://replicate.com/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "OpenRouter API",
+        "desc": "Unified access to multiple AI model providers",
+        "url": "https://openrouter.ai/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "AI"
     },
     {
-        "name": "OpenCage Geocoder",
-        "desc": "Forward and reverse geocoding service",
-        "url": "https://opencagedata.com/api",
+        "name": "Groq API",
+        "desc": "Low-latency text generation with open models",
+        "url": "https://console.groq.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "AI"
     },
     {
-        "name": "Nominatim (OpenStreetMap)",
-        "desc": "Open-source geocoding using OSM data",
-        "url": "https://nominatim.org/release-docs/latest/api/Search/",
-        "cost": "free",
+        "name": "Together AI API",
+        "desc": "Inference for open-source models",
+        "url": "https://docs.together.ai/",
+        "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "AI"
     },
     {
-        "name": "MapLibre GL JS (Open Source Maps Rendering)",
-        "desc": "Open-source map rendering library (not an API but essential for maps apps)",
-        "url": "https://docs.maplibre.org/maplibre-gl-js/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps"
+        "name": "Fireworks AI API",
+        "desc": "Inference and fine-tuning for open models",
+        "url": "https://docs.fireworks.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
     },
     {
-        "name": "OpenFreeMap (Open Source)",
-        "desc": "Self-hostable open map platform using OSM",
-        "url": "https://github.com/hyperknot/openfreemap",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps"
+        "name": "AWS Bedrock API",
+        "desc": "Managed access to foundation models",
+        "url": "https://docs.aws.amazon.com/bedrock/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Azure AI Foundry API",
+        "desc": "Azure-hosted model and AI service access",
+        "url": "https://learn.microsoft.com/azure/ai-foundry/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
     }
 ]

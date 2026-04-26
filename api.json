@@ -2166,7 +2166,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenAQ API",
@@ -2580,6 +2580,60 @@
         "cost": "free",
         "auth": false,
         "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Anthropic API",
+        "desc": "Text generation and tool use",
+        "url": "https://docs.anthropic.com/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "xAI API",
+        "desc": "Text generation with Grok models",
+        "url": "https://docs.x.ai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Together AI API",
+        "desc": "Inference for open-source models",
+        "url": "https://docs.together.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Fireworks AI API",
+        "desc": "Inference and fine-tuning for open models",
+        "url": "https://docs.fireworks.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "AWS Bedrock API",
+        "desc": "Managed access to foundation models",
+        "url": "https://docs.aws.amazon.com/bedrock/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Azure AI Foundry API",
+        "desc": "Azure-hosted model and AI service access",
+        "url": "https://learn.microsoft.com/azure/ai-foundry/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
         "status": "ALIVE"
     }
 ]
