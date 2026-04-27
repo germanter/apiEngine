@@ -2635,5 +2635,50 @@
         "auth": true,
         "category": "AI",
         "status": "ALIVE"
+    },
+    {
+        "name": "CVE API",
+        "desc": "Provides CVE vulnerability data in JSON.",
+        "url": "https://cve.circl.lu/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CVE",
+        "desc": "Official NVD vulnerability data API.",
+        "url": "https://nvd.nist.gov/developers/vulnerabilities",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenCTI",
+        "desc": "Threat intelligence platform with API access.",
+        "url": "https://docs.opencti.io/latest/deployment/api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "TheHive",
+        "desc": "Incident response platform with API endpoints.",
+        "url": "https://docs.thehive-project.org/thehive/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MISP",
+        "desc": "Threat intelligence sharing and detection platform.",
+        "url": "https://www.misp-project.org/documentation/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
     }
 ]
