@@ -1,122 +1,82 @@
 [
     {
-        "name": "CVE API",
-        "desc": "Provides CVE vulnerability data in JSON.",
-        "url": "https://cve.circl.lu/api/",
+        "name": "Google Maps Geocoding API",
+        "desc": "Converts addresses to coordinates and reverse.",
+        "url": "https://developers.google.com/maps/documentation/geocoding/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Google Places API",
+        "desc": "Searches places, autocomplete, details retrieval.",
+        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Geocoding API",
+        "desc": "Forward and reverse geocoding with global coverage.",
+        "url": "https://docs.mapbox.com/api/search/geocoding/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Directions API",
+        "desc": "Calculates routes and directions between locations.",
+        "url": "https://docs.mapbox.com/api/navigation/directions/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenStreetMap Nominatim",
+        "desc": "Free open source search and geocoding service.",
+        "url": "https://nominatim.org/release-docs/latest/api/Search/",
         "cost": "free",
         "auth": false,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "CVE",
-        "desc": "Official NVD vulnerability data API.",
-        "url": "https://nvd.nist.gov/developers/vulnerabilities",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Google Safe Browsing",
-        "desc": "Checks URLs against phishing and malware lists.",
-        "url": "https://developers.google.com/safe-browsing/reference",
+        "name": "HERE Geocoding and Search API",
+        "desc": "Address lookup and place search globally.",
+        "url": "https://developer.here.com/documentation/geocoding-search-api/dev_guide/topics/endpoint-geocode.html",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "VirusTotal",
-        "desc": "Scans files, URLs, and hashes for threats.",
-        "url": "https://docs.virustotal.com/reference/overview",
+        "name": "Geoapify Geocoding API",
+        "desc": "OSM-based geocoding and place search.",
+        "url": "https://www.geoapify.com/geocoding-api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "AbuseIPDB",
-        "desc": "Checks IP addresses for abuse reports.",
-        "url": "https://docs.abuseipdb.com/",
+        "name": "TomTom Search API",
+        "desc": "Fuzzy search, geocoding, and POI lookup.",
+        "url": "https://developer.tomtom.com/search-apis/documentation/fuzzy-search/fuzzy-search",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "Shodan",
-        "desc": "Searches internet-connected devices and services.",
-        "url": "https://developer.shodan.io/",
+        "name": "OpenCage Geocoding API",
+        "desc": "Forward/reverse geocoding using multiple sources.",
+        "url": "https://opencagedata.com/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "SecurityTrails",
-        "desc": "Provides DNS, WHOIS, and passive DNS data.",
-        "url": "https://docs.securitytrails.com/",
+        "name": "LocationIQ API",
+        "desc": "OpenStreetMap powered geocoding and maps.",
+        "url": "https://locationiq.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Have I Been Pwned",
-        "desc": "Checks accounts and passwords against breaches.",
-        "url": "https://haveibeenpwned.com/API/v3",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "AlienVault OTX",
-        "desc": "Shares threat intelligence pulses and indicators.",
-        "url": "https://otx.alienvault.com/api",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "GreyNoise",
-        "desc": "Classifies internet IPs seen scanning activity.",
-        "url": "https://docs.greynoise.io/reference/get_v1-ip",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "OpenCTI",
-        "desc": "Threat intelligence platform with API access.",
-        "url": "https://docs.opencti.io/latest/deployment/api/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "TheHive",
-        "desc": "Incident response platform with API endpoints.",
-        "url": "https://docs.thehive-project.org/thehive/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "MISP",
-        "desc": "Threat intelligence sharing and detection platform.",
-        "url": "https://www.misp-project.org/documentation/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Censys",
-        "desc": "Searches internet assets and certificates.",
-        "url": "https://censys.com/apis",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "BinaryEdge",
-        "desc": "Provides internet exposure and asset scan data.",
-        "url": "https://docs.binaryedge.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     }
 ]

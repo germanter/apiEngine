@@ -1491,7 +1491,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "SecurityTrails API",
@@ -2679,6 +2679,33 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenStreetMap Nominatim",
+        "desc": "Free open source search and geocoding service.",
+        "url": "https://nominatim.org/release-docs/latest/api/Search/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "HERE Geocoding and Search API",
+        "desc": "Address lookup and place search globally.",
+        "url": "https://developer.here.com/documentation/geocoding-search-api/dev_guide/topics/endpoint-geocode.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "LocationIQ API",
+        "desc": "OpenStreetMap powered geocoding and maps.",
+        "url": "https://locationiq.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
         "status": "ALIVE"
     }
 ]
