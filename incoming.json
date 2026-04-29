@@ -1,82 +1,122 @@
 [
     {
-        "name": "Google Maps Geocoding API",
-        "desc": "Converts addresses to coordinates and reverse.",
-        "url": "https://developers.google.com/maps/documentation/geocoding/overview",
-        "cost": "freemium",
+        "name": "API.data.gov",
+        "desc": "Federal government API gateway for public data",
+        "url": "https://api.data.gov",
+        "cost": "free",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Data & Information"
     },
     {
-        "name": "Google Places API",
-        "desc": "Searches places, autocomplete, details retrieval.",
-        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
+        "name": "REST Countries",
+        "desc": "Country, flag, currency, capital, and language data",
+        "url": "https://restcountries.com",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "Mapbox Geocoding API",
-        "desc": "Forward and reverse geocoding with global coverage.",
-        "url": "https://docs.mapbox.com/api/search/geocoding/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
+        "name": "Open Library",
+        "desc": "Book metadata, editions, and cover information",
+        "url": "https://openlibrary.org/developers/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "Mapbox Directions API",
-        "desc": "Calculates routes and directions between locations.",
-        "url": "https://docs.mapbox.com/api/navigation/directions/",
-        "cost": "freemium",
+        "name": "Wikipedia API",
+        "desc": "Query encyclopedia articles and page summaries",
+        "url": "https://www.mediawiki.org/wiki/API:Main_page",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Wikidata API",
+        "desc": "Structured knowledge graph items and statements",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "US Census API",
+        "desc": "U.S. census, demographic, and survey datasets",
+        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "cost": "free",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Data & Information"
+    },
+    {
+        "name": "World Bank API",
+        "desc": "Global development and economic indicators",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "UN Data API",
+        "desc": "United Nations statistics and indicator data",
+        "url": "https://unstats.un.org/UNSDWebsite/development/UNDataApi/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
         "name": "OpenStreetMap Nominatim",
-        "desc": "Free open source search and geocoding service.",
-        "url": "https://nominatim.org/release-docs/latest/api/Search/",
+        "desc": "Geocoding and place lookup from map data",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
         "cost": "free",
         "auth": false,
-        "category": "Location & Maps"
+        "category": "Data & Information"
     },
     {
-        "name": "HERE Geocoding and Search API",
-        "desc": "Address lookup and place search globally.",
-        "url": "https://developer.here.com/documentation/geocoding-search-api/dev_guide/topics/endpoint-geocode.html",
+        "name": "GeoNames",
+        "desc": "Geographic names, locations, and population data",
+        "url": "https://www.geonames.org/export/web-services.html",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Data & Information"
     },
     {
-        "name": "Geoapify Geocoding API",
-        "desc": "OSM-based geocoding and place search.",
-        "url": "https://www.geoapify.com/geocoding-api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
+        "name": "Open-Meteo",
+        "desc": "Weather forecasts and historical meteorological data",
+        "url": "https://open-meteo.com/en/docs",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "TomTom Search API",
-        "desc": "Fuzzy search, geocoding, and POI lookup.",
-        "url": "https://developer.tomtom.com/search-apis/documentation/fuzzy-search/fuzzy-search",
+        "name": "OpenCorporates API",
+        "desc": "Company registry and corporate entity data",
+        "url": "https://api.opencorporates.com/documentation/API-Reference",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Data & Information"
     },
     {
-        "name": "OpenCage Geocoding API",
-        "desc": "Forward/reverse geocoding using multiple sources.",
-        "url": "https://opencagedata.com/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
+        "name": "GDELT API",
+        "desc": "Global news events and media monitoring data",
+        "url": "https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "LocationIQ API",
-        "desc": "OpenStreetMap powered geocoding and maps.",
-        "url": "https://locationiq.com/docs",
+        "name": "DBpedia Spotlight",
+        "desc": "Entity linking from Wikipedia-derived knowledge",
+        "url": "https://www.dbpedia-spotlight.org/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Google Books API",
+        "desc": "Book search, metadata, and volume details",
+        "url": "https://developers.google.com/books/docs/v1/getting_started",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Data & Information"
     }
 ]

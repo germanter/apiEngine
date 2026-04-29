@@ -1491,7 +1491,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "SecurityTrails API",
@@ -2706,6 +2706,96 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "API.data.gov",
+        "desc": "Federal government API gateway for public data",
+        "url": "https://api.data.gov",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Open Library",
+        "desc": "Book metadata, editions, and cover information",
+        "url": "https://openlibrary.org/developers/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Wikipedia API",
+        "desc": "Query encyclopedia articles and page summaries",
+        "url": "https://www.mediawiki.org/wiki/API:Main_page",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Wikidata API",
+        "desc": "Structured knowledge graph items and statements",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "US Census API",
+        "desc": "U.S. census, demographic, and survey datasets",
+        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "GeoNames",
+        "desc": "Geographic names, locations, and population data",
+        "url": "https://www.geonames.org/export/web-services.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Open-Meteo",
+        "desc": "Weather forecasts and historical meteorological data",
+        "url": "https://open-meteo.com/en/docs",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "GDELT API",
+        "desc": "Global news events and media monitoring data",
+        "url": "https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "DBpedia Spotlight",
+        "desc": "Entity linking from Wikipedia-derived knowledge",
+        "url": "https://www.dbpedia-spotlight.org/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Books API",
+        "desc": "Book search, metadata, and volume details",
+        "url": "https://developers.google.com/books/docs/v1/getting_started",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
         "status": "ALIVE"
     }
 ]
