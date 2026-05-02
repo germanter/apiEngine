@@ -1,106 +1,82 @@
 [
     {
-        "name": "ScraperAPI",
-        "desc": "Web scraping API with proxy and CAPTCHA handling",
-        "url": "https://docs.scraperapi.com/",
+        "name": "GitHub REST API",
+        "desc": "Repository, user, and issue data access.",
+        "url": "https://docs.github.com/en/rest",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "ScrapingBee",
-        "desc": "Web scraping API with browser rendering and proxies",
-        "url": "https://www.scrapingbee.com/documentation/",
+        "name": "GitHub GraphQL API",
+        "desc": "Graph queries for GitHub repository data.",
+        "url": "https://docs.github.com/en/graphql",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Scrapfly",
-        "desc": "Web scraping API with crawler and extraction features",
-        "url": "https://scrapfly.io/docs/extraction-api/getting-started",
+        "name": "GitLab REST API",
+        "desc": "Projects, issues, and CI data access.",
+        "url": "https://docs.gitlab.com/api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Firecrawl",
-        "desc": "Web scraping API for crawling and extracting pages",
-        "url": "https://docs.firecrawl.dev/",
+        "name": "Bitbucket Cloud API",
+        "desc": "Repositories, pull requests, and workspace data.",
+        "url": "https://developer.atlassian.com/cloud/bitbucket/rest/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Bright Data Web Scraper API",
-        "desc": "API for scraping structured data from websites",
-        "url": "https://docs.brightdata.com/scraping-automation/web-scraper-api",
-        "cost": "premium",
+        "name": "Docker Hub API",
+        "desc": "Image, tag, and repository metadata access.",
+        "url": "https://docs.docker.com/docker-hub/api/latest/",
+        "cost": "free",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Oxylabs Web Scraper API",
-        "desc": "API for extracting web data from supported sources",
-        "url": "https://developers.oxylabs.io/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ZenRows",
-        "desc": "Web scraping API for dynamic pages and anti-bot bypass",
-        "url": "https://docs.zenrows.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Crawlbase",
-        "desc": "Web scraping API for pages and crawls",
-        "url": "https://crawlbase.com/docs/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ScrapingDog",
-        "desc": "Web scraping API with source-specific endpoints",
-        "url": "https://www.scrapingdog.com/documentation/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Apify",
-        "desc": "Actor platform with APIs for web scraping jobs",
-        "url": "https://docs.apify.com/api/v2",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Diffbot",
-        "desc": "API for extracting structured data from web pages",
-        "url": "https://docs.diffbot.com/docs/api-overview",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Common Crawl",
-        "desc": "Open web crawl dataset and access API",
-        "url": "https://commoncrawl.org/the-data/get-started/",
+        "name": "npm Registry API",
+        "desc": "Package metadata and version information.",
+        "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
         "cost": "free",
         "auth": false,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Wayback Machine CDX API",
-        "desc": "Archived web capture lookup API",
-        "url": "https://archive.org/help/wayback_api.php",
+        "name": "PyPI JSON API",
+        "desc": "Python package metadata and release info.",
+        "url": "https://docs.pypi.org/api/json/",
         "cost": "free",
         "auth": false,
-        "category": "Scraping"
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Maven Central Search API",
+        "desc": "Java artifact search and metadata.",
+        "url": "https://central.sonatype.dev/search/rest",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Open VSX Registry API",
+        "desc": "VS Code extension metadata and search.",
+        "url": "https://open-vsx.org/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "SonarQube Web API",
+        "desc": "Code quality, issues, and metrics access.",
+        "url": "https://docs.sonarsource.com/sonarqube-server/latest/extension-guide/web-api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities"
     }
 ]

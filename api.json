@@ -2896,5 +2896,77 @@
         "auth": false,
         "category": "Scraping",
         "status": "ALIVE"
+    },
+    {
+        "name": "GitLab REST API",
+        "desc": "Projects, issues, and CI data access.",
+        "url": "https://docs.gitlab.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bitbucket Cloud API",
+        "desc": "Repositories, pull requests, and workspace data.",
+        "url": "https://developer.atlassian.com/cloud/bitbucket/rest/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Docker Hub API",
+        "desc": "Image, tag, and repository metadata access.",
+        "url": "https://docs.docker.com/docker-hub/api/latest/",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "npm Registry API",
+        "desc": "Package metadata and version information.",
+        "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "PyPI JSON API",
+        "desc": "Python package metadata and release info.",
+        "url": "https://docs.pypi.org/api/json/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Maven Central Search API",
+        "desc": "Java artifact search and metadata.",
+        "url": "https://central.sonatype.dev/search/rest",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "Open VSX Registry API",
+        "desc": "VS Code extension metadata and search.",
+        "url": "https://open-vsx.org/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "SonarQube Web API",
+        "desc": "Code quality, issues, and metrics access.",
+        "url": "https://docs.sonarsource.com/sonarqube-server/latest/extension-guide/web-api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
     }
 ]
