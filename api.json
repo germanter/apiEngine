@@ -2166,7 +2166,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -2968,5 +2968,59 @@
         "auth": true,
         "category": "Developer Utilities",
         "status": "ALIVE"
+    },
+    {
+        "name": "Google Cloud AI Platform / Vertex AI",
+        "desc": "Managed ML APIs for training and inference",
+        "url": "https://cloud.google.com/vertex-ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "AWS AI Services (Bedrock/Comprehend/Replicate via AWS)",
+        "desc": "Cloud AI services including language and vision tasks",
+        "url": "https://aws.amazon.com/machine-learning/ai-services/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "IBM Watsonx",
+        "desc": "NLP and AI APIs for enterprise workloads",
+        "url": "https://www.ibm.com/watsonx",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Clarifai",
+        "desc": "Vision and multi-model AI APIs",
+        "url": "https://docs.clarifai.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Replicate",
+        "desc": "Run machine learning models in the cloud",
+        "url": "https://replicate.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Twilio AI / Autopilot (text analysis and communication APIs)",
+        "desc": "Conversational AI and NLP features for messaging",
+        "url": "https://www.twilio.com/docs/voice-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
     }
 ]

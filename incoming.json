@@ -1,82 +1,82 @@
 [
     {
-        "name": "GitHub REST API",
-        "desc": "Repository, user, and issue data access.",
-        "url": "https://docs.github.com/en/rest",
+        "name": "OpenAI API",
+        "desc": "Generative AI for text and code tasks",
+        "url": "https://platform.openai.com/docs/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "AI"
     },
     {
-        "name": "GitHub GraphQL API",
-        "desc": "Graph queries for GitHub repository data.",
-        "url": "https://docs.github.com/en/graphql",
+        "name": "Google Cloud AI Platform / Vertex AI",
+        "desc": "Managed ML APIs for training and inference",
+        "url": "https://cloud.google.com/vertex-ai/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "AI"
     },
     {
-        "name": "GitLab REST API",
-        "desc": "Projects, issues, and CI data access.",
-        "url": "https://docs.gitlab.com/api/",
+        "name": "AWS AI Services (Bedrock/Comprehend/Replicate via AWS)",
+        "desc": "Cloud AI services including language and vision tasks",
+        "url": "https://aws.amazon.com/machine-learning/ai-services/",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "AI"
     },
     {
-        "name": "Bitbucket Cloud API",
-        "desc": "Repositories, pull requests, and workspace data.",
-        "url": "https://developer.atlassian.com/cloud/bitbucket/rest/",
+        "name": "Microsoft Azure OpenAI Service",
+        "desc": "Azure-hosted OpenAI models with enterprise controls",
+        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "IBM Watsonx",
+        "desc": "NLP and AI APIs for enterprise workloads",
+        "url": "https://www.ibm.com/watsonx",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Clarifai",
+        "desc": "Vision and multi-model AI APIs",
+        "url": "https://docs.clarifai.com/api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "AI"
     },
     {
-        "name": "Docker Hub API",
-        "desc": "Image, tag, and repository metadata access.",
-        "url": "https://docs.docker.com/docker-hub/api/latest/",
-        "cost": "free",
+        "name": "Hugging Face Inference API",
+        "desc": "Hosted NLP/ML models for inference",
+        "url": "https://huggingface.co/docs/api-inference/index",
+        "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "AI"
     },
     {
-        "name": "npm Registry API",
-        "desc": "Package metadata and version information.",
-        "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "PyPI JSON API",
-        "desc": "Python package metadata and release info.",
-        "url": "https://docs.pypi.org/api/json/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Maven Central Search API",
-        "desc": "Java artifact search and metadata.",
-        "url": "https://central.sonatype.dev/search/rest",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Open VSX Registry API",
-        "desc": "VS Code extension metadata and search.",
-        "url": "https://open-vsx.org/api",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "SonarQube Web API",
-        "desc": "Code quality, issues, and metrics access.",
-        "url": "https://docs.sonarsource.com/sonarqube-server/latest/extension-guide/web-api/",
-        "cost": "free",
+        "name": "Replicate",
+        "desc": "Run machine learning models in the cloud",
+        "url": "https://replicate.com/docs",
+        "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "AI"
+    },
+    {
+        "name": "AssemblyAI",
+        "desc": "Speech-to-text and audio processing API",
+        "url": "https://docs.assemblyai.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Twilio AI / Autopilot (text analysis and communication APIs)",
+        "desc": "Conversational AI and NLP features for messaging",
+        "url": "https://www.twilio.com/docs/voice-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
     }
 ]
