@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "NewsAPI",
@@ -402,7 +402,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Communication & Identity",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "IPWhois API",
@@ -3022,5 +3022,50 @@
         "auth": true,
         "category": "AI",
         "status": "DEAD"
+    },
+    {
+        "name": "CVEAPI",
+        "desc": "Public CVE data feed and lookup",
+        "url": "https://cveapi.org/docs",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "CIRCL hashlookup",
+        "desc": "Hash-based file lookups for known malware",
+        "url": "https://www.circl.lu/services/hashlookup/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CIRCL Passive SSH",
+        "desc": "Passive SSH data for threat intel",
+        "url": "https://www.circl.lu/services/passive-ssh-api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "Shodan Open Versions API (limited)",
+        "desc": "Publicly accessible device search endpoints",
+        "url": "https://api.shodan.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "OWASP API Security Project",
+        "desc": "Guidance and checks for API security practices",
+        "url": "https://owasp.org/www-project-api-security/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
     }
 ]

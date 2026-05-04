@@ -1,82 +1,82 @@
 [
     {
-        "name": "OpenAI API",
-        "desc": "Generative AI for text and code tasks",
-        "url": "https://platform.openai.com/docs/api",
+        "name": "VirusTotal API",
+        "desc": "Scan files, URLs, and domains for malware",
+        "url": "https://www.virustotal.com/gui/docs/api",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "Google Cloud AI Platform / Vertex AI",
-        "desc": "Managed ML APIs for training and inference",
-        "url": "https://cloud.google.com/vertex-ai/docs",
+        "name": "Google Safe Browsing API",
+        "desc": "Check URLs against phishing/malware lists",
+        "url": "https://developers.google.com/safe-browsing/v4",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "AWS AI Services (Bedrock/Comprehend/Replicate via AWS)",
-        "desc": "Cloud AI services including language and vision tasks",
-        "url": "https://aws.amazon.com/machine-learning/ai-services/",
+        "name": "CIRCL CVE Search API",
+        "desc": "CVE data search and retrieval",
+        "url": "https://www.circl.lu/services/cve-search-api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CVEAPI",
+        "desc": "Public CVE data feed and lookup",
+        "url": "https://cveapi.org/docs",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CIRCL hashlookup",
+        "desc": "Hash-based file lookups for known malware",
+        "url": "https://www.circl.lu/services/hashlookup/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CIRCL Passive SSH",
+        "desc": "Passive SSH data for threat intel",
+        "url": "https://www.circl.lu/services/passive-ssh-api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Censys API",
+        "desc": "Asset discovery and internet-wide scanning",
+        "url": "https://search.censys.io/account/api",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "Microsoft Azure OpenAI Service",
-        "desc": "Azure-hosted OpenAI models with enterprise controls",
-        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/",
+        "name": "Shodan API",
+        "desc": "Internet-connected device search and data",
+        "url": "https://developer.shodan.io",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "IBM Watsonx",
-        "desc": "NLP and AI APIs for enterprise workloads",
-        "url": "https://www.ibm.com/watsonx",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Clarifai",
-        "desc": "Vision and multi-model AI APIs",
-        "url": "https://docs.clarifai.com/api/",
+        "name": "Shodan Open Versions API (limited)",
+        "desc": "Publicly accessible device search endpoints",
+        "url": "https://api.shodan.io/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "Hugging Face Inference API",
-        "desc": "Hosted NLP/ML models for inference",
-        "url": "https://huggingface.co/docs/api-inference/index",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Replicate",
-        "desc": "Run machine learning models in the cloud",
-        "url": "https://replicate.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "AssemblyAI",
-        "desc": "Speech-to-text and audio processing API",
-        "url": "https://docs.assemblyai.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Twilio AI / Autopilot (text analysis and communication APIs)",
-        "desc": "Conversational AI and NLP features for messaging",
-        "url": "https://www.twilio.com/docs/voice-api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
+        "name": "OWASP API Security Project",
+        "desc": "Guidance and checks for API security practices",
+        "url": "https://owasp.org/www-project-api-security/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
     }
 ]
