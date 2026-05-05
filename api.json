@@ -87,7 +87,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Cloud Text-to-Speech API",
@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "NewsAPI",
@@ -319,15 +319,6 @@
         "desc": "Search and retrieve news articles from multiple sources",
         "url": "https://gnews.io/docs",
         "cost": "freemium",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
-        "name": "The Guardian API",
-        "desc": "Access Guardian articles, tags, and publication data",
-        "url": "https://open-platform.theguardian.com/documentation/",
-        "cost": "free",
         "auth": true,
         "category": "Data & Information",
         "status": "ALIVE"
@@ -753,7 +744,7 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "JDoodle API",
@@ -918,15 +909,6 @@
         "status": "ALIVE"
     },
     {
-        "name": "LocationIQ Places API",
-        "desc": "Search nearby places and points of interest",
-        "url": "https://locationiq.com/docs#nearby-search",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps",
-        "status": "ALIVE"
-    },
-    {
         "name": "OpenCage Geocoding API",
         "desc": "Geocode addresses using multiple data sources",
         "url": "https://opencagedata.com/api",
@@ -968,15 +950,6 @@
         "url": "https://docs.graphhopper.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps",
-        "status": "ALIVE"
-    },
-    {
-        "name": "OSRM API",
-        "desc": "Open source routing engine HTTP API",
-        "url": "http://project-osrm.org/docs/v5.24.0/api/",
-        "cost": "free",
-        "auth": false,
         "category": "Location & Maps",
         "status": "ALIVE"
     },
@@ -1166,15 +1139,6 @@
         "url": "https://world.openfoodfacts.org/data",
         "cost": "free",
         "auth": false,
-        "category": "Health & Science",
-        "status": "ALIVE"
-    },
-    {
-        "name": "NASA Open APIs",
-        "desc": "Access NASA datasets including space imagery and data",
-        "url": "https://api.nasa.gov/",
-        "cost": "free",
-        "auth": true,
         "category": "Health & Science",
         "status": "ALIVE"
     },
@@ -1698,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -1827,15 +1791,6 @@
         "status": "ALIVE"
     },
     {
-        "name": "AWS Bedrock",
-        "desc": "Managed access to foundation models via API",
-        "url": "https://docs.aws.amazon.com/bedrock/",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
-    },
-    {
         "name": "OpenRouter API",
         "desc": "Unified access to multiple model providers",
         "url": "https://openrouter.ai/docs",
@@ -1869,7 +1824,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Bright Data (formerly Luminati) Web Unlocker API",
@@ -1935,15 +1890,6 @@
         "status": "DEAD"
     },
     {
-        "name": "OpenWeatherMap",
-        "desc": "Weather data and forecasts with multiple endpoints",
-        "url": "https://openweathermap.org/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
         "name": "NASA API",
         "desc": "Public space and astronomy data collections",
         "url": "https://api.nasa.gov/",
@@ -1971,15 +1917,6 @@
         "status": "ALIVE"
     },
     {
-        "name": "IP Geolocation API (IPInfo)",
-        "desc": "IP address geolocation and metadata",
-        "url": "https://ipinfo.io/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "DEAD"
-    },
-    {
         "name": "Guardian News API",
         "desc": "News content from The Guardian",
         "url": "https://open-platform.theguardian.com/documentation/",
@@ -1992,15 +1929,6 @@
         "name": "US Census Bureau API",
         "desc": "Official demographic and economic data",
         "url": "https://www.census.gov/data/developers/guidance/api-user-guide.html",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
-        "name": "Open Data API (data.gov)",
-        "desc": "US government open data catalog",
-        "url": "https://api.data.gov/",
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
@@ -2097,29 +2025,11 @@
         "status": "DEAD"
     },
     {
-        "name": "NASA APIs",
-        "desc": "Provides space, astronomy, and Earth science data.",
-        "url": "https://api.nasa.gov/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
         "name": "FRED API",
         "desc": "Returns U.S. economic and financial time series data.",
         "url": "https://fred.stlouisfed.org/docs/api/fred/",
         "cost": "free",
         "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
-        "name": "Open Library API",
-        "desc": "Offers book, author, and edition metadata.",
-        "url": "https://openlibrary.org/developers/api",
-        "cost": "free",
-        "auth": false,
         "category": "Data & Information",
         "status": "ALIVE"
     },
@@ -2166,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -2221,15 +2131,6 @@
         "auth": true,
         "category": "AI",
         "status": "ALIVE"
-    },
-    {
-        "name": "Amazon Bedrock",
-        "desc": "Access to foundation models via AWS",
-        "url": "https://docs.aws.amazon.com/bedrock/latest/dg/what-is-bedrock.html",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI",
-        "status": "DEAD"
     },
     {
         "name": "RenovAI (Open Source option example: HuggingFace Inference API open source path)",
@@ -2358,15 +2259,6 @@
         "status": "DEAD"
     },
     {
-        "name": "Have I Been Pwned",
-        "desc": "Breach and password exposure lookup API.",
-        "url": "https://haveibeenpwned.com/API/v3",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety",
-        "status": "ALIVE"
-    },
-    {
         "name": "VirusTotal",
         "desc": "Malware, URL, file, and domain reputation API.",
         "url": "https://docs.virustotal.com/reference/overview",
@@ -2385,46 +2277,10 @@
         "status": "ALIVE"
     },
     {
-        "name": "AbuseIPDB",
-        "desc": "IP reputation and abuse reporting API.",
-        "url": "https://docs.abuseipdb.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety",
-        "status": "ALIVE"
-    },
-    {
-        "name": "Shodan",
-        "desc": "Internet-connected device search and exposure API.",
-        "url": "https://developer.shodan.io/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety",
-        "status": "ALIVE"
-    },
-    {
-        "name": "Censys",
-        "desc": "Internet exposure and certificate intelligence API.",
-        "url": "https://search.censys.io/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety",
-        "status": "ALIVE"
-    },
-    {
         "name": "GreyNoise",
         "desc": "Internet noise and IP threat intelligence API.",
         "url": "https://docs.greynoise.io/",
         "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety",
-        "status": "ALIVE"
-    },
-    {
-        "name": "AlienVault OTX",
-        "desc": "Threat intelligence indicators and pulses API.",
-        "url": "https://otx.alienvault.com/api",
-        "cost": "free",
         "auth": true,
         "category": "Security & Safety",
         "status": "ALIVE"
@@ -2520,15 +2376,6 @@
         "status": "DEAD"
     },
     {
-        "name": "Guardian API",
-        "desc": "News articles and metadata from The Guardian",
-        "url": "https://open-platform.theguardian.com/documentation/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
         "name": "HERE REST APIs",
         "desc": "Maps, geocoding, routing, places APIs",
         "url": "https://developer.here.com/documentation/rest-api",
@@ -2545,42 +2392,6 @@
         "auth": true,
         "category": "Location & Maps",
         "status": "DEAD"
-    },
-    {
-        "name": "OpenCage Geocoder",
-        "desc": "Forward and reverse geocoding service",
-        "url": "https://opencagedata.com/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps",
-        "status": "ALIVE"
-    },
-    {
-        "name": "Nominatim (OpenStreetMap)",
-        "desc": "Open-source geocoding using OSM data",
-        "url": "https://nominatim.org/release-docs/latest/api/Search/",
-        "cost": "free",
-        "auth": true,
-        "category": "Location & Maps",
-        "status": "ALIVE"
-    },
-    {
-        "name": "MapLibre GL JS (Open Source Maps Rendering)",
-        "desc": "Open-source map rendering library (not an API but essential for maps apps)",
-        "url": "https://docs.maplibre.org/maplibre-gl-js/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps",
-        "status": "DEAD"
-    },
-    {
-        "name": "OpenFreeMap (Open Source)",
-        "desc": "Self-hostable open map platform using OSM",
-        "url": "https://github.com/hyperknot/openfreemap",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps",
-        "status": "ALIVE"
     },
     {
         "name": "Anthropic API",
@@ -2637,15 +2448,6 @@
         "status": "ALIVE"
     },
     {
-        "name": "CVE API",
-        "desc": "Provides CVE vulnerability data in JSON.",
-        "url": "https://cve.circl.lu/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety",
-        "status": "ALIVE"
-    },
-    {
         "name": "CVE",
         "desc": "Official NVD vulnerability data API.",
         "url": "https://nvd.nist.gov/developers/vulnerabilities",
@@ -2658,15 +2460,6 @@
         "name": "OpenCTI",
         "desc": "Threat intelligence platform with API access.",
         "url": "https://docs.opencti.io/latest/deployment/api/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety",
-        "status": "DEAD"
-    },
-    {
-        "name": "TheHive",
-        "desc": "Incident response platform with API endpoints.",
-        "url": "https://docs.thehive-project.org/thehive/",
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
@@ -2697,33 +2490,6 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
-    },
-    {
-        "name": "LocationIQ API",
-        "desc": "OpenStreetMap powered geocoding and maps.",
-        "url": "https://locationiq.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps",
-        "status": "ALIVE"
-    },
-    {
-        "name": "API.data.gov",
-        "desc": "Federal government API gateway for public data",
-        "url": "https://api.data.gov",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
-        "name": "Open Library",
-        "desc": "Book metadata, editions, and cover information",
-        "url": "https://openlibrary.org/developers/api",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information",
         "status": "ALIVE"
     },
     {
@@ -2759,15 +2525,6 @@
         "url": "https://www.geonames.org/export/web-services.html",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information",
-        "status": "ALIVE"
-    },
-    {
-        "name": "Open-Meteo",
-        "desc": "Weather forecasts and historical meteorological data",
-        "url": "https://open-meteo.com/en/docs",
-        "cost": "free",
-        "auth": false,
         "category": "Data & Information",
         "status": "ALIVE"
     },
@@ -2970,15 +2727,6 @@
         "status": "ALIVE"
     },
     {
-        "name": "Google Cloud AI Platform / Vertex AI",
-        "desc": "Managed ML APIs for training and inference",
-        "url": "https://cloud.google.com/vertex-ai/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
-    },
-    {
         "name": "AWS AI Services (Bedrock/Comprehend/Replicate via AWS)",
         "desc": "Cloud AI services including language and vision tasks",
         "url": "https://aws.amazon.com/machine-learning/ai-services/",
@@ -3004,15 +2752,6 @@
         "auth": true,
         "category": "AI",
         "status": "DEAD"
-    },
-    {
-        "name": "Replicate",
-        "desc": "Run machine learning models in the cloud",
-        "url": "https://replicate.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI",
-        "status": "ALIVE"
     },
     {
         "name": "Twilio AI / Autopilot (text analysis and communication APIs)",
