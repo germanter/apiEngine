@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "NewsAPI",
@@ -402,7 +402,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Communication & Identity",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "IPWhois API",
@@ -1698,7 +1698,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Openappsec API",
@@ -2166,7 +2166,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenAQ API",
@@ -2427,7 +2427,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenPhish",
@@ -2670,7 +2670,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "MISP",
@@ -3066,6 +3066,123 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Geolocation API",
+        "desc": "Estimates device location from Wi-Fi and cell data",
+        "url": "https://developers.google.com/maps/documentation/geolocation/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Mapbox Maps API",
+        "desc": "Maps, geocoding, directions, search",
+        "url": "https://docs.mapbox.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "HERE Location Services",
+        "desc": "Maps, routing, geocoding, places",
+        "url": "https://developer.here.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "TomTom Maps APIs",
+        "desc": "Maps, search, routing, traffic, geocoding",
+        "url": "https://developer.tomtom.com/products/maps-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Esri ArcGIS Location Platform",
+        "desc": "Geocoding, routing, spatial analysis, maps",
+        "url": "https://developers.arcgis.com/rest/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Apple MapKit JS",
+        "desc": "Interactive maps and place search for web",
+        "url": "https://developer.apple.com/documentation/mapkitjs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MapTiler Cloud APIs",
+        "desc": "Map tiles, geocoding, routing, data",
+        "url": "https://docs.maptiler.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "DEAD"
+    },
+    {
+        "name": "Geocodio",
+        "desc": "Address geocoding, reverse geocoding, congressional data",
+        "url": "https://www.geocod.io/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MapQuest Developer APIs",
+        "desc": "Geocoding, routing, maps, search",
+        "url": "https://developer.mapquest.com/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Pelias",
+        "desc": "Open-source geocoding and search engine",
+        "url": "https://github.com/pelias/pelias",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Photon",
+        "desc": "Open-source geocoding API powered by OpenStreetMap",
+        "url": "https://github.com/komoot/photon",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OSRM",
+        "desc": "Open-source routing API for road networks",
+        "url": "https://project-osrm.org/docs/v5.24.0/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Valhalla",
+        "desc": "Open-source routing and isochrone API",
+        "url": "https://valhalla.github.io/valhalla/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
         "status": "ALIVE"
     }
 ]

@@ -1,82 +1,162 @@
 [
     {
-        "name": "VirusTotal API",
-        "desc": "Scan files, URLs, and domains for malware",
-        "url": "https://www.virustotal.com/gui/docs/api",
+        "name": "Google Maps Platform",
+        "desc": "Maps, geocoding, routes, places, geolocation",
+        "url": "https://developers.google.com/maps/documentation",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "Google Safe Browsing API",
-        "desc": "Check URLs against phishing/malware lists",
-        "url": "https://developers.google.com/safe-browsing/v4",
+        "name": "Google Places API",
+        "desc": "Place search, details, autocomplete, photos",
+        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "CIRCL CVE Search API",
-        "desc": "CVE data search and retrieval",
-        "url": "https://www.circl.lu/services/cve-search-api/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CVEAPI",
-        "desc": "Public CVE data feed and lookup",
-        "url": "https://cveapi.org/docs",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CIRCL hashlookup",
-        "desc": "Hash-based file lookups for known malware",
-        "url": "https://www.circl.lu/services/hashlookup/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CIRCL Passive SSH",
-        "desc": "Passive SSH data for threat intel",
-        "url": "https://www.circl.lu/services/passive-ssh-api/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Censys API",
-        "desc": "Asset discovery and internet-wide scanning",
-        "url": "https://search.censys.io/account/api",
+        "name": "Google Geolocation API",
+        "desc": "Estimates device location from Wi-Fi and cell data",
+        "url": "https://developers.google.com/maps/documentation/geolocation/overview",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "Shodan API",
-        "desc": "Internet-connected device search and data",
-        "url": "https://developer.shodan.io",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Shodan Open Versions API (limited)",
-        "desc": "Publicly accessible device search endpoints",
-        "url": "https://api.shodan.io/",
+        "name": "Geoapify",
+        "desc": "Maps, geocoding, routing, places, isochrones",
+        "url": "https://www.geoapify.com/docs/",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "OWASP API Security Project",
-        "desc": "Guidance and checks for API security practices",
-        "url": "https://owasp.org/www-project-api-security/",
+        "name": "Geoapify Places API",
+        "desc": "Points of interest search and filtering",
+        "url": "https://www.geoapify.com/places-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenStreetMap Nominatim",
+        "desc": "Open geocoding and reverse geocoding service",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
         "cost": "free",
         "auth": false,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenRouteService",
+        "desc": "Routing, directions, isochrones, geocoding",
+        "url": "https://openrouteservice.org/dev/#/api-docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Maps API",
+        "desc": "Maps, geocoding, directions, search",
+        "url": "https://docs.mapbox.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "HERE Location Services",
+        "desc": "Maps, routing, geocoding, places",
+        "url": "https://developer.here.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "TomTom Maps APIs",
+        "desc": "Maps, search, routing, traffic, geocoding",
+        "url": "https://developer.tomtom.com/products/maps-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Esri ArcGIS Location Platform",
+        "desc": "Geocoding, routing, spatial analysis, maps",
+        "url": "https://developers.arcgis.com/rest/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Apple MapKit JS",
+        "desc": "Interactive maps and place search for web",
+        "url": "https://developer.apple.com/documentation/mapkitjs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "MapTiler Cloud APIs",
+        "desc": "Map tiles, geocoding, routing, data",
+        "url": "https://docs.maptiler.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenCage Geocoder",
+        "desc": "Forward and reverse geocoding API",
+        "url": "https://opencagedata.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geocodio",
+        "desc": "Address geocoding, reverse geocoding, congressional data",
+        "url": "https://www.geocod.io/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "MapQuest Developer APIs",
+        "desc": "Geocoding, routing, maps, search",
+        "url": "https://developer.mapquest.com/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Pelias",
+        "desc": "Open-source geocoding and search engine",
+        "url": "https://github.com/pelias/pelias",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Photon",
+        "desc": "Open-source geocoding API powered by OpenStreetMap",
+        "url": "https://github.com/komoot/photon",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OSRM",
+        "desc": "Open-source routing API for road networks",
+        "url": "https://project-osrm.org/docs/v5.24.0/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Valhalla",
+        "desc": "Open-source routing and isochrone API",
+        "url": "https://valhalla.github.io/valhalla/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
     }
 ]
