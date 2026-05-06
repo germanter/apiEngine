@@ -744,7 +744,7 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "JDoodle API",
@@ -1797,7 +1797,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Zyte (formerly Scrapinghub) Web Data Extraction API",
@@ -1824,7 +1824,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Bright Data (formerly Luminati) Web Unlocker API",
@@ -2922,6 +2922,69 @@
         "cost": "free",
         "auth": false,
         "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Zyte API",
+        "desc": "Scrapes pages with browser rendering and anti-bot handling.",
+        "url": "https://docs.zyte.com/zyte-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "ZenRows Universal Scraper API",
+        "desc": "Scrapes pages with anti-bot bypass and rendering.",
+        "url": "https://docs.zenrows.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Scrapfly API",
+        "desc": "Web scraping, screenshot, and extraction API.",
+        "url": "https://scrapfly.io/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Scrapy",
+        "desc": "Open-source Python framework for web crawling.",
+        "url": "https://docs.scrapy.org/en/latest/",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Playwright",
+        "desc": "Automates browsers for scraping dynamic pages.",
+        "url": "https://playwright.dev/docs/intro",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Puppeteer",
+        "desc": "Controls Chromium browsers for page scraping.",
+        "url": "https://pptr.dev/",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Browserless",
+        "desc": "Hosted browser automation API for scraping.",
+        "url": "https://www.browserless.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
         "status": "ALIVE"
     }
 ]
