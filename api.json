@@ -87,7 +87,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Cloud Text-to-Speech API",
@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "NewsAPI",
@@ -1797,7 +1797,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Zyte (formerly Scrapinghub) Web Data Extraction API",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenAQ API",
@@ -2364,7 +2364,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Data.parliament.uk API",
@@ -2985,6 +2985,87 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Maps Platform Geocoding API",
+        "desc": "Converts addresses to coordinates and reverse.",
+        "url": "https://developers.google.com/maps/documentation/geocoding/overview",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Maps Platform Places API",
+        "desc": "Searches places, details, and nearby locations.",
+        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Maps Platform Routes API",
+        "desc": "Calculates routes, travel time, and directions.",
+        "url": "https://developers.google.com/maps/documentation/routes",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Maps Platform Maps JavaScript API",
+        "desc": "Renders interactive maps in web apps.",
+        "url": "https://developers.google.com/maps/documentation/javascript",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Maps Platform Geolocation API",
+        "desc": "Estimates device location from wireless signals.",
+        "url": "https://developers.google.com/maps/documentation/geolocation/overview",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "HERE Maps API for JavaScript",
+        "desc": "Displays interactive maps in browsers.",
+        "url": "https://www.here.com/docs/bundle/maps-api-for-javascript-developer-guide",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenStreetMap Overpass API",
+        "desc": "Queries OpenStreetMap map features.",
+        "url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MapTiler Cloud Maps API",
+        "desc": "Serves map tiles and styles.",
+        "url": "https://docs.maptiler.com/cloud/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Protomaps",
+        "desc": "Provides open map tiles and basemaps.",
+        "url": "https://docs.protomaps.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
         "status": "ALIVE"
     }
 ]
