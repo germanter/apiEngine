@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "NewsAPI",
@@ -465,7 +465,7 @@
         "cost": "free",
         "auth": true,
         "category": "Media & Content",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Unsplash API",
@@ -1446,7 +1446,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "IPQualityScore API",
@@ -2364,7 +2364,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Data.parliament.uk API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3065,6 +3065,42 @@
         "url": "https://docs.protomaps.com/",
         "cost": "free",
         "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Mapbox",
+        "desc": "Maps, search, routing, and geospatial data APIs.",
+        "url": "https://docs.mapbox.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Stadia Maps",
+        "desc": "Maps, geocoding, search, routing, and navigation APIs.",
+        "url": "https://docs.stadiamaps.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "HERE Maps API",
+        "desc": "Maps, geocoding, routing, and traffic services.",
+        "url": "https://www.here.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Esri ArcGIS REST API",
+        "desc": "Geocoding, routing, places, and mapping services.",
+        "url": "https://developers.arcgis.com/rest/",
+        "cost": "freemium",
+        "auth": true,
         "category": "Location & Maps",
         "status": "ALIVE"
     }

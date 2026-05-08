@@ -1,104 +1,72 @@
 [
     {
-        "name": "Google Maps Platform Geocoding API",
-        "desc": "Converts addresses to coordinates and reverse.",
-        "url": "https://developers.google.com/maps/documentation/geocoding/overview",
-        "cost": "premium",
+        "name": "Google Maps Platform",
+        "desc": "Maps, places, geolocation, routing, and geocoding services.",
+        "url": "https://developers.google.com/maps/documentation",
+        "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Google Maps Platform Places API",
-        "desc": "Searches places, details, and nearby locations.",
+        "name": "Google Places API",
+        "desc": "Searches places, details, photos, and autocomplete.",
         "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
-        "cost": "premium",
+        "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Google Maps Platform Routes API",
-        "desc": "Calculates routes, travel time, and directions.",
-        "url": "https://developers.google.com/maps/documentation/routes",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Google Maps Platform Maps JavaScript API",
-        "desc": "Renders interactive maps in web apps.",
-        "url": "https://developers.google.com/maps/documentation/javascript",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Google Maps Platform Geolocation API",
-        "desc": "Estimates device location from wireless signals.",
+        "name": "Google Geolocation API",
+        "desc": "Estimates device location from cell and Wi-Fi data.",
         "url": "https://developers.google.com/maps/documentation/geolocation/overview",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Mapbox Search API",
-        "desc": "Provides geocoding, search, and place lookup.",
-        "url": "https://docs.mapbox.com/api/search/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Mapbox Directions API",
-        "desc": "Returns driving, walking, and cycling routes.",
-        "url": "https://docs.mapbox.com/api/navigation/directions/",
+        "name": "Mapbox",
+        "desc": "Maps, search, routing, and geospatial data APIs.",
+        "url": "https://docs.mapbox.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "HERE Geocoding and Search API",
-        "desc": "Finds addresses, places, and coordinates.",
-        "url": "https://www.here.com/docs/bundle/geocoding-and-search-api-developer-guide",
+        "name": "Geoapify",
+        "desc": "Maps, geocoding, routing, and places APIs.",
+        "url": "https://www.geoapify.com/maps-api/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "HERE Routing API",
-        "desc": "Calculates routes and travel times.",
-        "url": "https://www.here.com/docs/bundle/routing-api-developer-guide",
+        "name": "Stadia Maps",
+        "desc": "Maps, geocoding, search, routing, and navigation APIs.",
+        "url": "https://docs.stadiamaps.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "HERE Maps API for JavaScript",
-        "desc": "Displays interactive maps in browsers.",
-        "url": "https://www.here.com/docs/bundle/maps-api-for-javascript-developer-guide",
+        "name": "HERE Maps API",
+        "desc": "Maps, geocoding, routing, and traffic services.",
+        "url": "https://www.here.com/docs",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Geoapify Geocoding API",
-        "desc": "Searches addresses and converts coordinates.",
-        "url": "https://www.geoapify.com/geocoding-api/",
+        "name": "TomTom Maps APIs",
+        "desc": "Maps, search, routing, traffic, and geocoding.",
+        "url": "https://developer.tomtom.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Geoapify Places API",
-        "desc": "Searches points of interest by category.",
-        "url": "https://www.geoapify.com/places-api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Geoapify Routing API",
-        "desc": "Builds routes for vehicles and pedestrians.",
-        "url": "https://www.geoapify.com/routing-api/",
+        "name": "Esri ArcGIS REST API",
+        "desc": "Geocoding, routing, places, and mapping services.",
+        "url": "https://developers.arcgis.com/rest/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
@@ -113,58 +81,18 @@
     },
     {
         "name": "OpenStreetMap Overpass API",
-        "desc": "Queries OpenStreetMap map features.",
-        "url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+        "desc": "Queries OpenStreetMap map data by filters.",
+        "url": "https://overpass-api.de/",
         "cost": "free",
         "auth": false,
         "category": "Location & Maps"
     },
     {
         "name": "OpenRouteService API",
-        "desc": "Provides routing, geocoding, and isochrones.",
+        "desc": "Routing, directions, geocoding, and isochrones.",
         "url": "https://openrouteservice.org/dev/#/api-docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "TomTom Search API",
-        "desc": "Finds addresses, places, and POIs.",
-        "url": "https://developer.tomtom.com/search-api/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "TomTom Routing API",
-        "desc": "Calculates routes and travel times.",
-        "url": "https://developer.tomtom.com/routing-api/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "MapTiler Cloud Maps API",
-        "desc": "Serves map tiles and styles.",
-        "url": "https://docs.maptiler.com/cloud/api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Protomaps",
-        "desc": "Provides open map tiles and basemaps.",
-        "url": "https://docs.protomaps.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Pelias API",
-        "desc": "Open geocoding and place search engine.",
-        "url": "https://github.com/pelias/pelias",
-        "cost": "free",
-        "auth": false,
         "category": "Location & Maps"
     }
 ]
