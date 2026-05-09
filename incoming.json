@@ -1,98 +1,98 @@
 [
     {
-        "name": "Google Maps Platform",
-        "desc": "Maps, places, geolocation, routing, and geocoding services.",
-        "url": "https://developers.google.com/maps/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Google Places API",
-        "desc": "Searches places, details, photos, and autocomplete.",
-        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Google Geolocation API",
-        "desc": "Estimates device location from cell and Wi-Fi data.",
-        "url": "https://developers.google.com/maps/documentation/geolocation/overview",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Mapbox",
-        "desc": "Maps, search, routing, and geospatial data APIs.",
-        "url": "https://docs.mapbox.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Geoapify",
-        "desc": "Maps, geocoding, routing, and places APIs.",
-        "url": "https://www.geoapify.com/maps-api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Stadia Maps",
-        "desc": "Maps, geocoding, search, routing, and navigation APIs.",
-        "url": "https://docs.stadiamaps.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "HERE Maps API",
-        "desc": "Maps, geocoding, routing, and traffic services.",
-        "url": "https://www.here.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "TomTom Maps APIs",
-        "desc": "Maps, search, routing, traffic, and geocoding.",
-        "url": "https://developer.tomtom.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Esri ArcGIS REST API",
-        "desc": "Geocoding, routing, places, and mapping services.",
-        "url": "https://developers.arcgis.com/rest/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "OpenStreetMap Nominatim",
-        "desc": "Open geocoding and reverse geocoding service.",
-        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "name": "NVD CVE API",
+        "desc": "Retrieves CVE vulnerability records from NVD.",
+        "url": "https://nvd.nist.gov/developers/vulnerabilities",
         "cost": "free",
         "auth": false,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "OpenStreetMap Overpass API",
-        "desc": "Queries OpenStreetMap map data by filters.",
-        "url": "https://overpass-api.de/",
+        "name": "OWASP ZAP",
+        "desc": "Open-source web and API security scanner.",
+        "url": "https://www.zaproxy.org/docs/api/",
         "cost": "free",
         "auth": false,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "OpenRouteService API",
-        "desc": "Routing, directions, geocoding, and isochrones.",
-        "url": "https://openrouteservice.org/dev/#/api-docs",
+        "name": "CyCAT API",
+        "desc": "Provides cybersecurity resource catalogue data.",
+        "url": "https://cycat.org/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Google Safe Browsing API",
+        "desc": "Checks URLs against malicious site lists.",
+        "url": "https://developers.google.com/safe-browsing",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Spamhaus DNSBL Data Query",
+        "desc": "Looks up IP and domain reputation data.",
+        "url": "https://www.spamhaus.com/product/resourcecenter/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Pulsedive API",
+        "desc": "Provides threat intelligence and IOC data.",
+        "url": "https://pulsedive.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Qualys SSL Labs API",
+        "desc": "Tests SSL/TLS configuration and grade.",
+        "url": "https://www.ssllabs.com/projects/ssllabs-api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "TheHive API",
+        "desc": "Manages security incidents and investigations.",
+        "url": "https://docs.thehive-project.org/thehive/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "GRR Rapid Response API",
+        "desc": "Supports endpoint incident response automation.",
+        "url": "https://grr-doc.readthedocs.io/en/latest/api.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Elastic Security API",
+        "desc": "Exposes detection and alert management endpoints.",
+        "url": "https://www.elastic.co/guide/en/security/current/security-api.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Cisco Umbrella API",
+        "desc": "Provides DNS and threat intelligence controls.",
+        "url": "https://developer.cisco.com/docs/cloud-security/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Cloudflare Zero Trust API",
+        "desc": "Manages access and network security settings.",
+        "url": "https://developers.cloudflare.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
     }
 ]

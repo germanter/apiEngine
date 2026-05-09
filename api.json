@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "NewsAPI",
@@ -465,7 +465,7 @@
         "cost": "free",
         "auth": true,
         "category": "Media & Content",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Unsplash API",
@@ -3102,6 +3102,87 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NVD CVE API",
+        "desc": "Retrieves CVE vulnerability records from NVD.",
+        "url": "https://nvd.nist.gov/developers/vulnerabilities",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OWASP ZAP",
+        "desc": "Open-source web and API security scanner.",
+        "url": "https://www.zaproxy.org/docs/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CyCAT API",
+        "desc": "Provides cybersecurity resource catalogue data.",
+        "url": "https://cycat.org/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "Spamhaus DNSBL Data Query",
+        "desc": "Looks up IP and domain reputation data.",
+        "url": "https://www.spamhaus.com/product/resourcecenter/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "Qualys SSL Labs API",
+        "desc": "Tests SSL/TLS configuration and grade.",
+        "url": "https://www.ssllabs.com/projects/ssllabs-api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "GRR Rapid Response API",
+        "desc": "Supports endpoint incident response automation.",
+        "url": "https://grr-doc.readthedocs.io/en/latest/api.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "Elastic Security API",
+        "desc": "Exposes detection and alert management endpoints.",
+        "url": "https://www.elastic.co/guide/en/security/current/security-api.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "Cisco Umbrella API",
+        "desc": "Provides DNS and threat intelligence controls.",
+        "url": "https://developer.cisco.com/docs/cloud-security/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Cloudflare Zero Trust API",
+        "desc": "Manages access and network security settings.",
+        "url": "https://developers.cloudflare.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
         "status": "ALIVE"
     }
 ]
