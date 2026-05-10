@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "NewsAPI",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3184,5 +3184,104 @@
         "auth": true,
         "category": "Security & Safety",
         "status": "ALIVE"
+    },
+    {
+        "name": "Abstract Screenshot API",
+        "desc": "Creates screenshots of web pages.",
+        "url": "https://docs.abstractapi.com/screenshot",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "24 Pull Requests API",
+        "desc": "Tracks open source contribution activities.",
+        "url": "https://24pullrequests.com/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Abacus API",
+        "desc": "Counts page hits and custom events.",
+        "url": "https://abacus.jfbus.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "Browserless API",
+        "desc": "Runs headless browser automation tasks.",
+        "url": "https://docs.browserless.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "DigitalOcean Status API",
+        "desc": "Returns DigitalOcean service status.",
+        "url": "https://status.digitalocean.com/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "DomainDb Info API",
+        "desc": "Searches domains by keywords and phrases.",
+        "url": "https://www.domainsdb.info/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "ExtendsClass JSON Storage API",
+        "desc": "Stores and retrieves JSON documents.",
+        "url": "https://extendsclass.com/json-storage.html",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "GitHub API",
+        "desc": "Accesses repositories, issues, and users.",
+        "url": "https://docs.github.com/en/rest",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Hoppscotch API",
+        "desc": "Open-source API testing and request tool.",
+        "url": "https://docs.hoppscotch.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "JSONBin.io API",
+        "desc": "Stores JSON data for applications.",
+        "url": "https://jsonbin.io/api-reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "License-API",
+        "desc": "Returns open source software license text.",
+        "url": "https://github.com/helmetrex/license-api",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "DEAD"
     }
 ]

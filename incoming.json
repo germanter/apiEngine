@@ -1,98 +1,122 @@
 [
     {
-        "name": "NVD CVE API",
-        "desc": "Retrieves CVE vulnerability records from NVD.",
-        "url": "https://nvd.nist.gov/developers/vulnerabilities",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "OWASP ZAP",
-        "desc": "Open-source web and API security scanner.",
-        "url": "https://www.zaproxy.org/docs/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CyCAT API",
-        "desc": "Provides cybersecurity resource catalogue data.",
-        "url": "https://cycat.org/api",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Google Safe Browsing API",
-        "desc": "Checks URLs against malicious site lists.",
-        "url": "https://developers.google.com/safe-browsing",
+        "name": "AbuseIPDB API",
+        "desc": "Checks IP addresses for abuse reports.",
+        "url": "https://docs.abuseipdb.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Spamhaus DNSBL Data Query",
-        "desc": "Looks up IP and domain reputation data.",
-        "url": "https://www.spamhaus.com/product/resourcecenter/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Pulsedive API",
-        "desc": "Provides threat intelligence and IOC data.",
-        "url": "https://pulsedive.com/api/",
+        "name": "Abstract Screenshot API",
+        "desc": "Creates screenshots of web pages.",
+        "url": "https://docs.abstractapi.com/screenshot",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Qualys SSL Labs API",
-        "desc": "Tests SSL/TLS configuration and grade.",
-        "url": "https://www.ssllabs.com/projects/ssllabs-api/",
+        "name": "24 Pull Requests API",
+        "desc": "Tracks open source contribution activities.",
+        "url": "https://24pullrequests.com/api",
         "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
+        "auth": false,
+        "category": "Developer Utilities"
     },
     {
-        "name": "TheHive API",
-        "desc": "Manages security incidents and investigations.",
-        "url": "https://docs.thehive-project.org/thehive/",
+        "name": "Abacus API",
+        "desc": "Counts page hits and custom events.",
+        "url": "https://abacus.jfbus.com/",
         "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
+        "auth": false,
+        "category": "Developer Utilities"
     },
     {
-        "name": "GRR Rapid Response API",
-        "desc": "Supports endpoint incident response automation.",
-        "url": "https://grr-doc.readthedocs.io/en/latest/api.html",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Elastic Security API",
-        "desc": "Exposes detection and alert management endpoints.",
-        "url": "https://www.elastic.co/guide/en/security/current/security-api.html",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Cisco Umbrella API",
-        "desc": "Provides DNS and threat intelligence controls.",
-        "url": "https://developer.cisco.com/docs/cloud-security/",
+        "name": "BinaryEdge API",
+        "desc": "Provides internet exposure intelligence data.",
+        "url": "https://www.binaryedge.io/api",
         "cost": "premium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Cloudflare Zero Trust API",
-        "desc": "Manages access and network security settings.",
-        "url": "https://developers.cloudflare.com/api/",
+        "name": "Browserless API",
+        "desc": "Runs headless browser automation tasks.",
+        "url": "https://docs.browserless.io/",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Docker Hub API",
+        "desc": "Manages Docker image repositories and tags.",
+        "url": "https://docs.docker.com/docker-hub/api/latest/",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "DigitalOcean Status API",
+        "desc": "Returns DigitalOcean service status.",
+        "url": "https://status.digitalocean.com/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "DomainDb Info API",
+        "desc": "Searches domains by keywords and phrases.",
+        "url": "https://www.domainsdb.info/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "ExtendsClass JSON Storage API",
+        "desc": "Stores and retrieves JSON documents.",
+        "url": "https://extendsclass.com/json-storage.html",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "GitHub API",
+        "desc": "Accesses repositories, issues, and users.",
+        "url": "https://docs.github.com/en/rest",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Hoppscotch API",
+        "desc": "Open-source API testing and request tool.",
+        "url": "https://docs.hoppscotch.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "JSONBin.io API",
+        "desc": "Stores JSON data for applications.",
+        "url": "https://jsonbin.io/api-reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "License-API",
+        "desc": "Returns open source software license text.",
+        "url": "https://github.com/helmetrex/license-api",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Postman API",
+        "desc": "Manages collections, environments, and monitors.",
+        "url": "https://learning.postman.com/docs/developer/postman-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
     }
 ]
