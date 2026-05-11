@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "NewsAPI",
@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Openappsec API",
@@ -3283,5 +3283,77 @@
         "auth": false,
         "category": "Developer Utilities",
         "status": "DEAD"
+    },
+    {
+        "name": "Apigee API Management",
+        "desc": "API proxy, security, and analytics management",
+        "url": "https://cloud.google.com/apigee/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "RapidAPI Hub API",
+        "desc": "Marketplace and management for APIs",
+        "url": "https://docs.rapidapi.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Snyk API",
+        "desc": "Application security scanning and issue management",
+        "url": "https://docs.snyk.io/snyk-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Crates.io API",
+        "desc": "Rust crate metadata and versions",
+        "url": "https://doc.rust-lang.org/cargo/reference/registry-web-api.html",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NuGet V3 API",
+        "desc": "Package metadata and search endpoints",
+        "url": "https://learn.microsoft.com/en-us/nuget/api/overview",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "dictionaryapi.dev",
+        "desc": "Free dictionary lookup service",
+        "url": "https://dictionaryapi.dev/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "UUIDTools API",
+        "desc": "UUID generation and validation",
+        "url": "https://uuidtools.com/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "JSONPlaceholder",
+        "desc": "Fake REST resources for testing",
+        "url": "https://jsonplaceholder.typicode.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
     }
 ]

@@ -1,122 +1,122 @@
 [
     {
-        "name": "AbuseIPDB API",
-        "desc": "Checks IP addresses for abuse reports.",
-        "url": "https://docs.abuseipdb.com/",
+        "name": "Postman API",
+        "desc": "API design, testing, and collaboration platform",
+        "url": "https://learning.postman.com/docs/postman-platform/developer-api/",
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities"
     },
     {
-        "name": "Abstract Screenshot API",
-        "desc": "Creates screenshots of web pages.",
-        "url": "https://docs.abstractapi.com/screenshot",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "24 Pull Requests API",
-        "desc": "Tracks open source contribution activities.",
-        "url": "https://24pullrequests.com/api",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Abacus API",
-        "desc": "Counts page hits and custom events.",
-        "url": "https://abacus.jfbus.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "BinaryEdge API",
-        "desc": "Provides internet exposure intelligence data.",
-        "url": "https://www.binaryedge.io/api",
+        "name": "Apigee API Management",
+        "desc": "API proxy, security, and analytics management",
+        "url": "https://cloud.google.com/apigee/docs",
         "cost": "premium",
         "auth": true,
         "category": "Developer Utilities"
     },
     {
-        "name": "Browserless API",
-        "desc": "Runs headless browser automation tasks.",
-        "url": "https://docs.browserless.io/",
+        "name": "RapidAPI Hub API",
+        "desc": "Marketplace and management for APIs",
+        "url": "https://docs.rapidapi.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "SwaggerHub API",
+        "desc": "OpenAPI design and documentation management",
+        "url": "https://support.smartbear.com/swaggerhub/api-docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Snyk API",
+        "desc": "Application security scanning and issue management",
+        "url": "https://docs.snyk.io/snyk-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "GitHub REST API",
+        "desc": "Repository, issue, and workflow access",
+        "url": "https://docs.github.com/en/rest",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "GitLab REST API",
+        "desc": "Project, repository, and CI access",
+        "url": "https://docs.gitlab.com/ee/api/",
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities"
     },
     {
         "name": "Docker Hub API",
-        "desc": "Manages Docker image repositories and tags.",
+        "desc": "Container image repository access",
         "url": "https://docs.docker.com/docker-hub/api/latest/",
         "cost": "free",
         "auth": true,
         "category": "Developer Utilities"
     },
     {
-        "name": "DigitalOcean Status API",
-        "desc": "Returns DigitalOcean service status.",
-        "url": "https://status.digitalocean.com/api",
+        "name": "npm Registry API",
+        "desc": "Package metadata and search access",
+        "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities"
     },
     {
-        "name": "DomainDb Info API",
-        "desc": "Searches domains by keywords and phrases.",
-        "url": "https://www.domainsdb.info/",
+        "name": "PyPI JSON API",
+        "desc": "Python package metadata access",
+        "url": "https://docs.pypi.org/api/json/",
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities"
     },
     {
-        "name": "ExtendsClass JSON Storage API",
-        "desc": "Stores and retrieves JSON documents.",
-        "url": "https://extendsclass.com/json-storage.html",
+        "name": "Crates.io API",
+        "desc": "Rust crate metadata and versions",
+        "url": "https://doc.rust-lang.org/cargo/reference/registry-web-api.html",
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities"
     },
     {
-        "name": "GitHub API",
-        "desc": "Accesses repositories, issues, and users.",
-        "url": "https://docs.github.com/en/rest",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Hoppscotch API",
-        "desc": "Open-source API testing and request tool.",
-        "url": "https://docs.hoppscotch.io/",
+        "name": "NuGet V3 API",
+        "desc": "Package metadata and search endpoints",
+        "url": "https://learn.microsoft.com/en-us/nuget/api/overview",
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities"
     },
     {
-        "name": "JSONBin.io API",
-        "desc": "Stores JSON data for applications.",
-        "url": "https://jsonbin.io/api-reference",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "License-API",
-        "desc": "Returns open source software license text.",
-        "url": "https://github.com/helmetrex/license-api",
+        "name": "dictionaryapi.dev",
+        "desc": "Free dictionary lookup service",
+        "url": "https://dictionaryapi.dev/",
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities"
     },
     {
-        "name": "Postman API",
-        "desc": "Manages collections, environments, and monitors.",
-        "url": "https://learning.postman.com/docs/developer/postman-api/",
-        "cost": "freemium",
-        "auth": true,
+        "name": "UUIDTools API",
+        "desc": "UUID generation and validation",
+        "url": "https://uuidtools.com/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "JSONPlaceholder",
+        "desc": "Fake REST resources for testing",
+        "url": "https://jsonplaceholder.typicode.com/",
+        "cost": "free",
+        "auth": false,
         "category": "Developer Utilities"
     }
 ]
