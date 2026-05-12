@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -3354,6 +3354,141 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "U.S. Census Bureau API",
+        "desc": "Provides census, survey, and demographic datasets",
+        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Data USA API",
+        "desc": "Offers U.S. demographic and economic statistics",
+        "url": "https://datausa.io/about/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "World Bank APIs",
+        "desc": "Provides global development indicators and country data",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OECD Data API",
+        "desc": "Exposes OECD statistics and indicators",
+        "url": "https://data.oecd.org/api/sdmx-json-documentation/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "UNData API",
+        "desc": "Provides access to United Nations statistical datasets",
+        "url": "https://data.un.org/Handlers/DownloadHandler.ashx?DataFilter=download",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "DEAD"
+    },
+    {
+        "name": "Eurostat API",
+        "desc": "Offers European Union statistics and indicators",
+        "url": "https://ec.europa.eu/eurostat/web/main/data/web-services",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NASA Open APIs",
+        "desc": "Provides space, Earth, and astronomy data endpoints",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenWeather API",
+        "desc": "Delivers current weather forecasts and historical weather data",
+        "url": "https://openweathermap.org/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "WeatherAPI",
+        "desc": "Provides weather forecasts, historical, and air quality data",
+        "url": "https://www.weatherapi.com/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Alpha Vantage",
+        "desc": "Provides stocks, forex, crypto, and technical indicators",
+        "url": "https://www.alphavantage.co/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Polygon.io",
+        "desc": "Provides market data for stocks, options, forex, and crypto",
+        "url": "https://polygon.io/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Binance API",
+        "desc": "Provides cryptocurrency market and trading data",
+        "url": "https://developers.binance.com/docs/binance-spot-api-docs/README",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NHTSA Vehicle API",
+        "desc": "Provides vehicle, VIN, and safety rating data",
+        "url": "https://vpic.nhtsa.dot.gov/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "PokeAPI",
+        "desc": "Provides Pok\u00e9mon species, moves, and game data",
+        "url": "https://pokeapi.co/docs/v2",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "REST Countries API",
+        "desc": "Provides country, language, and regional data",
+        "url": "https://restcountries.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
         "status": "ALIVE"
     }
 ]

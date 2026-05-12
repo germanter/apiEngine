@@ -1,122 +1,162 @@
 [
     {
-        "name": "Postman API",
-        "desc": "API design, testing, and collaboration platform",
-        "url": "https://learning.postman.com/docs/postman-platform/developer-api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
+        "name": "Data.gov CKAN API",
+        "desc": "Search and access U.S. government dataset metadata",
+        "url": "https://catalog.data.gov/api/3/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "Apigee API Management",
-        "desc": "API proxy, security, and analytics management",
-        "url": "https://cloud.google.com/apigee/docs",
+        "name": "U.S. Census Bureau API",
+        "desc": "Provides census, survey, and demographic datasets",
+        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Data USA API",
+        "desc": "Offers U.S. demographic and economic statistics",
+        "url": "https://datausa.io/about/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "World Bank APIs",
+        "desc": "Provides global development indicators and country data",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "FRED API",
+        "desc": "Delivers U.S. economic time series data",
+        "url": "https://fred.stlouisfed.org/docs/api/fred/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OECD Data API",
+        "desc": "Exposes OECD statistics and indicators",
+        "url": "https://data.oecd.org/api/sdmx-json-documentation/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "UNData API",
+        "desc": "Provides access to United Nations statistical datasets",
+        "url": "https://data.un.org/Handlers/DownloadHandler.ashx?DataFilter=download",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Eurostat API",
+        "desc": "Offers European Union statistics and indicators",
+        "url": "https://ec.europa.eu/eurostat/web/main/data/web-services",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "NASA Open APIs",
+        "desc": "Provides space, Earth, and astronomy data endpoints",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenWeather API",
+        "desc": "Delivers current weather forecasts and historical weather data",
+        "url": "https://openweathermap.org/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "WeatherAPI",
+        "desc": "Provides weather forecasts, historical, and air quality data",
+        "url": "https://www.weatherapi.com/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "ExchangeRate-API",
+        "desc": "Offers currency exchange rates and conversion data",
+        "url": "https://www.exchangerate-api.com/docs/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Alpha Vantage",
+        "desc": "Provides stocks, forex, crypto, and technical indicators",
+        "url": "https://www.alphavantage.co/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Polygon.io",
+        "desc": "Provides market data for stocks, options, forex, and crypto",
+        "url": "https://polygon.io/docs",
         "cost": "premium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "RapidAPI Hub API",
-        "desc": "Marketplace and management for APIs",
-        "url": "https://docs.rapidapi.com/",
+        "name": "CoinGecko API",
+        "desc": "Offers cryptocurrency prices, markets, and metadata",
+        "url": "https://docs.coingecko.com/",
         "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "SwaggerHub API",
-        "desc": "OpenAPI design and documentation management",
-        "url": "https://support.smartbear.com/swaggerhub/api-docs/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Snyk API",
-        "desc": "Application security scanning and issue management",
-        "url": "https://docs.snyk.io/snyk-api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "GitHub REST API",
-        "desc": "Repository, issue, and workflow access",
-        "url": "https://docs.github.com/en/rest",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "GitLab REST API",
-        "desc": "Project, repository, and CI access",
-        "url": "https://docs.gitlab.com/ee/api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Docker Hub API",
-        "desc": "Container image repository access",
-        "url": "https://docs.docker.com/docker-hub/api/latest/",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "npm Registry API",
-        "desc": "Package metadata and search access",
-        "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
+        "name": "Binance API",
+        "desc": "Provides cryptocurrency market and trading data",
+        "url": "https://developers.binance.com/docs/binance-spot-api-docs/README",
         "cost": "free",
         "auth": false,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "PyPI JSON API",
-        "desc": "Python package metadata access",
-        "url": "https://docs.pypi.org/api/json/",
+        "name": "NHTSA Vehicle API",
+        "desc": "Provides vehicle, VIN, and safety rating data",
+        "url": "https://vpic.nhtsa.dot.gov/api/",
         "cost": "free",
         "auth": false,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "Crates.io API",
-        "desc": "Rust crate metadata and versions",
-        "url": "https://doc.rust-lang.org/cargo/reference/registry-web-api.html",
+        "name": "Open Food Facts API",
+        "desc": "Provides open product and nutrition data",
+        "url": "https://world.openfoodfacts.org/data",
         "cost": "free",
         "auth": false,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "NuGet V3 API",
-        "desc": "Package metadata and search endpoints",
-        "url": "https://learn.microsoft.com/en-us/nuget/api/overview",
+        "name": "PokeAPI",
+        "desc": "Provides Pokémon species, moves, and game data",
+        "url": "https://pokeapi.co/docs/v2",
         "cost": "free",
         "auth": false,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "dictionaryapi.dev",
-        "desc": "Free dictionary lookup service",
-        "url": "https://dictionaryapi.dev/",
+        "name": "REST Countries API",
+        "desc": "Provides country, language, and regional data",
+        "url": "https://restcountries.com/",
         "cost": "free",
         "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "UUIDTools API",
-        "desc": "UUID generation and validation",
-        "url": "https://uuidtools.com/api",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "JSONPlaceholder",
-        "desc": "Fake REST resources for testing",
-        "url": "https://jsonplaceholder.typicode.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     }
 ]
