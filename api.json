@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "NewsAPI",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenAQ API",
@@ -3489,6 +3489,96 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Apify (Actor API)",
+        "desc": "Execute and manage scraping actors and extract data.",
+        "url": "https://docs.apify.com/api/v2",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bright Data Web Unlocker API",
+        "desc": "Enterprise scraping API with proxy and anti-bot bypass.",
+        "url": "https://brightdata.com/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Zyte (formerly Scrapinghub) API",
+        "desc": "Managed scraping, proxy rotation and structured extraction.",
+        "url": "https://www.zyte.com/docs/zyte-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "WebScrapingAPI",
+        "desc": "Single-endpoint scraping with rendering and site-specific endpoints.",
+        "url": "https://www.webscrapingapi.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "ScraperBox (ScraperBox API)",
+        "desc": "Simple scraping endpoint with proxy rotation and JS support.",
+        "url": "https://scraperbox.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Scrapy (Scrapy Cloud / open-source)",
+        "desc": "Open-source crawling framework; cloud API for managed runs.",
+        "url": "https://docs.scrapy.org/en/latest",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Scrapingdog",
+        "desc": "Lightweight scraping API with JS rendering and proxies.",
+        "url": "https://scrapingdog.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "ProxyCrawl",
+        "desc": "Crawl and scrape API with rendering and anti-bot bypass.",
+        "url": "https://proxycrawl.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "HasData",
+        "desc": "AI-powered parsing API that returns structured JSON.",
+        "url": "https://hasdata.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "AlterLab API",
+        "desc": "Simple POST-based scraping API with multiple output formats.",
+        "url": "https://alterlab.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
         "status": "ALIVE"
     }
 ]

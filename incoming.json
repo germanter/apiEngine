@@ -1,162 +1,122 @@
 [
     {
-        "name": "Data.gov CKAN API",
-        "desc": "Search and access U.S. government dataset metadata",
-        "url": "https://catalog.data.gov/api/3/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "U.S. Census Bureau API",
-        "desc": "Provides census, survey, and demographic datasets",
-        "url": "https://www.census.gov/data/developers/data-sets.html",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Data USA API",
-        "desc": "Offers U.S. demographic and economic statistics",
-        "url": "https://datausa.io/about/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "World Bank APIs",
-        "desc": "Provides global development indicators and country data",
-        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "FRED API",
-        "desc": "Delivers U.S. economic time series data",
-        "url": "https://fred.stlouisfed.org/docs/api/fred/",
+        "name": "ScraperAPI",
+        "desc": "Fetch pages with proxy rotation and CAPTCHA handling.",
+        "url": "https://www.scraperapi.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Scraping"
     },
     {
-        "name": "OECD Data API",
-        "desc": "Exposes OECD statistics and indicators",
-        "url": "https://data.oecd.org/api/sdmx-json-documentation/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "UNData API",
-        "desc": "Provides access to United Nations statistical datasets",
-        "url": "https://data.un.org/Handlers/DownloadHandler.ashx?DataFilter=download",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Eurostat API",
-        "desc": "Offers European Union statistics and indicators",
-        "url": "https://ec.europa.eu/eurostat/web/main/data/web-services",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "NASA Open APIs",
-        "desc": "Provides space, Earth, and astronomy data endpoints",
-        "url": "https://api.nasa.gov/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenWeather API",
-        "desc": "Delivers current weather forecasts and historical weather data",
-        "url": "https://openweathermap.org/api",
+        "name": "ScrapingBee",
+        "desc": "Headless-browser rendering with proxy and JS support.",
+        "url": "https://www.scrapingbee.com/documentation",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Scraping"
     },
     {
-        "name": "WeatherAPI",
-        "desc": "Provides weather forecasts, historical, and air quality data",
-        "url": "https://www.weatherapi.com/docs/",
+        "name": "Scrapfly",
+        "desc": "Web scraping API with cloud browser and screenshots.",
+        "url": "https://docs.scrapfly.io",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Scraping"
     },
     {
-        "name": "ExchangeRate-API",
-        "desc": "Offers currency exchange rates and conversion data",
-        "url": "https://www.exchangerate-api.com/docs/overview",
+        "name": "Apify (Actor API)",
+        "desc": "Execute and manage scraping actors and extract data.",
+        "url": "https://docs.apify.com/api/v2",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Scraping"
     },
     {
-        "name": "Alpha Vantage",
-        "desc": "Provides stocks, forex, crypto, and technical indicators",
-        "url": "https://www.alphavantage.co/documentation/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Polygon.io",
-        "desc": "Provides market data for stocks, options, forex, and crypto",
-        "url": "https://polygon.io/docs",
+        "name": "Oxylabs Web Scraper API",
+        "desc": "Managed scraping with large proxy network and rendering.",
+        "url": "https://developers.oxylabs.io/web-scraper",
         "cost": "premium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Scraping"
     },
     {
-        "name": "CoinGecko API",
-        "desc": "Offers cryptocurrency prices, markets, and metadata",
-        "url": "https://docs.coingecko.com/",
+        "name": "Bright Data Web Unlocker API",
+        "desc": "Enterprise scraping API with proxy and anti-bot bypass.",
+        "url": "https://brightdata.com/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Zyte (formerly Scrapinghub) API",
+        "desc": "Managed scraping, proxy rotation and structured extraction.",
+        "url": "https://www.zyte.com/docs/zyte-api",
         "cost": "freemium",
-        "auth": false,
-        "category": "Data & Information"
+        "auth": true,
+        "category": "Scraping"
     },
     {
-        "name": "Binance API",
-        "desc": "Provides cryptocurrency market and trading data",
-        "url": "https://developers.binance.com/docs/binance-spot-api-docs/README",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "name": "Diffbot",
+        "desc": "Automatic page analysis and structured content extraction.",
+        "url": "https://www.diffbot.com/dev/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
     },
     {
-        "name": "NHTSA Vehicle API",
-        "desc": "Provides vehicle, VIN, and safety rating data",
-        "url": "https://vpic.nhtsa.dot.gov/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "name": "WebScrapingAPI",
+        "desc": "Single-endpoint scraping with rendering and site-specific endpoints.",
+        "url": "https://www.webscrapingapi.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
     },
     {
-        "name": "Open Food Facts API",
-        "desc": "Provides open product and nutrition data",
-        "url": "https://world.openfoodfacts.org/data",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "name": "ScraperBox (ScraperBox API)",
+        "desc": "Simple scraping endpoint with proxy rotation and JS support.",
+        "url": "https://scraperbox.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
     },
     {
-        "name": "PokeAPI",
-        "desc": "Provides Pokémon species, moves, and game data",
-        "url": "https://pokeapi.co/docs/v2",
+        "name": "Scrapy (Scrapy Cloud / open-source)",
+        "desc": "Open-source crawling framework; cloud API for managed runs.",
+        "url": "https://docs.scrapy.org/en/latest",
         "cost": "free",
         "auth": false,
-        "category": "Data & Information"
+        "category": "Scraping"
     },
     {
-        "name": "REST Countries API",
-        "desc": "Provides country, language, and regional data",
-        "url": "https://restcountries.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "name": "Scrapingdog",
+        "desc": "Lightweight scraping API with JS rendering and proxies.",
+        "url": "https://scrapingdog.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "ProxyCrawl",
+        "desc": "Crawl and scrape API with rendering and anti-bot bypass.",
+        "url": "https://proxycrawl.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "HasData",
+        "desc": "AI-powered parsing API that returns structured JSON.",
+        "url": "https://hasdata.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "AlterLab API",
+        "desc": "Simple POST-based scraping API with multiple output formats.",
+        "url": "https://alterlab.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
     }
 ]
