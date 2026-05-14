@@ -303,7 +303,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "NewsAPI",
@@ -393,7 +393,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Communication & Identity",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "IPWhois API",
@@ -1482,7 +1482,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "NVD API",
@@ -2310,7 +2310,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "SecuryAPI",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3363,7 +3363,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Data USA API",
@@ -3580,5 +3580,59 @@
         "auth": true,
         "category": "Scraping",
         "status": "ALIVE"
+    },
+    {
+        "name": "AWS Bedrock",
+        "desc": "Managed access to multiple foundation models via API.",
+        "url": "https://docs.aws.amazon.com/bedrock/latest/devguide/what-is-bedrock.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Mistral API",
+        "desc": "High-performance open and proprietary language models.",
+        "url": "https://www.mistral.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Together AI (together.xyz) API",
+        "desc": "Hosted open models and inference endpoints.",
+        "url": "https://together.xyz/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Fal.ai API",
+        "desc": "Open-source model hosting and inference API.",
+        "url": "https://fal.ai/docs",
+        "cost": "free",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "EleutherAI / GPT-NeoX (inference endpoints)",
+        "desc": "Open-source large language model checkpoints and endpoints.",
+        "url": "https://www.eleuther.ai/",
+        "cost": "free",
+        "auth": false,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenAI-compatible SiliconFlow API",
+        "desc": "Unified OpenAI-compatible inference and fine-tuning API.",
+        "url": "https://siliconflow.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
     }
 ]

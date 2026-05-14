@@ -1,122 +1,114 @@
 [
     {
-        "name": "ScraperAPI",
-        "desc": "Fetch pages with proxy rotation and CAPTCHA handling.",
-        "url": "https://www.scraperapi.com/docs",
+        "name": "OpenAI API",
+        "desc": "Text, code, and image generative models (GPT family, DALL·E).",
+        "url": "https://platform.openai.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "ScrapingBee",
-        "desc": "Headless-browser rendering with proxy and JS support.",
-        "url": "https://www.scrapingbee.com/documentation",
+        "name": "Anthropic Claude API",
+        "desc": "Conversational and instruction-tuned large language models.",
+        "url": "https://console.anthropic.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "Scrapfly",
-        "desc": "Web scraping API with cloud browser and screenshots.",
-        "url": "https://docs.scrapfly.io",
+        "name": "Google Cloud Vertex AI",
+        "desc": "Model hosting, managed multimodal and generative APIs.",
+        "url": "https://cloud.google.com/vertex-ai/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "Apify (Actor API)",
-        "desc": "Execute and manage scraping actors and extract data.",
-        "url": "https://docs.apify.com/api/v2",
+        "name": "Microsoft Azure OpenAI Service",
+        "desc": "Hosted OpenAI models and Azure-managed endpoints.",
+        "url": "https://learn.microsoft.com/azure/cognitive-services/openai/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "Oxylabs Web Scraper API",
-        "desc": "Managed scraping with large proxy network and rendering.",
-        "url": "https://developers.oxylabs.io/web-scraper",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Bright Data Web Unlocker API",
-        "desc": "Enterprise scraping API with proxy and anti-bot bypass.",
-        "url": "https://brightdata.com/docs",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Zyte (formerly Scrapinghub) API",
-        "desc": "Managed scraping, proxy rotation and structured extraction.",
-        "url": "https://www.zyte.com/docs/zyte-api",
+        "name": "AWS Bedrock",
+        "desc": "Managed access to multiple foundation models via API.",
+        "url": "https://docs.aws.amazon.com/bedrock/latest/devguide/what-is-bedrock.html",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "Diffbot",
-        "desc": "Automatic page analysis and structured content extraction.",
-        "url": "https://www.diffbot.com/dev/docs",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "WebScrapingAPI",
-        "desc": "Single-endpoint scraping with rendering and site-specific endpoints.",
-        "url": "https://www.webscrapingapi.com/docs",
+        "name": "Hugging Face Inference API",
+        "desc": "Model hosting and inference for many open models.",
+        "url": "https://huggingface.co/docs/api/inference",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "ScraperBox (ScraperBox API)",
-        "desc": "Simple scraping endpoint with proxy rotation and JS support.",
-        "url": "https://scraperbox.com/docs",
+        "name": "Cohere API",
+        "desc": "Text generation, embeddings, and classification models.",
+        "url": "https://docs.cohere.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "Scrapy (Scrapy Cloud / open-source)",
-        "desc": "Open-source crawling framework; cloud API for managed runs.",
-        "url": "https://docs.scrapy.org/en/latest",
+        "name": "Mistral API",
+        "desc": "High-performance open and proprietary language models.",
+        "url": "https://www.mistral.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Replicate API",
+        "desc": "Run and deploy community machine learning models via API.",
+        "url": "https://replicate.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Stability AI API",
+        "desc": "Image and multimodal generation (Stable Diffusion family).",
+        "url": "https://api.stability.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Together AI (together.xyz) API",
+        "desc": "Hosted open models and inference endpoints.",
+        "url": "https://together.xyz/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Fal.ai API",
+        "desc": "Open-source model hosting and inference API.",
+        "url": "https://fal.ai/docs",
+        "cost": "free",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "EleutherAI / GPT-NeoX (inference endpoints)",
+        "desc": "Open-source large language model checkpoints and endpoints.",
+        "url": "https://www.eleuther.ai/",
         "cost": "free",
         "auth": false,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "Scrapingdog",
-        "desc": "Lightweight scraping API with JS rendering and proxies.",
-        "url": "https://scrapingdog.com/documentation",
+        "name": "OpenAI-compatible SiliconFlow API",
+        "desc": "Unified OpenAI-compatible inference and fine-tuning API.",
+        "url": "https://siliconflow.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ProxyCrawl",
-        "desc": "Crawl and scrape API with rendering and anti-bot bypass.",
-        "url": "https://proxycrawl.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "HasData",
-        "desc": "AI-powered parsing API that returns structured JSON.",
-        "url": "https://hasdata.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "AlterLab API",
-        "desc": "Simple POST-based scraping API with multiple output formats.",
-        "url": "https://alterlab.io/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     }
 ]
