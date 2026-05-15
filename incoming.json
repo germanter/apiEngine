@@ -1,114 +1,90 @@
 [
     {
-        "name": "OpenAI API",
-        "desc": "Text, code, and image generative models (GPT family, DALL·E).",
-        "url": "https://platform.openai.com/docs",
+        "name": "Firecrawl",
+        "desc": "Crawls pages and returns Markdown or JSON",
+        "url": "https://docs.firecrawl.dev/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Anthropic Claude API",
-        "desc": "Conversational and instruction-tuned large language models.",
-        "url": "https://console.anthropic.com/docs",
+        "name": "ScraperAPI",
+        "desc": "Fetches public webpages with proxy and CAPTCHA handling",
+        "url": "https://www.scraperapi.com/documentation/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Google Cloud Vertex AI",
-        "desc": "Model hosting, managed multimodal and generative APIs.",
-        "url": "https://cloud.google.com/vertex-ai/docs",
+        "name": "ScrapingBee",
+        "desc": "Fetches pages and supports structured extraction",
+        "url": "https://www.scrapingbee.com/documentation/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Microsoft Azure OpenAI Service",
-        "desc": "Hosted OpenAI models and Azure-managed endpoints.",
-        "url": "https://learn.microsoft.com/azure/cognitive-services/openai/",
+        "name": "ScrapingDog",
+        "desc": "Provides scraping endpoints for websites and search data",
+        "url": "https://www.scrapingdog.com/documentation/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "AWS Bedrock",
-        "desc": "Managed access to multiple foundation models via API.",
-        "url": "https://docs.aws.amazon.com/bedrock/latest/devguide/what-is-bedrock.html",
+        "name": "ZenRows",
+        "desc": "Fetches protected webpages with browser rendering",
+        "url": "https://docs.zenrows.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Hugging Face Inference API",
-        "desc": "Model hosting and inference for many open models.",
-        "url": "https://huggingface.co/docs/api/inference",
+        "name": "Oxylabs Web Scraper API",
+        "desc": "Scrapes websites through structured endpoint APIs",
+        "url": "https://developers.oxylabs.io/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Bright Data Web Scraper API",
+        "desc": "Scrapes websites using built-in datasets and endpoints",
+        "url": "https://docs.brightdata.com/scraping-automation/web-scraper-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Scrape.do",
+        "desc": "Scrapes webpages with anti-bot bypass support",
+        "url": "https://scrape.do/docs/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Cohere API",
-        "desc": "Text generation, embeddings, and classification models.",
-        "url": "https://docs.cohere.com/docs",
+        "name": "Apify",
+        "desc": "Runs web scraping actors through APIs",
+        "url": "https://docs.apify.com/api/v2",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Mistral API",
-        "desc": "High-performance open and proprietary language models.",
-        "url": "https://www.mistral.ai/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Replicate API",
-        "desc": "Run and deploy community machine learning models via API.",
-        "url": "https://replicate.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Stability AI API",
-        "desc": "Image and multimodal generation (Stable Diffusion family).",
-        "url": "https://api.stability.ai/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Together AI (together.xyz) API",
-        "desc": "Hosted open models and inference endpoints.",
-        "url": "https://together.xyz/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Fal.ai API",
-        "desc": "Open-source model hosting and inference API.",
-        "url": "https://fal.ai/docs",
+        "name": "Firecrawl",
+        "desc": "Open source crawler with API and JSON output",
+        "url": "https://github.com/mendableai/firecrawl",
         "cost": "free",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "EleutherAI / GPT-NeoX (inference endpoints)",
-        "desc": "Open-source large language model checkpoints and endpoints.",
-        "url": "https://www.eleuther.ai/",
+        "name": "Scrapy",
+        "desc": "Open source Python framework for web crawling",
+        "url": "https://docs.scrapy.org/en/latest/",
         "cost": "free",
         "auth": false,
-        "category": "AI"
-    },
-    {
-        "name": "OpenAI-compatible SiliconFlow API",
-        "desc": "Unified OpenAI-compatible inference and fine-tuning API.",
-        "url": "https://siliconflow.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     }
 ]

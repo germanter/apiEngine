@@ -393,7 +393,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Communication & Identity",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "IPWhois API",
@@ -1482,7 +1482,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "NVD API",
@@ -2310,7 +2310,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "SecuryAPI",
@@ -3363,7 +3363,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Data USA API",
@@ -3633,6 +3633,15 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Scrape.do",
+        "desc": "Scrapes webpages with anti-bot bypass support",
+        "url": "https://scrape.do/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
         "status": "DEAD"
     }
 ]
