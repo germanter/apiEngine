@@ -1,90 +1,162 @@
 [
     {
-        "name": "Firecrawl",
-        "desc": "Crawls pages and returns Markdown or JSON",
-        "url": "https://docs.firecrawl.dev/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ScraperAPI",
-        "desc": "Fetches public webpages with proxy and CAPTCHA handling",
-        "url": "https://www.scraperapi.com/documentation/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ScrapingBee",
-        "desc": "Fetches pages and supports structured extraction",
-        "url": "https://www.scrapingbee.com/documentation/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ScrapingDog",
-        "desc": "Provides scraping endpoints for websites and search data",
-        "url": "https://www.scrapingdog.com/documentation/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ZenRows",
-        "desc": "Fetches protected webpages with browser rendering",
-        "url": "https://docs.zenrows.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Oxylabs Web Scraper API",
-        "desc": "Scrapes websites through structured endpoint APIs",
-        "url": "https://developers.oxylabs.io/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Bright Data Web Scraper API",
-        "desc": "Scrapes websites using built-in datasets and endpoints",
-        "url": "https://docs.brightdata.com/scraping-automation/web-scraper-api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Scrape.do",
-        "desc": "Scrapes webpages with anti-bot bypass support",
-        "url": "https://scrape.do/docs/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Apify",
-        "desc": "Runs web scraping actors through APIs",
-        "url": "https://docs.apify.com/api/v2",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Firecrawl",
-        "desc": "Open source crawler with API and JSON output",
-        "url": "https://github.com/mendableai/firecrawl",
-        "cost": "free",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Scrapy",
-        "desc": "Open source Python framework for web crawling",
-        "url": "https://docs.scrapy.org/en/latest/",
+        "name": "World Bank API",
+        "desc": "Global economic, financial, and development indicators",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information",
         "cost": "free",
         "auth": false,
-        "category": "Scraping"
+        "category": "Data & Information"
+    },
+    {
+        "name": "US Census Bureau API",
+        "desc": "United States census, demographic, and economic data",
+        "url": "https://www.census.gov/data/developers.html",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "NASA APIs",
+        "desc": "Space, earth science, and imagery data",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Open-Meteo API",
+        "desc": "Weather forecasts and historical climate data",
+        "url": "https://open-meteo.com/en/docs",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenWeather API",
+        "desc": "Weather forecasts, current conditions, and historical data",
+        "url": "https://openweathermap.org/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Data.gov API",
+        "desc": "United States government open data catalog",
+        "url": "https://api.data.gov/docs",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Wikipedia API",
+        "desc": "Encyclopedia articles, summaries, and page metadata",
+        "url": "https://www.mediawiki.org/wiki/API:Main_page",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Wikidata API",
+        "desc": "Structured knowledge graph and entity data",
+        "url": "https://www.wikidata.org/w/api.php",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenStreetMap Nominatim API",
+        "desc": "Geocoding and place search from OpenStreetMap data",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "USGS Earthquake API",
+        "desc": "Earthquake events and seismic activity data",
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "FRED API",
+        "desc": "US economic time series and financial data",
+        "url": "https://fred.stlouisfed.org/docs/api/fred/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OECD Data API",
+        "desc": "OECD statistics and international indicators",
+        "url": "https://data.oecd.org/api/sdmx-json-documentation/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "WorldPop API",
+        "desc": "Population distribution and demographic rasters",
+        "url": "https://www.worldpop.org/methods/top_down_api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "SEC EDGAR API",
+        "desc": "US public company filings and disclosure data",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "GDELT API",
+        "desc": "Global news and events monitoring data",
+        "url": "https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "CurrencyFreaks API",
+        "desc": "Live and historical foreign exchange rates",
+        "url": "https://currencyfreaks.com/documentation.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "ExchangeRate-API",
+        "desc": "Currency exchange rates and conversion data",
+        "url": "https://www.exchangerate-api.com/docs/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Rest Countries API",
+        "desc": "Country, language, currency, and flag data",
+        "url": "https://restcountries.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "IPinfo API",
+        "desc": "IP geolocation and network intelligence data",
+        "url": "https://ipinfo.io/developers",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "NoSQLBooster API",
+        "desc": "MongoDB query and document data services",
+        "url": "https://www.mongodb.com/docs/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     }
 ]

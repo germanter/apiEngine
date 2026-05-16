@@ -1140,7 +1140,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "SpaceX API",
@@ -3643,5 +3643,77 @@
         "auth": true,
         "category": "Scraping",
         "status": "DEAD"
+    },
+    {
+        "name": "NASA APIs",
+        "desc": "Space, earth science, and imagery data",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenStreetMap Nominatim API",
+        "desc": "Geocoding and place search from OpenStreetMap data",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "USGS Earthquake API",
+        "desc": "Earthquake events and seismic activity data",
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "WorldPop API",
+        "desc": "Population distribution and demographic rasters",
+        "url": "https://www.worldpop.org/methods/top_down_api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "SEC EDGAR API",
+        "desc": "US public company filings and disclosure data",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CurrencyFreaks API",
+        "desc": "Live and historical foreign exchange rates",
+        "url": "https://currencyfreaks.com/documentation.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Rest Countries API",
+        "desc": "Country, language, currency, and flag data",
+        "url": "https://restcountries.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NoSQLBooster API",
+        "desc": "MongoDB query and document data services",
+        "url": "https://www.mongodb.com/docs/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
     }
 ]
