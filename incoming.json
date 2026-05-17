@@ -1,162 +1,82 @@
 [
     {
-        "name": "World Bank API",
-        "desc": "Global economic, financial, and development indicators",
-        "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "US Census Bureau API",
-        "desc": "United States census, demographic, and economic data",
-        "url": "https://www.census.gov/data/developers.html",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "NASA APIs",
-        "desc": "Space, earth science, and imagery data",
-        "url": "https://api.nasa.gov/",
-        "cost": "free",
+        "name": "OpenAI API",
+        "desc": "Generates text, images, and embeddings.",
+        "url": "https://platform.openai.com/docs",
+        "cost": "premium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Open-Meteo API",
-        "desc": "Weather forecasts and historical climate data",
-        "url": "https://open-meteo.com/en/docs",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenWeather API",
-        "desc": "Weather forecasts, current conditions, and historical data",
-        "url": "https://openweathermap.org/api",
+        "name": "Google Cloud APIs",
+        "desc": "Provides cloud services and developer tooling APIs.",
+        "url": "https://cloud.google.com/apis/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Data.gov API",
-        "desc": "United States government open data catalog",
-        "url": "https://api.data.gov/docs",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Wikipedia API",
-        "desc": "Encyclopedia articles, summaries, and page metadata",
-        "url": "https://www.mediawiki.org/wiki/API:Main_page",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Wikidata API",
-        "desc": "Structured knowledge graph and entity data",
-        "url": "https://www.wikidata.org/w/api.php",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenStreetMap Nominatim API",
-        "desc": "Geocoding and place search from OpenStreetMap data",
-        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "USGS Earthquake API",
-        "desc": "Earthquake events and seismic activity data",
-        "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "FRED API",
-        "desc": "US economic time series and financial data",
-        "url": "https://fred.stlouisfed.org/docs/api/fred/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OECD Data API",
-        "desc": "OECD statistics and international indicators",
-        "url": "https://data.oecd.org/api/sdmx-json-documentation/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "WorldPop API",
-        "desc": "Population distribution and demographic rasters",
-        "url": "https://www.worldpop.org/methods/top_down_api",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "SEC EDGAR API",
-        "desc": "US public company filings and disclosure data",
-        "url": "https://www.sec.gov/edgar/sec-api-documentation",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "GDELT API",
-        "desc": "Global news and events monitoring data",
-        "url": "https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "CurrencyFreaks API",
-        "desc": "Live and historical foreign exchange rates",
-        "url": "https://currencyfreaks.com/documentation.html",
+        "name": "GitHub REST API",
+        "desc": "Manages repositories, issues, pulls, and users.",
+        "url": "https://docs.github.com/en/rest",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Developer Utilities"
     },
     {
-        "name": "ExchangeRate-API",
-        "desc": "Currency exchange rates and conversion data",
-        "url": "https://www.exchangerate-api.com/docs/overview",
+        "name": "GitHub GraphQL API",
+        "desc": "Queries GitHub repositories and metadata.",
+        "url": "https://docs.github.com/en/graphql",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Rest Countries API",
-        "desc": "Country, language, currency, and flag data",
+        "name": "Docker Hub API",
+        "desc": "Accesses image repositories and tags.",
+        "url": "https://docs.docker.com/docker-hub/api/latest/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Postman API",
+        "desc": "Manages workspaces, collections, and environments.",
+        "url": "https://learning.postman.com/docs/developer/postman-api/introduction/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Hoppscotch API",
+        "desc": "Runs API testing and workspace operations.",
+        "url": "https://docs.hoppscotch.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "JSONPlaceholder",
+        "desc": "Returns fake JSON data for testing.",
+        "url": "https://jsonplaceholder.typicode.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Dictionary API",
+        "desc": "Provides English word definitions and pronunciations.",
+        "url": "https://dictionaryapi.dev/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "REST Countries",
+        "desc": "Returns country data, flags, and codes.",
         "url": "https://restcountries.com/",
         "cost": "free",
         "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "IPinfo API",
-        "desc": "IP geolocation and network intelligence data",
-        "url": "https://ipinfo.io/developers",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "NoSQLBooster API",
-        "desc": "MongoDB query and document data services",
-        "url": "https://www.mongodb.com/docs/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "category": "Developer Utilities"
     }
 ]
