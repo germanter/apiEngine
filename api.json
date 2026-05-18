@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ApiFlash",
@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -3552,7 +3552,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ProxyCrawl",
@@ -3678,7 +3678,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "SEC EDGAR API",
@@ -3732,6 +3732,42 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CIRCL CVE Search",
+        "desc": "CVE data search API for vulnerabilities",
+        "url": "https://www.circl.lu/services/cve-search/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Vulners API",
+        "desc": "Vulnerability and threat intelligence data",
+        "url": "https://www.vulners.com/api/v3/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OSSEC API (Wazuh)",
+        "desc": "Endpoint security events and log analysis",
+        "url": "https://documentation.wazuh.com/current/user-manual/api/index.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OSSIM OpenAPI (OpenVAS/OpenVAS API)",
+        "desc": "Vulnerability assessment API features",
+        "url": "https://www.openvas.org/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
         "status": "ALIVE"
     }
 ]

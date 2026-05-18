@@ -1,82 +1,74 @@
 [
     {
-        "name": "OpenAI API",
-        "desc": "Generates text, images, and embeddings.",
-        "url": "https://platform.openai.com/docs",
+        "name": "CIRCL CVE Search",
+        "desc": "CVE data search API for vulnerabilities",
+        "url": "https://www.circl.lu/services/cve-search/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CVEAPI",
+        "desc": "CVE data API with multiple feeds",
+        "url": "https://www.cveapi.com/docs",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "NVD API",
+        "desc": "RESTful access to CVE data including feeds",
+        "url": "https://nvd.nist.gov/downloads#JSONFeed",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Vulners API",
+        "desc": "Vulnerability and threat intelligence data",
+        "url": "https://www.vulners.com/api/v3/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Shodan API",
+        "desc": "IoT/endpoint exposure search and data",
+        "url": "https://developer.shodan.io/",
         "cost": "premium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Security & Safety"
     },
     {
-        "name": "Google Cloud APIs",
-        "desc": "Provides cloud services and developer tooling APIs.",
-        "url": "https://cloud.google.com/apis/docs",
+        "name": "Censys API",
+        "desc": "Internet asset discovery and scan results",
+        "url": "https://search.censys.io/account/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Security & Safety"
     },
     {
-        "name": "GitHub REST API",
-        "desc": "Manages repositories, issues, pulls, and users.",
-        "url": "https://docs.github.com/en/rest",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "GitHub GraphQL API",
-        "desc": "Queries GitHub repositories and metadata.",
-        "url": "https://docs.github.com/en/graphql",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Docker Hub API",
-        "desc": "Accesses image repositories and tags.",
-        "url": "https://docs.docker.com/docker-hub/api/latest/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Postman API",
-        "desc": "Manages workspaces, collections, and environments.",
-        "url": "https://learning.postman.com/docs/developer/postman-api/introduction/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Hoppscotch API",
-        "desc": "Runs API testing and workspace operations.",
-        "url": "https://docs.hoppscotch.io/",
+        "name": "OSSEC API (Wazuh)",
+        "desc": "Endpoint security events and log analysis",
+        "url": "https://documentation.wazuh.com/current/user-manual/api/index.html",
         "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "auth": true,
+        "category": "Security & Safety"
     },
     {
-        "name": "JSONPlaceholder",
-        "desc": "Returns fake JSON data for testing.",
-        "url": "https://jsonplaceholder.typicode.com/",
+        "name": "TheHive API",
+        "desc": "Security incident response platform API",
+        "url": "https://github.com/TheHive-Project/TheHive",
         "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "auth": true,
+        "category": "Security & Safety"
     },
     {
-        "name": "Dictionary API",
-        "desc": "Provides English word definitions and pronunciations.",
-        "url": "https://dictionaryapi.dev/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "REST Countries",
-        "desc": "Returns country data, flags, and codes.",
-        "url": "https://restcountries.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "name": "OSSIM OpenAPI (OpenVAS/OpenVAS API)",
+        "desc": "Vulnerability assessment API features",
+        "url": "https://www.openvas.org/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
     }
 ]
