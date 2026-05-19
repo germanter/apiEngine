@@ -2,72 +2,72 @@
     {
         "name": "CIRCL CVE Search",
         "desc": "CVE data search API for vulnerabilities",
-        "url": "https://www.circl.lu/services/cve-search/",
-        "cost": "free",
+        "url": "https://www.circl.lu/services/cve-search/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CIRCL hashlookup",
+        "desc": "Hash-based malware file lookup service",
+        "url": "https://www.circl.lu/services/hashlookup/api/",
+        "cost": "freemium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
         "name": "CVEAPI",
-        "desc": "CVE data API with multiple feeds",
+        "desc": "CVE data feed and search API",
         "url": "https://www.cveapi.com/docs",
         "cost": "free",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "NVD API",
-        "desc": "RESTful access to CVE data including feeds",
-        "url": "https://nvd.nist.gov/downloads#JSONFeed",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Vulners API",
-        "desc": "Vulnerability and threat intelligence data",
-        "url": "https://www.vulners.com/api/v3/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
         "name": "Shodan API",
-        "desc": "IoT/endpoint exposure search and data",
-        "url": "https://developer.shodan.io/",
+        "desc": "Search Internet-connected devices data",
+        "url": "https://docs.shodan.io/",
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "Censys API",
-        "desc": "Internet asset discovery and scan results",
-        "url": "https://search.censys.io/account/api",
+        "name": "VirusTotal API",
+        "desc": "Malware/URL/file analysis and reputation",
+        "url": "https://www.virustotal.com/gui/docs/api",
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "OSSEC API (Wazuh)",
-        "desc": "Endpoint security events and log analysis",
-        "url": "https://documentation.wazuh.com/current/user-manual/api/index.html",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "TheHive API",
-        "desc": "Security incident response platform API",
-        "url": "https://github.com/TheHive-Project/TheHive",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "OSSIM OpenAPI (OpenVAS/OpenVAS API)",
-        "desc": "Vulnerability assessment API features",
-        "url": "https://www.openvas.org/",
+        "name": "Pulsedive API",
+        "desc": "Threat intelligence data and indicators",
+        "url": "https://pulsedive.com/api/",
         "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Yandex Safe Browsing API",
+        "desc": "URL/domain reputation checks",
+        "url": "https://yandex.com/dev/safebrowsing",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Cortex (TheHive Project) API",
+        "desc": "Security incident response integration",
+        "url": "https://docs.thehive-project.org/api/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Shodan Malware / IoT Data (OpenAPI footprint)",
+        "desc": "Public API access for device metadata",
+        "url": "https://api.shodan.io/",
+        "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
     }
