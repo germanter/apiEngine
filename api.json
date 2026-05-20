@@ -1338,7 +1338,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Legal & Finance",
-        "status": "UNKNOWN"
+        "status": "DEAD"
     },
     {
         "name": "Companies House API",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenAQ API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3796,5 +3796,95 @@
         "auth": true,
         "category": "Security & Safety",
         "status": "DEAD"
+    },
+    {
+        "name": "SAFE APIs",
+        "desc": "Security assessment and risk management REST APIs.",
+        "url": "https://docs.safe.security/docs/accessing-safe-apis",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Akamai API Security",
+        "desc": "Discovers, monitors, and audits API activity for threats.",
+        "url": "https://www.akamai.com/products/api-security",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Public APIs Security Collection",
+        "desc": "Directory of security-related public APIs.",
+        "url": "https://github.com/public-apis/public-apis",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Security APIs Collection",
+        "desc": "Curated list of public security APIs.",
+        "url": "https://github.com/jaegeral/security-apis",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "StackHawk API Security",
+        "desc": "Dynamic testing for API vulnerabilities in CI pipelines.",
+        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Snyk API Security",
+        "desc": "Scans dependencies, containers, and infrastructure for flaws.",
+        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Noname Security",
+        "desc": "Monitors API behavior and runtime threats.",
+        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "SALT Security",
+        "desc": "Detects API abuse using behavioral analytics.",
+        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Orca Security API Security",
+        "desc": "Cloud API security and misconfiguration detection.",
+        "url": "https://orca.security/resources/blog/what-is-api-security/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Palo Alto Networks API Security",
+        "desc": "API security guidance and threat protection tooling.",
+        "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-api-security",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
     }
 ]

@@ -1,72 +1,80 @@
 [
     {
-        "name": "CIRCL CVE Search",
-        "desc": "CVE data search API for vulnerabilities",
-        "url": "https://www.circl.lu/services/cve-search/api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CIRCL hashlookup",
-        "desc": "Hash-based malware file lookup service",
-        "url": "https://www.circl.lu/services/hashlookup/api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CVEAPI",
-        "desc": "CVE data feed and search API",
-        "url": "https://www.cveapi.com/docs",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Shodan API",
-        "desc": "Search Internet-connected devices data",
-        "url": "https://docs.shodan.io/",
+        "name": "SAFE APIs",
+        "desc": "Security assessment and risk management REST APIs.",
+        "url": "https://docs.safe.security/docs/accessing-safe-apis",
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "VirusTotal API",
-        "desc": "Malware/URL/file analysis and reputation",
-        "url": "https://www.virustotal.com/gui/docs/api",
+        "name": "Akamai API Security",
+        "desc": "Discovers, monitors, and audits API activity for threats.",
+        "url": "https://www.akamai.com/products/api-security",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Public APIs Security Collection",
+        "desc": "Directory of security-related public APIs.",
+        "url": "https://github.com/public-apis/public-apis",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Security APIs Collection",
+        "desc": "Curated list of public security APIs.",
+        "url": "https://github.com/jaegeral/security-apis",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "StackHawk API Security",
+        "desc": "Dynamic testing for API vulnerabilities in CI pipelines.",
+        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Snyk API Security",
+        "desc": "Scans dependencies, containers, and infrastructure for flaws.",
+        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "Pulsedive API",
-        "desc": "Threat intelligence data and indicators",
-        "url": "https://pulsedive.com/api/",
-        "cost": "freemium",
+        "name": "Noname Security",
+        "desc": "Monitors API behavior and runtime threats.",
+        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "Yandex Safe Browsing API",
-        "desc": "URL/domain reputation checks",
-        "url": "https://yandex.com/dev/safebrowsing",
-        "cost": "freemium",
+        "name": "SALT Security",
+        "desc": "Detects API abuse using behavioral analytics.",
+        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "Cortex (TheHive Project) API",
-        "desc": "Security incident response integration",
-        "url": "https://docs.thehive-project.org/api/overview",
-        "cost": "freemium",
+        "name": "Orca Security API Security",
+        "desc": "Cloud API security and misconfiguration detection.",
+        "url": "https://orca.security/resources/blog/what-is-api-security/",
+        "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "Shodan Malware / IoT Data (OpenAPI footprint)",
-        "desc": "Public API access for device metadata",
-        "url": "https://api.shodan.io/",
+        "name": "Palo Alto Networks API Security",
+        "desc": "API security guidance and threat protection tooling.",
+        "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-api-security",
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
