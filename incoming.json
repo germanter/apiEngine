@@ -1,82 +1,122 @@
 [
     {
-        "name": "SAFE APIs",
-        "desc": "Security assessment and risk management REST APIs.",
+        "name": "Microsoft Defender for Endpoint API",
+        "desc": "Security alerts, incidents, advanced hunting data",
+        "url": "https://learn.microsoft.com/en-us/defender-endpoint/apis-intro",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "SAFE REST API",
+        "desc": "Attack surface management and risk data",
         "url": "https://docs.safe.security/docs/accessing-safe-apis",
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "Akamai API Security",
-        "desc": "Discovers, monitors, and audits API activity for threats.",
-        "url": "https://www.akamai.com/products/api-security",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Public APIs Security Collection",
-        "desc": "Directory of security-related public APIs.",
-        "url": "https://github.com/public-apis/public-apis",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Security APIs Collection",
-        "desc": "Curated list of public security APIs.",
-        "url": "https://github.com/jaegeral/security-apis",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "StackHawk API Security",
-        "desc": "Dynamic testing for API vulnerabilities in CI pipelines.",
-        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Snyk API Security",
-        "desc": "Scans dependencies, containers, and infrastructure for flaws.",
-        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "name": "SecurityTrails API",
+        "desc": "DNS, domains, IPs, and passive DNS intelligence",
+        "url": "https://docs.securitytrails.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "Noname Security",
-        "desc": "Monitors API behavior and runtime threats.",
-        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "name": "VirusTotal API",
+        "desc": "File, URL, domain, and IP threat intelligence",
+        "url": "https://docs.virustotal.com/reference/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "AbuseIPDB API",
+        "desc": "Reports abusive IP addresses",
+        "url": "https://docs.abuseipdb.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Shodan API",
+        "desc": "Internet-exposed devices and service fingerprints",
+        "url": "https://developer.shodan.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Censys Search API",
+        "desc": "Internet asset and certificate search",
+        "url": "https://docs.censys.com/docs/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "GreyNoise API",
+        "desc": "Internet noise and scanning activity data",
+        "url": "https://docs.greynoise.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Have I Been Pwned API",
+        "desc": "Checks breaches and exposed passwords",
+        "url": "https://haveibeenpwned.com/API/v3",
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "SALT Security",
-        "desc": "Detects API abuse using behavioral analytics.",
-        "url": "https://www.stackhawk.com/blog/best-api-security-solutions/",
+        "name": "urlscan.io API",
+        "desc": "Scans and analyzes website behavior",
+        "url": "https://urlscan.io/docs/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "IBM X-Force Exchange API",
+        "desc": "Threat intelligence for indicators and malware",
+        "url": "https://exchange.xforce.ibmcloud.com/doc/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "AlienVault OTX API",
+        "desc": "Community threat intelligence indicators",
+        "url": "https://otx.alienvault.com/api",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "IPinfo IP Reputation API",
+        "desc": "IP risk and abuse reputation data",
+        "url": "https://ipinfo.io/developers",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "PublicWWW API",
+        "desc": "Searches source code for security clues",
+        "url": "https://publicwww.com/api/",
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety"
     },
     {
-        "name": "Orca Security API Security",
-        "desc": "Cloud API security and misconfiguration detection.",
-        "url": "https://orca.security/resources/blog/what-is-api-security/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Palo Alto Networks API Security",
-        "desc": "API security guidance and threat protection tooling.",
-        "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-api-security",
-        "cost": "premium",
-        "auth": true,
+        "name": "OWASP Amass",
+        "desc": "Open-source attack surface enumeration tool",
+        "url": "https://github.com/owasp-amass/amass",
+        "cost": "free",
+        "auth": false,
         "category": "Security & Safety"
     }
 ]

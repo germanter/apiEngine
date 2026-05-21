@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Openappsec API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3884,6 +3884,78 @@
         "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-api-security",
         "cost": "premium",
         "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Microsoft Defender for Endpoint API",
+        "desc": "Security alerts, incidents, advanced hunting data",
+        "url": "https://learn.microsoft.com/en-us/defender-endpoint/apis-intro",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "SAFE REST API",
+        "desc": "Attack surface management and risk data",
+        "url": "https://docs.safe.security/docs/accessing-safe-apis",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Censys Search API",
+        "desc": "Internet asset and certificate search",
+        "url": "https://docs.censys.com/docs/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "urlscan.io API",
+        "desc": "Scans and analyzes website behavior",
+        "url": "https://urlscan.io/docs/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "IBM X-Force Exchange API",
+        "desc": "Threat intelligence for indicators and malware",
+        "url": "https://exchange.xforce.ibmcloud.com/doc/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "IPinfo IP Reputation API",
+        "desc": "IP risk and abuse reputation data",
+        "url": "https://ipinfo.io/developers",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "PublicWWW API",
+        "desc": "Searches source code for security clues",
+        "url": "https://publicwww.com/api/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OWASP Amass",
+        "desc": "Open-source attack surface enumeration tool",
+        "url": "https://github.com/owasp-amass/amass",
+        "cost": "free",
+        "auth": false,
         "category": "Security & Safety",
         "status": "ALIVE"
     }
