@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Disease Ontology API",
@@ -1338,7 +1338,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Legal & Finance",
-        "status": "DEAD"
+        "status": "UNKNOWN"
     },
     {
         "name": "Companies House API",
@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3957,6 +3957,42 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Mapbox APIs",
+        "desc": "Maps, geocoding, routing, search, and navigation data.",
+        "url": "https://docs.mapbox.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Geoapify API",
+        "desc": "Maps, geocoding, routing, places, and isolines.",
+        "url": "https://apidocs.geoapify.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MapTiler API",
+        "desc": "Map tiles, geocoding, routing, and coordinates.",
+        "url": "https://docs.maptiler.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "openrouteservice",
+        "desc": "Open routing and geocoding API.",
+        "url": "https://openrouteservice.org/dev/#/api-docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
         "status": "ALIVE"
     }
 ]

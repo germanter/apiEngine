@@ -1,122 +1,98 @@
 [
     {
-        "name": "Microsoft Defender for Endpoint API",
-        "desc": "Security alerts, incidents, advanced hunting data",
-        "url": "https://learn.microsoft.com/en-us/defender-endpoint/apis-intro",
+        "name": "Google Maps Platform",
+        "desc": "Maps, geocoding, routes, places, and tiles.",
+        "url": "https://developers.google.com/maps/documentation",
         "cost": "premium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "SAFE REST API",
-        "desc": "Attack surface management and risk data",
-        "url": "https://docs.safe.security/docs/accessing-safe-apis",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "SecurityTrails API",
-        "desc": "DNS, domains, IPs, and passive DNS intelligence",
-        "url": "https://docs.securitytrails.com/",
+        "name": "Mapbox APIs",
+        "desc": "Maps, geocoding, routing, search, and navigation data.",
+        "url": "https://docs.mapbox.com/api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "VirusTotal API",
-        "desc": "File, URL, domain, and IP threat intelligence",
-        "url": "https://docs.virustotal.com/reference/overview",
+        "name": "HERE Maps API",
+        "desc": "Routing, geocoding, places, traffic, and map tiles.",
+        "url": "https://www.here.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "AbuseIPDB API",
-        "desc": "Reports abusive IP addresses",
-        "url": "https://docs.abuseipdb.com/",
+        "name": "Apple MapKit JS",
+        "desc": "Web maps, geocoding, search, and directions.",
+        "url": "https://developer.apple.com/documentation/mapkitjs",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
     },
     {
-        "name": "Shodan API",
-        "desc": "Internet-exposed devices and service fingerprints",
-        "url": "https://developer.shodan.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Censys Search API",
-        "desc": "Internet asset and certificate search",
-        "url": "https://docs.censys.com/docs/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "GreyNoise API",
-        "desc": "Internet noise and scanning activity data",
-        "url": "https://docs.greynoise.io/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Have I Been Pwned API",
-        "desc": "Checks breaches and exposed passwords",
-        "url": "https://haveibeenpwned.com/API/v3",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "urlscan.io API",
-        "desc": "Scans and analyzes website behavior",
-        "url": "https://urlscan.io/docs/api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "IBM X-Force Exchange API",
-        "desc": "Threat intelligence for indicators and malware",
-        "url": "https://exchange.xforce.ibmcloud.com/doc/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "AlienVault OTX API",
-        "desc": "Community threat intelligence indicators",
-        "url": "https://otx.alienvault.com/api",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "IPinfo IP Reputation API",
-        "desc": "IP risk and abuse reputation data",
-        "url": "https://ipinfo.io/developers",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "PublicWWW API",
-        "desc": "Searches source code for security clues",
-        "url": "https://publicwww.com/api/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "OWASP Amass",
-        "desc": "Open-source attack surface enumeration tool",
-        "url": "https://github.com/owasp-amass/amass",
+        "name": "OpenStreetMap Nominatim",
+        "desc": "Open geocoding and reverse geocoding service.",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
         "cost": "free",
         "auth": false,
-        "category": "Security & Safety"
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenRouteService API",
+        "desc": "Routing, geocoding, isochrones, and matrix calculations.",
+        "url": "https://openrouteservice.org/dev/#/api-docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geoapify API",
+        "desc": "Maps, geocoding, routing, places, and isolines.",
+        "url": "https://apidocs.geoapify.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "TomTom Maps APIs",
+        "desc": "Geocoding, routing, traffic, search, and maps.",
+        "url": "https://developer.tomtom.com/products",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Esri ArcGIS REST API",
+        "desc": "Geocoding, routing, feature services, and map services.",
+        "url": "https://developers.arcgis.com/rest/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Pelias API",
+        "desc": "Open geocoding and place search API.",
+        "url": "https://github.com/pelias/documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "MapTiler API",
+        "desc": "Map tiles, geocoding, routing, and coordinates.",
+        "url": "https://docs.maptiler.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "openrouteservice",
+        "desc": "Open routing and geocoding API.",
+        "url": "https://openrouteservice.org/dev/#/api-docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
     }
 ]
