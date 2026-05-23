@@ -1,96 +1,96 @@
 [
     {
         "name": "Google Maps Platform",
-        "desc": "Maps, geocoding, routes, places, and tiles.",
+        "desc": "Maps, routes, places, geocoding, and location services",
         "url": "https://developers.google.com/maps/documentation",
         "cost": "premium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
+        "name": "Google Places API",
+        "desc": "Place search, details, autocomplete, and photos",
+        "url": "https://developers.google.com/maps/documentation/places/web-service",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Google Geolocation API",
+        "desc": "Estimates device location from Wi-Fi and cell data",
+        "url": "https://developers.google.com/maps/documentation/geolocation/overview",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
         "name": "Mapbox APIs",
-        "desc": "Maps, geocoding, routing, search, and navigation data.",
+        "desc": "Maps, navigation, search, and geospatial data",
         "url": "https://docs.mapbox.com/api/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "HERE Maps API",
-        "desc": "Routing, geocoding, places, traffic, and map tiles.",
+        "name": "Mapbox Search API",
+        "desc": "Geocoding, reverse geocoding, and place search",
+        "url": "https://docs.mapbox.com/api/search/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "HERE Location Services",
+        "desc": "Maps, routing, geocoding, and fleet location services",
         "url": "https://www.here.com/docs",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Apple MapKit JS",
-        "desc": "Web maps, geocoding, search, and directions.",
-        "url": "https://developer.apple.com/documentation/mapkitjs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "OpenStreetMap Nominatim",
-        "desc": "Open geocoding and reverse geocoding service.",
-        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "OpenRouteService API",
-        "desc": "Routing, geocoding, isochrones, and matrix calculations.",
-        "url": "https://openrouteservice.org/dev/#/api-docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Geoapify API",
-        "desc": "Maps, geocoding, routing, places, and isolines.",
-        "url": "https://apidocs.geoapify.com/",
+        "name": "HERE Geocoding & Search",
+        "desc": "Forward and reverse geocoding, search, and places",
+        "url": "https://www.here.com/docs/bundle/geocoding-search-api-v8",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
         "name": "TomTom Maps APIs",
-        "desc": "Geocoding, routing, traffic, search, and maps.",
+        "desc": "Maps, routing, traffic, and search services",
         "url": "https://developer.tomtom.com/products",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Esri ArcGIS REST API",
-        "desc": "Geocoding, routing, feature services, and map services.",
-        "url": "https://developers.arcgis.com/rest/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Pelias API",
-        "desc": "Open geocoding and place search API.",
-        "url": "https://github.com/pelias/documentation",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "MapTiler API",
-        "desc": "Map tiles, geocoding, routing, and coordinates.",
-        "url": "https://docs.maptiler.com/",
+        "name": "Esri ArcGIS Location Services",
+        "desc": "Geocoding, routing, and place-finding services",
+        "url": "https://developers.arcgis.com/documentation/mapping-and-location-services/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "openrouteservice",
-        "desc": "Open routing and geocoding API.",
-        "url": "https://openrouteservice.org/dev/#/api-docs",
+        "name": "OpenStreetMap Nominatim",
+        "desc": "Open geocoding and reverse geocoding service",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenStreetMap Overpass API",
+        "desc": "Queries OpenStreetMap map data by filter",
+        "url": "https://overpass-api.de/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geoapify APIs",
+        "desc": "Maps, geocoding, routing, and places APIs",
+        "url": "https://apidocs.geoapify.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"

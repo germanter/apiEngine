@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ApiFlash",
@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Disease Ontology API",
@@ -1689,7 +1689,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Cisco Umbrella Enforcement API",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3534,7 +3534,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Scrapy (Scrapy Cloud / open-source)",
@@ -3552,7 +3552,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ProxyCrawl",
@@ -3786,7 +3786,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Shodan Malware / IoT Data (OpenAPI footprint)",
@@ -3990,6 +3990,33 @@
         "name": "openrouteservice",
         "desc": "Open routing and geocoding API.",
         "url": "https://openrouteservice.org/dev/#/api-docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "HERE Geocoding & Search",
+        "desc": "Forward and reverse geocoding, search, and places",
+        "url": "https://www.here.com/docs/bundle/geocoding-search-api-v8",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Esri ArcGIS Location Services",
+        "desc": "Geocoding, routing, and place-finding services",
+        "url": "https://developers.arcgis.com/documentation/mapping-and-location-services/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Geoapify APIs",
+        "desc": "Maps, geocoding, routing, and places APIs",
+        "url": "https://apidocs.geoapify.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
