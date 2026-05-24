@@ -1,98 +1,82 @@
 [
     {
         "name": "Google Maps Platform",
-        "desc": "Maps, routes, places, geocoding, and location services",
+        "desc": "Geocoding, maps, routes, places API access",
         "url": "https://developers.google.com/maps/documentation",
         "cost": "premium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Google Places API",
-        "desc": "Place search, details, autocomplete, and photos",
-        "url": "https://developers.google.com/maps/documentation/places/web-service",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Google Geolocation API",
-        "desc": "Estimates device location from Wi-Fi and cell data",
-        "url": "https://developers.google.com/maps/documentation/geolocation/overview",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Mapbox APIs",
-        "desc": "Maps, navigation, search, and geospatial data",
+        "name": "Mapbox API",
+        "desc": "Maps rendering, geocoding, directions services",
         "url": "https://docs.mapbox.com/api/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Mapbox Search API",
-        "desc": "Geocoding, reverse geocoding, and place search",
-        "url": "https://docs.mapbox.com/api/search/",
+        "name": "OpenRouteService",
+        "desc": "Open-source routing and geocoding services",
+        "url": "https://openrouteservice.org/dev/#/api-docs/introduction",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "HERE Location Services",
-        "desc": "Maps, routing, geocoding, and fleet location services",
-        "url": "https://www.here.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "HERE Geocoding & Search",
-        "desc": "Forward and reverse geocoding, search, and places",
-        "url": "https://www.here.com/docs/bundle/geocoding-search-api-v8",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "TomTom Maps APIs",
-        "desc": "Maps, routing, traffic, and search services",
-        "url": "https://developer.tomtom.com/products",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Esri ArcGIS Location Services",
-        "desc": "Geocoding, routing, and place-finding services",
-        "url": "https://developers.arcgis.com/documentation/mapping-and-location-services/",
+        "name": "Geoapify",
+        "desc": "Geocoding, places, routing APIs",
+        "url": "https://www.geoapify.com/dev-docs/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
         "name": "OpenStreetMap Nominatim",
-        "desc": "Open geocoding and reverse geocoding service",
-        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "desc": "Geocoding using OSM data",
+        "url": "https://nominatim.org/release-docs/develop/api/",
         "cost": "free",
         "auth": false,
         "category": "Location & Maps"
     },
     {
-        "name": "OpenStreetMap Overpass API",
-        "desc": "Queries OpenStreetMap map data by filter",
-        "url": "https://overpass-api.de/",
+        "name": "OpenFreeMap",
+        "desc": "Self-hostable map hosting with OSM data",
+        "url": "https://openfreemap.org/guide.html",
         "cost": "free",
         "auth": false,
         "category": "Location & Maps"
     },
     {
-        "name": "Geoapify APIs",
-        "desc": "Maps, geocoding, routing, and places APIs",
-        "url": "https://apidocs.geoapify.com/",
+        "name": " HERE Location Services",
+        "desc": "Geocoding, maps, routing and places",
+        "url": "https://developer.here.com/documentation",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "TomTom Maps APIs",
+        "desc": "Maps, traffic, routing, POI search",
+        "url": "https://developer.tomtom.com/",
         "cost": "freemium",
         "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Microsoft Azure Maps",
+        "desc": "Geocoding, maps, routing, weather layers",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-maps/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "MapLibre (Open source)",
+        "desc": "Open-source map rendering with vector tiles",
+        "url": "https://maplibre.org/maplibre-gl-js-docs/",
+        "cost": "free",
+        "auth": false,
         "category": "Location & Maps"
     }
 ]

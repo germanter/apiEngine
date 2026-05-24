@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ApiFlash",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenAQ API",
@@ -3534,7 +3534,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Scrapy (Scrapy Cloud / open-source)",
@@ -3552,7 +3552,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ProxyCrawl",
@@ -3786,7 +3786,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Shodan Malware / IoT Data (OpenAPI footprint)",
@@ -4021,5 +4021,41 @@
         "auth": true,
         "category": "Location & Maps",
         "status": "ALIVE"
+    },
+    {
+        "name": "Mapbox API",
+        "desc": "Maps rendering, geocoding, directions services",
+        "url": "https://docs.mapbox.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": " HERE Location Services",
+        "desc": "Geocoding, maps, routing and places",
+        "url": "https://developer.here.com/documentation",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Microsoft Azure Maps",
+        "desc": "Geocoding, maps, routing, weather layers",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-maps/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MapLibre (Open source)",
+        "desc": "Open-source map rendering with vector tiles",
+        "url": "https://maplibre.org/maplibre-gl-js-docs/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "DEAD"
     }
 ]
