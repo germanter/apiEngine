@@ -1689,7 +1689,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Cisco Umbrella Enforcement API",
@@ -3381,7 +3381,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OECD Data API",
@@ -4057,5 +4057,41 @@
         "auth": false,
         "category": "Location & Maps",
         "status": "DEAD"
+    },
+    {
+        "name": "Apify API",
+        "desc": "API for running scrapers and retrieving scraped data",
+        "url": "https://docs.apify.com/api/v2",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "ScrapingAnt",
+        "desc": "Web scraping API for HTML fetching and rendering",
+        "url": "https://docs.scrapingant.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "SerpApi",
+        "desc": "Search engine results API with scraping capabilities",
+        "url": "https://serpapi.com/search-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Internet Archive Wayback Machine CDX API",
+        "desc": "Public API for archived web snapshots and URLs",
+        "url": "https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping",
+        "status": "ALIVE"
     }
 ]
