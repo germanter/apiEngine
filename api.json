@@ -3273,7 +3273,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "License-API",
@@ -3381,7 +3381,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OECD Data API",
@@ -3786,7 +3786,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Shodan Malware / IoT Data (OpenAPI footprint)",
@@ -4091,6 +4091,60 @@
         "url": "https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server",
         "cost": "free",
         "auth": false,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bright Data (formerly Luminati) - Web Context",
+        "desc": "Residential/datacenter proxies with API access",
+        "url": "https://brightdata.com/developers",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "serpapi",
+        "desc": "Search engine results scraping API with endpoints",
+        "url": "https://serpapi.com/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "HeadlessBrowser API",
+        "desc": "JS-capable scraping with headless browser rendering",
+        "url": "https://docs.headlessbrowser.dev/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Octoparse Cloud",
+        "desc": "API access to cloud-based scraping workflows",
+        "url": "https://www.octoparse.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "PortSwigger Burp Suite Enterprise API",
+        "desc": "Enterprise-grade data extraction via API",
+        "url": "https://portswigger.net/burp/documentation/enterprise/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Diffbot API",
+        "desc": "Structured data extraction from pages",
+        "url": "https://www.diffbot.com/dev/docs/",
+        "cost": "premium",
+        "auth": true,
         "category": "Scraping",
         "status": "ALIVE"
     }
