@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Openappsec API",
@@ -1689,7 +1689,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Cisco Umbrella Enforcement API",
