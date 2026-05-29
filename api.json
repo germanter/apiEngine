@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -4146,6 +4146,42 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google APIs Explorer",
+        "desc": "Interactive console for trying Google REST APIs.",
+        "url": "https://developers.google.com/apis-explorer",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Web of Science API Expanded",
+        "desc": "REST access to documents with search and filters.",
+        "url": "https://developer.clarivate.com/apis/wos",
+        "cost": "premium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Public APIs",
+        "desc": "Curated directory of public APIs for developers.",
+        "url": "https://github.com/public-apis/public-apis",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "API List",
+        "desc": "Directory of free JSON APIs for development.",
+        "url": "https://github.com/joshbalfour/API-List",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
         "status": "ALIVE"
     }
 ]

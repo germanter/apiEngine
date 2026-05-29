@@ -1,82 +1,34 @@
 [
     {
-        "name": "ScraperAPI",
-        "desc": "Proxy-based scraping API with JS rendering",
-        "url": "https://docs.scraperapi.com/",
+        "name": "Google APIs Explorer",
+        "desc": "Interactive console for trying Google REST APIs.",
+        "url": "https://developers.google.com/apis-explorer",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Web of Science API Expanded",
+        "desc": "REST access to documents with search and filters.",
+        "url": "https://developer.clarivate.com/apis/wos",
         "cost": "premium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "ScrapingBee",
-        "desc": "HTTP API for rendering JS and extracting data",
-        "url": "https://docs.scrapingbee.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
+        "name": "Public APIs",
+        "desc": "Curated directory of public APIs for developers.",
+        "url": "https://github.com/public-apis/public-apis",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
     },
     {
-        "name": "Bright Data (formerly Luminati) - Web Context",
-        "desc": "Residential/datacenter proxies with API access",
-        "url": "https://brightdata.com/developers",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Apify API",
-        "desc": "Cloud scraping platform with actors and API",
-        "url": "https://docs.apify.com/api/v2/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "serpapi",
-        "desc": "Search engine results scraping API with endpoints",
-        "url": "https://serpapi.com/api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ZenRows",
-        "desc": "JS-rendering web scraping API with caching",
-        "url": "https://docs.zenrows.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "HeadlessBrowser API",
-        "desc": "JS-capable scraping with headless browser rendering",
-        "url": "https://docs.headlessbrowser.dev/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Octoparse Cloud",
-        "desc": "API access to cloud-based scraping workflows",
-        "url": "https://www.octoparse.com/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "PortSwigger Burp Suite Enterprise API",
-        "desc": "Enterprise-grade data extraction via API",
-        "url": "https://portswigger.net/burp/documentation/enterprise/api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Diffbot API",
-        "desc": "Structured data extraction from pages",
-        "url": "https://www.diffbot.com/dev/docs/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
+        "name": "API List",
+        "desc": "Directory of free JSON APIs for development.",
+        "url": "https://github.com/joshbalfour/API-List",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
     }
 ]
