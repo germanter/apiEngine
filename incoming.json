@@ -1,34 +1,82 @@
 [
     {
-        "name": "Google APIs Explorer",
-        "desc": "Interactive console for trying Google REST APIs.",
-        "url": "https://developers.google.com/apis-explorer",
+        "name": "OpenWeather API",
+        "desc": "Weather data including current, forecast, and historical",
+        "url": "https://openweathermap.org/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "NOAA National Weather Service API",
+        "desc": "Official meteorological data and alerts",
+        "url": "https://www.weather.gov/documentation/services_web_api",
         "cost": "free",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "Web of Science API Expanded",
-        "desc": "REST access to documents with search and filters.",
-        "url": "https://developer.clarivate.com/apis/wos",
-        "cost": "premium",
+        "name": "NASA API",
+        "desc": "Public space and astronomy data collections",
+        "url": "https://api.nasa.gov",
+        "cost": "free",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "Public APIs",
-        "desc": "Curated directory of public APIs for developers.",
-        "url": "https://github.com/public-apis/public-apis",
+        "name": "US Census Bureau API",
+        "desc": "Demographic and geographic data for the United States",
+        "url": "https://www.census.gov/data/developers/guidance/api-user-guide.html",
         "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "auth": true,
+        "category": "Data & Information"
     },
     {
-        "name": "API List",
-        "desc": "Directory of free JSON APIs for development.",
-        "url": "https://github.com/joshbalfour/API-List",
+        "name": "Air Quality Open Data Platform (AQICN) API",
+        "desc": "Real-time air quality data worldwide",
+        "url": "https://aqicn.org/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Scraper API",
+        "desc": "Web scraping with structured data extraction",
+        "url": "https://www.scraperapi.com/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Wikipedia API (Wikimedia REST API)",
+        "desc": "Access encyclopedia content programmatically",
+        "url": "https://www.wikidata.org/wiki/Wikibase_API",
         "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Wikidata API",
+        "desc": "Structured data for worldwide knowledge base",
+        "url": "https://www.wikidata.org/w/api.php",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "NASA Open API - Mars Rover Photos",
+        "desc": "Images and metadata from Mars rovers",
+        "url": "https://api.nasa.gov/#mars-photos",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "CryptoCompare API",
+        "desc": "Cryptocurrency market data and historical data",
+        "url": "https://min-api.cryptocompare.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information"
     }
 ]

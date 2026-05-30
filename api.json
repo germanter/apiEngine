@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Disease Ontology API",
@@ -1689,7 +1689,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Cisco Umbrella Enforcement API",
@@ -2355,7 +2355,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "World Bank Climate Data API",
@@ -3786,7 +3786,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Shodan Malware / IoT Data (OpenAPI footprint)",
@@ -4182,6 +4182,51 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Air Quality Open Data Platform (AQICN) API",
+        "desc": "Real-time air quality data worldwide",
+        "url": "https://aqicn.org/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Scraper API",
+        "desc": "Web scraping with structured data extraction",
+        "url": "https://www.scraperapi.com/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Wikipedia API (Wikimedia REST API)",
+        "desc": "Access encyclopedia content programmatically",
+        "url": "https://www.wikidata.org/wiki/Wikibase_API",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NASA Open API - Mars Rover Photos",
+        "desc": "Images and metadata from Mars rovers",
+        "url": "https://api.nasa.gov/#mars-photos",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CryptoCompare API",
+        "desc": "Cryptocurrency market data and historical data",
+        "url": "https://min-api.cryptocompare.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Data & Information",
         "status": "ALIVE"
     }
 ]
