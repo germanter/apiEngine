@@ -33,7 +33,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Mistral AI API",
@@ -87,7 +87,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Cloud Text-to-Speech API",
@@ -1644,7 +1644,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CIRCL Passive SSH API",
@@ -1653,7 +1653,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "AlienVault OTX API",
@@ -1689,7 +1689,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Cisco Umbrella Enforcement API",
@@ -1797,7 +1797,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Zyte (formerly Scrapinghub) Web Data Extraction API",
@@ -2355,7 +2355,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "World Bank Climate Data API",
@@ -2778,7 +2778,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CIRCL Passive SSH",
@@ -3741,7 +3741,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Vulners API",
@@ -4227,6 +4227,24 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Azure OpenAI Service",
+        "desc": "OpenAI models via Azure endpoints",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Cerebras Inference API",
+        "desc": "Fast inference for supported language models",
+        "url": "https://inference-docs.cerebras.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
         "status": "ALIVE"
     }
 ]

@@ -1,82 +1,122 @@
 [
     {
-        "name": "OpenWeather API",
-        "desc": "Weather data including current, forecast, and historical",
-        "url": "https://openweathermap.org/api",
+        "name": "OpenAI API",
+        "desc": "Text, image, audio, and tool-use model access",
+        "url": "https://developers.openai.com/api/docs/models/all",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Anthropic API",
+        "desc": "Claude model access for text and tool use",
+        "url": "https://docs.anthropic.com/en/api/getting-started",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Google Gemini API",
+        "desc": "Multimodal Gemini model access for apps",
+        "url": "https://ai.google.dev/gemini-api/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "NOAA National Weather Service API",
-        "desc": "Official meteorological data and alerts",
-        "url": "https://www.weather.gov/documentation/services_web_api",
-        "cost": "free",
+        "name": "AWS Bedrock API",
+        "desc": "Managed access to foundation models",
+        "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html",
+        "cost": "premium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "NASA API",
-        "desc": "Public space and astronomy data collections",
-        "url": "https://api.nasa.gov",
-        "cost": "free",
+        "name": "Azure OpenAI Service",
+        "desc": "OpenAI models via Azure endpoints",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/openai/",
+        "cost": "premium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "US Census Bureau API",
-        "desc": "Demographic and geographic data for the United States",
-        "url": "https://www.census.gov/data/developers/guidance/api-user-guide.html",
-        "cost": "free",
+        "name": "Cohere API",
+        "desc": "Language models for generation and embeddings",
+        "url": "https://docs.cohere.com/docs",
+        "cost": "premium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "Air Quality Open Data Platform (AQICN) API",
-        "desc": "Real-time air quality data worldwide",
-        "url": "https://aqicn.org/api/",
+        "name": "Mistral API",
+        "desc": "Chat and model endpoints for Mistral models",
+        "url": "https://docs.mistral.ai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "DeepSeek API",
+        "desc": "Chat model API for DeepSeek models",
+        "url": "https://platform.deepseek.com/api-docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Groq API",
+        "desc": "Fast inference for supported open models",
+        "url": "https://console.groq.com/docs/quickstart",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "Scraper API",
-        "desc": "Web scraping with structured data extraction",
-        "url": "https://www.scraperapi.com/docs/",
+        "name": "Together AI API",
+        "desc": "Inference API for open and hosted models",
+        "url": "https://docs.together.ai/docs/overview",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "Wikipedia API (Wikimedia REST API)",
-        "desc": "Access encyclopedia content programmatically",
-        "url": "https://www.wikidata.org/wiki/Wikibase_API",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Wikidata API",
-        "desc": "Structured data for worldwide knowledge base",
-        "url": "https://www.wikidata.org/w/api.php",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "NASA Open API - Mars Rover Photos",
-        "desc": "Images and metadata from Mars rovers",
-        "url": "https://api.nasa.gov/#mars-photos",
+        "name": "Fireworks AI API",
+        "desc": "Inference API for open-source models",
+        "url": "https://docs.fireworks.ai/",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "CryptoCompare API",
-        "desc": "Cryptocurrency market data and historical data",
-        "url": "https://min-api.cryptocompare.com/documentation",
+        "name": "Hugging Face Inference API",
+        "desc": "Hosted inference for public machine learning models",
+        "url": "https://huggingface.co/docs/api-inference/index",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
+    },
+    {
+        "name": "Replicate API",
+        "desc": "Runs community and hosted AI models",
+        "url": "https://replicate.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "OpenRouter API",
+        "desc": "Unified API for many model providers",
+        "url": "https://openrouter.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cerebras Inference API",
+        "desc": "Fast inference for supported language models",
+        "url": "https://inference-docs.cerebras.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
     }
 ]
