@@ -33,7 +33,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Mistral AI API",
@@ -87,7 +87,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Cloud Text-to-Speech API",
@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ApiFlash",
@@ -1644,7 +1644,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "CIRCL Passive SSH API",
@@ -1653,7 +1653,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "AlienVault OTX API",
@@ -1797,7 +1797,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Zyte (formerly Scrapinghub) Web Data Extraction API",
@@ -2778,7 +2778,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "CIRCL Passive SSH",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3741,7 +3741,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Vulners API",
@@ -3786,7 +3786,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Shodan Malware / IoT Data (OpenAPI footprint)",
