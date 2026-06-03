@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ApiFlash",
@@ -1644,7 +1644,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CIRCL Passive SSH API",
@@ -1653,7 +1653,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "AlienVault OTX API",
@@ -2652,7 +2652,7 @@
         "cost": "free",
         "auth": false,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "GitLab REST API",
@@ -2778,7 +2778,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CIRCL Passive SSH",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3741,7 +3741,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Vulners API",
@@ -4245,6 +4245,51 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenCage Geocoder",
+        "desc": "Forward and reverse geocoding API",
+        "url": "https://opencagedata.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "LocationIQ",
+        "desc": "Geocoding, routing, and autocomplete APIs",
+        "url": "https://locationiq.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Leaflet",
+        "desc": "Open-source interactive web map library",
+        "url": "https://leafletjs.com/reference.html",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenLayers",
+        "desc": "Open-source web mapping library",
+        "url": "https://openlayers.org/en/latest/apidoc/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bing Maps APIs",
+        "desc": "Geocoding, routing, imagery, and location APIs",
+        "url": "https://learn.microsoft.com/en-us/bingmaps/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
         "status": "ALIVE"
     }
 ]
