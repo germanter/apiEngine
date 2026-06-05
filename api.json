@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Openappsec API",
@@ -3552,7 +3552,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ProxyCrawl",
@@ -4290,6 +4290,24 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Anthropic Messages API",
+        "desc": "Provides Claude chat and tool-use responses",
+        "url": "https://docs.anthropic.com/en/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Together API",
+        "desc": "Provides hosted open model inference and fine-tuning",
+        "url": "https://docs.together.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
         "status": "ALIVE"
     }
 ]
