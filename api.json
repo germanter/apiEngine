@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -4309,5 +4309,32 @@
         "auth": true,
         "category": "AI",
         "status": "ALIVE"
+    },
+    {
+        "name": "Here Location Services",
+        "desc": "Maps, geocoding, routing, places data.",
+        "url": "https://developer.here.com/documentation",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bing Maps REST Services",
+        "desc": "Imagery, geocoding, routing, and search.",
+        "url": "https://docs.microsoft.com/en-us/bingmaps/rest-services/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Open FreeMap API (OpenFreeMap)",
+        "desc": "Open data maps with open hosting and API access.",
+        "url": "https://openfreemap.org/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "DEAD"
     }
 ]

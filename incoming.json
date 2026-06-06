@@ -1,82 +1,74 @@
 [
     {
-        "name": "OpenAI API",
-        "desc": "Generates text, images, audio, and embeddings",
-        "url": "https://platform.openai.com/docs",
+        "name": "Google Maps Platform",
+        "desc": "Geocoding, maps, routes, places APIs.",
+        "url": "https://developers.google.com/maps/documentation",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Google Gemini API",
-        "desc": "Provides Gemini text, vision, and multimodal generation",
-        "url": "https://ai.google.dev/gemini-api/docs",
+        "name": "OpenStreetMap API",
+        "desc": "Community-driven map data and search endpoints.",
+        "url": "https://www.openstreetmap.org/about",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenRouteService",
+        "desc": "Routing, directions, isochrones using OSM data.",
+        "url": "https://openrouteservice.org/dev/#/api-docs",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Anthropic Messages API",
-        "desc": "Provides Claude chat and tool-use responses",
-        "url": "https://docs.anthropic.com/en/docs",
+        "name": "Geoapify Location Platform",
+        "desc": "Geocoding, maps, places, routing APIs.",
+        "url": "https://www.geoapify.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox API",
+        "desc": "Maps, geocoding, directions, and datasets.",
+        "url": "https://docs.mapbox.com/api/maps/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Here Location Services",
+        "desc": "Maps, geocoding, routing, places data.",
+        "url": "https://developer.here.com/documentation",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Mistral API",
-        "desc": "Offers text generation, embeddings, and OCR models",
-        "url": "https://docs.mistral.ai/",
-        "cost": "freemium",
+        "name": "TomTom Maps APIs",
+        "desc": "Geocoding, routing, traffic, and maps.",
+        "url": "https://developer.tomtom.com/content/maps-api",
+        "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Cohere API",
-        "desc": "Supports generation, embeddings, and reranking",
-        "url": "https://docs.cohere.com/docs",
+        "name": "Bing Maps REST Services",
+        "desc": "Imagery, geocoding, routing, and search.",
+        "url": "https://docs.microsoft.com/en-us/bingmaps/rest-services/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Hugging Face Inference API",
-        "desc": "Runs hosted model inference for many open models",
-        "url": "https://huggingface.co/docs/api-inference/index",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Groq API",
-        "desc": "Serves fast inference for supported open models",
-        "url": "https://console.groq.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Together API",
-        "desc": "Provides hosted open model inference and fine-tuning",
-        "url": "https://docs.together.ai/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Fireworks AI API",
-        "desc": "Offers hosted inference and model serving",
-        "url": "https://docs.fireworks.ai/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Replicate API",
-        "desc": "Runs community models through a hosted prediction API",
-        "url": "https://replicate.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
+        "name": "Open FreeMap API (OpenFreeMap)",
+        "desc": "Open data maps with open hosting and API access.",
+        "url": "https://openfreemap.org/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
     }
 ]
