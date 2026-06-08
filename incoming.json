@@ -1,74 +1,82 @@
 [
     {
-        "name": "Google Maps Platform",
-        "desc": "Geocoding, maps, routes, places APIs.",
-        "url": "https://developers.google.com/maps/documentation",
+        "name": "ScrapingBee",
+        "desc": "HTTP API for rendering JS and extracting data",
+        "url": "https://docs.scrapingbee.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "ScraperAPI",
+        "desc": "Handles proxies, browsers, and CAPTCHAs for pages",
+        "url": "https://www.scraperapi.com/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "ScrapingBee (Alternative docs)",
+        "desc": "JS rendering and data extraction endpoints",
+        "url": "https://docs.scrapingbee.com/#javascript-rendering",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Oxylabs Web Scraping API",
+        "desc": "High-scale proxy-based web data access",
+        "url": "https://oxylabs.io/products/web-scraping-api",
         "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "OpenStreetMap API",
-        "desc": "Community-driven map data and search endpoints.",
-        "url": "https://www.openstreetmap.org/about",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "OpenRouteService",
-        "desc": "Routing, directions, isochrones using OSM data.",
-        "url": "https://openrouteservice.org/dev/#/api-docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Geoapify Location Platform",
-        "desc": "Geocoding, maps, places, routing APIs.",
-        "url": "https://www.geoapify.com/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Mapbox API",
-        "desc": "Maps, geocoding, directions, and datasets.",
-        "url": "https://docs.mapbox.com/api/maps/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Here Location Services",
-        "desc": "Maps, geocoding, routing, places data.",
-        "url": "https://developer.here.com/documentation",
+        "name": "Bright Data Web Data Platform",
+        "desc": "Extensive proxy network with API access",
+        "url": "https://brightdata.com/products/web-data-platform",
         "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "TomTom Maps APIs",
-        "desc": "Geocoding, routing, traffic, and maps.",
-        "url": "https://developer.tomtom.com/content/maps-api",
+        "name": "ParseHub API",
+        "desc": "No-code/low-code scraping with API",
+        "url": "https://www.parsehub.com/docs/api",
         "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Bing Maps REST Services",
-        "desc": "Imagery, geocoding, routing, and search.",
-        "url": "https://docs.microsoft.com/en-us/bingmaps/rest-services/",
-        "cost": "freemium",
+        "name": "Apify",
+        "desc": "Actors-based web scraping with API access",
+        "url": "https://sdk.apify.com/docs/api/apify",
+        "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Open FreeMap API (OpenFreeMap)",
-        "desc": "Open data maps with open hosting and API access.",
-        "url": "https://openfreemap.org/api",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps"
+        "name": "Octoparse Cloud API",
+        "desc": "Cloud-based scraping with API",
+        "url": "https://www.octoparse.com/products/cloud-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Crawlera (Ancient name: Luminati Proxy Manager API)",
+        "desc": "Smart proxy rotating for scrapers",
+        "url": "https://www.luminati.io/proxy-manager-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Visualping API (Data extraction mode)",
+        "desc": "Change detection plus scraping API",
+        "url": "https://api.visualping.io/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
     }
 ]

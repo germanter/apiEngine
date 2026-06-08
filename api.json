@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ApiFlash",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3948,7 +3948,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OWASP Amass",
@@ -4336,5 +4336,59 @@
         "auth": false,
         "category": "Location & Maps",
         "status": "DEAD"
+    },
+    {
+        "name": "ScrapingBee (Alternative docs)",
+        "desc": "JS rendering and data extraction endpoints",
+        "url": "https://docs.scrapingbee.com/#javascript-rendering",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Oxylabs Web Scraping API",
+        "desc": "High-scale proxy-based web data access",
+        "url": "https://oxylabs.io/products/web-scraping-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Bright Data Web Data Platform",
+        "desc": "Extensive proxy network with API access",
+        "url": "https://brightdata.com/products/web-data-platform",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "ParseHub API",
+        "desc": "No-code/low-code scraping with API",
+        "url": "https://www.parsehub.com/docs/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Crawlera (Ancient name: Luminati Proxy Manager API)",
+        "desc": "Smart proxy rotating for scrapers",
+        "url": "https://www.luminati.io/proxy-manager-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Visualping API (Data extraction mode)",
+        "desc": "Change detection plus scraping API",
+        "url": "https://api.visualping.io/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
     }
 ]
