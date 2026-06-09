@@ -3948,7 +3948,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OWASP Amass",
@@ -4389,6 +4389,33 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "api.data.gov",
+        "desc": "Federal government API gateway for public data",
+        "url": "https://api.data.gov",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "NASA Open Data API",
+        "desc": "NASA datasets, imagery, and mission information",
+        "url": "https://api.nasa.gov",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "DBpedia Spotlight API",
+        "desc": "Entity extraction from natural language text",
+        "url": "https://www.dbpedia.org/resources/spotlight/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
         "status": "ALIVE"
     }
 ]

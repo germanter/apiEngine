@@ -1,82 +1,98 @@
 [
     {
-        "name": "ScrapingBee",
-        "desc": "HTTP API for rendering JS and extracting data",
-        "url": "https://docs.scrapingbee.com/",
-        "cost": "freemium",
+        "name": "api.data.gov",
+        "desc": "Federal government API gateway for public data",
+        "url": "https://api.data.gov",
+        "cost": "free",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "ScraperAPI",
-        "desc": "Handles proxies, browsers, and CAPTCHAs for pages",
-        "url": "https://www.scraperapi.com/docs/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
+        "name": "World Bank API",
+        "desc": "Economic and development indicators database access",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "ScrapingBee (Alternative docs)",
-        "desc": "JS rendering and data extraction endpoints",
-        "url": "https://docs.scrapingbee.com/#javascript-rendering",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
+        "name": "OpenAlex API",
+        "desc": "Scholarly works, authors, institutions, and concepts data",
+        "url": "https://docs.openalex.org",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "Oxylabs Web Scraping API",
-        "desc": "High-scale proxy-based web data access",
-        "url": "https://oxylabs.io/products/web-scraping-api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
+        "name": "Wikidata API",
+        "desc": "Structured knowledge graph and entity lookup data",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "Bright Data Web Data Platform",
-        "desc": "Extensive proxy network with API access",
-        "url": "https://brightdata.com/products/web-data-platform",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
+        "name": "Wikipedia API",
+        "desc": "Wikipedia page content, search, and metadata access",
+        "url": "https://www.mediawiki.org/wiki/API:Main_page",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "ParseHub API",
-        "desc": "No-code/low-code scraping with API",
-        "url": "https://www.parsehub.com/docs/api",
-        "cost": "premium",
+        "name": "US Census API",
+        "desc": "United States census and demographic statistics",
+        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "cost": "free",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "Apify",
-        "desc": "Actors-based web scraping with API access",
-        "url": "https://sdk.apify.com/docs/api/apify",
-        "cost": "premium",
+        "name": "FRED API",
+        "desc": "Federal Reserve economic time series and indicators",
+        "url": "https://fred.stlouisfed.org/docs/api/fred/",
+        "cost": "free",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "Octoparse Cloud API",
-        "desc": "Cloud-based scraping with API",
-        "url": "https://www.octoparse.com/products/cloud-api",
-        "cost": "premium",
+        "name": "NASA Open Data API",
+        "desc": "NASA datasets, imagery, and mission information",
+        "url": "https://api.nasa.gov",
+        "cost": "free",
         "auth": true,
-        "category": "Scraping"
+        "category": "Data & Information"
     },
     {
-        "name": "Crawlera (Ancient name: Luminati Proxy Manager API)",
-        "desc": "Smart proxy rotating for scrapers",
-        "url": "https://www.luminati.io/proxy-manager-api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
+        "name": "SEC EDGAR API",
+        "desc": "U.S. public company filings and disclosure data",
+        "url": "https://www.sec.gov/edgar/sec-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "Visualping API (Data extraction mode)",
-        "desc": "Change detection plus scraping API",
-        "url": "https://api.visualping.io/docs",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
+        "name": "Open Food Facts API",
+        "desc": "Global food product and nutrition database",
+        "url": "https://openfoodfacts.github.io/openfoodfacts-server/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Crossref REST API",
+        "desc": "Metadata for scholarly publications and DOIs",
+        "url": "https://api.crossref.org",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "DBpedia Spotlight API",
+        "desc": "Entity extraction from natural language text",
+        "url": "https://www.dbpedia.org/resources/spotlight/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     }
 ]
