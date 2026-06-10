@@ -1,98 +1,90 @@
 [
     {
-        "name": "api.data.gov",
-        "desc": "Federal government API gateway for public data",
-        "url": "https://api.data.gov",
+        "name": "GitHub REST API",
+        "desc": "Programmable access to repos, issues, and actions",
+        "url": "https://docs.github.com/en/rest",
         "cost": "free",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Developer Utilities"
     },
     {
-        "name": "World Bank API",
-        "desc": "Economic and development indicators database access",
-        "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenAlex API",
-        "desc": "Scholarly works, authors, institutions, and concepts data",
-        "url": "https://docs.openalex.org",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Wikidata API",
-        "desc": "Structured knowledge graph and entity lookup data",
-        "url": "https://www.wikidata.org/wiki/Wikidata:Data_access",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Wikipedia API",
-        "desc": "Wikipedia page content, search, and metadata access",
-        "url": "https://www.mediawiki.org/wiki/API:Main_page",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "US Census API",
-        "desc": "United States census and demographic statistics",
-        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "name": "GitHub GraphQL API",
+        "desc": "GraphQL interface for repo data and actions",
+        "url": "https://docs.github.com/en/graphql",
         "cost": "free",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Developer Utilities"
     },
     {
-        "name": "FRED API",
-        "desc": "Federal Reserve economic time series and indicators",
-        "url": "https://fred.stlouisfed.org/docs/api/fred/",
+        "name": "Twilio API",
+        "desc": "Programmable SMS, voice, and notifications",
+        "url": "https://www.twilio.com/docs/usage/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Stripe API",
+        "desc": "Payments processing and billing",
+        "url": "https://stripe.com/docs/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "SendGrid API",
+        "desc": "Transactional email delivery service",
+        "url": "https://docs.sendgrid.com/docs/for-developers/sending-email/api-getting-started",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Firebase Admin SDK API",
+        "desc": "Server-side access to Firebase services",
+        "url": "https://firebase.google.com/docs/reference/admin",
         "cost": "free",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Developer Utilities"
     },
     {
-        "name": "NASA Open Data API",
-        "desc": "NASA datasets, imagery, and mission information",
-        "url": "https://api.nasa.gov",
-        "cost": "free",
+        "name": "Auth0 Management API",
+        "desc": "Programmatic user, token, and tenant management",
+        "url": "https://auth0.com/docs/api/management/v2",
+        "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "Developer Utilities"
     },
     {
-        "name": "SEC EDGAR API",
-        "desc": "U.S. public company filings and disclosure data",
-        "url": "https://www.sec.gov/edgar/sec-api-documentation",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "name": "Datadog API",
+        "desc": "Monitor, traces, logs, and alerts programmatically",
+        "url": "https://docs.datadoghq.com/api/latest/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
     },
     {
-        "name": "Open Food Facts API",
-        "desc": "Global food product and nutrition database",
-        "url": "https://openfoodfacts.github.io/openfoodfacts-server/api/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "name": "New Relic REST API",
+        "desc": "Application performance data access",
+        "url": "https://docs.newrelic.com/docs/rest-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
     },
     {
-        "name": "Crossref REST API",
-        "desc": "Metadata for scholarly publications and DOIs",
-        "url": "https://api.crossref.org",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "name": "Hasura GraphQL API",
+        "desc": "Instant GraphQL over Postgres with auth",
+        "url": "https://hasura.io/docs/latest/graphql/core/index.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
     },
     {
-        "name": "DBpedia Spotlight API",
-        "desc": "Entity extraction from natural language text",
-        "url": "https://www.dbpedia.org/resources/spotlight/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "name": "Vercel Deployments API",
+        "desc": "Programmatic deployment and project management",
+        "url": "https://vercel.com/docs/rest-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
     }
 ]
