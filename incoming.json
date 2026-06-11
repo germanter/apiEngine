@@ -1,90 +1,98 @@
 [
     {
-        "name": "GitHub REST API",
-        "desc": "Programmable access to repos, issues, and actions",
-        "url": "https://docs.github.com/en/rest",
+        "name": "ScraperAPI",
+        "desc": "Web scraping API with proxies and CAPTCHA handling.",
+        "url": "https://docs.scraperapi.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Scrapy",
+        "desc": "Open source Python web scraping framework.",
+        "url": "https://scrapy.org/",
         "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
+        "auth": false,
+        "category": "Scraping"
     },
     {
-        "name": "GitHub GraphQL API",
-        "desc": "GraphQL interface for repo data and actions",
-        "url": "https://docs.github.com/en/graphql",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Twilio API",
-        "desc": "Programmable SMS, voice, and notifications",
-        "url": "https://www.twilio.com/docs/usage/api",
+        "name": "Firecrawl",
+        "desc": "Web scraping API that returns structured page data.",
+        "url": "https://docs.firecrawl.dev/",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Scraping"
     },
     {
-        "name": "Stripe API",
-        "desc": "Payments processing and billing",
-        "url": "https://stripe.com/docs/api",
+        "name": "Bright Data Web Scraper API",
+        "desc": "API for scraping websites with proxy and browser support.",
+        "url": "https://docs.brightdata.com/scraping-automation/web-scraper-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Oxylabs Web Scraper API",
+        "desc": "API for extracting data from websites at scale.",
+        "url": "https://developers.oxylabs.io/scraper-apis",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Smartproxy Web Scraping API",
+        "desc": "API for scraping web pages and search results.",
+        "url": "https://docs.smartproxy.com/docs/web-scraping-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Zyte API",
+        "desc": "API for scraping web pages and structured data.",
+        "url": "https://docs.zyte.com/zyte-api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Scraping"
     },
     {
-        "name": "SendGrid API",
-        "desc": "Transactional email delivery service",
-        "url": "https://docs.sendgrid.com/docs/for-developers/sending-email/api-getting-started",
+        "name": "Apify",
+        "desc": "Cloud API for running web scraping actors.",
+        "url": "https://docs.apify.com/api/v2",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Scraping"
     },
     {
-        "name": "Firebase Admin SDK API",
-        "desc": "Server-side access to Firebase services",
-        "url": "https://firebase.google.com/docs/reference/admin",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Auth0 Management API",
-        "desc": "Programmatic user, token, and tenant management",
-        "url": "https://auth0.com/docs/api/management/v2",
+        "name": "ParseHub",
+        "desc": "Visual web scraping platform with API access.",
+        "url": "https://www.parsehub.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Scraping"
     },
     {
-        "name": "Datadog API",
-        "desc": "Monitor, traces, logs, and alerts programmatically",
-        "url": "https://docs.datadoghq.com/api/latest/",
+        "name": "Octoparse",
+        "desc": "No-code web scraping tool with cloud API access.",
+        "url": "https://octoparse.com/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Scraping"
     },
     {
-        "name": "New Relic REST API",
-        "desc": "Application performance data access",
-        "url": "https://docs.newrelic.com/docs/rest-api",
+        "name": "WebScraper.io",
+        "desc": "Web scraping tool with sitemap-based API access.",
+        "url": "https://webscraper.io/documentation",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Scraping"
     },
     {
-        "name": "Hasura GraphQL API",
-        "desc": "Instant GraphQL over Postgres with auth",
-        "url": "https://hasura.io/docs/latest/graphql/core/index.html",
-        "cost": "freemium",
+        "name": "Diffbot",
+        "desc": "API for extracting structured data from web pages.",
+        "url": "https://docs.diffbot.com/",
+        "cost": "premium",
         "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Vercel Deployments API",
-        "desc": "Programmatic deployment and project management",
-        "url": "https://vercel.com/docs/rest-api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
+        "category": "Scraping"
     }
 ]
