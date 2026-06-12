@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -4416,7 +4416,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "SendGrid API",
@@ -4515,6 +4515,33 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Security APIs List",
+        "desc": "Public collection of security-related APIs",
+        "url": "https://github.com/jaegeral/security-apis",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OWASP Dependency-Track API",
+        "desc": "Software composition analysis and vulnerability tracking",
+        "url": "https://dependencytrack.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Wazuh API",
+        "desc": "Security monitoring and threat detection management",
+        "url": "https://documentation.wazuh.com/current/user-manual/api/index.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
         "status": "ALIVE"
     }
 ]
