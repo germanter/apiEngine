@@ -1,82 +1,74 @@
 [
     {
-        "name": "SAFE REST API",
-        "desc": "Security risk scoring and attack surface management",
-        "url": "https://docs.safe.security/docs/accessing-safe-apis",
-        "cost": "premium",
+        "name": "ScrapingBee",
+        "desc": "Scraping API for HTML and structured data",
+        "url": "https://www.scrapingbee.com",
+        "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Scraping"
     },
     {
-        "name": "Security APIs List",
-        "desc": "Public collection of security-related APIs",
-        "url": "https://github.com/jaegeral/security-apis",
+        "name": "ScraperAPI",
+        "desc": "Web scraping API with proxy and CAPTCHA handling",
+        "url": "https://www.scraperapi.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Scrapingdog",
+        "desc": "Web scraping API with parsed JSON output",
+        "url": "https://www.scrapingdog.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Scrape.do",
+        "desc": "Web scraping API for rendered pages",
+        "url": "https://scrape.do/blog/best-web-scraping-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Apify",
+        "desc": "Platform for running scraping actors and APIs",
+        "url": "https://apify.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Zyte API",
+        "desc": "Web scraping API for extraction and unblocking",
+        "url": "https://www.zyte.com/zyte-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Diffbot",
+        "desc": "AI API for extracting structured web data",
+        "url": "https://www.diffbot.com/products/automatic/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Import.io",
+        "desc": "API for extracting and normalizing web data",
+        "url": "https://www.import.io/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Scrapy",
+        "desc": "Open source Python web scraping framework",
+        "url": "https://scrapy.org/",
         "cost": "free",
         "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "OWASP Dependency-Track API",
-        "desc": "Software composition analysis and vulnerability tracking",
-        "url": "https://dependencytrack.org/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Wazuh API",
-        "desc": "Security monitoring and threat detection management",
-        "url": "https://documentation.wazuh.com/current/user-manual/api/index.html",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Shodan API",
-        "desc": "Internet-connected device and service search",
-        "url": "https://developer.shodan.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "VirusTotal API",
-        "desc": "Malware and file reputation analysis",
-        "url": "https://docs.virustotal.com/reference/overview",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "AbuseIPDB API",
-        "desc": "Reports and checks abusive IP addresses",
-        "url": "https://docs.abuseipdb.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "GreyNoise API",
-        "desc": "Classifies internet background noise activity",
-        "url": "https://docs.greynoise.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Have I Been Pwned API",
-        "desc": "Checks breached accounts and passwords",
-        "url": "https://haveibeenpwned.com/API/v3",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Censys API",
-        "desc": "Searches internet host and certificate data",
-        "url": "https://docs.censys.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
+        "category": "Scraping"
     }
 ]
