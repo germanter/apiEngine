@@ -393,7 +393,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Communication & Identity",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "IPWhois API",
@@ -1689,7 +1689,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Cisco Umbrella Enforcement API",
@@ -1752,7 +1752,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "USGS Earthquake Hazards Program API",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -4551,6 +4551,15 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Geocoder.ca API",
+        "desc": "Forward and reverse geocoding for Canadian addresses.",
+        "url": "https://geocoder.ca/?api=1",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
         "status": "ALIVE"
     }
 ]

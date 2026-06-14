@@ -1,74 +1,122 @@
 [
     {
-        "name": "ScrapingBee",
-        "desc": "Scraping API for HTML and structured data",
-        "url": "https://www.scrapingbee.com",
+        "name": "Google Maps Platform",
+        "desc": "Maps, routes, places, geocoding, and geolocation services.",
+        "url": "https://developers.google.com/maps/documentation",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "ScraperAPI",
-        "desc": "Web scraping API with proxy and CAPTCHA handling",
-        "url": "https://www.scraperapi.com",
+        "name": "Google Geolocation API",
+        "desc": "Returns device location from Wi-Fi and cell towers.",
+        "url": "https://developers.google.com/maps/documentation/geolocation/overview",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Scrapingdog",
-        "desc": "Web scraping API with parsed JSON output",
-        "url": "https://www.scrapingdog.com",
+        "name": "Google Places API",
+        "desc": "Searches and details places, businesses, and landmarks.",
+        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Scrape.do",
-        "desc": "Web scraping API for rendered pages",
-        "url": "https://scrape.do/blog/best-web-scraping-api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Apify",
-        "desc": "Platform for running scraping actors and APIs",
-        "url": "https://apify.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Zyte API",
-        "desc": "Web scraping API for extraction and unblocking",
-        "url": "https://www.zyte.com/zyte-api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Diffbot",
-        "desc": "AI API for extracting structured web data",
-        "url": "https://www.diffbot.com/products/automatic/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Import.io",
-        "desc": "API for extracting and normalizing web data",
-        "url": "https://www.import.io/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Scrapy",
-        "desc": "Open source Python web scraping framework",
-        "url": "https://scrapy.org/",
+        "name": "OpenStreetMap Nominatim",
+        "desc": "Open geocoding and reverse geocoding service.",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
         "cost": "free",
         "auth": false,
-        "category": "Scraping"
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenRouteService API",
+        "desc": "Routing, geocoding, isochrones, and matrix calculations.",
+        "url": "https://openrouteservice.org/dev/#/api-docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geoapify Places API",
+        "desc": "Finds nearby places and points of interest.",
+        "url": "https://apidocs.geoapify.com/docs/places/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geoapify Geocoding API",
+        "desc": "Forward and reverse geocoding for addresses and coordinates.",
+        "url": "https://apidocs.geoapify.com/docs/geocoding/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Maps API",
+        "desc": "Provides maps, styles, tiles, and geocoding services.",
+        "url": "https://docs.mapbox.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Geocoding API",
+        "desc": "Converts addresses and places into coordinates.",
+        "url": "https://docs.mapbox.com/api/search/geocoding/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "HERE Location Services",
+        "desc": "Offers routing, geocoding, places, and map data.",
+        "url": "https://www.here.com/docs/bundle/locations-service-api-developer-guide/page/topics/quick-start.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "TomTom Maps APIs",
+        "desc": "Provides search, routing, traffic, and geocoding APIs.",
+        "url": "https://developer.tomtom.com/products/maps-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Esri ArcGIS Location Services",
+        "desc": "Geocoding, routing, and places services.",
+        "url": "https://developers.arcgis.com/rest/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Bing Maps REST Services",
+        "desc": "Geocoding, routing, and map imagery services.",
+        "url": "https://learn.microsoft.com/en-us/bingmaps/rest-services/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Foursquare Places API",
+        "desc": "Searches places and venue details.",
+        "url": "https://location.foursquare.com/developer/reference/places-api-overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Geocoder.ca API",
+        "desc": "Forward and reverse geocoding for Canadian addresses.",
+        "url": "https://geocoder.ca/?api=1",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
     }
 ]
