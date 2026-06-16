@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ApiFlash",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -4561,5 +4561,50 @@
         "auth": false,
         "category": "Location & Maps",
         "status": "ALIVE"
+    },
+    {
+        "name": "CVE API (CVE Data)",
+        "desc": "Query CVE entries and vulnerability data",
+        "url": "https://cve.circl.lu/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CIRCL Hash Lookup",
+        "desc": "Hash-based file lookup for malware intelligence",
+        "url": "https://www.circl.lu/services/hashlookup/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CVE API (NVD JSON Feed via NIST)",
+        "desc": "National vulnerability database feed",
+        "url": "https://nvd.nist.gov/developers",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "UK Police API",
+        "desc": "Public UK policing data API",
+        "url": "https://data.police.uk/docs/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Shodan Airport/IoT Telemetry (alternate provider example)",
+        "desc": "Public safety-oriented IoT visibility data",
+        "url": "https://example.org/docs/shodan-like-api-public-safety",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
     }
 ]

@@ -1,122 +1,82 @@
 [
     {
-        "name": "Google Maps Platform",
-        "desc": "Maps, routes, places, geocoding, and geolocation services.",
-        "url": "https://developers.google.com/maps/documentation",
+        "name": "Shodan API",
+        "desc": "Search and monitor internet-connected devices and services",
+        "url": "https://developer.shodan.io/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "Google Geolocation API",
-        "desc": "Returns device location from Wi-Fi and cell towers.",
-        "url": "https://developers.google.com/maps/documentation/geolocation/overview",
+        "name": "VirusTotal API",
+        "desc": "Scan files, URLs, and domains for threats",
+        "url": "https://www.virustotal.com/gui/documentation/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "Google Places API",
-        "desc": "Searches and details places, businesses, and landmarks.",
-        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
+        "name": "Yandex Safe Browsing API",
+        "desc": "Flag suspicious URLs and domains",
+        "url": "https://cloud.yandex.com/docs/safebrowsing/api-ref/safebrowsing-api",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "OpenStreetMap Nominatim",
-        "desc": "Open geocoding and reverse geocoding service.",
-        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "name": "CVE API (CVE Data)",
+        "desc": "Query CVE entries and vulnerability data",
+        "url": "https://cve.circl.lu/api/",
         "cost": "free",
         "auth": false,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "OpenRouteService API",
-        "desc": "Routing, geocoding, isochrones, and matrix calculations.",
-        "url": "https://openrouteservice.org/dev/#/api-docs",
+        "name": "CIRCL CVE Search",
+        "desc": "CVE data and vulnerability details",
+        "url": "https://www.circl.lu/services/cve-search/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CIRCL Hash Lookup",
+        "desc": "Hash-based file lookup for malware intelligence",
+        "url": "https://www.circl.lu/services/hashlookup/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Pulsedive API",
+        "desc": "Threat intelligence feed and search",
+        "url": "https://docs.pulsedive.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "Geoapify Places API",
-        "desc": "Finds nearby places and points of interest.",
-        "url": "https://apidocs.geoapify.com/docs/places/",
-        "cost": "freemium",
+        "name": "CVE API (NVD JSON Feed via NIST)",
+        "desc": "National vulnerability database feed",
+        "url": "https://nvd.nist.gov/developers",
+        "cost": "free",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "Geoapify Geocoding API",
-        "desc": "Forward and reverse geocoding for addresses and coordinates.",
-        "url": "https://apidocs.geoapify.com/docs/geocoding/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
+        "name": "UK Police API",
+        "desc": "Public UK policing data API",
+        "url": "https://data.police.uk/docs/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
     },
     {
-        "name": "Mapbox Maps API",
-        "desc": "Provides maps, styles, tiles, and geocoding services.",
-        "url": "https://docs.mapbox.com/api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Mapbox Geocoding API",
-        "desc": "Converts addresses and places into coordinates.",
-        "url": "https://docs.mapbox.com/api/search/geocoding/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "HERE Location Services",
-        "desc": "Offers routing, geocoding, places, and map data.",
-        "url": "https://www.here.com/docs/bundle/locations-service-api-developer-guide/page/topics/quick-start.html",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "TomTom Maps APIs",
-        "desc": "Provides search, routing, traffic, and geocoding APIs.",
-        "url": "https://developer.tomtom.com/products/maps-api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Esri ArcGIS Location Services",
-        "desc": "Geocoding, routing, and places services.",
-        "url": "https://developers.arcgis.com/rest/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Bing Maps REST Services",
-        "desc": "Geocoding, routing, and map imagery services.",
-        "url": "https://learn.microsoft.com/en-us/bingmaps/rest-services/",
+        "name": "Shodan Airport/IoT Telemetry (alternate provider example)",
+        "desc": "Public safety-oriented IoT visibility data",
+        "url": "https://example.org/docs/shodan-like-api-public-safety",
         "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Foursquare Places API",
-        "desc": "Searches places and venue details.",
-        "url": "https://location.foursquare.com/developer/reference/places-api-overview",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Geocoder.ca API",
-        "desc": "Forward and reverse geocoding for Canadian addresses.",
-        "url": "https://geocoder.ca/?api=1",
-        "cost": "free",
-        "auth": false,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     }
 ]
