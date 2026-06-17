@@ -1,82 +1,122 @@
 [
     {
-        "name": "Shodan API",
-        "desc": "Search and monitor internet-connected devices and services",
-        "url": "https://developer.shodan.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "VirusTotal API",
-        "desc": "Scan files, URLs, and domains for threats",
-        "url": "https://www.virustotal.com/gui/documentation/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Yandex Safe Browsing API",
-        "desc": "Flag suspicious URLs and domains",
-        "url": "https://cloud.yandex.com/docs/safebrowsing/api-ref/safebrowsing-api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CVE API (CVE Data)",
-        "desc": "Query CVE entries and vulnerability data",
-        "url": "https://cve.circl.lu/api/",
+        "name": "Bureau of Labor Statistics Public Data API",
+        "desc": "Retrieves historical U.S. labor statistics time series.",
+        "url": "https://www.bls.gov/bls/api_features.htm",
         "cost": "free",
         "auth": false,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "CIRCL CVE Search",
-        "desc": "CVE data and vulnerability details",
-        "url": "https://www.circl.lu/services/cve-search/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CIRCL Hash Lookup",
-        "desc": "Hash-based file lookup for malware intelligence",
-        "url": "https://www.circl.lu/services/hashlookup/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Pulsedive API",
-        "desc": "Threat intelligence feed and search",
-        "url": "https://docs.pulsedive.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CVE API (NVD JSON Feed via NIST)",
-        "desc": "National vulnerability database feed",
-        "url": "https://nvd.nist.gov/developers",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "UK Police API",
-        "desc": "Public UK policing data API",
-        "url": "https://data.police.uk/docs/",
+        "name": "MusicBrainz API",
+        "desc": "Provides music metadata for recordings, releases, artists.",
+        "url": "https://musicbrainz.org/doc/MusicBrainz_API",
         "cost": "free",
         "auth": false,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "Shodan Airport/IoT Telemetry (alternate provider example)",
-        "desc": "Public safety-oriented IoT visibility data",
-        "url": "https://example.org/docs/shodan-like-api-public-safety",
-        "cost": "premium",
+        "name": "U.S. Census Bureau API",
+        "desc": "Delivers U.S. census and survey datasets.",
+        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "cost": "free",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
+    },
+    {
+        "name": "NASA Open APIs",
+        "desc": "Exposes NASA datasets including imagery and astronomy data.",
+        "url": "https://api.nasa.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "National Weather Service API",
+        "desc": "Provides U.S. weather forecasts, alerts, observations.",
+        "url": "https://www.weather.gov/documentation/services-web-api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenAQ API",
+        "desc": "Supplies global air quality measurements and metadata.",
+        "url": "https://docs.openaq.org/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "World Bank Open Data API",
+        "desc": "Returns global development indicators and country data.",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Data.gov API",
+        "desc": "Searches U.S. government open datasets and metadata.",
+        "url": "https://api.data.gov/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenStreetMap Nominatim API",
+        "desc": "Geocodes place names and returns map search results.",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenLibrary API",
+        "desc": "Provides book, author, and edition metadata.",
+        "url": "https://openlibrary.org/developers/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Wikipedia API",
+        "desc": "Fetches encyclopedia pages, revisions, and search results.",
+        "url": "https://www.mediawiki.org/wiki/API:Main_page",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "REST Countries API",
+        "desc": "Returns country facts, names, currencies, languages.",
+        "url": "https://restcountries.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "GitHub REST API",
+        "desc": "Exposes repository, user, and issue data.",
+        "url": "https://docs.github.com/en/rest",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "FRED API",
+        "desc": "Provides U.S. economic time series and indicators.",
+        "url": "https://fred.stlouisfed.org/docs/api/fred/",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "World Health Organization API",
+        "desc": "Provides WHO health statistics and datasets.",
+        "url": "https://www.who.int/data/gho/info/gho-odata-api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     }
 ]

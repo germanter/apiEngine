@@ -393,7 +393,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Communication & Identity",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "IPWhois API",
@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ApiFlash",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenAQ API",
@@ -4606,5 +4606,50 @@
         "auth": true,
         "category": "Security & Safety",
         "status": "DEAD"
+    },
+    {
+        "name": "Bureau of Labor Statistics Public Data API",
+        "desc": "Retrieves historical U.S. labor statistics time series.",
+        "url": "https://www.bls.gov/bls/api_features.htm",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MusicBrainz API",
+        "desc": "Provides music metadata for recordings, releases, artists.",
+        "url": "https://musicbrainz.org/doc/MusicBrainz_API",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "National Weather Service API",
+        "desc": "Provides U.S. weather forecasts, alerts, observations.",
+        "url": "https://www.weather.gov/documentation/services-web-api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "World Bank Open Data API",
+        "desc": "Returns global development indicators and country data.",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
+    },
+    {
+        "name": "World Health Organization API",
+        "desc": "Provides WHO health statistics and datasets.",
+        "url": "https://www.who.int/data/gho/info/gho-odata-api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information",
+        "status": "ALIVE"
     }
 ]
