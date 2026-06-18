@@ -1,122 +1,82 @@
 [
     {
-        "name": "Bureau of Labor Statistics Public Data API",
-        "desc": "Retrieves historical U.S. labor statistics time series.",
-        "url": "https://www.bls.gov/bls/api_features.htm",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "MusicBrainz API",
-        "desc": "Provides music metadata for recordings, releases, artists.",
-        "url": "https://musicbrainz.org/doc/MusicBrainz_API",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "U.S. Census Bureau API",
-        "desc": "Delivers U.S. census and survey datasets.",
-        "url": "https://www.census.gov/data/developers/data-sets.html",
-        "cost": "free",
+        "name": "OpenAI API",
+        "desc": "Text and image generation with advanced models",
+        "url": "https://platform.openai.com/docs/api",
+        "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "NASA Open APIs",
-        "desc": "Exposes NASA datasets including imagery and astronomy data.",
-        "url": "https://api.nasa.gov/",
-        "cost": "free",
+        "name": "Google Cloud AI Platform",
+        "desc": "NLP, vision, and ML model services",
+        "url": "https://cloud.google.com/apis",
+        "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "National Weather Service API",
-        "desc": "Provides U.S. weather forecasts, alerts, observations.",
-        "url": "https://www.weather.gov/documentation/services-web-api",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenAQ API",
-        "desc": "Supplies global air quality measurements and metadata.",
-        "url": "https://docs.openaq.org/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "World Bank Open Data API",
-        "desc": "Returns global development indicators and country data.",
-        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Data.gov API",
-        "desc": "Searches U.S. government open datasets and metadata.",
-        "url": "https://api.data.gov/",
-        "cost": "free",
+        "name": "Anthropic Claude API",
+        "desc": "Conversational AI with safety controls",
+        "url": "https://console.anthropic.com/docs/api",
+        "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "OpenStreetMap Nominatim API",
-        "desc": "Geocodes place names and returns map search results.",
-        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenLibrary API",
-        "desc": "Provides book, author, and edition metadata.",
-        "url": "https://openlibrary.org/developers/api",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Wikipedia API",
-        "desc": "Fetches encyclopedia pages, revisions, and search results.",
-        "url": "https://www.mediawiki.org/wiki/API:Main_page",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "REST Countries API",
-        "desc": "Returns country facts, names, currencies, languages.",
-        "url": "https://restcountries.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "GitHub REST API",
-        "desc": "Exposes repository, user, and issue data.",
-        "url": "https://docs.github.com/en/rest",
-        "cost": "free",
+        "name": "Microsoft Azure OpenAI Service",
+        "desc": "OpenAI models via Azure integration",
+        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/",
+        "cost": "premium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "FRED API",
-        "desc": "Provides U.S. economic time series and indicators.",
-        "url": "https://fred.stlouisfed.org/docs/api/fred/",
-        "cost": "free",
+        "name": "Hugging Face Inference API",
+        "desc": "Access to 100+ open models for NLP/vision",
+        "url": "https://huggingface.co/docs/api/inference/index",
+        "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "World Health Organization API",
-        "desc": "Provides WHO health statistics and datasets.",
-        "url": "https://www.who.int/data/gho/info/gho-odata-api",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
+        "name": "AWS Bedrock",
+        "desc": "Managed foundation models and services",
+        "url": "https://docs.aws.amazon.com/bedrock/index.html",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Google Vertex AI Prediction",
+        "desc": "ML predictions and model hosting",
+        "url": "https://cloud.google.com/vertex-ai/docs/predictions/getting-predictions",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "IBM Watson AI",
+        "desc": "NLU, language, vision and more APIs",
+        "url": "https://cloud.ibm.com/apidocs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cohere API",
+        "desc": "NLP tasks like generation and classification",
+        "url": "https://docs.cohere.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Stability AI Stable Diffusion API",
+        "desc": "Image generation and editing",
+        "url": "https://platform.stability.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
     }
 ]

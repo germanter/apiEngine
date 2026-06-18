@@ -4651,5 +4651,41 @@
         "auth": false,
         "category": "Data & Information",
         "status": "ALIVE"
+    },
+    {
+        "name": "Google Cloud AI Platform",
+        "desc": "NLP, vision, and ML model services",
+        "url": "https://cloud.google.com/apis",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Vertex AI Prediction",
+        "desc": "ML predictions and model hosting",
+        "url": "https://cloud.google.com/vertex-ai/docs/predictions/getting-predictions",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "IBM Watson AI",
+        "desc": "NLU, language, vision and more APIs",
+        "url": "https://cloud.ibm.com/apidocs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Stability AI Stable Diffusion API",
+        "desc": "Image generation and editing",
+        "url": "https://platform.stability.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
     }
 ]
