@@ -1,82 +1,98 @@
 [
     {
-        "name": "OpenAI API",
-        "desc": "Text and image generation with advanced models",
-        "url": "https://platform.openai.com/docs/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
+        "name": "Scrapy",
+        "desc": "Open source Python framework for web scraping.",
+        "url": "https://scrapy.org",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping"
     },
     {
-        "name": "Google Cloud AI Platform",
-        "desc": "NLP, vision, and ML model services",
-        "url": "https://cloud.google.com/apis",
+        "name": "Apify",
+        "desc": "Runs scraping actors and exposes them through an API.",
+        "url": "https://docs.apify.com/api/v2",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Anthropic Claude API",
-        "desc": "Conversational AI with safety controls",
-        "url": "https://console.anthropic.com/docs/api",
+        "name": "Zyte API",
+        "desc": "Fetches and extracts website content through a scraping API.",
+        "url": "https://docs.zyte.com/zyte-api",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Microsoft Azure OpenAI Service",
-        "desc": "OpenAI models via Azure integration",
-        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/",
+        "name": "ScrapingBee",
+        "desc": "Scrapes web pages with rendering and proxy handling.",
+        "url": "https://www.scrapingbee.com/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "ScraperAPI",
+        "desc": "Provides web page scraping with proxy rotation and rendering.",
+        "url": "https://www.scraperapi.com/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Bright Data Web Scraper API",
+        "desc": "Scrapes websites and returns structured extracted data.",
+        "url": "https://docs.brightdata.com/scrapers/web-scraper-api",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Hugging Face Inference API",
-        "desc": "Access to 100+ open models for NLP/vision",
-        "url": "https://huggingface.co/docs/api/inference/index",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "AWS Bedrock",
-        "desc": "Managed foundation models and services",
-        "url": "https://docs.aws.amazon.com/bedrock/index.html",
+        "name": "Oxylabs Web Scraper API",
+        "desc": "Extracts structured data from websites using API calls.",
+        "url": "https://developers.oxylabs.io/scraper-apis/web-scraper-api/",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Google Vertex AI Prediction",
-        "desc": "ML predictions and model hosting",
-        "url": "https://cloud.google.com/vertex-ai/docs/predictions/getting-predictions",
-        "cost": "freemium",
+        "name": "Decodo SERP Scraping API",
+        "desc": "Scrapes search engine result pages through an API.",
+        "url": "https://decodo.com/documentation/web-scraping-api",
+        "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "IBM Watson AI",
-        "desc": "NLU, language, vision and more APIs",
-        "url": "https://cloud.ibm.com/apidocs",
+        "name": "Webshare Scraping API",
+        "desc": "Provides proxy-based scraping access through an API.",
+        "url": "https://apidocs.webshare.io/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Cohere API",
-        "desc": "NLP tasks like generation and classification",
-        "url": "https://docs.cohere.ai/",
+        "name": "ParseHub",
+        "desc": "Visual scraper with an API for extracting website data.",
+        "url": "https://www.parsehub.com/docs/ref/api/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     },
     {
-        "name": "Stability AI Stable Diffusion API",
-        "desc": "Image generation and editing",
-        "url": "https://platform.stability.ai/docs",
+        "name": "Diffbot",
+        "desc": "Extracts structured data from web pages using AI.",
+        "url": "https://docs.diffbot.com/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Browserless",
+        "desc": "Runs headless browsers for automated scraping tasks.",
+        "url": "https://docs.browserless.io/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Scraping"
     }
 ]

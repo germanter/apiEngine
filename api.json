@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Disease Ontology API",
@@ -1914,7 +1914,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Guardian News API",
@@ -4623,7 +4623,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "National Weather Service API",
@@ -4686,6 +4686,24 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Decodo SERP Scraping API",
+        "desc": "Scrapes search engine result pages through an API.",
+        "url": "https://decodo.com/documentation/web-scraping-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Webshare Scraping API",
+        "desc": "Provides proxy-based scraping access through an API.",
+        "url": "https://apidocs.webshare.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
         "status": "ALIVE"
     }
 ]
