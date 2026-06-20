@@ -1,98 +1,82 @@
 [
     {
-        "name": "Scrapy",
-        "desc": "Open source Python framework for web scraping.",
-        "url": "https://scrapy.org",
+        "name": "GitHub Docs API",
+        "desc": "API docs hosting and versioning access",
+        "url": "https://docs.github.com/en/rest",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Azure DevOps REST API",
+        "desc": "REST endpoints for pipelines and work items",
+        "url": "https://docs.microsoft.com/en-us/rest/api/azure/devops",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Base API",
+        "desc": "Minimal backend API scaffolding and data services",
+        "url": "https://api.docs.base.org",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "HTTPBin",
+        "desc": "Simple HTTP request & response service",
+        "url": "https://httpbin.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "JSONPlaceholder",
+        "desc": "Fake online REST API for testing",
+        "url": "https://jsonplaceholder.typicode.com/",
         "cost": "free",
         "auth": false,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Apify",
-        "desc": "Runs scraping actors and exposes them through an API.",
-        "url": "https://docs.apify.com/api/v2",
+        "name": "Public APIs",
+        "desc": "Comprehensive catalog of free APIs for devs",
+        "url": "https://publicapis.xyz/category/development",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Postman API Platform",
+        "desc": "API development platform docs and endpoints",
+        "url": "https://docs.postman.com/collections/overview",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Zyte API",
-        "desc": "Fetches and extracts website content through a scraping API.",
-        "url": "https://docs.zyte.com/zyte-api",
+        "name": "Pusher Beams",
+        "desc": "Push notification APIs for apps",
+        "url": "https://docs.pusher.com/beams",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "ScrapingBee",
-        "desc": "Scrapes web pages with rendering and proxy handling.",
-        "url": "https://www.scrapingbee.com/documentation/",
+        "name": "Twilio APIs",
+        "desc": "Messaging, voice, and communications REST APIs",
+        "url": "https://www.twilio.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "ScraperAPI",
-        "desc": "Provides web page scraping with proxy rotation and rendering.",
-        "url": "https://www.scraperapi.com/documentation/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Bright Data Web Scraper API",
-        "desc": "Scrapes websites and returns structured extracted data.",
-        "url": "https://docs.brightdata.com/scrapers/web-scraper-api",
+        "name": "1Password APIs",
+        "desc": "Secrets and password management endpoints",
+        "url": "https://developer.1password.com/docs",
         "cost": "premium",
         "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Oxylabs Web Scraper API",
-        "desc": "Extracts structured data from websites using API calls.",
-        "url": "https://developers.oxylabs.io/scraper-apis/web-scraper-api/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Decodo SERP Scraping API",
-        "desc": "Scrapes search engine result pages through an API.",
-        "url": "https://decodo.com/documentation/web-scraping-api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Webshare Scraping API",
-        "desc": "Provides proxy-based scraping access through an API.",
-        "url": "https://apidocs.webshare.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ParseHub",
-        "desc": "Visual scraper with an API for extracting website data.",
-        "url": "https://www.parsehub.com/docs/ref/api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Diffbot",
-        "desc": "Extracts structured data from web pages using AI.",
-        "url": "https://docs.diffbot.com/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Browserless",
-        "desc": "Runs headless browsers for automated scraping tasks.",
-        "url": "https://docs.browserless.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     }
 ]

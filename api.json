@@ -4623,7 +4623,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "National Weather Service API",
@@ -4704,6 +4704,78 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "GitHub Docs API",
+        "desc": "API docs hosting and versioning access",
+        "url": "https://docs.github.com/en/rest",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Azure DevOps REST API",
+        "desc": "REST endpoints for pipelines and work items",
+        "url": "https://docs.microsoft.com/en-us/rest/api/azure/devops",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Base API",
+        "desc": "Minimal backend API scaffolding and data services",
+        "url": "https://api.docs.base.org",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "HTTPBin",
+        "desc": "Simple HTTP request & response service",
+        "url": "https://httpbin.org/",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Postman API Platform",
+        "desc": "API development platform docs and endpoints",
+        "url": "https://docs.postman.com/collections/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "Pusher Beams",
+        "desc": "Push notification APIs for apps",
+        "url": "https://docs.pusher.com/beams",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Twilio APIs",
+        "desc": "Messaging, voice, and communications REST APIs",
+        "url": "https://www.twilio.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "1Password APIs",
+        "desc": "Secrets and password management endpoints",
+        "url": "https://developer.1password.com/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Developer Utilities",
         "status": "ALIVE"
     }
 ]
