@@ -1644,7 +1644,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CIRCL Passive SSH API",
@@ -1653,7 +1653,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "AlienVault OTX API",
@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Openappsec API",
@@ -1914,7 +1914,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Guardian News API",
@@ -2652,7 +2652,7 @@
         "cost": "free",
         "auth": false,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "GitLab REST API",
@@ -2778,7 +2778,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CIRCL Passive SSH",
@@ -3741,7 +3741,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Vulners API",
@@ -4578,7 +4578,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CVE API (NVD JSON Feed via NIST)",
@@ -4776,6 +4776,24 @@
         "cost": "premium",
         "auth": true,
         "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "TomTom Maps API",
+        "desc": "Maps, routing, traffic and search services",
+        "url": "https://developer.tomtom.com/maps-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "DEAD"
+    },
+    {
+        "name": "Mapillary (Mapillary Vision) - Open imagery",
+        "desc": "Open street imagery and location context",
+        "url": "https://www.mapillary.com/developer",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
         "status": "ALIVE"
     }
 ]
