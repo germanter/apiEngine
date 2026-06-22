@@ -1,82 +1,82 @@
 [
     {
-        "name": "Google Maps Platform",
-        "desc": "Geocoding, routing, places with API access",
-        "url": "https://developers.google.com/maps/documentation",
+        "name": "CloudConvert API",
+        "desc": "File conversion and document processing API.",
+        "url": "https://cloudconvert.com/api/v2",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "OpenAI API",
+        "desc": "Text, image, and audio generation API.",
+        "url": "https://platform.openai.com/docs/overview",
         "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Mapbox Directions API",
-        "desc": "Routing, geocoding, map tiles and search",
-        "url": "https://docs.mapbox.com/api/navigation/directions/",
+        "name": "Deepgram API",
+        "desc": "Speech-to-text and audio intelligence API.",
+        "url": "https://developers.deepgram.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Developer Utilities"
     },
     {
-        "name": "HERE Location Services",
-        "desc": "Geocoding, routing, places and maps",
-        "url": "https://developer.here.com/documentation",
+        "name": "Resend API",
+        "desc": "Transactional email sending API.",
+        "url": "https://resend.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Developer Utilities"
     },
     {
-        "name": "OpenStreetMap Nominatim",
-        "desc": "Open data geocoding service",
-        "url": "https://nominatim.org/release-docs/develop/api/Overview/",
+        "name": "Stripe API",
+        "desc": "Payments and billing API.",
+        "url": "https://docs.stripe.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Discord API",
+        "desc": "Bot, messaging, and gateway API.",
+        "url": "https://discord.com/developers/docs/intro",
         "cost": "free",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Developer Utilities"
     },
     {
-        "name": "OpenRouteService",
-        "desc": "Routing and isochrones from open data",
-        "url": "https://openrouteservice.org/dev/#/api-docs",
-        "cost": "freemium",
+        "name": "Telegram Bot API",
+        "desc": "Bot messaging and command API.",
+        "url": "https://core.telegram.org/bots/api",
+        "cost": "free",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Geoapify Geocoding API",
-        "desc": "Geocoding, places, and maps services",
-        "url": "https://geoapify.com/docs/geocoding/overview/",
+        "name": "Cloudflare API",
+        "desc": "DNS, Workers, and security management API.",
+        "url": "https://developers.cloudflare.com/api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Geoapify Places API",
-        "desc": "Search and details for places",
-        "url": "https://geoapify.com/docs/places/overview/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
+        "name": "Nominatim API",
+        "desc": "OpenStreetMap geocoding and reverse geocoding API.",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
     },
     {
-        "name": "TomTom Maps API",
-        "desc": "Maps, routing, traffic and search services",
-        "url": "https://developer.tomtom.com/maps-api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Bing Maps REST Services",
-        "desc": "Geocoding, routing and imagery tiles",
-        "url": "https://learn.microsoft.com/en-us/bingmaps/rest-services/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Mapillary (Mapillary Vision) - Open imagery",
-        "desc": "Open street imagery and location context",
-        "url": "https://www.mapillary.com/developer",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
+        "name": "MusicBrainz API",
+        "desc": "Open music metadata lookup API.",
+        "url": "https://musicbrainz.org/doc/MusicBrainz_API",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
     }
 ]
