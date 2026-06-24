@@ -1,82 +1,82 @@
 [
     {
-        "name": "CloudConvert API",
-        "desc": "File conversion and document processing API.",
-        "url": "https://cloudconvert.com/api/v2",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "OpenAI API",
-        "desc": "Text, image, and audio generation API.",
-        "url": "https://platform.openai.com/docs/overview",
+        "name": "Google Maps Platform",
+        "desc": "Maps, routes, and places APIs with authentication",
+        "url": "https://developers.google.com/maps/documentation",
         "cost": "premium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Location & Maps"
     },
     {
-        "name": "Deepgram API",
-        "desc": "Speech-to-text and audio intelligence API.",
-        "url": "https://developers.deepgram.com/docs",
+        "name": "OpenStreetMap Nominatim",
+        "desc": "Geocoding service for OSM data",
+        "url": "https://nominatim.openstreetmap.org/release-docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Location & Maps"
     },
     {
-        "name": "Resend API",
-        "desc": "Transactional email sending API.",
-        "url": "https://resend.com/docs",
+        "name": "Mapbox Directions API",
+        "desc": "Routing and maps services with geocoding",
+        "url": "https://docs.mapbox.com/api/navigation/#directions",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Location & Maps"
     },
     {
-        "name": "Stripe API",
-        "desc": "Payments and billing API.",
-        "url": "https://docs.stripe.com/api",
+        "name": "Geoapify Maps API",
+        "desc": "Maps, geocoding, and routing APIs",
+        "url": "https://geoapify.com/maps-api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Location & Maps"
     },
     {
-        "name": "Discord API",
-        "desc": "Bot, messaging, and gateway API.",
-        "url": "https://discord.com/developers/docs/intro",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Telegram Bot API",
-        "desc": "Bot messaging and command API.",
-        "url": "https://core.telegram.org/bots/api",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Cloudflare API",
-        "desc": "DNS, Workers, and security management API.",
-        "url": "https://developers.cloudflare.com/api/",
+        "name": "Geoapify Location Platform",
+        "desc": "Comprehensive location-based services",
+        "url": "https://geoapify.com/products-and-services/",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Location & Maps"
     },
     {
-        "name": "Nominatim API",
-        "desc": "OpenStreetMap geocoding and reverse geocoding API.",
-        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "name": "HERE Location Services",
+        "desc": "Maps, places, geocoding, and routing",
+        "url": "https://developer.here.com/documentation",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
     },
     {
-        "name": "MusicBrainz API",
-        "desc": "Open music metadata lookup API.",
-        "url": "https://musicbrainz.org/doc/MusicBrainz_API",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "name": "TomTom Maps API",
+        "desc": "Maps, traffic, and routing APIs",
+        "url": "https://developer.tomtom.com/maps-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Apple MapKit JS",
+        "desc": "Web maps and location features for Apple devices",
+        "url": "https://developer.apple.com/documentation/mapkitjs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "MapTiler Cloud",
+        "desc": "Tiles, basemaps, and geocoding utilities",
+        "url": "https://cloud.maptiler.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenCage Geocoder",
+        "desc": "Multisource geocoding with coverage",
+        "url": "https://opencagedata.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
     }
 ]

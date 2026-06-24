@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ApiFlash",
@@ -1176,7 +1176,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "PubChem PUG REST API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -4858,5 +4858,23 @@
         "auth": false,
         "category": "Developer Utilities",
         "status": "ALIVE"
+    },
+    {
+        "name": "Geoapify Maps API",
+        "desc": "Maps, geocoding, and routing APIs",
+        "url": "https://geoapify.com/maps-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MapTiler Cloud",
+        "desc": "Tiles, basemaps, and geocoding utilities",
+        "url": "https://cloud.maptiler.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "DEAD"
     }
 ]
