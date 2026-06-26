@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ApiFlash",
@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Disease Ontology API",
@@ -1689,7 +1689,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Cisco Umbrella Enforcement API",
@@ -2400,7 +2400,7 @@
         "cost": "premium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "xAI API",
