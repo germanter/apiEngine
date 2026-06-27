@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ApiFlash",
@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Disease Ontology API",
@@ -1257,7 +1257,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Legal & Finance",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "VerifyVAT API",
@@ -2400,7 +2400,7 @@
         "cost": "premium",
         "auth": true,
         "category": "AI",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "xAI API",
@@ -4876,5 +4876,32 @@
         "auth": true,
         "category": "Location & Maps",
         "status": "DEAD"
+    },
+    {
+        "name": "TomTom Maps SDK & APIs",
+        "desc": "Maps, routing, traffic, geocoding",
+        "url": "https://developer.tomtom.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Mapillary (Location data via imagery)",
+        "desc": "Street-level imagery with location tagging",
+        "url": "https://www.mapillary.com/developers",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenCaged Geocoder (Open Source option)",
+        "desc": "Geocoding using open data backends",
+        "url": "https://opencagedata.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
     }
 ]

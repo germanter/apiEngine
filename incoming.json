@@ -1,79 +1,79 @@
 [
     {
         "name": "Google Maps Platform",
-        "desc": "Maps, routes, and places APIs with authentication",
-        "url": "https://developers.google.com/maps/documentation",
+        "desc": "Geocoding, maps, routes and places APIs",
+        "url": "https://developers.google.com/maps",
         "cost": "premium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
         "name": "OpenStreetMap Nominatim",
-        "desc": "Geocoding service for OSM data",
-        "url": "https://nominatim.openstreetmap.org/release-docs",
+        "desc": "Geocoding using OSM data",
+        "url": "https://nominatim.openstreetmap.org",
+        "cost": "free",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapbox Geocoding API",
+        "desc": "Forward/reverse geocoding for locations",
+        "url": "https://docs.mapbox.com/api/search/geocoding/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Mapbox Directions API",
-        "desc": "Routing and maps services with geocoding",
-        "url": "https://docs.mapbox.com/api/navigation/#directions",
-        "cost": "freemium",
+        "name": "Esri ArcGIS Location Services",
+        "desc": "Geocoding, routing, map services",
+        "url": "https://developers.arcgis.com/rest/services-reference/geocoding-forward-geocode.htm",
+        "cost": "premium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Geoapify Maps API",
-        "desc": "Maps, geocoding, and routing APIs",
-        "url": "https://geoapify.com/maps-api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Geoapify Location Platform",
-        "desc": "Comprehensive location-based services",
-        "url": "https://geoapify.com/products-and-services/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "HERE Location Services",
-        "desc": "Maps, places, geocoding, and routing",
+        "name": " HERE Location Services",
+        "desc": "Geocoding, maps, traffic, places",
         "url": "https://developer.here.com/documentation",
         "cost": "premium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "TomTom Maps API",
-        "desc": "Maps, traffic, and routing APIs",
-        "url": "https://developer.tomtom.com/maps-api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Apple MapKit JS",
-        "desc": "Web maps and location features for Apple devices",
-        "url": "https://developer.apple.com/documentation/mapkitjs",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "MapTiler Cloud",
-        "desc": "Tiles, basemaps, and geocoding utilities",
-        "url": "https://cloud.maptiler.com/",
+        "name": "TomTom Maps SDK & APIs",
+        "desc": "Maps, routing, traffic, geocoding",
+        "url": "https://developer.tomtom.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "OpenCage Geocoder",
-        "desc": "Multisource geocoding with coverage",
+        "name": "Geoapify Location Platform",
+        "desc": "Maps tiles, geocoding, routing, places",
+        "url": "https://www.geoapify.com/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Mapillary (Location data via imagery)",
+        "desc": "Street-level imagery with location tagging",
+        "url": "https://www.mapillary.com/developers",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Bing Maps REST Services",
+        "desc": "Geocoding, maps and routing APIs",
+        "url": "https://docs.microsoft.com/en-us/bingmaps/rest-services/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenCaged Geocoder (Open Source option)",
+        "desc": "Geocoding using open data backends",
         "url": "https://opencagedata.com/api",
         "cost": "freemium",
         "auth": true,
