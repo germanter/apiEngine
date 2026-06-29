@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -4740,7 +4740,7 @@
         "cost": "free",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Postman API Platform",
@@ -4903,5 +4903,14 @@
         "auth": true,
         "category": "Location & Maps",
         "status": "ALIVE"
+    },
+    {
+        "name": "DataForSEO SERP API",
+        "desc": "API for scraping search engine results pages.",
+        "url": "https://docs.dataforseo.com/v3/serp/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
     }
 ]
