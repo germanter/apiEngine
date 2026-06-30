@@ -1,90 +1,82 @@
 [
     {
-        "name": "Firecrawl",
-        "desc": "Open source web scraping and crawling API.",
-        "url": "https://docs.firecrawl.dev/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ScraperAPI",
-        "desc": "Web scraping API with proxy rotation and rendering.",
-        "url": "https://docs.scraperapi.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Bright Data Web Scraper API",
-        "desc": "API for scraping web pages with proxy infrastructure.",
-        "url": "https://docs.brightdata.com/scraping-automation/web-scraper-api",
+        "name": "Google Maps Platform",
+        "desc": "Comprehensive maps, places, routes APIs",
+        "url": "https://developers.google.com/maps",
         "cost": "premium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Zyte API",
-        "desc": "Web scraping API for pages, browser, and extraction.",
-        "url": "https://docs.zyte.com/zyte-api.html",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Apify API",
-        "desc": "API for running scraping actors and retrieving datasets.",
-        "url": "https://docs.apify.com/api/v2",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Oxylabs Web Scraper API",
-        "desc": "API for structured scraping of search and web pages.",
-        "url": "https://developers.oxylabs.io/",
+        "name": "Google Places API",
+        "desc": "POI data and location search service",
+        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
         "cost": "premium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Scrapingdog",
-        "desc": "Scraping API with JavaScript rendering and proxies.",
-        "url": "https://docs.scrapingdog.com/",
+        "name": "OpenCage Geocoder",
+        "desc": "Geocoding API with multiple data sources",
+        "url": "https://opencagedata.com/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "DataForSEO SERP API",
-        "desc": "API for scraping search engine results pages.",
-        "url": "https://docs.dataforseo.com/v3/serp/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "SerpApi",
-        "desc": "API for extracting search engine results and metadata.",
-        "url": "https://serpapi.com/search-api",
+        "name": "Mapbox Geocoding API",
+        "desc": "Forward and reverse geocoding with place data",
+        "url": "https://docs.mapbox.com/api/search/geocoding/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Diffbot",
-        "desc": "API for extracting structured data from web pages.",
-        "url": "https://docs.diffbot.com/",
-        "cost": "premium",
+        "name": " HERE Geocoding & Search API",
+        "desc": "Geocoding, auto-complete and place search",
+        "url": "https://developer.here.com/documentation/geocoding-search-api/dev_guide/index.html",
+        "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Common Crawl",
-        "desc": "Open web crawl data accessible through public datasets.",
-        "url": "https://commoncrawl.org/the-data/get-started/",
+        "name": "Geoapify Places API",
+        "desc": "POI search and location data API",
+        "url": "https://www.geoapify.com/places-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Nominatim (OpenStreetMap Geocoding API)",
+        "desc": "Geocoding using OpenStreetMap data",
+        "url": "https://nominatim.org/release-docs/develop/api/Overview/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "MapLibre GL JS",
+        "desc": "Open source maps rendering and tiles",
+        "url": "https://maplibre.org/projects/maplibre-gl-js/",
         "cost": "free",
         "auth": false,
-        "category": "Scraping"
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenRouteService",
+        "desc": "Routing and navigation APIs",
+        "url": "https://openrouteservice.org/dev",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "TomTom Maps APIs",
+        "desc": "Maps, traffic, and places APIs",
+        "url": "https://developer.tomtom.com/apis",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
     }
 ]

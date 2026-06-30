@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -4740,7 +4740,7 @@
         "cost": "free",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Postman API Platform",
@@ -4911,6 +4911,33 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": " HERE Geocoding & Search API",
+        "desc": "Geocoding, auto-complete and place search",
+        "url": "https://developer.here.com/documentation/geocoding-search-api/dev_guide/index.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Nominatim (OpenStreetMap Geocoding API)",
+        "desc": "Geocoding using OpenStreetMap data",
+        "url": "https://nominatim.org/release-docs/develop/api/Overview/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "MapLibre GL JS",
+        "desc": "Open source maps rendering and tiles",
+        "url": "https://maplibre.org/projects/maplibre-gl-js/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
         "status": "DEAD"
     }
 ]
