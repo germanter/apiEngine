@@ -4939,5 +4939,59 @@
         "auth": false,
         "category": "Location & Maps",
         "status": "DEAD"
+    },
+    {
+        "name": "Have I Been Pwned",
+        "desc": "Checks breach exposure for emails and passwords.",
+        "url": "https://haveibeenpwned.com/API/v3",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "AlienVault OTX",
+        "desc": "Provides threat intelligence on indicators and campaigns.",
+        "url": "https://otx.alienvault.com/api",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "AbuseIPDB",
+        "desc": "Reports abusive IP addresses and reputation data.",
+        "url": "https://docs.abuseipdb.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Censys",
+        "desc": "Searches internet-connected hosts and certificates.",
+        "url": "https://docs.censys.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "Shodan",
+        "desc": "Searches exposed devices, services, and banners.",
+        "url": "https://developer.shodan.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Wazuh",
+        "desc": "Manages security monitoring and endpoint detection.",
+        "url": "https://documentation.wazuh.com/current/user-manual/api/index.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
     }
 ]

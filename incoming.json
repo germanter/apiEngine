@@ -1,82 +1,98 @@
 [
     {
-        "name": "Google Maps Platform",
-        "desc": "Comprehensive maps, places, routes APIs",
-        "url": "https://developers.google.com/maps",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Google Places API",
-        "desc": "POI data and location search service",
-        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
-        "cost": "premium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "OpenCage Geocoder",
-        "desc": "Geocoding API with multiple data sources",
-        "url": "https://opencagedata.com/api",
+        "name": "VirusTotal",
+        "desc": "Scans files, URLs, domains, and IPs for threats.",
+        "url": "https://www.virustotal.com/gui/home/upload",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "Mapbox Geocoding API",
-        "desc": "Forward and reverse geocoding with place data",
-        "url": "https://docs.mapbox.com/api/search/geocoding/",
+        "name": "Google Safe Browsing",
+        "desc": "Checks URLs for phishing and malware warnings.",
+        "url": "https://developers.google.com/safe-browsing",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": " HERE Geocoding & Search API",
-        "desc": "Geocoding, auto-complete and place search",
-        "url": "https://developer.here.com/documentation/geocoding-search-api/dev_guide/index.html",
+        "name": "Have I Been Pwned",
+        "desc": "Checks breach exposure for emails and passwords.",
+        "url": "https://haveibeenpwned.com/API/v3",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "Geoapify Places API",
-        "desc": "POI search and location data API",
-        "url": "https://www.geoapify.com/places-api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Nominatim (OpenStreetMap Geocoding API)",
-        "desc": "Geocoding using OpenStreetMap data",
-        "url": "https://nominatim.org/release-docs/develop/api/Overview/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "MapLibre GL JS",
-        "desc": "Open source maps rendering and tiles",
-        "url": "https://maplibre.org/projects/maplibre-gl-js/",
+        "name": "AlienVault OTX",
+        "desc": "Provides threat intelligence on indicators and campaigns.",
+        "url": "https://otx.alienvault.com/api",
         "cost": "free",
-        "auth": false,
-        "category": "Location & Maps"
+        "auth": true,
+        "category": "Security & Safety"
     },
     {
-        "name": "OpenRouteService",
-        "desc": "Routing and navigation APIs",
-        "url": "https://openrouteservice.org/dev",
+        "name": "AbuseIPDB",
+        "desc": "Reports abusive IP addresses and reputation data.",
+        "url": "https://docs.abuseipdb.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
     },
     {
-        "name": "TomTom Maps APIs",
-        "desc": "Maps, traffic, and places APIs",
-        "url": "https://developer.tomtom.com/apis",
+        "name": "Censys",
+        "desc": "Searches internet-connected hosts and certificates.",
+        "url": "https://docs.censys.io/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Shodan",
+        "desc": "Searches exposed devices, services, and banners.",
+        "url": "https://developer.shodan.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "GreyNoise",
+        "desc": "Identifies internet background noise and scans.",
+        "url": "https://docs.greynoise.io/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "MISP",
+        "desc": "Shares and consumes threat intelligence events.",
+        "url": "https://www.misp-project.org/openapi/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Wazuh",
+        "desc": "Manages security monitoring and endpoint detection.",
+        "url": "https://documentation.wazuh.com/current/user-manual/api/index.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "OpenCTI",
+        "desc": "Models and shares cyber threat intelligence.",
+        "url": "https://docs.opencti.io/latest/development/api/",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "PhishTank",
+        "desc": "Provides community phishing URL intelligence.",
+        "url": "https://www.phishtank.com/api_info.php",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
     }
 ]
