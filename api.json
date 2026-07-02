@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Openappsec API",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenAQ API",
@@ -2616,7 +2616,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Apify",
@@ -3552,7 +3552,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ProxyCrawl",
@@ -4956,7 +4956,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "AbuseIPDB",
@@ -4992,6 +4992,51 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bright Data Scraping API",
+        "desc": "Enterprise scraping API with datasets, proxies, and SERP scraping.",
+        "url": "https://www.brightdata.com/docs/api/scraping-browser",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Apify Actors",
+        "desc": "Cloud API to run pre-built or custom web scraping actors.",
+        "url": "https://docs.apify.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Olostep",
+        "desc": "High-availability scraping API focused on difficult sites.",
+        "url": "https://docs.olostep.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Sociavault",
+        "desc": "Social media and general web scraping API with structured output.",
+        "url": "https://docs.sociavault.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Jina AI Reader",
+        "desc": "Open API to extract clean article content from any URL.",
+        "url": "https://jina.ai/reader",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping",
         "status": "ALIVE"
     }
 ]

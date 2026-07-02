@@ -1,98 +1,106 @@
 [
     {
-        "name": "VirusTotal",
-        "desc": "Scans files, URLs, domains, and IPs for threats.",
-        "url": "https://www.virustotal.com/gui/home/upload",
+        "name": "Firecrawl",
+        "desc": "Crawl and scrape full websites via API, returns markdown or raw HTML.",
+        "url": "https://docs.firecrawl.dev",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Scraping"
     },
     {
-        "name": "Google Safe Browsing",
-        "desc": "Checks URLs for phishing and malware warnings.",
-        "url": "https://developers.google.com/safe-browsing",
+        "name": "ScraperAPI",
+        "desc": "Proxy-based scraping API that handles CAPTCHAs and anti-bot systems.",
+        "url": "https://docs.scraperapi.com",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Scraping"
     },
     {
-        "name": "Have I Been Pwned",
-        "desc": "Checks breach exposure for emails and passwords.",
-        "url": "https://haveibeenpwned.com/API/v3",
+        "name": "ScrapingBee",
+        "desc": "Headless browser API for scraping JavaScript-rendered websites.",
+        "url": "https://www.scrapingbee.com/documentation",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Scraping"
     },
     {
-        "name": "AlienVault OTX",
-        "desc": "Provides threat intelligence on indicators and campaigns.",
-        "url": "https://otx.alienvault.com/api",
+        "name": "Zyte API",
+        "desc": "Managed scraping API with automatic proxy rotation and JS rendering.",
+        "url": "https://docs.zyte.com/zyte-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Bright Data Scraping API",
+        "desc": "Enterprise scraping API with datasets, proxies, and SERP scraping.",
+        "url": "https://www.brightdata.com/docs/api/scraping-browser",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Apify Actors",
+        "desc": "Cloud API to run pre-built or custom web scraping actors.",
+        "url": "https://docs.apify.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Oxylabs Web Scraper API",
+        "desc": "Managed API for scraping with proxy rotation and JS support.",
+        "url": "https://docs.oxylabs.io",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Scrapfly",
+        "desc": "Headless browser scraping API for dynamic content extraction.",
+        "url": "https://scrapfly.io/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Olostep",
+        "desc": "High-availability scraping API focused on difficult sites.",
+        "url": "https://docs.olostep.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Scrape.do",
+        "desc": "Real-time scraping API with proxy rotation and JS rendering.",
+        "url": "https://docs.scrape.do",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Sociavault",
+        "desc": "Social media and general web scraping API with structured output.",
+        "url": "https://docs.sociavault.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Jina AI Reader",
+        "desc": "Open API to extract clean article content from any URL.",
+        "url": "https://jina.ai/reader",
         "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
+        "auth": false,
+        "category": "Scraping"
     },
     {
-        "name": "AbuseIPDB",
-        "desc": "Reports abusive IP addresses and reputation data.",
-        "url": "https://docs.abuseipdb.com/",
+        "name": "Crawlbase",
+        "desc": "General-purpose scraping API with proxy and JS rendering support.",
+        "url": "https://docs.crawlbase.com",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Censys",
-        "desc": "Searches internet-connected hosts and certificates.",
-        "url": "https://docs.censys.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Shodan",
-        "desc": "Searches exposed devices, services, and banners.",
-        "url": "https://developer.shodan.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "GreyNoise",
-        "desc": "Identifies internet background noise and scans.",
-        "url": "https://docs.greynoise.io/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "MISP",
-        "desc": "Shares and consumes threat intelligence events.",
-        "url": "https://www.misp-project.org/openapi/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Wazuh",
-        "desc": "Manages security monitoring and endpoint detection.",
-        "url": "https://documentation.wazuh.com/current/user-manual/api/index.html",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "OpenCTI",
-        "desc": "Models and shares cyber threat intelligence.",
-        "url": "https://docs.opencti.io/latest/development/api/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "PhishTank",
-        "desc": "Provides community phishing URL intelligence.",
-        "url": "https://www.phishtank.com/api_info.php",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
+        "category": "Scraping"
     }
 ]
