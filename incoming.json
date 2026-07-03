@@ -1,105 +1,145 @@
 [
     {
         "name": "Firecrawl",
-        "desc": "Crawl and scrape full websites via API, returns markdown or raw HTML.",
-        "url": "https://docs.firecrawl.dev",
+        "desc": "Scrapes, crawls, maps, and extracts web pages.",
+        "url": "https://docs.firecrawl.dev/api-reference/introduction",
         "cost": "freemium",
         "auth": true,
         "category": "Scraping"
     },
     {
         "name": "ScraperAPI",
-        "desc": "Proxy-based scraping API that handles CAPTCHAs and anti-bot systems.",
+        "desc": "Returns page HTML through a scraping proxy API.",
         "url": "https://docs.scraperapi.com",
         "cost": "freemium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "ScrapingBee",
-        "desc": "Headless browser API for scraping JavaScript-rendered websites.",
-        "url": "https://www.scrapingbee.com/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
         "name": "Zyte API",
-        "desc": "Managed scraping API with automatic proxy rotation and JS rendering.",
-        "url": "https://docs.zyte.com/zyte-api",
+        "desc": "Fetches pages and supports browser automation.",
+        "url": "https://docs.zyte.com/zyte-api/usage/reference.html",
         "cost": "premium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Bright Data Scraping API",
-        "desc": "Enterprise scraping API with datasets, proxies, and SERP scraping.",
-        "url": "https://www.brightdata.com/docs/api/scraping-browser",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Apify Actors",
-        "desc": "Cloud API to run pre-built or custom web scraping actors.",
-        "url": "https://docs.apify.com",
+        "name": "Scrapingdog Web Scraping API",
+        "desc": "Scrapes webpages through a simple HTTP endpoint.",
+        "url": "https://docs.scrapingdog.com/web-scraping-api",
         "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Browserless REST API",
+        "desc": "Runs browser tasks for scraping and rendering pages.",
+        "url": "https://docs.browserless.io/rest-apis/content",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Apify API",
+        "desc": "Runs actors and accesses scraping datasets.",
+        "url": "https://docs.apify.com/api/v2/getting-started",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Bright Data Web Scraper API",
+        "desc": "Provides hosted scraping and structured data endpoints.",
+        "url": "https://docs.brightdata.com/scraping-automation/web-scraper-api",
+        "cost": "premium",
         "auth": true,
         "category": "Scraping"
     },
     {
         "name": "Oxylabs Web Scraper API",
-        "desc": "Managed API for scraping with proxy rotation and JS support.",
-        "url": "https://docs.oxylabs.io",
+        "desc": "Scrapes websites and returns structured results.",
+        "url": "https://developers.oxylabs.io/scraper-apis/web-scraper-api",
         "cost": "premium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Scrapfly",
-        "desc": "Headless browser scraping API for dynamic content extraction.",
-        "url": "https://scrapfly.io/docs",
+        "name": "ScrapingBee API",
+        "desc": "Fetches webpages with JavaScript rendering support.",
+        "url": "https://www.scrapingbee.com/documentation/",
         "cost": "freemium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Olostep",
-        "desc": "High-availability scraping API focused on difficult sites.",
-        "url": "https://docs.olostep.com",
+        "name": "ZenRows Universal Scraper API",
+        "desc": "Scrapes pages with anti-bot handling and rendering.",
+        "url": "https://www.zenrows.com/documentation",
         "cost": "freemium",
         "auth": true,
         "category": "Scraping"
     },
     {
         "name": "Scrape.do",
-        "desc": "Real-time scraping API with proxy rotation and JS rendering.",
-        "url": "https://docs.scrape.do",
+        "desc": "Scrapes webpages using proxies and browser rendering.",
+        "url": "https://scrape.do/docs",
         "cost": "freemium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Sociavault",
-        "desc": "Social media and general web scraping API with structured output.",
-        "url": "https://docs.sociavault.com",
-        "cost": "freemium",
+        "name": "BrowserQL",
+        "desc": "GraphQL browser automation API for scraping sites.",
+        "url": "https://docs.browserless.io/browserql",
+        "cost": "premium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Jina AI Reader",
-        "desc": "Open API to extract clean article content from any URL.",
-        "url": "https://jina.ai/reader",
+        "name": "Crawlee",
+        "desc": "Open-source crawling and scraping library.",
+        "url": "https://crawlee.dev/docs/introduction",
         "cost": "free",
         "auth": false,
         "category": "Scraping"
     },
     {
-        "name": "Crawlbase",
-        "desc": "General-purpose scraping API with proxy and JS rendering support.",
-        "url": "https://docs.crawlbase.com",
-        "cost": "freemium",
+        "name": "Scrapy",
+        "desc": "Open-source Python framework for web crawling.",
+        "url": "https://docs.scrapy.org/en/latest/",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping"
+    },
+    {
+        "name": "Playwright",
+        "desc": "Open-source browser automation for scraping pages.",
+        "url": "https://playwright.dev/docs/intro",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping"
+    },
+    {
+        "name": "Puppeteer",
+        "desc": "Open-source Chrome automation for scraping pages.",
+        "url": "https://pptr.dev",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping"
+    },
+    {
+        "name": "Browserless /scrape API",
+        "desc": "Fetches rendered page content through a browser.",
+        "url": "https://docs.browserless.io/rest-apis/scrape",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Diffbot Extract API",
+        "desc": "Extracts structured data from webpages automatically.",
+        "url": "https://docs.diffbot.com/docs/extract-api",
+        "cost": "premium",
         "auth": true,
         "category": "Scraping"
     }

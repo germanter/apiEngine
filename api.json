@@ -1005,7 +1005,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "openFDA API",
@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -1860,7 +1860,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ContentGrabber API",
@@ -2319,7 +2319,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenStreetMap API",
@@ -4956,7 +4956,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "AbuseIPDB",
@@ -5038,5 +5038,68 @@
         "auth": false,
         "category": "Scraping",
         "status": "ALIVE"
+    },
+    {
+        "name": "Scrapingdog Web Scraping API",
+        "desc": "Scrapes webpages through a simple HTTP endpoint.",
+        "url": "https://docs.scrapingdog.com/web-scraping-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Browserless REST API",
+        "desc": "Runs browser tasks for scraping and rendering pages.",
+        "url": "https://docs.browserless.io/rest-apis/content",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "ScrapingBee API",
+        "desc": "Fetches webpages with JavaScript rendering support.",
+        "url": "https://www.scrapingbee.com/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "BrowserQL",
+        "desc": "GraphQL browser automation API for scraping sites.",
+        "url": "https://docs.browserless.io/browserql",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Crawlee",
+        "desc": "Open-source crawling and scraping library.",
+        "url": "https://crawlee.dev/docs/introduction",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Browserless /scrape API",
+        "desc": "Fetches rendered page content through a browser.",
+        "url": "https://docs.browserless.io/rest-apis/scrape",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Diffbot Extract API",
+        "desc": "Extracts structured data from webpages automatically.",
+        "url": "https://docs.diffbot.com/docs/extract-api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
     }
 ]
