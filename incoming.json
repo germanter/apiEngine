@@ -1,82 +1,82 @@
 [
     {
-        "name": "Apify",
-        "desc": "Cloud platform for scraping, crawling, and data extraction.",
-        "url": "https://docs.apify.com/api/v2",
+        "name": "Google Maps Platform Web Service APIs",
+        "desc": "Geocoding, routing, places, and other location services",
+        "url": "https://developers.google.com/maps/apis-by-platform/web-service-apis",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Bright Data Web Scraper API",
-        "desc": "Scrapes pages with proxy rotation and browser rendering.",
-        "url": "https://docs.brightdata.com/scraping-automation/web-scraper-api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Zyte API",
-        "desc": "Fetches pages and extracts structured web data.",
-        "url": "https://docs.zyte.com/zyte-api/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ScraperAPI",
-        "desc": "Retrieves web pages through proxies and CAPTCHA handling.",
-        "url": "https://www.scraperapi.com/documentation/",
+        "name": "Google Maps Platform Web APIs",
+        "desc": "Embed and customize interactive maps and Street View",
+        "url": "https://developers.google.com/maps/apis-by-platform/web-apis",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "ScrapingBee",
-        "desc": "Scrapes pages with JavaScript rendering and proxy rotation.",
-        "url": "https://www.scrapingbee.com/documentation/",
+        "name": "Mapbox Maps APIs",
+        "desc": "APIs for maps, navigation, search, and geospatial data",
+        "url": "https://docs.mapbox.com/api/overview/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Firecrawl",
-        "desc": "Crawls websites and returns markdown or structured data.",
-        "url": "https://docs.firecrawl.dev/",
+        "name": "HERE Location Services APIs",
+        "desc": "Maps, geocoding, routing, traffic, and places APIs",
+        "url": "https://developer.here.com/documentation",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Oxylabs Web Scraper API",
-        "desc": "Extracts web data using managed proxies and rendering.",
-        "url": "https://developers.oxylabs.io/scraper-apis/web-scraper-api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ProxyCrawl",
-        "desc": "Fetches pages and platform-specific scraped content.",
-        "url": "https://proxycrawl.com/documentation/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ZenRows",
-        "desc": "Scrapes pages with anti-bot bypass and rendering.",
-        "url": "https://docs.zenrows.com/",
+        "name": "Geoapify Location APIs",
+        "desc": "Map tiles, geocoding, routing, places, and isolines",
+        "url": "https://apidocs.geoapify.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Scrapingdog",
-        "desc": "Scrapes pages with proxy rotation and browser rendering.",
-        "url": "https://www.scrapingdog.com/documentation/",
+        "name": "OpenStreetMap Nominatim API",
+        "desc": "Open source geocoding and reverse geocoding for OSM",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "MapTiler Cloud Maps API",
+        "desc": "Basemaps, tiles, geocoding, and static maps services",
+        "url": "https://docs.maptiler.com/cloud/api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
+    },
+    {
+        "name": "OpenLayers Tile and Vector Sources",
+        "desc": "Open source library for displaying tiled and vector maps",
+        "url": "https://openlayers.org/en/latest/apidoc/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Apple MapKit JS",
+        "desc": "JavaScript API for Apple Maps with search and directions",
+        "url": "https://developer.apple.com/documentation/mapkitjs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Radar Maps and Geocoding APIs",
+        "desc": "Base maps, geocoding, search, and routing APIs",
+        "url": "https://radar.com/documentation/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
     }
 ]

@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ApiFlash",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ScrapingBee API",
@@ -5101,5 +5101,68 @@
         "auth": true,
         "category": "Scraping",
         "status": "DEAD"
+    },
+    {
+        "name": "Google Maps Platform Web Service APIs",
+        "desc": "Geocoding, routing, places, and other location services",
+        "url": "https://developers.google.com/maps/apis-by-platform/web-service-apis",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "DEAD"
+    },
+    {
+        "name": "Google Maps Platform Web APIs",
+        "desc": "Embed and customize interactive maps and Street View",
+        "url": "https://developers.google.com/maps/apis-by-platform/web-apis",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "DEAD"
+    },
+    {
+        "name": "Mapbox Maps APIs",
+        "desc": "APIs for maps, navigation, search, and geospatial data",
+        "url": "https://docs.mapbox.com/api/overview/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "HERE Location Services APIs",
+        "desc": "Maps, geocoding, routing, traffic, and places APIs",
+        "url": "https://developer.here.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Geoapify Location APIs",
+        "desc": "Map tiles, geocoding, routing, places, and isolines",
+        "url": "https://apidocs.geoapify.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "OpenLayers Tile and Vector Sources",
+        "desc": "Open source library for displaying tiled and vector maps",
+        "url": "https://openlayers.org/en/latest/apidoc/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Radar Maps and Geocoding APIs",
+        "desc": "Base maps, geocoding, search, and routing APIs",
+        "url": "https://radar.com/documentation/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
     }
 ]
