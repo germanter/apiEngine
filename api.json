@@ -195,7 +195,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Open-Meteo API",
@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ApiFlash",
@@ -1545,7 +1545,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "LeakCheck API",
@@ -3435,7 +3435,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Alpha Vantage",
@@ -5160,6 +5160,42 @@
         "name": "Radar Maps and Geocoding APIs",
         "desc": "Base maps, geocoding, search, and routing APIs",
         "url": "https://radar.com/documentation/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Geocoding API",
+        "desc": "Converts addresses and coordinates",
+        "url": "https://developers.google.com/maps/documentation/geocoding/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Routes API",
+        "desc": "Directions, routing, and travel times",
+        "url": "https://developers.google.com/maps/documentation/routes",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Maps JavaScript API",
+        "desc": "Interactive web maps with customization",
+        "url": "https://developers.google.com/maps/documentation/javascript",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Maps Static API",
+        "desc": "Static map images by URL",
+        "url": "https://developers.google.com/maps/documentation/maps-static",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
