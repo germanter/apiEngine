@@ -1,162 +1,90 @@
 [
     {
-        "name": "Google Maps Platform",
-        "desc": "Maps, routing, places, geocoding, and location services",
-        "url": "https://developers.google.com/maps/apis-by-platform",
+        "name": "Firecrawl",
+        "desc": "Scrapes, crawls, maps, searches, and extracts web pages.",
+        "url": "https://docs.firecrawl.dev/api-reference/introduction",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Google Places API",
-        "desc": "Place search, details, photos, and autocomplete",
-        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
+        "name": "Apify API",
+        "desc": "Runs actors and manages scraping jobs and datasets.",
+        "url": "https://docs.apify.com/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Google Geocoding API",
-        "desc": "Converts addresses and coordinates",
-        "url": "https://developers.google.com/maps/documentation/geocoding/overview",
+        "name": "Scrapingdog",
+        "desc": "Scrapes webpages and search results through hosted endpoints.",
+        "url": "https://docs.scrapingdog.com/universal-search-api",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Google Routes API",
-        "desc": "Directions, routing, and travel times",
-        "url": "https://developers.google.com/maps/documentation/routes",
+        "name": "ZenRows Universal Scraper API",
+        "desc": "Scrapes pages with anti-bot handling and browser rendering.",
+        "url": "https://docs.zenrows.com/universal-scraper-api/universal-scraper-api-setup",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Google Distance Matrix API",
-        "desc": "Travel distance and time between locations",
-        "url": "https://developers.google.com/maps/documentation/distance-matrix",
+        "name": "Scrape.do",
+        "desc": "Fetches webpages with proxy rotation and browser rendering.",
+        "url": "https://docs.scrape.do",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Google Maps JavaScript API",
-        "desc": "Interactive web maps with customization",
-        "url": "https://developers.google.com/maps/documentation/javascript",
+        "name": "ScrapingBee",
+        "desc": "Scrapes webpages through proxy and browser-managed requests.",
+        "url": "https://www.scrapingbee.com/documentation/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Google Maps Static API",
-        "desc": "Static map images by URL",
-        "url": "https://developers.google.com/maps/documentation/maps-static",
+        "name": "Web Scraper Cloud API",
+        "desc": "Manages sitemaps, scraping jobs, and data downloads.",
+        "url": "https://webscraper.io/documentation/web-scraper-cloud/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Mapbox Maps API",
-        "desc": "Map rendering, styles, and tiles",
-        "url": "https://docs.mapbox.com/api/maps/",
-        "cost": "freemium",
+        "name": "Bright Data Web Scraper API",
+        "desc": "Provides hosted scraping endpoints for structured web data.",
+        "url": "https://docs.brightdata.com/scraping-automation/web-scraper-api",
+        "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Mapbox Directions API",
-        "desc": "Routing, navigation, and directions",
-        "url": "https://docs.mapbox.com/api/navigation/directions/",
-        "cost": "freemium",
+        "name": "Diffbot",
+        "desc": "Extracts structured data from web pages using machine learning.",
+        "url": "https://docs.diffbot.com/",
+        "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Mapbox Geocoding API",
-        "desc": "Forward and reverse geocoding",
-        "url": "https://docs.mapbox.com/api/search/geocoding/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "HERE Geocoding and Search API",
-        "desc": "Geocoding, reverse geocoding, and search",
-        "url": "https://www.here.com/docs/bundle/geocoding-search-api-v7/page/README.html",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "HERE Routing API",
-        "desc": "Route calculation and travel times",
-        "url": "https://www.here.com/docs/bundle/routing-api-v8/page/README.html",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "HERE Maps API for JavaScript",
-        "desc": "Interactive web maps and overlays",
-        "url": "https://www.here.com/docs/bundle/maps-api-for-javascript-developer-guide/page/README.html",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "TomTom Maps APIs",
-        "desc": "Maps, search, routing, and traffic",
-        "url": "https://developer.tomtom.com/products",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "OpenRouteService API",
-        "desc": "Routing, geocoding, and isochrones",
-        "url": "https://openrouteservice.org/dev/#/api-docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Geoapify API",
-        "desc": "Maps, places, geocoding, and routing",
-        "url": "https://apidocs.geoapify.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "MapTiler Cloud APIs",
-        "desc": "Maps, geocoding, routing, and tiles",
-        "url": "https://docs.maptiler.com/cloud/api/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "OpenStreetMap Nominatim",
-        "desc": "Open geocoding and reverse geocoding",
-        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "name": "Crawl4AI",
+        "desc": "Open-source crawler for extracting web content into markdown.",
+        "url": "https://github.com/unclecode/crawl4ai",
         "cost": "free",
         "auth": false,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "OpenStreetMap Overpass API",
-        "desc": "Queries OpenStreetMap map data",
-        "url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+        "name": "Jina AI Reader",
+        "desc": "Converts webpages into readable text through URL endpoints.",
+        "url": "https://github.com/jina-ai/reader",
         "cost": "free",
         "auth": false,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "OpenRouteService",
-        "desc": "Open routing and location services",
-        "url": "https://openrouteservice.org/dev/#/api-docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     }
 ]

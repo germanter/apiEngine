@@ -195,7 +195,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Open-Meteo API",
@@ -1545,7 +1545,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "LeakCheck API",
@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenAQ API",
@@ -3435,7 +3435,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Alpha Vantage",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ScrapingBee API",
@@ -5199,6 +5199,24 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Web Scraper Cloud API",
+        "desc": "Manages sitemaps, scraping jobs, and data downloads.",
+        "url": "https://webscraper.io/documentation/web-scraper-cloud/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Crawl4AI",
+        "desc": "Open-source crawler for extracting web content into markdown.",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "cost": "free",
+        "auth": false,
+        "category": "Scraping",
         "status": "ALIVE"
     }
 ]
