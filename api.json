@@ -2076,7 +2076,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenAQ API",
@@ -3228,7 +3228,7 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "DomainDb Info API",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ScrapingBee API",
@@ -5216,6 +5216,51 @@
         "url": "https://github.com/unclecode/crawl4ai",
         "cost": "free",
         "auth": false,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bright Data Web Scraper",
+        "desc": "Product scraping with proxies and automation",
+        "url": "https://brightdata.com/documentation/web-scraper",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "DataForSEO Scraper API",
+        "desc": "Structured scraping for search results",
+        "url": "https://docs.dataforseo.com/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Octoparse API",
+        "desc": "Cloud-based scraping workflow via API",
+        "url": "https://help.opoctoparse.com/hc/en-us/articles/360059148513-API",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Zenscrape",
+        "desc": "Simple HTTP proxy for web scraping",
+        "url": "https://zenscrape.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Common Crawl API",
+        "desc": "Open web crawl data access via API",
+        "url": "https://commoncrawl.org/the-data/get-started/",
+        "cost": "free",
+        "auth": true,
         "category": "Scraping",
         "status": "ALIVE"
     }

@@ -1,90 +1,82 @@
 [
     {
-        "name": "Firecrawl",
-        "desc": "Scrapes, crawls, maps, searches, and extracts web pages.",
-        "url": "https://docs.firecrawl.dev/api-reference/introduction",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Apify API",
-        "desc": "Runs actors and manages scraping jobs and datasets.",
-        "url": "https://docs.apify.com/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Scrapingdog",
-        "desc": "Scrapes webpages and search results through hosted endpoints.",
-        "url": "https://docs.scrapingdog.com/universal-search-api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ZenRows Universal Scraper API",
-        "desc": "Scrapes pages with anti-bot handling and browser rendering.",
-        "url": "https://docs.zenrows.com/universal-scraper-api/universal-scraper-api-setup",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Scrape.do",
-        "desc": "Fetches webpages with proxy rotation and browser rendering.",
-        "url": "https://docs.scrape.do",
+        "name": "ScraperAPI",
+        "desc": "Simple API key access for scraping with JS rendering",
+        "url": "https://www.scraperapi.com/documentation",
         "cost": "freemium",
         "auth": true,
         "category": "Scraping"
     },
     {
         "name": "ScrapingBee",
-        "desc": "Scrapes webpages through proxy and browser-managed requests.",
-        "url": "https://www.scrapingbee.com/documentation/",
+        "desc": "JS rendering and data extraction via API",
+        "url": "https://docs.scrapingbee.com",
         "cost": "freemium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Web Scraper Cloud API",
-        "desc": "Manages sitemaps, scraping jobs, and data downloads.",
-        "url": "https://webscraper.io/documentation/web-scraper-cloud/api",
+        "name": "Bright Data Web Scraper",
+        "desc": "Product scraping with proxies and automation",
+        "url": "https://brightdata.com/documentation/web-scraper",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Apify API",
+        "desc": "Run scrapers and actors via API",
+        "url": "https://docs.apify.com/api/v2",
         "cost": "freemium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Bright Data Web Scraper API",
-        "desc": "Provides hosted scraping endpoints for structured web data.",
-        "url": "https://docs.brightdata.com/scraping-automation/web-scraper-api",
+        "name": "DataForSEO Scraper API",
+        "desc": "Structured scraping for search results",
+        "url": "https://docs.dataforseo.com/",
         "cost": "premium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Diffbot",
-        "desc": "Extracts structured data from web pages using machine learning.",
-        "url": "https://docs.diffbot.com/",
+        "name": "ProxyCrawl",
+        "desc": "Crawl and extract data with anti-bot support",
+        "url": "https://docs.proxycrawl.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Octoparse API",
+        "desc": "Cloud-based scraping workflow via API",
+        "url": "https://help.opoctoparse.com/hc/en-us/articles/360059148513-API",
         "cost": "premium",
         "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Crawl4AI",
-        "desc": "Open-source crawler for extracting web content into markdown.",
-        "url": "https://github.com/unclecode/crawl4ai",
-        "cost": "free",
-        "auth": false,
+        "name": "Zenscrape",
+        "desc": "Simple HTTP proxy for web scraping",
+        "url": "https://zenscrape.com/documentation",
+        "cost": "freemium",
+        "auth": true,
         "category": "Scraping"
     },
     {
-        "name": "Jina AI Reader",
-        "desc": "Converts webpages into readable text through URL endpoints.",
-        "url": "https://github.com/jina-ai/reader",
+        "name": "Browserless",
+        "desc": "Headless browser API for rendering pages",
+        "url": "https://docs.browserless.io/docs/api.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Scraping"
+    },
+    {
+        "name": "Common Crawl API",
+        "desc": "Open web crawl data access via API",
+        "url": "https://commoncrawl.org/the-data/get-started/",
         "cost": "free",
-        "auth": false,
+        "auth": true,
         "category": "Scraping"
     }
 ]
