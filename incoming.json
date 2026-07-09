@@ -1,82 +1,122 @@
 [
     {
-        "name": "ScraperAPI",
-        "desc": "Simple API key access for scraping with JS rendering",
-        "url": "https://www.scraperapi.com/documentation",
+        "name": "OpenAI API",
+        "desc": "Generates text, images, and structured outputs",
+        "url": "https://platform.openai.com/docs/api-reference",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
     },
     {
-        "name": "ScrapingBee",
-        "desc": "JS rendering and data extraction via API",
-        "url": "https://docs.scrapingbee.com",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Bright Data Web Scraper",
-        "desc": "Product scraping with proxies and automation",
-        "url": "https://brightdata.com/documentation/web-scraper",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Apify API",
-        "desc": "Run scrapers and actors via API",
-        "url": "https://docs.apify.com/api/v2",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "DataForSEO Scraper API",
-        "desc": "Structured scraping for search results",
-        "url": "https://docs.dataforseo.com/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ProxyCrawl",
-        "desc": "Crawl and extract data with anti-bot support",
-        "url": "https://docs.proxycrawl.com",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Octoparse API",
-        "desc": "Cloud-based scraping workflow via API",
-        "url": "https://help.opoctoparse.com/hc/en-us/articles/360059148513-API",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Zenscrape",
-        "desc": "Simple HTTP proxy for web scraping",
-        "url": "https://zenscrape.com/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Browserless",
-        "desc": "Headless browser API for rendering pages",
-        "url": "https://docs.browserless.io/docs/api.html",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Common Crawl API",
-        "desc": "Open web crawl data access via API",
-        "url": "https://commoncrawl.org/the-data/get-started/",
+        "name": "GitHub REST API",
+        "desc": "Reads repositories, users, issues, and commits",
+        "url": "https://docs.github.com/en/rest",
         "cost": "free",
         "auth": true,
-        "category": "Scraping"
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Google APIs Explorer",
+        "desc": "Tests Google REST API methods interactively",
+        "url": "https://developers.google.com/apis-explorer",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "APIs.guru",
+        "desc": "Provides OpenAPI specs for public APIs",
+        "url": "https://apis.guru/api-doc/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "JSONPlaceholder",
+        "desc": "Returns fake posts, users, and comments",
+        "url": "https://jsonplaceholder.typicode.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "CDNJS API",
+        "desc": "Lists JavaScript libraries and versions",
+        "url": "https://api.cdnjs.com/libraries",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Postman Public API Network",
+        "desc": "Discovers and tests published API collections",
+        "url": "https://www.postman.com/api-network/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "QuickChart API",
+        "desc": "Renders charts from URL parameters",
+        "url": "https://quickchart.io/documentation/",
+        "cost": "freemium",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "API Flash",
+        "desc": "Generates screenshots of web pages",
+        "url": "https://apiflash.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Browshot API",
+        "desc": "Captures website screenshots programmatically",
+        "url": "https://browshot.com/api/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "ScreenshotAPI.net",
+        "desc": "Creates website screenshots via API",
+        "url": "https://screenshotapi.net/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "BrowserCat API",
+        "desc": "Automates browser tasks and scraping",
+        "url": "https://browsercat.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "ApiFlash",
+        "desc": "Captures webpage screenshots from URLs",
+        "url": "https://apiflash.com/documentation/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "ShieldSquare API",
+        "desc": "Detects bots and protects web applications",
+        "url": "https://www.akamai.com/products/bot-manager",
+        "cost": "premium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "ShareX",
+        "desc": "Open source capture and upload automation tool",
+        "url": "https://getsharex.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
     }
 ]

@@ -3228,7 +3228,7 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "DomainDb Info API",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ScrapingBee API",
@@ -5262,6 +5262,96 @@
         "cost": "free",
         "auth": true,
         "category": "Scraping",
+        "status": "ALIVE"
+    },
+    {
+        "name": "APIs.guru",
+        "desc": "Provides OpenAPI specs for public APIs",
+        "url": "https://apis.guru/api-doc/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CDNJS API",
+        "desc": "Lists JavaScript libraries and versions",
+        "url": "https://api.cdnjs.com/libraries",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Postman Public API Network",
+        "desc": "Discovers and tests published API collections",
+        "url": "https://www.postman.com/api-network/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "QuickChart API",
+        "desc": "Renders charts from URL parameters",
+        "url": "https://quickchart.io/documentation/",
+        "cost": "freemium",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "API Flash",
+        "desc": "Generates screenshots of web pages",
+        "url": "https://apiflash.com/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Browshot API",
+        "desc": "Captures website screenshots programmatically",
+        "url": "https://browshot.com/api/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "ScreenshotAPI.net",
+        "desc": "Creates website screenshots via API",
+        "url": "https://screenshotapi.net/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "BrowserCat API",
+        "desc": "Automates browser tasks and scraping",
+        "url": "https://browsercat.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "ShieldSquare API",
+        "desc": "Detects bots and protects web applications",
+        "url": "https://www.akamai.com/products/bot-manager",
+        "cost": "premium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "ShareX",
+        "desc": "Open source capture and upload automation tool",
+        "url": "https://getsharex.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
         "status": "ALIVE"
     }
 ]
