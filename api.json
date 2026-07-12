@@ -609,7 +609,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ApiFlash",
@@ -1329,7 +1329,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Legal & Finance",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Registrum API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ScrapingBee API",
@@ -5352,6 +5352,51 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Vertex AI",
+        "desc": "Managed ML models and LLMs",
+        "url": "https://cloud.google.com/vertex-ai/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "IBM Watson AI Services",
+        "desc": "NLP, vision, and language APIs",
+        "url": "https://cloud.ibm.com/apidocs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "DeepAI API",
+        "desc": "Affordable image and text APIs",
+        "url": "https://deepai.org/machine-learning-models",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "OpenRouter AI",
+        "desc": "Unified access to multiple models via API",
+        "url": "https://openrouter.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Pollinations AI",
+        "desc": "Generative image and art models API",
+        "url": "https://pollinations.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
         "status": "ALIVE"
     }
 ]

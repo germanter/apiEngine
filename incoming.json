@@ -1,122 +1,82 @@
 [
     {
         "name": "OpenAI API",
-        "desc": "Generates text, images, and structured outputs",
-        "url": "https://platform.openai.com/docs/api-reference",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "GitHub REST API",
-        "desc": "Reads repositories, users, issues, and commits",
-        "url": "https://docs.github.com/en/rest",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Google APIs Explorer",
-        "desc": "Tests Google REST API methods interactively",
-        "url": "https://developers.google.com/apis-explorer",
-        "cost": "free",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "APIs.guru",
-        "desc": "Provides OpenAPI specs for public APIs",
-        "url": "https://apis.guru/api-doc/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "JSONPlaceholder",
-        "desc": "Returns fake posts, users, and comments",
-        "url": "https://jsonplaceholder.typicode.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "CDNJS API",
-        "desc": "Lists JavaScript libraries and versions",
-        "url": "https://api.cdnjs.com/libraries",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Postman Public API Network",
-        "desc": "Discovers and tests published API collections",
-        "url": "https://www.postman.com/api-network/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "QuickChart API",
-        "desc": "Renders charts from URL parameters",
-        "url": "https://quickchart.io/documentation/",
-        "cost": "freemium",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "API Flash",
-        "desc": "Generates screenshots of web pages",
-        "url": "https://apiflash.com/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Browshot API",
-        "desc": "Captures website screenshots programmatically",
-        "url": "https://browshot.com/api/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "ScreenshotAPI.net",
-        "desc": "Creates website screenshots via API",
-        "url": "https://screenshotapi.net/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "BrowserCat API",
-        "desc": "Automates browser tasks and scraping",
-        "url": "https://browsercat.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "ApiFlash",
-        "desc": "Captures webpage screenshots from URLs",
-        "url": "https://apiflash.com/documentation/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "ShieldSquare API",
-        "desc": "Detects bots and protects web applications",
-        "url": "https://www.akamai.com/products/bot-manager",
+        "desc": "Access to GPT-4 and GPT-3.5 models",
+        "url": "https://platform.openai.com/docs/api",
         "cost": "premium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "AI"
     },
     {
-        "name": "ShareX",
-        "desc": "Open source capture and upload automation tool",
-        "url": "https://getsharex.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "name": "Google Vertex AI",
+        "desc": "Managed ML models and LLMs",
+        "url": "https://cloud.google.com/vertex-ai/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Anthropic API",
+        "desc": "Access to Claude family models",
+        "url": "https://console.anthropic.com/docs/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cohere API",
+        "desc": "NLP models for generation and embedding",
+        "url": "https://docs.cohere.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Hugging Face Inference API",
+        "desc": "Deploys multiple open models via API",
+        "url": "https://huggingface.co/docs/api-inference/index",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "IBM Watson AI Services",
+        "desc": "NLP, vision, and language APIs",
+        "url": "https://cloud.ibm.com/apidocs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Azure OpenAI Service",
+        "desc": "OpenAI models on Azure platform",
+        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "DeepAI API",
+        "desc": "Affordable image and text APIs",
+        "url": "https://deepai.org/machine-learning-models",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "OpenRouter AI",
+        "desc": "Unified access to multiple models via API",
+        "url": "https://openrouter.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Pollinations AI",
+        "desc": "Generative image and art models API",
+        "url": "https://pollinations.ai/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
     }
 ]
