@@ -1,82 +1,82 @@
 [
     {
-        "name": "OpenAI API",
-        "desc": "Access to GPT-4 and GPT-3.5 models",
-        "url": "https://platform.openai.com/docs/api",
+        "name": "Mock Service Worker",
+        "desc": "Mocks REST, GraphQL, WebSocket, and SSE requests",
+        "url": "https://mswjs.io/docs/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "WireMock Admin API",
+        "desc": "Manages HTTP stubs, recordings, and request journals",
+        "url": "http://localhost:8080/__admin",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Swagger Generator API",
+        "desc": "Generates client SDKs, stubs, and docs from OpenAPI",
+        "url": "https://generator3.swagger.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "FakerAPI",
+        "desc": "Returns realistic fake data for test and mock apps",
+        "url": "https://fakerapi.it/api/v1/addresses",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "API Snap",
+        "desc": "Offers unified developer utility endpoints in one API",
+        "url": "https://apis.io/providers/api-snap/",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Google Vertex AI",
-        "desc": "Managed ML models and LLMs",
-        "url": "https://cloud.google.com/vertex-ai/docs",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Anthropic API",
-        "desc": "Access to Claude family models",
-        "url": "https://console.anthropic.com/docs/api",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Cohere API",
-        "desc": "NLP models for generation and embedding",
-        "url": "https://docs.cohere.ai/docs",
+        "name": "Postman API Platform",
+        "desc": "Designs, tests, mocks, and monitors APIs",
+        "url": "https://learning.postman.com/docs/developer/postman-api/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Hugging Face Inference API",
-        "desc": "Deploys multiple open models via API",
-        "url": "https://huggingface.co/docs/api-inference/index",
+        "name": "APIs.guru",
+        "desc": "Catalogs OpenAPI specs for public APIs",
+        "url": "https://apis.guru/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "GitHub REST API",
+        "desc": "Manages repositories, issues, pull requests, and users",
+        "url": "https://docs.github.com/en/rest",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Developer Utilities"
     },
     {
-        "name": "IBM Watson AI Services",
-        "desc": "NLP, vision, and language APIs",
-        "url": "https://cloud.ibm.com/apidocs",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Azure OpenAI Service",
-        "desc": "OpenAI models on Azure platform",
-        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai",
-        "cost": "premium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "DeepAI API",
-        "desc": "Affordable image and text APIs",
-        "url": "https://deepai.org/machine-learning-models",
+        "name": "GitLab API",
+        "desc": "Automates GitLab repositories, issues, and CI",
+        "url": "https://docs.gitlab.com/api/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Developer Utilities"
     },
     {
-        "name": "OpenRouter AI",
-        "desc": "Unified access to multiple models via API",
-        "url": "https://openrouter.ai/docs",
+        "name": "Bitbucket Cloud API",
+        "desc": "Automates repositories, pull requests, and pipelines",
+        "url": "https://developer.atlassian.com/cloud/bitbucket/rest/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Pollinations AI",
-        "desc": "Generative image and art models API",
-        "url": "https://pollinations.ai/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
+        "category": "Developer Utilities"
     }
 ]

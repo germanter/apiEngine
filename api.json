@@ -1329,7 +1329,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Legal & Finance",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Registrum API",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ScrapingBee API",
@@ -5397,6 +5397,60 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Mock Service Worker",
+        "desc": "Mocks REST, GraphQL, WebSocket, and SSE requests",
+        "url": "https://mswjs.io/docs/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "WireMock Admin API",
+        "desc": "Manages HTTP stubs, recordings, and request journals",
+        "url": "http://localhost:8080/__admin",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "Swagger Generator API",
+        "desc": "Generates client SDKs, stubs, and docs from OpenAPI",
+        "url": "https://generator3.swagger.io/",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "FakerAPI",
+        "desc": "Returns realistic fake data for test and mock apps",
+        "url": "https://fakerapi.it/api/v1/addresses",
+        "cost": "free",
+        "auth": false,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "API Snap",
+        "desc": "Offers unified developer utility endpoints in one API",
+        "url": "https://apis.io/providers/api-snap/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "GitLab API",
+        "desc": "Automates GitLab repositories, issues, and CI",
+        "url": "https://docs.gitlab.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
         "status": "ALIVE"
     }
 ]
