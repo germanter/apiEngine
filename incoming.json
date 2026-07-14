@@ -1,82 +1,122 @@
 [
     {
-        "name": "Mock Service Worker",
-        "desc": "Mocks REST, GraphQL, WebSocket, and SSE requests",
-        "url": "https://mswjs.io/docs/",
+        "name": "OpenAlex API",
+        "desc": "Scholarly works, authors, institutions, and concepts.",
+        "url": "https://docs.openalex.org/",
         "cost": "free",
         "auth": false,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "WireMock Admin API",
-        "desc": "Manages HTTP stubs, recordings, and request journals",
-        "url": "http://localhost:8080/__admin",
+        "name": "Crossref REST API",
+        "desc": "DOIs, citations, journals, funders, and article metadata.",
+        "url": "https://api.crossref.org/",
         "cost": "free",
         "auth": false,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "Swagger Generator API",
-        "desc": "Generates client SDKs, stubs, and docs from OpenAPI",
-        "url": "https://generator3.swagger.io/",
+        "name": "ORCID Public API",
+        "desc": "Public researcher profiles and ORCID record data.",
+        "url": "https://info.orcid.org/documentation/api-tutorials/api-overview/",
         "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "FakerAPI",
-        "desc": "Returns realistic fake data for test and mock apps",
-        "url": "https://fakerapi.it/api/v1/addresses",
-        "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "API Snap",
-        "desc": "Offers unified developer utility endpoints in one API",
-        "url": "https://apis.io/providers/api-snap/",
-        "cost": "premium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "Postman API Platform",
-        "desc": "Designs, tests, mocks, and monitors APIs",
-        "url": "https://learning.postman.com/docs/developer/postman-api/",
+        "name": "Wikipedia API",
+        "desc": "Encyclopedia pages, edits, and structured metadata.",
+        "url": "https://www.mediawiki.org/wiki/API:Main_page",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Open Library API",
+        "desc": "Book records, editions, authors, and covers.",
+        "url": "https://openlibrary.org/developers/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Internet Archive APIs",
+        "desc": "Archived web pages, books, audio, and media metadata.",
+        "url": "https://archive.org/developers/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Open-Meteo API",
+        "desc": "Weather forecasts and historical weather data.",
+        "url": "https://open-meteo.com/en/docs",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenStreetMap Nominatim API",
+        "desc": "Forward and reverse geocoding from map data.",
+        "url": "https://nominatim.org/release-docs/latest/api/Overview/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OSRM API",
+        "desc": "Routing, distance matrices, and route geometry.",
+        "url": "https://project-osrm.org/docs/v5.24.0/api/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Hugging Face Datasets Hub API",
+        "desc": "Search and access public machine learning datasets.",
+        "url": "https://huggingface.co/docs/hub/en/api",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Semantic Scholar API",
+        "desc": "Paper metadata, citations, and author profiles.",
+        "url": "https://api.semanticscholar.org/api-docs/",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "APIs.guru",
-        "desc": "Catalogs OpenAPI specs for public APIs",
-        "url": "https://apis.guru/",
+        "name": "NASA APIs",
+        "desc": "Space imagery, planetary data, and science feeds.",
+        "url": "https://api.nasa.gov/",
         "cost": "free",
-        "auth": false,
-        "category": "Developer Utilities"
+        "auth": true,
+        "category": "Data & Information"
     },
     {
         "name": "GitHub REST API",
-        "desc": "Manages repositories, issues, pull requests, and users",
+        "desc": "Repositories, issues, users, and code metadata.",
         "url": "https://docs.github.com/en/rest",
-        "cost": "freemium",
+        "cost": "free",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "GitLab API",
-        "desc": "Automates GitLab repositories, issues, and CI",
-        "url": "https://docs.gitlab.com/api/",
-        "cost": "freemium",
+        "name": "GitLab REST API",
+        "desc": "Projects, issues, merge requests, and users.",
+        "url": "https://docs.gitlab.com/ee/api/",
+        "cost": "free",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Data & Information"
     },
     {
-        "name": "Bitbucket Cloud API",
-        "desc": "Automates repositories, pull requests, and pipelines",
-        "url": "https://developer.atlassian.com/cloud/bitbucket/rest/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
+        "name": "World Bank API",
+        "desc": "Global development indicators and country data.",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     }
 ]
