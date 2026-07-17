@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -4146,7 +4146,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google APIs Explorer",
@@ -5541,6 +5541,15 @@
         "cost": "free",
         "auth": true,
         "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "CIRCL HashLookup API",
+        "desc": "Lookup file hashes for malware info",
+        "url": "https://www.circl.lu/services/hashlookup/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
         "status": "ALIVE"
     }
 ]

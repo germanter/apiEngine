@@ -1,82 +1,74 @@
 [
     {
-        "name": "GitHub REST API",
-        "desc": "Query repositories, users, issues and more",
-        "url": "https://docs.github.com/en/rest",
+        "name": "VirusTotal API",
+        "desc": "Scan URLs/files for malware and analyze results",
+        "url": "https://www.virustotal.com/gui/home/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Google Safe Browsing API",
+        "desc": "Check URLs against phishing/malware lists",
+        "url": "https://developers.google.com/safe-browsing/v4/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Shodan API",
+        "desc": "Query internet-connected devices and exposure",
+        "url": "https://developer.shodan.io",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "CIRCL CVE Search API",
+        "desc": "Search CVEs and related data",
+        "url": "https://www.circl.lu/services/cve-search/",
         "cost": "free",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Security & Safety"
     },
     {
-        "name": "RapidAPI Developer APIs",
-        "desc": "Access a marketplace of APIs across categories",
-        "url": "https://docs.rapidapi.com/docs/what-is-rapidapi",
+        "name": "CIRCL HashLookup API",
+        "desc": "Lookup file hashes for malware info",
+        "url": "https://www.circl.lu/services/hashlookup/",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "IBM X-Force Exchange API",
+        "desc": "Threat intel data and indicators of compromise",
+        "url": "https://exchange.xforce.ibmcloud.com/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Security & Safety"
     },
     {
-        "name": "Postman API Network",
-        "desc": "Discover public APIs and API insights",
-        "url": "https://www.postman.com/api-network",
-        "cost": "freemium",
+        "name": "BinaryEdge API",
+        "desc": "Security threat intelligence and asset discovery",
+        "url": "https://binaryedge.io/docs/api",
+        "cost": "premium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Security & Safety"
     },
     {
-        "name": "Google Maps Platform",
-        "desc": "Geocoding, maps, routes and places data",
-        "url": "https://developers.google.com/maps/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Twilio Communications API",
-        "desc": "SMS, voice, video and messaging services",
-        "url": "https://www.twilio.com/docs/usage/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Stripe API",
-        "desc": "Payment processing and financial services",
-        "url": "https://stripe.com/docs/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Auth0 Management API",
-        "desc": "Authenticate users and manage identities",
-        "url": "https://auth0.com/docs/api/management/v2",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "OpenWeather API",
-        "desc": "Current weather, forecast, and historical data",
-        "url": "https://openweathermap.org/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Census Bureau API",
-        "desc": "U.S. demographic and economic data access",
-        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "name": "AlienVault OTX API",
+        "desc": "Open threat exchange indicators of compromise",
+        "url": "https://otx.alienvault.com/api",
         "cost": "free",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Security & Safety"
     },
     {
-        "name": "NASA API",
-        "desc": "Public space data and imagery",
-        "url": "https://api.nasa.gov",
-        "cost": "free",
+        "name": "Have I Been Pwned API",
+        "desc": "Check if accounts/addresses exposed in breaches",
+        "url": "https://haveibeenpwned.com/API/v3",
+        "cost": "freemium",
         "auth": true,
-        "category": "Developer Utilities"
+        "category": "Security & Safety"
     }
 ]
