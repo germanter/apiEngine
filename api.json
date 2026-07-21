@@ -96,7 +96,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Cloud Speech-to-Text API",
@@ -465,7 +465,7 @@
         "cost": "free",
         "auth": true,
         "category": "Media & Content",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Unsplash API",
@@ -1716,7 +1716,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Botd API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3012,7 +3012,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Maps JavaScript API",
@@ -4623,7 +4623,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "National Weather Service API",
