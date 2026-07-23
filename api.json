@@ -4785,7 +4785,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Mapillary (Mapillary Vision) - Open imagery",
