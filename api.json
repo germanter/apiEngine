@@ -438,7 +438,7 @@
         "cost": "free",
         "auth": false,
         "category": "Communication & Identity",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "WhatIsMyIP API",
@@ -2319,7 +2319,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenStreetMap API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3615,7 +3615,7 @@
         "cost": "free",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "EleutherAI / GPT-NeoX (inference endpoints)",
@@ -5073,7 +5073,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Crawlee",
