@@ -1,74 +1,122 @@
 [
     {
-        "name": "VirusTotal API",
-        "desc": "Scan URLs/files for malware and analyze results",
-        "url": "https://www.virustotal.com/gui/home/api",
+        "name": "OpenWeatherMap",
+        "desc": "Current weather and 5-day forecasts for any location worldwide",
+        "url": "https://openweathermap.org/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "Google Safe Browsing API",
-        "desc": "Check URLs against phishing/malware lists",
-        "url": "https://developers.google.com/safe-browsing/v4/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Shodan API",
-        "desc": "Query internet-connected devices and exposure",
-        "url": "https://developer.shodan.io",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CIRCL CVE Search API",
-        "desc": "Search CVEs and related data",
-        "url": "https://www.circl.lu/services/cve-search/",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CIRCL HashLookup API",
-        "desc": "Lookup file hashes for malware info",
-        "url": "https://www.circl.lu/services/hashlookup/",
+        "name": "REST Countries",
+        "desc": "Country data including population, capital, currency, languages",
+        "url": "https://restcountries.com/",
         "cost": "free",
         "auth": false,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "IBM X-Force Exchange API",
-        "desc": "Threat intel data and indicators of compromise",
-        "url": "https://exchange.xforce.ibmcloud.com/api",
+        "name": "PokéAPI",
+        "desc": "Detailed Pokémon data including stats, abilities, evolution chains",
+        "url": "https://pokeapi.co/docs/v2",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "NASA Open APIs",
+        "desc": "NASA data and imagery including astronomy, earth, and space APIs",
+        "url": "https://api.nasa.gov/",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "BinaryEdge API",
-        "desc": "Security threat intelligence and asset discovery",
-        "url": "https://binaryedge.io/docs/api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
+        "name": "Open Library API",
+        "desc": "Books, book covers, authors and related bibliographic data",
+        "url": "https://openlibrary.org/developers/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
     },
     {
-        "name": "AlienVault OTX API",
-        "desc": "Open threat exchange indicators of compromise",
-        "url": "https://otx.alienvault.com/api",
+        "name": "CoinGecko API",
+        "desc": "Cryptocurrency prices, market data, and developer statistics",
+        "url": "https://www.coingecko.com/api/docs/v3",
+        "cost": "freemium",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Public APIs",
+        "desc": "Collective list of free JSON APIs for web development projects",
+        "url": "https://api.publicapis.org/entries",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Data.gov API",
+        "desc": "US government open data across agencies and sectors",
+        "url": "https://api.data.gov/",
         "cost": "free",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     },
     {
-        "name": "Have I Been Pwned API",
-        "desc": "Check if accounts/addresses exposed in breaches",
-        "url": "https://haveibeenpwned.com/API/v3",
+        "name": "Free Dictionary API",
+        "desc": "Word definitions, phonetics, pronunciations, parts of speech",
+        "url": "https://dictionaryapi.dev/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "JokeAPI",
+        "desc": "Fetch jokes in JSON format filtered by category and type",
+        "url": "https://v2.jokeapi.dev/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "Numbers API",
+        "desc": "Interesting facts about numbers, dates, and years",
+        "url": "http://numbersapi.com/",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "OpenStreetMap Overpass API",
+        "desc": "Query OpenStreetMap data for maps, routing, and geospatial info",
+        "url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+        "cost": "free",
+        "auth": false,
+        "category": "Data & Information"
+    },
+    {
+        "name": "US Census Bureau API",
+        "desc": "US demographic and economic data from decennial census and surveys",
+        "url": "https://www.census.gov/data/developers/data-sets.html",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "World Bank Open Data API",
+        "desc": "Global development data including economic and social indicators",
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
+        "cost": "free",
+        "auth": true,
+        "category": "Data & Information"
+    },
+    {
+        "name": "GitHub API",
+        "desc": "Access repositories, users, organizations, and code data",
+        "url": "https://docs.github.com/en/rest",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Data & Information"
     }
 ]
