@@ -2049,7 +2049,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Crossref REST API",
@@ -2058,7 +2058,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "GBIF API",
