@@ -879,7 +879,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Geoapify Places API",
@@ -888,7 +888,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Geoapify Routing API",
@@ -897,7 +897,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "LocationIQ Geocoding API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3975,7 +3975,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "MapTiler API",
@@ -4020,7 +4020,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Mapbox API",
@@ -4866,7 +4866,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "MapTiler Cloud",
@@ -5145,7 +5145,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenLayers Tile and Vector Sources",
