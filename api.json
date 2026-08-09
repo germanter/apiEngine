@@ -465,7 +465,7 @@
         "cost": "free",
         "auth": true,
         "category": "Media & Content",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Unsplash API",
@@ -879,7 +879,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Geoapify Places API",
@@ -888,7 +888,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Geoapify Routing API",
@@ -897,7 +897,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "LocationIQ Geocoding API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3975,7 +3975,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "MapTiler API",
@@ -4020,7 +4020,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Mapbox API",
@@ -4866,7 +4866,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "MapTiler Cloud",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ScrapingBee API",
@@ -5145,7 +5145,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenLayers Tile and Vector Sources",
@@ -5596,5 +5596,41 @@
         "auth": false,
         "category": "Data & Information",
         "status": "DEAD"
+    },
+    {
+        "name": "Google Cloud AI",
+        "desc": "NLP, vision, translation and more APIs",
+        "url": "https://cloud.google.com/ai-platform",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Microsoft Azure Cognitive Services",
+        "desc": "Comprehensive AI capabilities and models",
+        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Clarifai API",
+        "desc": "Computer vision and image analysis",
+        "url": "https://docs.clarifai.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Cohere AI API",
+        "desc": "NLP models for text generation and classification",
+        "url": "https://docs.cohere.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
     }
 ]

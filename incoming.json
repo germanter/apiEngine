@@ -1,122 +1,82 @@
 [
     {
-        "name": "OpenWeatherMap",
-        "desc": "Current weather and 5-day forecasts for any location worldwide",
-        "url": "https://openweathermap.org/api",
+        "name": "OpenAI API",
+        "desc": "Generative text and code models for chat",
+        "url": "https://platform.openai.com/docs/api-reference",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "REST Countries",
-        "desc": "Country data including population, capital, currency, languages",
-        "url": "https://restcountries.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "PokéAPI",
-        "desc": "Detailed Pokémon data including stats, abilities, evolution chains",
-        "url": "https://pokeapi.co/docs/v2",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "NASA Open APIs",
-        "desc": "NASA data and imagery including astronomy, earth, and space APIs",
-        "url": "https://api.nasa.gov/",
+        "name": "Google Cloud AI",
+        "desc": "NLP, vision, translation and more APIs",
+        "url": "https://cloud.google.com/ai-platform",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
     },
     {
-        "name": "Open Library API",
-        "desc": "Books, book covers, authors and related bibliographic data",
-        "url": "https://openlibrary.org/developers/api",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "CoinGecko API",
-        "desc": "Cryptocurrency prices, market data, and developer statistics",
-        "url": "https://www.coingecko.com/api/docs/v3",
-        "cost": "freemium",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Public APIs",
-        "desc": "Collective list of free JSON APIs for web development projects",
-        "url": "https://api.publicapis.org/entries",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Data.gov API",
-        "desc": "US government open data across agencies and sectors",
-        "url": "https://api.data.gov/",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Free Dictionary API",
-        "desc": "Word definitions, phonetics, pronunciations, parts of speech",
-        "url": "https://dictionaryapi.dev/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "JokeAPI",
-        "desc": "Fetch jokes in JSON format filtered by category and type",
-        "url": "https://v2.jokeapi.dev/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "Numbers API",
-        "desc": "Interesting facts about numbers, dates, and years",
-        "url": "http://numbersapi.com/",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "OpenStreetMap Overpass API",
-        "desc": "Query OpenStreetMap data for maps, routing, and geospatial info",
-        "url": "https://wiki.openstreetmap.org/wiki/Overpass_API",
-        "cost": "free",
-        "auth": false,
-        "category": "Data & Information"
-    },
-    {
-        "name": "US Census Bureau API",
-        "desc": "US demographic and economic data from decennial census and surveys",
-        "url": "https://www.census.gov/data/developers/data-sets.html",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "World Bank Open Data API",
-        "desc": "Global development data including economic and social indicators",
-        "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
-        "cost": "free",
-        "auth": true,
-        "category": "Data & Information"
-    },
-    {
-        "name": "GitHub API",
-        "desc": "Access repositories, users, organizations, and code data",
-        "url": "https://docs.github.com/en/rest",
+        "name": "Microsoft Azure Cognitive Services",
+        "desc": "Comprehensive AI capabilities and models",
+        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/",
         "cost": "freemium",
         "auth": true,
-        "category": "Data & Information"
+        "category": "AI"
+    },
+    {
+        "name": "AWS AI Services",
+        "desc": "Suite of AI services for inference and analytics",
+        "url": "https://aws.amazon.com/machine-learning/ai-services/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Hugging Face Inference API",
+        "desc": "Access to hosted ML models for inference",
+        "url": "https://huggingface.co/inference-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "IBM Watson API",
+        "desc": "NLP, vision, speech and more services",
+        "url": "https://www.ibm.com/watson/developercloud/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Clarifai API",
+        "desc": "Computer vision and image analysis",
+        "url": "https://docs.clarifai.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Replicate API",
+        "desc": "Run machine learning models in the cloud",
+        "url": "https://replicate.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "DeepAI API",
+        "desc": "Image, text and creative AI models",
+        "url": "https://docs.deepai.org/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cohere AI API",
+        "desc": "NLP models for text generation and classification",
+        "url": "https://docs.cohere.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
     }
 ]
