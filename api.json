@@ -465,7 +465,7 @@
         "cost": "free",
         "auth": true,
         "category": "Media & Content",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Unsplash API",
@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Openappsec API",
@@ -4956,7 +4956,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "AbuseIPDB",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ScrapingBee API",
@@ -5632,5 +5632,23 @@
         "auth": true,
         "category": "AI",
         "status": "ALIVE"
+    },
+    {
+        "name": "GraphHopper Geocoding & Routing API",
+        "desc": "Open-source routing and geocoding",
+        "url": "https://www.graphhopper.com/docs/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Cloudflare Maps API",
+        "desc": "Static maps and geocoding endpoints",
+        "url": "https://developers.cloudflare.com/maps/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "DEAD"
     }
 ]

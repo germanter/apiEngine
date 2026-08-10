@@ -1,82 +1,82 @@
 [
     {
-        "name": "OpenAI API",
-        "desc": "Generative text and code models for chat",
-        "url": "https://platform.openai.com/docs/api-reference",
+        "name": "Google Maps Platform",
+        "desc": "Maps, geocoding, places, routes APIs",
+        "url": "https://cloud.google.com/maps-platform",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Google Cloud AI",
-        "desc": "NLP, vision, translation and more APIs",
-        "url": "https://cloud.google.com/ai-platform",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
+        "name": "OpenStreetMap Nominatim",
+        "desc": "Geocoding via OSM data",
+        "url": "https://nominatim.org/release-docs/develop/api/Search/",
+        "cost": "free",
+        "auth": false,
+        "category": "Location & Maps"
     },
     {
-        "name": "Microsoft Azure Cognitive Services",
-        "desc": "Comprehensive AI capabilities and models",
-        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/",
+        "name": "Mapbox Directions API",
+        "desc": "Routing and navigation APIs",
+        "url": "https://docs.mapbox.com/api/navigation/directions/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "AWS AI Services",
-        "desc": "Suite of AI services for inference and analytics",
-        "url": "https://aws.amazon.com/machine-learning/ai-services/",
+        "name": "HERE Location Services",
+        "desc": "Geocoding, maps, routing, places",
+        "url": "https://developer.here.com/documentation",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Hugging Face Inference API",
-        "desc": "Access to hosted ML models for inference",
-        "url": "https://huggingface.co/inference-api",
+        "name": "GraphHopper Geocoding & Routing API",
+        "desc": "Open-source routing and geocoding",
+        "url": "https://www.graphhopper.com/docs/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "IBM Watson API",
-        "desc": "NLP, vision, speech and more services",
-        "url": "https://www.ibm.com/watson/developercloud/",
+        "name": "Bing Maps REST Services",
+        "desc": "Maps, geocoding, routes, imagery",
+        "url": "https://learn.microsoft.com/en-us/bingmaps/rest-services/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Clarifai API",
-        "desc": "Computer vision and image analysis",
-        "url": "https://docs.clarifai.com/api/",
+        "name": "MapTiler API",
+        "desc": "Static maps and map tiles API",
+        "url": "https://docs.maptiler.com/cloud/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Replicate API",
-        "desc": "Run machine learning models in the cloud",
-        "url": "https://replicate.com/docs",
+        "name": "OpenRouteService API",
+        "desc": "Routing and geocoding from OpenRouteService",
+        "url": "https://openrouteservice.org/dev/#/api",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "DeepAI API",
-        "desc": "Image, text and creative AI models",
-        "url": "https://docs.deepai.org/",
+        "name": "Geoapify Places API",
+        "desc": "POI data and location search",
+        "url": "https://www.geoapify.com/docs/places/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     },
     {
-        "name": "Cohere AI API",
-        "desc": "NLP models for text generation and classification",
-        "url": "https://docs.cohere.ai/",
+        "name": "Cloudflare Maps API",
+        "desc": "Static maps and geocoding endpoints",
+        "url": "https://developers.cloudflare.com/maps/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Location & Maps"
     }
 ]
