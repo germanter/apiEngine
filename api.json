@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -4416,7 +4416,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "SendGrid API",
@@ -4956,7 +4956,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "AbuseIPDB",
@@ -5650,5 +5650,68 @@
         "auth": true,
         "category": "Location & Maps",
         "status": "DEAD"
+    },
+    {
+        "name": "Google Maps Platform - Maps JavaScript API",
+        "desc": "Embeds interactive web maps with custom data",
+        "url": "https://developers.google.com/maps/documentation/javascript/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Maps Platform - Geocoding API",
+        "desc": "Converts addresses to coordinates and vice versa",
+        "url": "https://developers.google.com/maps/documentation/geocoding/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Google Maps Platform - Places API",
+        "desc": "Searches for POIs and place details",
+        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "GraphHopper Directions API",
+        "desc": "Routing and navigation engine",
+        "url": "https://docs.graphhopper.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "HERE Location Services - Geocoding API",
+        "desc": "Geocoding and reverse geocoding",
+        "url": "https://developer.here.com/documentation/geocoder-api/8.9.0/dev_guide/index.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": " HERE Location Services - Routing API",
+        "desc": "Route planning and optimization",
+        "url": "https://developer.here.com/documentation/routing-api/8.9.0/dev_guide/index.html",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "TomTom Maps APIs - Routing API",
+        "desc": "Routing with traffic and ETAs",
+        "url": "https://developer.tomtom.com/maps-api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
     }
 ]

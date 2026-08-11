@@ -1,64 +1,72 @@
 [
     {
-        "name": "Google Maps Platform",
-        "desc": "Maps, geocoding, places, routes APIs",
-        "url": "https://cloud.google.com/maps-platform",
+        "name": "Google Maps Platform - Maps JavaScript API",
+        "desc": "Embeds interactive web maps with custom data",
+        "url": "https://developers.google.com/maps/documentation/javascript/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Google Maps Platform - Geocoding API",
+        "desc": "Converts addresses to coordinates and vice versa",
+        "url": "https://developers.google.com/maps/documentation/geocoding/overview",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps"
+    },
+    {
+        "name": "Google Maps Platform - Places API",
+        "desc": "Searches for POIs and place details",
+        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
         "name": "OpenStreetMap Nominatim",
-        "desc": "Geocoding via OSM data",
-        "url": "https://nominatim.org/release-docs/develop/api/Search/",
+        "desc": "Geocoding service for OSM data",
+        "url": "https://nominatim.org/release-docs/develop/api/",
         "cost": "free",
-        "auth": false,
+        "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Mapbox Directions API",
-        "desc": "Routing and navigation APIs",
-        "url": "https://docs.mapbox.com/api/navigation/directions/",
+        "name": "Mapbox Maps API",
+        "desc": "Custom vector maps and geocoding",
+        "url": "https://docs.mapbox.com/maps/api/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "HERE Location Services",
-        "desc": "Geocoding, maps, routing, places",
-        "url": "https://developer.here.com/documentation",
+        "name": "GraphHopper Directions API",
+        "desc": "Routing and navigation engine",
+        "url": "https://docs.graphhopper.com/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "GraphHopper Geocoding & Routing API",
-        "desc": "Open-source routing and geocoding",
-        "url": "https://www.graphhopper.com/docs/",
+        "name": "HERE Location Services - Geocoding API",
+        "desc": "Geocoding and reverse geocoding",
+        "url": "https://developer.here.com/documentation/geocoder-api/8.9.0/dev_guide/index.html",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "Bing Maps REST Services",
-        "desc": "Maps, geocoding, routes, imagery",
-        "url": "https://learn.microsoft.com/en-us/bingmaps/rest-services/",
+        "name": " HERE Location Services - Routing API",
+        "desc": "Route planning and optimization",
+        "url": "https://developer.here.com/documentation/routing-api/8.9.0/dev_guide/index.html",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
     },
     {
-        "name": "MapTiler API",
-        "desc": "Static maps and map tiles API",
-        "url": "https://docs.maptiler.com/cloud/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "OpenRouteService API",
-        "desc": "Routing and geocoding from OpenRouteService",
-        "url": "https://openrouteservice.org/dev/#/api",
+        "name": "TomTom Maps APIs - Routing API",
+        "desc": "Routing with traffic and ETAs",
+        "url": "https://developer.tomtom.com/maps-api",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
@@ -66,15 +74,7 @@
     {
         "name": "Geoapify Places API",
         "desc": "POI data and location search",
-        "url": "https://www.geoapify.com/docs/places/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Cloudflare Maps API",
-        "desc": "Static maps and geocoding endpoints",
-        "url": "https://developers.cloudflare.com/maps/",
+        "url": "https://www.geoapify.com/places-api/",
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps"
