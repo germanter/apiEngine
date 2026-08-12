@@ -1,82 +1,82 @@
 [
     {
-        "name": "Google Maps Platform - Maps JavaScript API",
-        "desc": "Embeds interactive web maps with custom data",
-        "url": "https://developers.google.com/maps/documentation/javascript/overview",
-        "cost": "freemium",
+        "name": "Oxylabs Web Scraping API",
+        "desc": "Scrape pages with rotating proxies",
+        "url": "https://oxylabs.io/product/web-scraping-api",
+        "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Google Maps Platform - Geocoding API",
-        "desc": "Converts addresses to coordinates and vice versa",
-        "url": "https://developers.google.com/maps/documentation/geocoding/overview",
+        "name": "ScraperAPI",
+        "desc": "Handles proxies and browsers for scraping",
+        "url": "https://www.scraperapi.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Google Maps Platform - Places API",
-        "desc": "Searches for POIs and place details",
-        "url": "https://developers.google.com/maps/documentation/places/web-service/overview",
+        "name": "ZenRows",
+        "desc": "Browser-based scraping with anti-bot handling",
+        "url": "https://zenrows.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "OpenStreetMap Nominatim",
-        "desc": "Geocoding service for OSM data",
-        "url": "https://nominatim.org/release-docs/develop/api/",
-        "cost": "free",
-        "auth": true,
-        "category": "Location & Maps"
-    },
-    {
-        "name": "Mapbox Maps API",
-        "desc": "Custom vector maps and geocoding",
-        "url": "https://docs.mapbox.com/maps/api/",
+        "name": "ScrapingBee",
+        "desc": "API for scraping with rendering options",
+        "url": "https://www.scrapingbee.com/docs/",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "GraphHopper Directions API",
-        "desc": "Routing and navigation engine",
-        "url": "https://docs.graphhopper.com/",
-        "cost": "freemium",
+        "name": "ScrapeDo",
+        "desc": "Proxy rotation and scraping API on demand",
+        "url": "https://scrape.do/docs",
+        "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "HERE Location Services - Geocoding API",
-        "desc": "Geocoding and reverse geocoding",
-        "url": "https://developer.here.com/documentation/geocoder-api/8.9.0/dev_guide/index.html",
+        "name": "ScrapingAnt",
+        "desc": "HTTP API for web scraping with rendering",
+        "url": "https://scrapingant.com/docs/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": " HERE Location Services - Routing API",
-        "desc": "Route planning and optimization",
-        "url": "https://developer.here.com/documentation/routing-api/8.9.0/dev_guide/index.html",
+        "name": "WebScrapingAPI",
+        "desc": "Browser API with proxies and CAPTCHA solving",
+        "url": "https://webscrapingapi.com/docs",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "TomTom Maps APIs - Routing API",
-        "desc": "Routing with traffic and ETAs",
-        "url": "https://developer.tomtom.com/maps-api",
-        "cost": "freemium",
+        "name": "Bright Data Web Data",
+        "desc": "Comprehensive scraping via Browser API",
+        "url": "https://brightdata.com/docs",
+        "cost": "premium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
     },
     {
-        "name": "Geoapify Places API",
-        "desc": "POI data and location search",
-        "url": "https://www.geoapify.com/places-api/",
+        "name": "Apify API",
+        "desc": "Headless scraping with actors and proxies",
+        "url": "https://docs.apify.com/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Location & Maps"
+        "category": "Scraping"
+    },
+    {
+        "name": "SerpApi",
+        "desc": "Search engine results scraping API",
+        "url": "https://serpapi.com/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping"
     }
 ]
