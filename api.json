@@ -1140,7 +1140,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "SpaceX API",
@@ -5731,5 +5731,77 @@
         "auth": true,
         "category": "Scraping",
         "status": "DEAD"
+    },
+    {
+        "name": "Google Maps Platform (Maps, Routes, Places, Geocoding)",
+        "desc": "Geocoding, routing, places data and maps",
+        "url": "https://developers.google.com/maps/documentation",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Mapbox Core Services",
+        "desc": "Maps, geocoding, directions, and search",
+        "url": "https://docs.mapbox.com/api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": " OpenStreetMap Nominatim API",
+        "desc": "Open source geocoding service",
+        "url": "https://nominatim.org/release-docs/develop/api/Search/",
+        "cost": "free",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": " Geoapify Places API",
+        "desc": "POI search and geocoding",
+        "url": "https://www.geoapify.com/places-api/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": " TomTom Maps APIs",
+        "desc": "Maps, geocoding, routing and traffic",
+        "url": "https://developer.tomtom.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": " Bing Maps API",
+        "desc": "Maps, geocoding, routing",
+        "url": "https://docs.microsoft.com/bingmaps/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": " OpenCage Geocoding API",
+        "desc": "Forward and reverse geocoding",
+        "url": "https://opencagedata.com/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": " Pelias Geocoding (Open Source)",
+        "desc": "Open-source geocoding engine API",
+        "url": "https://github.com/pelias/pelias",
+        "cost": "free",
+        "auth": true,
+        "category": "Location & Maps",
+        "status": "ALIVE"
     }
 ]

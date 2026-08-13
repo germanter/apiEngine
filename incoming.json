@@ -1,82 +1,74 @@
 [
     {
-        "name": "Oxylabs Web Scraping API",
-        "desc": "Scrape pages with rotating proxies",
-        "url": "https://oxylabs.io/product/web-scraping-api",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ScraperAPI",
-        "desc": "Handles proxies and browsers for scraping",
-        "url": "https://www.scraperapi.com/docs",
+        "name": "Google Maps Platform (Maps, Routes, Places, Geocoding)",
+        "desc": "Geocoding, routing, places data and maps",
+        "url": "https://developers.google.com/maps/documentation",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "ZenRows",
-        "desc": "Browser-based scraping with anti-bot handling",
-        "url": "https://zenrows.com/docs",
+        "name": "Mapbox Core Services",
+        "desc": "Maps, geocoding, directions, and search",
+        "url": "https://docs.mapbox.com/api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "ScrapingBee",
-        "desc": "API for scraping with rendering options",
-        "url": "https://www.scrapingbee.com/docs/",
+        "name": " HERE Location Services",
+        "desc": "Geocoding, routing, places and maps",
+        "url": "https://developer.hERE.com/documentation",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "ScrapeDo",
-        "desc": "Proxy rotation and scraping API on demand",
-        "url": "https://scrape.do/docs",
-        "cost": "premium",
+        "name": " OpenStreetMap Nominatim API",
+        "desc": "Open source geocoding service",
+        "url": "https://nominatim.org/release-docs/develop/api/Search/",
+        "cost": "free",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "ScrapingAnt",
-        "desc": "HTTP API for web scraping with rendering",
-        "url": "https://scrapingant.com/docs/api",
+        "name": " Geoapify Places API",
+        "desc": "POI search and geocoding",
+        "url": "https://www.geoapify.com/places-api/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "WebScrapingAPI",
-        "desc": "Browser API with proxies and CAPTCHA solving",
-        "url": "https://webscrapingapi.com/docs",
+        "name": " TomTom Maps APIs",
+        "desc": "Maps, geocoding, routing and traffic",
+        "url": "https://developer.tomtom.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "Bright Data Web Data",
-        "desc": "Comprehensive scraping via Browser API",
-        "url": "https://brightdata.com/docs",
-        "cost": "premium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Apify API",
-        "desc": "Headless scraping with actors and proxies",
-        "url": "https://docs.apify.com/api",
+        "name": " Bing Maps API",
+        "desc": "Maps, geocoding, routing",
+        "url": "https://docs.microsoft.com/bingmaps/",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
     },
     {
-        "name": "SerpApi",
-        "desc": "Search engine results scraping API",
-        "url": "https://serpapi.com/api",
-        "cost": "premium",
+        "name": " OpenCage Geocoding API",
+        "desc": "Forward and reverse geocoding",
+        "url": "https://opencagedata.com/api",
+        "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "Location & Maps"
+    },
+    {
+        "name": " Pelias Geocoding (Open Source)",
+        "desc": "Open-source geocoding engine API",
+        "url": "https://github.com/pelias/pelias",
+        "cost": "free",
+        "auth": true,
+        "category": "Location & Maps"
     }
 ]
