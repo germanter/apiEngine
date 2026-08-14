@@ -1140,7 +1140,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "SpaceX API",
@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Disease Ontology API",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ScrapingBee API",
@@ -5802,6 +5802,24 @@
         "cost": "free",
         "auth": true,
         "category": "Location & Maps",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Bright Data",
+        "desc": "Comprehensive scraping API with residential proxies",
+        "url": "https://brightdata.com/docs",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
+        "status": "DEAD"
+    },
+    {
+        "name": "Oxylabs",
+        "desc": "Enterprise-grade scraping with proxies</",
+        "url": "https://docs.oxylabs.io/",
+        "cost": "premium",
+        "auth": true,
+        "category": "Scraping",
         "status": "ALIVE"
     }
 ]
