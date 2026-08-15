@@ -753,7 +753,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Paiza.IO API",
@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Disease Ontology API",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
