@@ -1,82 +1,82 @@
 [
     {
-        "name": "ScraperAPI",
-        "desc": "Global scraping API with proxy rotation",
-        "url": "https://www.scraperapi.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Bright Data",
-        "desc": "Comprehensive scraping API with residential proxies",
-        "url": "https://brightdata.com/docs",
+        "name": "OpenAI API",
+        "desc": "Access GPT models for natural language tasks",
+        "url": "https://platform.openai.com/docs/api-reference",
         "cost": "premium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "ScrapingBee",
-        "desc": "Simple HTML rendering and parsing API",
-        "url": "https://www.scrapingbee.com/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "ScraperAPI",
-        "desc": "API with built-in headless browser rendering",
-        "url": "https://www.scraperapi.com/",
+        "name": "Google Cloud AI Platform",
+        "desc": "Cloud AI models and endpoints for ML tasks",
+        "url": "https://cloud.google.com/products/ai",
         "cost": "premium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "ZenRows",
-        "desc": "Skips anti-bot pages with smart rendering",
-        "url": "https://zenrows.com/docs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Scraping"
-    },
-    {
-        "name": "Oxylabs",
-        "desc": "Enterprise-grade scraping with proxies</",
-        "url": "https://docs.oxylabs.io/",
+        "name": "Microsoft Azure OpenAI Service",
+        "desc": "OpenAI models hosted on Azure with enterprise features",
+        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/",
         "cost": "premium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "Crawlbase",
-        "desc": "Proxy-enabled web scraping API",
-        "url": "https://crawlbase.com/docs/api",
-        "cost": "freemium",
+        "name": "IBM Watson Natural Language Understanding",
+        "desc": "NLU APIs for text analytics and insights",
+        "url": "https://cloud.ibm.com/apidocs/natural-language-understanding",
+        "cost": "premium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "Apify",
-        "desc": "Web scraping and automation API",
-        "url": "https://docs.apify.com/api",
+        "name": "Hugging Face Inference API",
+        "desc": "Access hosted ML models for inference",
+        "url": "https://huggingface.co/inference-api",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "Browserless",
-        "desc": "Headless browser API for rendering",
-        "url": "https://docs.browserless.io/docs/",
+        "name": "Replicate",
+        "desc": "Run and deploy ML models via API",
+        "url": "https://replicate.com/reference/python",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
     },
     {
-        "name": "ScrapingAnt",
-        "desc": "Fast scraping API with cloud browser",
-        "url": "https://docs.scrapingant.com/api",
+        "name": "Clarifai Vision API",
+        "desc": "Image and video recognition endpoints",
+        "url": "https://docs.clarifai.com",
         "cost": "freemium",
         "auth": true,
-        "category": "Scraping"
+        "category": "AI"
+    },
+    {
+        "name": "DeepAI API",
+        "desc": "Image generation, analysis, and text tasks",
+        "url": "https://docs.deepai.org/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Wit.ai",
+        "desc": "NLU for intent detection and chat",
+        "url": "https://wit.ai/docs",
+        "cost": "free",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Tavus API",
+        "desc": "AI search and RAG pipelines",
+        "url": "https://docs.tavus.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
     }
 ]

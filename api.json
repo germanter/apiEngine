@@ -465,7 +465,7 @@
         "cost": "free",
         "auth": true,
         "category": "Media & Content",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Unsplash API",
@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Disease Ontology API",
@@ -1914,7 +1914,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Guardian News API",
@@ -3507,7 +3507,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Zyte (formerly Scrapinghub) API",
@@ -5001,7 +5001,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Apify Actors",
@@ -5469,7 +5469,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Internet Archive APIs",
@@ -5478,7 +5478,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OSRM API",
@@ -5730,7 +5730,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform (Maps, Routes, Places, Geocoding)",
@@ -5811,7 +5811,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Oxylabs",
@@ -5821,5 +5821,50 @@
         "auth": true,
         "category": "Scraping",
         "status": "ALIVE"
+    },
+    {
+        "name": "IBM Watson Natural Language Understanding",
+        "desc": "NLU APIs for text analytics and insights",
+        "url": "https://cloud.ibm.com/apidocs/natural-language-understanding",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Replicate",
+        "desc": "Run and deploy ML models via API",
+        "url": "https://replicate.com/reference/python",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Clarifai Vision API",
+        "desc": "Image and video recognition endpoints",
+        "url": "https://docs.clarifai.com",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Wit.ai",
+        "desc": "NLU for intent detection and chat",
+        "url": "https://wit.ai/docs",
+        "cost": "free",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Tavus API",
+        "desc": "AI search and RAG pipelines",
+        "url": "https://docs.tavus.ai/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
     }
 ]
