@@ -465,7 +465,7 @@
         "cost": "free",
         "auth": true,
         "category": "Media & Content",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Unsplash API",
