@@ -1257,7 +1257,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Legal & Finance",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "VerifyVAT API",
@@ -2652,7 +2652,7 @@
         "cost": "free",
         "auth": false,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "GitLab REST API",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ScrapingBee API",
@@ -5253,7 +5253,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Common Crawl API",
@@ -5478,7 +5478,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OSRM API",
