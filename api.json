@@ -1257,7 +1257,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Legal & Finance",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "VerifyVAT API",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ScrapingBee API",
