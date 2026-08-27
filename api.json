@@ -870,7 +870,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Geoapify Geocoding API",
@@ -2841,7 +2841,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Esri ArcGIS Location Platform",
@@ -4785,7 +4785,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Mapillary (Mapillary Vision) - Open imagery",
@@ -5712,7 +5712,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "ScrapeDo",
