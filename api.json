@@ -1257,7 +1257,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Legal & Finance",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "VerifyVAT API",
@@ -5505,7 +5505,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "RapidAPI Developer APIs",
