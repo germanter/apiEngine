@@ -1194,7 +1194,7 @@
         "cost": "free",
         "auth": false,
         "category": "Health & Science",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Disease Ontology API",
@@ -5496,7 +5496,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Semantic Scholar API",
@@ -5847,7 +5847,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Wit.ai",
