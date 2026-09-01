@@ -438,7 +438,7 @@
         "cost": "free",
         "auth": false,
         "category": "Communication & Identity",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "WhatIsMyIP API",
@@ -618,7 +618,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Screenshot Machine API",
@@ -1554,7 +1554,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "IPinfo Privacy Detection API",
@@ -1644,7 +1644,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CIRCL Passive SSH API",
@@ -1653,7 +1653,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "AlienVault OTX API",
@@ -2778,7 +2778,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CIRCL Passive SSH",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3741,7 +3741,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Vulners API",
@@ -4578,7 +4578,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "CVE API (NVD JSON Feed via NIST)",
@@ -5073,7 +5073,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Crawlee",
@@ -5496,7 +5496,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Semantic Scholar API",
@@ -5550,7 +5550,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenWeatherMap",
