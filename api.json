@@ -438,7 +438,7 @@
         "cost": "free",
         "auth": false,
         "category": "Communication & Identity",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "WhatIsMyIP API",
@@ -618,7 +618,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Screenshot Machine API",
@@ -1554,7 +1554,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "IPinfo Privacy Detection API",
@@ -1644,7 +1644,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "CIRCL Passive SSH API",
@@ -1653,7 +1653,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "AlienVault OTX API",
@@ -2778,7 +2778,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "CIRCL Passive SSH",
@@ -2985,7 +2985,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Google Maps Platform Geocoding API",
@@ -3741,7 +3741,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Vulners API",
@@ -4578,7 +4578,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "CVE API (NVD JSON Feed via NIST)",
@@ -5550,7 +5550,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenWeatherMap",
@@ -5613,7 +5613,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Clarifai API",
