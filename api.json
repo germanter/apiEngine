@@ -393,7 +393,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Communication & Identity",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "IPWhois API",
