@@ -2697,7 +2697,7 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Maven Central Search API",
@@ -2958,7 +2958,7 @@
         "cost": "free",
         "auth": false,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Playwright",
@@ -3543,7 +3543,7 @@
         "cost": "free",
         "auth": false,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Scrapingdog",
