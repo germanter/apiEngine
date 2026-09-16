@@ -1347,7 +1347,7 @@
         "cost": "free",
         "auth": true,
         "category": "Legal & Finance",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "VIES VAT API (EU)",
@@ -2058,7 +2058,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "GBIF API",
@@ -2697,7 +2697,7 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Maven Central Search API",
@@ -2805,7 +2805,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Google Geolocation API",
@@ -2958,7 +2958,7 @@
         "cost": "free",
         "auth": false,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Playwright",
@@ -3399,7 +3399,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Eurostat API",
@@ -3543,7 +3543,7 @@
         "cost": "free",
         "auth": false,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Scrapingdog",
@@ -3993,7 +3993,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "HERE Geocoding & Search",
@@ -4623,7 +4623,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "National Weather Service API",
@@ -5001,7 +5001,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Apify Actors",
