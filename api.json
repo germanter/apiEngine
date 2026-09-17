@@ -3399,7 +3399,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Eurostat API",
@@ -3993,7 +3993,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "HERE Geocoding & Search",
@@ -4623,7 +4623,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "National Weather Service API",
