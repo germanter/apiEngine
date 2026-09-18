@@ -5379,7 +5379,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "OpenRouter AI",
