@@ -3399,7 +3399,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Eurostat API",
@@ -5379,7 +5379,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "OpenRouter AI",
@@ -5469,7 +5469,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Internet Archive APIs",
