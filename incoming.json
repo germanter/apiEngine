@@ -1,81 +1,81 @@
 [
     {
         "name": "OpenAI API",
-        "desc": "Access GPT models for natural language tasks",
-        "url": "https://platform.openai.com/docs/api-reference",
-        "cost": "premium",
+        "desc": "LLMs for text, code, and vision tasks",
+        "url": "https://platform.openai.com/docs/api",
+        "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
-        "name": "Google Cloud AI Platform",
-        "desc": "Cloud AI models and endpoints for ML tasks",
-        "url": "https://cloud.google.com/products/ai",
-        "cost": "premium",
+        "name": "Google Cloud AI",
+        "desc": "NLP, vision, translation, and more APIs",
+        "url": "https://cloud.google.com/ai-platform",
+        "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
-        "name": "Microsoft Azure OpenAI Service",
-        "desc": "OpenAI models hosted on Azure with enterprise features",
-        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/",
-        "cost": "premium",
+        "name": "Microsoft Azure Cognitive Services",
+        "desc": "Vision, language, speech, decision APIs",
+        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/",
+        "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
-        "name": "IBM Watson Natural Language Understanding",
-        "desc": "NLU APIs for text analytics and insights",
-        "url": "https://cloud.ibm.com/apidocs/natural-language-understanding",
-        "cost": "premium",
+        "name": "AWS AI Services",
+        "desc": "Wide range of ML and AI APIs",
+        "url": "https://aws.amazon.com/machine-learning/",
+        "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
         "name": "Hugging Face Inference API",
-        "desc": "Access hosted ML models for inference",
-        "url": "https://huggingface.co/inference-api",
+        "desc": "Access to hosted transformers models",
+        "url": "https://huggingface.co/docs/inference-api/index",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
-        "name": "Replicate",
-        "desc": "Run and deploy ML models via API",
-        "url": "https://replicate.com/reference/python",
+        "name": "IBM Watson API",
+        "desc": "NLU, tone analyzer, vision, and more",
+        "url": "https://cloud.ibm.com/apidocs",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
-        "name": "Clarifai Vision API",
-        "desc": "Image and video recognition endpoints",
-        "url": "https://docs.clarifai.com",
+        "name": "Cognition Cloud Vision API",
+        "desc": "General image and video analysis",
+        "url": "https://cloud.google.com/vision",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Clarifai API",
+        "desc": "Image and video recognition models",
+        "url": "https://docs.clarifai.com/api",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
         "name": "DeepAI API",
-        "desc": "Image generation, analysis, and text tasks",
+        "desc": "Image, text, and video AI models",
         "url": "https://docs.deepai.org/",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
-        "name": "Wit.ai",
-        "desc": "NLU for intent detection and chat",
-        "url": "https://wit.ai/docs",
+        "name": "Lingua Custodia NLP API",
+        "desc": "Language detection and NLP utilities",
+        "url": "https://docs.linguacustodia.ai/api",
         "cost": "free",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Tavus API",
-        "desc": "AI search and RAG pipelines",
-        "url": "https://docs.tavus.ai/",
-        "cost": "freemium",
         "auth": true,
         "category": "AI"
     }

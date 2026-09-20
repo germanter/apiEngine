@@ -123,7 +123,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Replicate API",
@@ -1482,7 +1482,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "NVD API",
@@ -1914,7 +1914,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Guardian News API",
@@ -2526,7 +2526,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "GDELT API",
@@ -4740,7 +4740,7 @@
         "cost": "free",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Postman API Platform",
@@ -5028,7 +5028,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Jina AI Reader",
@@ -5863,6 +5863,24 @@
         "desc": "AI search and RAG pipelines",
         "url": "https://docs.tavus.ai/",
         "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Cognition Cloud Vision API",
+        "desc": "General image and video analysis",
+        "url": "https://cloud.google.com/vision",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Lingua Custodia NLP API",
+        "desc": "Language detection and NLP utilities",
+        "url": "https://docs.linguacustodia.ai/api",
+        "cost": "free",
         "auth": true,
         "category": "AI",
         "status": "DEAD"
