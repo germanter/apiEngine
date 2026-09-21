@@ -1,81 +1,81 @@
 [
     {
         "name": "OpenAI API",
-        "desc": "LLMs for text, code, and vision tasks",
-        "url": "https://platform.openai.com/docs/api",
+        "desc": "LLMs for text, code, vision",
+        "url": "https://platform.openai.com/docs",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
         "name": "Google Cloud AI",
-        "desc": "NLP, vision, translation, and more APIs",
-        "url": "https://cloud.google.com/ai-platform",
+        "desc": "NLP, vision, translation, moderation",
+        "url": "https://cloud.google.com/products/ai",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
         "name": "Microsoft Azure Cognitive Services",
-        "desc": "Vision, language, speech, decision APIs",
-        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/",
+        "desc": "Language, vision, speech APIs",
+        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
         "name": "AWS AI Services",
-        "desc": "Wide range of ML and AI APIs",
-        "url": "https://aws.amazon.com/machine-learning/",
+        "desc": "ML models for vision, language, audio",
+        "url": "https://aws.amazon.com/machine-learning/ai-services/",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
         "name": "Hugging Face Inference API",
-        "desc": "Access to hosted transformers models",
-        "url": "https://huggingface.co/docs/inference-api/index",
+        "desc": "Hosted transformers and models",
+        "url": "https://huggingface.co/inference-api",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
-        "name": "IBM Watson API",
-        "desc": "NLU, tone analyzer, vision, and more",
-        "url": "https://cloud.ibm.com/apidocs",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Cognition Cloud Vision API",
-        "desc": "General image and video analysis",
-        "url": "https://cloud.google.com/vision",
+        "name": "IBM Watson AI",
+        "desc": "NLP, visual recognition, AI tools",
+        "url": "https://www.ibm.com/cloud/watson-ai",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
         "name": "Clarifai API",
-        "desc": "Image and video recognition models",
-        "url": "https://docs.clarifai.com/api",
+        "desc": "Image and video recognition",
+        "url": "https://docs.clarifai.com/",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
-        "name": "DeepAI API",
-        "desc": "Image, text, and video AI models",
-        "url": "https://docs.deepai.org/",
+        "name": "Deep AI API",
+        "desc": "Image generation and analysis models",
+        "url": "https://deepai.org/api",
         "cost": "freemium",
         "auth": true,
         "category": "AI"
     },
     {
-        "name": "Lingua Custodia NLP API",
-        "desc": "Language detection and NLP utilities",
-        "url": "https://docs.linguacustodia.ai/api",
-        "cost": "free",
+        "name": "Cohere API",
+        "desc": "Language models and embeddings",
+        "url": "https://docs.cohere.ai",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Anthropic Claude API",
+        "desc": "Assistant-style LLMs and safety features",
+        "url": "https://docs.anthropic.com/",
+        "cost": "premium",
         "auth": true,
         "category": "AI"
     }
