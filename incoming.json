@@ -1,82 +1,82 @@
 [
     {
-        "name": "OpenAI API",
-        "desc": "LLMs for text, code, vision",
-        "url": "https://platform.openai.com/docs",
+        "name": "VirusTotal API",
+        "desc": "File/URL analysis and malware detection",
+        "url": "https://www.virustotal.com/gui/join-api",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "Google Cloud AI",
-        "desc": "NLP, vision, translation, moderation",
-        "url": "https://cloud.google.com/products/ai",
+        "name": "AbuseIPDB API",
+        "desc": "IP/Domain reputation lookup",
+        "url": "https://docs.abuseipdb.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "Microsoft Azure Cognitive Services",
-        "desc": "Language, vision, speech APIs",
-        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/",
-        "cost": "freemium",
+        "name": "Google Safe Browsing API",
+        "desc": "URL threat and malware flagging",
+        "url": "https://developers.google.com/safe-browsing/v4",
+        "cost": "free",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "AWS AI Services",
-        "desc": "ML models for vision, language, audio",
-        "url": "https://aws.amazon.com/machine-learning/ai-services/",
-        "cost": "freemium",
+        "name": "CVE API",
+        "desc": "CVE data for vulnerabilities",
+        "url": "https://cve.circl.lu/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "National Vulnerability Database API",
+        "desc": "NVD vulnerability feeds and search",
+        "url": "https://nvd.nist.gov/developers/vulnerabilities",
+        "cost": "free",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
     },
     {
-        "name": "Hugging Face Inference API",
-        "desc": "Hosted transformers and models",
-        "url": "https://huggingface.co/inference-api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "IBM Watson AI",
-        "desc": "NLP, visual recognition, AI tools",
-        "url": "https://www.ibm.com/cloud/watson-ai",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Clarifai API",
-        "desc": "Image and video recognition",
-        "url": "https://docs.clarifai.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Deep AI API",
-        "desc": "Image generation and analysis models",
-        "url": "https://deepai.org/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Cohere API",
-        "desc": "Language models and embeddings",
-        "url": "https://docs.cohere.ai",
-        "cost": "freemium",
-        "auth": true,
-        "category": "AI"
-    },
-    {
-        "name": "Anthropic Claude API",
-        "desc": "Assistant-style LLMs and safety features",
-        "url": "https://docs.anthropic.com/",
+        "name": "Shodan API",
+        "desc": "Internet-connected device search",
+        "url": "https://developer.shodan.io/",
         "cost": "premium",
         "auth": true,
-        "category": "AI"
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Have I Been Pwned API",
+        "desc": "Exposure of data breaches queries",
+        "url": "https://haveibeenpwned.com/API/v3",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Cisco Talos Intelligence API",
+        "desc": "Threat intelligence feeds and indicators",
+        "url": "https://www.talosintelligence.com/documents/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "VirusShare API",
+        "desc": "Malware sample metadata access",
+        "url": "https://virusshare.com/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety"
+    },
+    {
+        "name": "Mozilla Observatory API",
+        "desc": "TLS/HTTPS security checks",
+        "url": "https://github.com/mozilla/observatory-api",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety"
     }
 ]

@@ -5893,5 +5893,50 @@
         "auth": true,
         "category": "AI",
         "status": "DEAD"
+    },
+    {
+        "name": "CVE API",
+        "desc": "CVE data for vulnerabilities",
+        "url": "https://cve.circl.lu/api",
+        "cost": "free",
+        "auth": false,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "National Vulnerability Database API",
+        "desc": "NVD vulnerability feeds and search",
+        "url": "https://nvd.nist.gov/developers/vulnerabilities",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Cisco Talos Intelligence API",
+        "desc": "Threat intelligence feeds and indicators",
+        "url": "https://www.talosintelligence.com/documents/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "VirusShare API",
+        "desc": "Malware sample metadata access",
+        "url": "https://virusshare.com/api",
+        "cost": "premium",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
+    },
+    {
+        "name": "Mozilla Observatory API",
+        "desc": "TLS/HTTPS security checks",
+        "url": "https://github.com/mozilla/observatory-api",
+        "cost": "free",
+        "auth": true,
+        "category": "Security & Safety",
+        "status": "DEAD"
     }
 ]
