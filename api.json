@@ -2697,7 +2697,7 @@
         "cost": "free",
         "auth": false,
         "category": "Developer Utilities",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Maven Central Search API",
@@ -2958,7 +2958,7 @@
         "cost": "free",
         "auth": false,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Playwright",
@@ -3273,7 +3273,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Developer Utilities",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "License-API",
@@ -3543,7 +3543,7 @@
         "cost": "free",
         "auth": false,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Scrapingdog",
@@ -5938,5 +5938,41 @@
         "auth": true,
         "category": "Security & Safety",
         "status": "DEAD"
+    },
+    {
+        "name": "GitHub Actions API",
+        "desc": "CI/CD workflow automation integration",
+        "url": "https://docs.github.com/en/rest/actions",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "RapidAPI",
+        "desc": "Access to numerous APIs via a single hub",
+        "url": "https://docs.rapidapi.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
+    },
+    {
+        "name": "Clearbit API",
+        "desc": "Enrichment and identity data for leads",
+        "url": "https://docs.clearbit.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "DEAD"
+    },
+    {
+        "name": "SendGrid Email API",
+        "desc": "Transactional and marketing emails",
+        "url": "https://docs.sendgrid.com/api-reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities",
+        "status": "ALIVE"
     }
 ]

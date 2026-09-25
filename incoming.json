@@ -1,82 +1,82 @@
 [
     {
-        "name": "VirusTotal API",
-        "desc": "File/URL analysis and malware detection",
-        "url": "https://www.virustotal.com/gui/join-api",
+        "name": "GitHub Actions API",
+        "desc": "CI/CD workflow automation integration",
+        "url": "https://docs.github.com/en/rest/actions",
+        "cost": "free",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Postman API",
+        "desc": "API tooling and mock server endpoints",
+        "url": "https://docs.postman.com/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
     },
     {
-        "name": "AbuseIPDB API",
-        "desc": "IP/Domain reputation lookup",
-        "url": "https://docs.abuseipdb.com/",
+        "name": "RapidAPI",
+        "desc": "Access to numerous APIs via a single hub",
+        "url": "https://docs.rapidapi.com/",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Google Safe Browsing API",
-        "desc": "URL threat and malware flagging",
-        "url": "https://developers.google.com/safe-browsing/v4",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "CVE API",
-        "desc": "CVE data for vulnerabilities",
-        "url": "https://cve.circl.lu/api",
-        "cost": "free",
-        "auth": false,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "National Vulnerability Database API",
-        "desc": "NVD vulnerability feeds and search",
-        "url": "https://nvd.nist.gov/developers/vulnerabilities",
-        "cost": "free",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Shodan API",
-        "desc": "Internet-connected device search",
-        "url": "https://developer.shodan.io/",
-        "cost": "premium",
-        "auth": true,
-        "category": "Security & Safety"
-    },
-    {
-        "name": "Have I Been Pwned API",
-        "desc": "Exposure of data breaches queries",
-        "url": "https://haveibeenpwned.com/API/v3",
+        "name": "Stripe API",
+        "desc": "Payment processing and payout services",
+        "url": "https://stripe.com/docs/api",
         "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Cisco Talos Intelligence API",
-        "desc": "Threat intelligence feeds and indicators",
-        "url": "https://www.talosintelligence.com/documents/api",
-        "cost": "premium",
+        "name": "Twilio API",
+        "desc": "Programmable communications platform",
+        "url": "https://www.twilio.com/docs/usage/api",
+        "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
     },
     {
-        "name": "VirusShare API",
-        "desc": "Malware sample metadata access",
-        "url": "https://virusshare.com/api",
-        "cost": "premium",
+        "name": "Auth0 Management API",
+        "desc": "User management and authentication",
+        "url": "https://auth0.com/docs/api",
+        "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
     },
     {
-        "name": "Mozilla Observatory API",
-        "desc": "TLS/HTTPS security checks",
-        "url": "https://github.com/mozilla/observatory-api",
-        "cost": "free",
+        "name": "Google Maps Platform",
+        "desc": "Maps, routes, and places services",
+        "url": "https://developers.google.com/maps/documentation",
+        "cost": "freemium",
         "auth": true,
-        "category": "Security & Safety"
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "Clearbit API",
+        "desc": "Enrichment and identity data for leads",
+        "url": "https://docs.clearbit.com/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "SendGrid Email API",
+        "desc": "Transactional and marketing emails",
+        "url": "https://docs.sendgrid.com/api-reference",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
+    },
+    {
+        "name": "OpenWeather API",
+        "desc": "Weather data and forecasts",
+        "url": "https://openweathermap.org/api",
+        "cost": "freemium",
+        "auth": true,
+        "category": "Developer Utilities"
     }
 ]
