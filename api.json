@@ -1662,7 +1662,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Openappsec API",
@@ -2058,7 +2058,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "GBIF API",
@@ -3399,7 +3399,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Eurostat API",
@@ -4956,7 +4956,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "AbuseIPDB",
