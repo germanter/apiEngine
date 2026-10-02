@@ -1,82 +1,82 @@
 [
     {
-        "name": "GitHub Actions API",
-        "desc": "CI/CD workflow automation integration",
-        "url": "https://docs.github.com/en/rest/actions",
+        "name": "OpenAI API",
+        "desc": "Generic GPT models for NLP tasks",
+        "url": "https://platform.openai.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Google Gemini API",
+        "desc": "Access Gemini models for chat and code",
+        "url": "https://developers.google.com/identity/protocols/oauth2",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Anthropic API",
+        "desc": "Claude models for NLP and reasoning",
+        "url": "https://console.anthropic.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Cohere API",
+        "desc": "Language models for text generation and embeddings",
+        "url": "https://docs.cohere.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "DeepAI Text API",
+        "desc": "Various AI models for text tasks",
+        "url": "https://docs.deepai.org/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Replicate",
+        "desc": "Run ML models via API with many models",
+        "url": "https://replicate.com/docs",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Hugging Face Inference API",
+        "desc": "Access transformer models via API",
+        "url": "https://huggingface.co/docs/api-inference/index",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Microsoft Azure OpenAI Service",
+        "desc": "Azure-hosted OpenAI models for enterprise",
+        "url": "https://learn.microsoft.com/en-us/azure/cognitive-services/openai/",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "IBM Watson AI Services",
+        "desc": "NLP and AI capabilities with APIs",
+        "url": "https://cloud.ibm.com/apidocs",
+        "cost": "premium",
+        "auth": true,
+        "category": "AI"
+    },
+    {
+        "name": "Open-source SimpleAI API (example OSS)",
+        "desc": "Open-source AI APIs with local deployment",
+        "url": "https://github.com/example/openai-api",
         "cost": "free",
         "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Postman API",
-        "desc": "API tooling and mock server endpoints",
-        "url": "https://docs.postman.com/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "RapidAPI",
-        "desc": "Access to numerous APIs via a single hub",
-        "url": "https://docs.rapidapi.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Stripe API",
-        "desc": "Payment processing and payout services",
-        "url": "https://stripe.com/docs/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Twilio API",
-        "desc": "Programmable communications platform",
-        "url": "https://www.twilio.com/docs/usage/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Auth0 Management API",
-        "desc": "User management and authentication",
-        "url": "https://auth0.com/docs/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Google Maps Platform",
-        "desc": "Maps, routes, and places services",
-        "url": "https://developers.google.com/maps/documentation",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "Clearbit API",
-        "desc": "Enrichment and identity data for leads",
-        "url": "https://docs.clearbit.com/",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "SendGrid Email API",
-        "desc": "Transactional and marketing emails",
-        "url": "https://docs.sendgrid.com/api-reference",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
-    },
-    {
-        "name": "OpenWeather API",
-        "desc": "Weather data and forecasts",
-        "url": "https://openweathermap.org/api",
-        "cost": "freemium",
-        "auth": true,
-        "category": "Developer Utilities"
+        "category": "AI"
     }
 ]

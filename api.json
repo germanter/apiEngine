@@ -5974,5 +5974,23 @@
         "auth": true,
         "category": "Developer Utilities",
         "status": "ALIVE"
+    },
+    {
+        "name": "DeepAI Text API",
+        "desc": "Various AI models for text tasks",
+        "url": "https://docs.deepai.org/",
+        "cost": "freemium",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
+    },
+    {
+        "name": "Open-source SimpleAI API (example OSS)",
+        "desc": "Open-source AI APIs with local deployment",
+        "url": "https://github.com/example/openai-api",
+        "cost": "free",
+        "auth": true,
+        "category": "AI",
+        "status": "DEAD"
     }
 ]
