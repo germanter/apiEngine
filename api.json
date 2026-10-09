@@ -1356,7 +1356,7 @@
         "cost": "free",
         "auth": false,
         "category": "Legal & Finance",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "INSEE Sirene API",
