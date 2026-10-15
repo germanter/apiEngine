@@ -3777,7 +3777,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Security & Safety",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Cortex (TheHive Project) API",
