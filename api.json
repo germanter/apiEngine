@@ -3399,7 +3399,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Eurostat API",
@@ -5055,7 +5055,7 @@
         "cost": "premium",
         "auth": true,
         "category": "Scraping",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "ScrapingBee API",
