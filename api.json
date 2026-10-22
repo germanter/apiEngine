@@ -942,7 +942,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "GraphHopper Routing API",
@@ -1914,7 +1914,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Guardian News API",
@@ -2166,7 +2166,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "Geoapify",
@@ -3399,7 +3399,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Eurostat API",
@@ -3993,7 +3993,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Location & Maps",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "HERE Geocoding & Search",
@@ -4515,7 +4515,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Scraping",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Security APIs List",
