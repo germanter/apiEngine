@@ -4416,7 +4416,7 @@
         "cost": "free",
         "auth": false,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "SendGrid API",
@@ -5370,7 +5370,7 @@
         "cost": "premium",
         "auth": true,
         "category": "AI",
-        "status": "ALIVE"
+        "status": "DEAD"
     },
     {
         "name": "DeepAI API",
@@ -5505,7 +5505,7 @@
         "cost": "freemium",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "RapidAPI Developer APIs",
