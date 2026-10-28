@@ -1644,7 +1644,7 @@
         "cost": "free",
         "auth": false,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "CIRCL Passive SSH API",
@@ -1653,7 +1653,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "AlienVault OTX API",
@@ -1932,7 +1932,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "Postman API",
@@ -2517,7 +2517,7 @@
         "cost": "free",
         "auth": true,
         "category": "Data & Information",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "GeoNames",
@@ -2778,7 +2778,7 @@
         "cost": "free",
         "auth": true,
         "category": "Security & Safety",
-        "status": "DEAD"
+        "status": "ALIVE"
     },
     {
         "name": "CIRCL Passive SSH",
